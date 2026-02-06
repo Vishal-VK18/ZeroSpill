@@ -1,0 +1,59 @@
+[
+    {
+        "id": "pj_bf_001",
+        "name": "Aloo Paratha",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "Wheat Flour",
+            "Potato",
+            "Green Chillies",
+            "Coriander Leaves",
+            "Garam Masala",
+            "Ghee"
+        ],
+        "steps": [
+            "Knead wheat flour with water to make soft dough.",
+            "Boil and mash potatoes.",
+            "Mix mashed potatoes with chopped green chillies, coriander.",
+            "Add garam masala, amchur powder, and salt.",
+            "Take a portion of dough, roll into small circle.",
+            "Place potato filling in center.",
+            "Seal edges and flatten gently.",
+            "Roll into thick paratha.",
+            "Heat tawa on medium flame.",
+            "Cook paratha on both sides.",
+            "Apply ghee on both sides while cooking.",
+            "Serve hot with curd and pickle."
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pj_lun_001",
+        "name": "Kadhi Pakora",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "Besan",
+            "Curd",
+            "Onion",
+            "Turmeric",
+            "Fenugreek Seeds",
+            "Ginger",
+            "Green Chillies"
+        ],
+        "steps": [
+            "Mix besan with curd to make smooth batter for kadhi.",
+            "Add turmeric and water, whisk well.",
+            "For pakoras, make thick besan batter with onions.",
+            "Deep fry pakoras until golden.",
+            "Boil the kadhi mixture on low heat, stirring continuously.",
+            "Heat ghee, temper fenugreek seeds, ginger.",
+            "Add tempering to boiling kadhi.",
+            "Add fried pakoras to kadhi.",
+            "Simmer for 10 minutes.",
+            "Serve hot with rice."
+        ],
+        "prepTime": 40
+    }
+]

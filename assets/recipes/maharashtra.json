@@ -1,0 +1,62 @@
+[
+    {
+        "id": "mh_bf_001",
+        "name": "Poha",
+        "region": "Maharashtra",
+        "category": "Breakfast",
+        "ingredients": [
+            "Beaten Rice",
+            "Onion",
+            "Potato",
+            "Green Chillies",
+            "Peanuts",
+            "Mustard Seeds",
+            "Curry Leaves",
+            "Turmeric",
+            "Lemon"
+        ],
+        "steps": [
+            "Wash poha gently and drain immediately.",
+            "Let it sit for 5 minutes to soften.",
+            "Heat oil in a pan.",
+            "Add mustard seeds, let them splutter.",
+            "Add curry leaves and green chillies.",
+            "Add peanuts and fry until golden.",
+            "Add chopped onions, sauté until soft.",
+            "Add diced potatoes and cook covered.",
+            "Add turmeric powder and salt.",
+            "Add the softened poha and mix gently.",
+            "Cook on low heat for 2-3 minutes.",
+            "Squeeze lemon juice before serving.",
+            "Garnish with coriander and serve hot."
+        ],
+        "prepTime": 20
+    },
+    {
+        "id": "mh_lun_001",
+        "name": "Varan Bhaat",
+        "region": "Maharashtra",
+        "category": "Lunch",
+        "ingredients": [
+            "Toor Dal",
+            "Rice",
+            "Turmeric",
+            "Ghee",
+            "Cumin Seeds",
+            "Asafoetida",
+            "Jaggery"
+        ],
+        "steps": [
+            "Pressure cook toor dal with turmeric until very soft.",
+            "Mash the dal well.",
+            "Add jaggery and mix.",
+            "Heat ghee in a small pan.",
+            "Add cumin seeds and asafoetida.",
+            "Pour tempering over dal.",
+            "Cook rice separately.",
+            "Mix dal with hot rice.",
+            "Serve with ghee on top."
+        ],
+        "prepTime": 30
+    }
+]

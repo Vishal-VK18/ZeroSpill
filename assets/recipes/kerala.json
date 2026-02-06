@@ -1,0 +1,61 @@
+[
+    {
+        "id": "ke_bf_001",
+        "name": "Appam",
+        "region": "Kerala",
+        "category": "Breakfast",
+        "ingredients": [
+            "Raw Rice",
+            "Boiled Rice",
+            "Coconut",
+            "Yeast",
+            "Sugar",
+            "Salt"
+        ],
+        "steps": [
+            "Soak raw rice and boiled rice together for 4 hours.",
+            "Grind with grated coconut to smooth batter.",
+            "Add yeast dissolved in warm water.",
+            "Add a pinch of sugar and salt.",
+            "Ferment batter for 8 hours.",
+            "Heat appam pan until hot.",
+            "Pour a ladle of batter.",
+            "Swirl the pan to spread batter on sides.",
+            "Cover and cook on medium heat.",
+            "Cook until edges turn crisp and center is soft.",
+            "Remove and serve hot with stew."
+        ],
+        "prepTime": 20
+    },
+    {
+        "id": "ke_lun_001",
+        "name": "Sambar",
+        "region": "Kerala",
+        "category": "Lunch",
+        "ingredients": [
+            "Toor Dal",
+            "Drumstick",
+            "Tomato",
+            "Onion",
+            "Tamarind",
+            "Sambar Powder",
+            "Mustard Seeds",
+            "Curry Leaves"
+        ],
+        "steps": [
+            "Pressure cook toor dal until soft.",
+            "Extract tamarind juice.",
+            "Boil vegetables in tamarind water.",
+            "Add sambar powder, turmeric, salt.",
+            "Cook until vegetables are tender.",
+            "Add mashed dal to the boiling mixture.",
+            "Simmer for 10 minutes.",
+            "Heat coconut oil in a small pan.",
+            "Add mustard seeds, let splutter.",
+            "Add curry leaves and dry red chillies.",
+            "Pour tempering over sambar.",
+            "Serve hot with rice."
+        ],
+        "prepTime": 40
+    }
+]

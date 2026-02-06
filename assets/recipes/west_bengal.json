@@ -1,0 +1,56 @@
+[
+    {
+        "id": "wb_bf_001",
+        "name": "Luchi",
+        "region": "West Bengal",
+        "category": "Breakfast",
+        "ingredients": [
+            "Maida",
+            "Ghee",
+            "Sugar",
+            "Salt",
+            "Oil"
+        ],
+        "steps": [
+            "Mix maida with a pinch of sugar and salt.",
+            "Add ghee and rub into the flour.",
+            "Add water to make soft, smooth dough.",
+            "Cover and rest for 30 minutes.",
+            "Divide into small balls.",
+            "Roll each ball into thin circles.",
+            "Heat oil in a deep pan.",
+            "Gently slide luchi into hot oil.",
+            "Press gently with ladle to puff up.",
+            "Fry until light golden.",
+            "Drain on paper.",
+            "Serve hot with aloo dum or cholar dal."
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "wb_lun_001",
+        "name": "Bhapa Ilish",
+        "region": "West Bengal",
+        "category": "Lunch",
+        "ingredients": [
+            "Hilsa Fish",
+            "Mustard Paste",
+            "Green Chillies",
+            "Turmeric",
+            "Mustard Oil",
+            "Coconut"
+        ],
+        "steps": [
+            "Marinate fish pieces with turmeric and salt.",
+            "Grind mustard seeds with green chillies to paste.",
+            "Mix mustard paste with mustard oil.",
+            "Add grated coconut to the mixture.",
+            "Coat fish pieces with this mixture.",
+            "Place in a steamer bowl.",
+            "Steam for 15-20 minutes.",
+            "Check if fish is cooked through.",
+            "Serve hot with steamed rice."
+        ],
+        "prepTime": 35
+    }
+]

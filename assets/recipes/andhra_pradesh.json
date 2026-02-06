@@ -1,0 +1,61 @@
+[
+    {
+        "id": "ap_bf_001",
+        "name": "Pesarattu",
+        "region": "Andhra Pradesh",
+        "category": "Breakfast",
+        "ingredients": [
+            "Whole Green Gram",
+            "Ginger",
+            "Green Chillies",
+            "Cumin Seeds",
+            "Onion",
+            "Rice"
+        ],
+        "steps": [
+            "Soak green gram overnight with a little rice.",
+            "Drain and grind with ginger, green chillies to smooth batter.",
+            "Add cumin seeds and salt to batter.",
+            "Heat a griddle on medium flame.",
+            "Pour a ladle of batter in center.",
+            "Spread thin like a dosa.",
+            "Sprinkle finely chopped onions on top.",
+            "Drizzle oil around edges.",
+            "Cook until bottom turns golden.",
+            "Fold or serve flat.",
+            "Serve hot with ginger chutney."
+        ],
+        "prepTime": 20
+    },
+    {
+        "id": "ap_lun_001",
+        "name": "Pulihora",
+        "region": "Andhra Pradesh",
+        "category": "Lunch",
+        "ingredients": [
+            "Rice",
+            "Tamarind",
+            "Peanuts",
+            "Chana Dal",
+            "Urad Dal",
+            "Mustard Seeds",
+            "Curry Leaves",
+            "Turmeric",
+            "Red Chillies"
+        ],
+        "steps": [
+            "Cook rice and spread on a plate to cool.",
+            "Extract thick tamarind juice.",
+            "Heat oil, add mustard seeds.",
+            "Add chana dal, urad dal, fry until golden.",
+            "Add peanuts and curry leaves.",
+            "Add red chillies and turmeric.",
+            "Pour tamarind juice, add salt and jaggery.",
+            "Boil until the mixture thickens.",
+            "Pour this over cooled rice.",
+            "Mix gently without breaking rice grains.",
+            "Serve at room temperature."
+        ],
+        "prepTime": 30
+    }
+]

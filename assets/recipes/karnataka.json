@@ -1,0 +1,63 @@
+[
+    {
+        "id": "ka_bf_001",
+        "name": "Bisi Bele Bath",
+        "region": "Karnataka",
+        "category": "Breakfast",
+        "ingredients": [
+            "Rice",
+            "Toor Dal",
+            "Mixed Vegetables",
+            "Tamarind",
+            "Bisi Bele Bath Powder",
+            "Ghee",
+            "Cashews",
+            "Curry Leaves"
+        ],
+        "steps": [
+            "Wash rice and toor dal together.",
+            "Pressure cook with 5 cups water for 4 whistles.",
+            "Extract tamarind juice and set aside.",
+            "Chop vegetables into small pieces.",
+            "Boil vegetables in tamarind water with turmeric.",
+            "Mash the cooked rice-dal mixture.",
+            "Add mashed mixture to boiling vegetables.",
+            "Add bisi bele bath powder and salt.",
+            "Simmer for 10 minutes until thick.",
+            "Heat ghee, fry cashews and curry leaves.",
+            "Pour tempering over the bisi bele bath.",
+            "Serve hot with boondi or papad."
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "ka_bf_002",
+        "name": "Akki Roti",
+        "region": "Karnataka",
+        "category": "Breakfast",
+        "ingredients": [
+            "Rice Flour",
+            "Onion",
+            "Green Chillies",
+            "Coriander Leaves",
+            "Cumin Seeds",
+            "Grated Carrot",
+            "Coconut"
+        ],
+        "steps": [
+            "Take rice flour in a bowl.",
+            "Add finely chopped onions, green chillies, coriander.",
+            "Add grated carrot, grated coconut, cumin seeds.",
+            "Add salt and mix dry ingredients.",
+            "Add water little by little to make soft dough.",
+            "Take a portion, flatten on greased banana leaf or plastic.",
+            "Pat into thin circle using wet fingers.",
+            "Make a small hole in center.",
+            "Transfer onto hot griddle.",
+            "Drizzle oil around edges.",
+            "Cook on medium heat until golden on both sides.",
+            "Serve hot with coconut chutney."
+        ],
+        "prepTime": 25
+    }
+]
