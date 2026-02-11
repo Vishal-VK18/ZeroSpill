@@ -1,61 +1,1288 @@
-[
+{
+  "recipes": [
     {
-        "id": "ap_bf_001",
-        "name": "Pesarattu",
-        "region": "Andhra Pradesh",
-        "category": "Breakfast",
-        "ingredients": [
-            "Whole Green Gram",
-            "Ginger",
-            "Green Chillies",
-            "Cumin Seeds",
-            "Onion",
-            "Rice"
-        ],
-        "steps": [
-            "Soak green gram overnight with a little rice.",
-            "Drain and grind with ginger, green chillies to smooth batter.",
-            "Add cumin seeds and salt to batter.",
-            "Heat a griddle on medium flame.",
-            "Pour a ladle of batter in center.",
-            "Spread thin like a dosa.",
-            "Sprinkle finely chopped onions on top.",
-            "Drizzle oil around edges.",
-            "Cook until bottom turns golden.",
-            "Fold or serve flat.",
-            "Serve hot with ginger chutney."
-        ],
-        "prepTime": 20
+      "id": "ap_ms_001",
+      "name": "Master Guntur Powder (Guntur Karam)",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch",
+        "Masala/Spice Mix"
+      ],
+      "ingredients": [
+        "1 cup Guntur red chillies (dried)",
+        "2 tbsp coriander seeds",
+        "1 tbsp cumin seeds",
+        "1 tbsp chana dal",
+        "1 tbsp urad dal",
+        "4-6 garlic cloves (with skin)",
+        "1/2 tsp salt",
+        "1 tsp oil"
+      ],
+      "steps": [
+        "Heat 1 tsp oil in a pan and roast 1 tbsp chana dal and 1 tbsp urad dal until golden brown.",
+        "Add 2 tbsp coriander seeds and 1 tbsp cumin seeds; sauté until aromatic.",
+        "Add 1 cup dried Guntur red chillies and roast on low flame until they turn crisp.",
+        "Allow the roasted spices to cool completely.",
+        "Grind the spices with 4-6 raw garlic cloves and 1/2 tsp salt into a slightly coarse powder.",
+        "Turn off the flame and store in an airtight jar."
+      ],
+      "prepTime": 15
     },
     {
-        "id": "ap_lun_001",
-        "name": "Pulihora",
-        "region": "Andhra Pradesh",
-        "category": "Lunch",
-        "ingredients": [
-            "Rice",
-            "Tamarind",
-            "Peanuts",
-            "Chana Dal",
-            "Urad Dal",
-            "Mustard Seeds",
-            "Curry Leaves",
-            "Turmeric",
-            "Red Chillies"
-        ],
-        "steps": [
-            "Cook rice and spread on a plate to cool.",
-            "Extract thick tamarind juice.",
-            "Heat oil, add mustard seeds.",
-            "Add chana dal, urad dal, fry until golden.",
-            "Add peanuts and curry leaves.",
-            "Add red chillies and turmeric.",
-            "Pour tamarind juice, add salt and jaggery.",
-            "Boil until the mixture thickens.",
-            "Pour this over cooled rice.",
-            "Mix gently without breaking rice grains.",
-            "Serve at room temperature."
-        ],
-        "prepTime": 30
+      "id": "ap_bf_001",
+      "name": "Idli",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "idli rice",
+        "urad dal",
+        "fenugreek seeds",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Soak idli rice and urad dal with fenugreek for 6 hours.",
+        "Grind urad dal into smooth batter and rice into coarse batter.",
+        "Mix both together, add salt, and ferment for 8 hours.",
+        "Pour into greased moulds and steam for 10 minutes.",
+        "Turn off the flame and serve hot."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ap_bf_002",
+      "name": "Plain Dosa",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "dosa rice",
+        "urad dal",
+        "salt",
+        "water",
+        "oil"
+      ],
+      "steps": [
+        "Grind soaked rice and dal into a fine batter and ferment overnight.",
+        "Heat tawa and spread batter thin.",
+        "Drizzle oil and cook until crisp.",
+        "Turn off the flame and remove."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ap_bf_003",
+      "name": "Pesarattu",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "green gram",
+        "ginger",
+        "green chilli",
+        "salt",
+        "oil",
+        "water"
+      ],
+      "steps": [
+        "Grind soaked green gram with ginger and green chilli into batter.",
+        "Spread batter thick on a hot tawa and drizzle oil.",
+        "Cook both sides until brown.",
+        "Turn off the flame and serve."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_bf_004",
+      "name": "Rava Upma",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "rava",
+        "onion",
+        "green chilli",
+        "salt",
+        "oil",
+        "water"
+      ],
+      "steps": [
+        "Dry roast rava and set aside.",
+        "Sauté onion and chilli in oil.",
+        "Add water and salt; bring to a boil.",
+        "Slowly add rava while stirring; cook until thick.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_bf_005",
+      "name": "Vegetable Upma",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast"
+      ],
+      "ingredients": [
+        "rava",
+        "carrot, french beans, green peas, and drumstick",
+        "onion",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Sauté onion and carrot, french beans, green peas, and drumstick in oil.",
+        "Add water and salt; bring to a boil.",
+        "Add roasted rava slowly and cook until water is absorbed.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ap_bf_006",
+      "name": "Uttapam",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "dosa batter",
+        "onion",
+        "green chilli",
+        "tomato",
+        "oil"
+      ],
+      "steps": [
+        "Pour thick dosa batter on tawa.",
+        "Sprinkle chopped onion, chilli, and tomato.",
+        "Cook until base is golden and flip briefly.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_bf_007",
+      "name": "Idiyappam",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "rice flour",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Mix rice flour with boiling salted water into dough.",
+        "Press through idiyappam maker onto plates.",
+        "Steam for 10 minutes.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ap_bf_008",
+      "name": "Pulihora",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Lunch"
+      ],
+      "ingredients": [
+        "rice",
+        "tamarind",
+        "peanuts",
+        "chillies",
+        "turmeric",
+        "salt"
+      ],
+      "steps": [
+        "Cook rice and cool; boil tamarind juice with salt and turmeric until thick.",
+        "Temper peanuts and chillies in oil; mix rice with paste and tempering.",
+        "Turn off the flame."
+      ],
+      "prepTime": 35
+    },
+    {
+      "id": "ap_bf_009",
+      "name": "Pongal",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "rice",
+        "moong dal",
+        "pepper",
+        "cumin",
+        "ginger",
+        "ghee"
+      ],
+      "steps": [
+        "Pressure cook rice and dal together until very soft.",
+        "Temper pepper, cumin, ginger, and cashews in ghee.",
+        "Mix tempering into the mash; turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ap_bf_010",
+      "name": "Poha",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "flattened rice",
+        "onion",
+        "green chilli",
+        "turmeric",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Wash and drain poha.",
+        "Sauté onion and chilli in oil with turmeric.",
+        "Add poha and salt; mix gently and turn off the flame."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ap_bf_011",
+      "name": "Chapathi",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "wheat flour",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Knead flour, salt, and water into dough.",
+        "Roll into discs and cook on hot tawa.",
+        "Turn off the flame."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ap_bf_012",
+      "name": "Poori with Potato Curry",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast"
+      ],
+      "ingredients": [
+        "wheat flour",
+        "potato",
+        "onion",
+        "turmeric",
+        "oil"
+      ],
+      "steps": [
+        "Fry rolled dough discs in hot oil until puffed.",
+        "Sauté boiled potatoes with onion and turmeric for curry.",
+        "Turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ap_bf_013",
+      "name": "Poori",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Lunch"
+      ],
+      "ingredients": [
+        "wheat flour",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Knead stiff dough and roll into small discs.",
+        "Deep fry in hot oil until puffed.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_bf_014",
+      "name": "Semiya Upma",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "vermicelli",
+        "onion",
+        "green chilli",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Dry roast vermicelli; sauté onion and chilli in oil.",
+        "Add water and salt; boil and add vermicelli; cook until soft.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_bf_015",
+      "name": "Tomato Omelette",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "egg",
+        "tomato",
+        "onion",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Beat eggs with chopped tomato and onion.",
+        "Cook on hot oiled pan until set.",
+        "Turn off the flame."
+      ],
+      "prepTime": 10
+    },
+    {
+      "id": "ap_bf_016",
+      "name": "Egg Bhurji",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "egg",
+        "onion",
+        "green chilli",
+        "turmeric",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Sauté onion and chilli in oil.",
+        "Add cracked eggs, turmeric, and salt; stir until dry.",
+        "Turn off the flame."
+      ],
+      "prepTime": 10
+    },
+    {
+      "id": "ap_bf_017",
+      "name": "Curd Rice",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ],
+      "ingredients": [
+        "rice",
+        "curd",
+        "milk",
+        "ginger",
+        "green chilli",
+        "mustard seeds"
+      ],
+      "steps": [
+        "Overcook rice until very soft and mash it while hot.",
+        "Mix with milk and curd once cooled to prevent souring.",
+        "Temper with mustard, ginger, green chillies, and curry leaves.",
+        "Garnish with pomegranate seeds or grated carrot."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ap_bf_018",
+      "name": "Rava Dosa",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "ingredients": [
+        "rava",
+        "rice flour",
+        "onion",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Mix rava and rice flour into thin batter.",
+        "Pour on hot tawa; sprinkle onion and cook until crisp.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_bf_019",
+      "name": "Masala Dosa",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast"
+      ],
+      "ingredients": [
+        "dosa batter",
+        "potato",
+        "onion",
+        "turmeric",
+        "oil"
+      ],
+      "steps": [
+        "Spread dosa batter thin on tawa.",
+        "Add sautéed potato-onion masala in center and fold.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ap_bf_020",
+      "name": "Set Dosa",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast"
+      ],
+      "ingredients": [
+        "dosa batter",
+        "oil"
+      ],
+      "steps": [
+        "Pour small, thick dosas on tawa; cook covered until spongy.",
+        "Turn off the flame."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ap_bf_021",
+      "name": "Bread Toast",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast"
+      ],
+      "ingredients": [
+        "bread",
+        "butter"
+      ],
+      "steps": [
+        "Apply butter to bread slices.",
+        "Toast on hot tawa until golden brown.",
+        "Turn off the flame."
+      ],
+      "prepTime": 5
+    },
+    {
+      "id": "ap_bf_022",
+      "name": "Vegetable Sandwich",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast"
+      ],
+      "ingredients": [
+        "bread",
+        "carrot, french beans, green peas, and drumstick",
+        "butter",
+        "salt"
+      ],
+      "steps": [
+        "Boil and mash carrot, french beans, and green peas.",
+        "Spread on bread with butter and toast.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_bf_023",
+      "name": "Idli with Sambar",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast"
+      ],
+      "ingredients": [
+        "idli",
+        "toor dal",
+        "tamarind",
+        "sambar powder"
+      ],
+      "steps": [
+        "Steam idlis; boil dal and tamarind juice with sambar powder.",
+        "Serve idlis dipped in sambar; turn off the flame."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ap_bf_024",
+      "name": "Dosa with Chutney",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast"
+      ],
+      "ingredients": [
+        "dosa batter",
+        "coconut",
+        "green chilli",
+        "oil"
+      ],
+      "steps": [
+        "Cook dosa on tawa; grind coconut and chilli for chutney.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_bf_025",
+      "name": "Vada",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast"
+      ],
+      "ingredients": [
+        "urad dal",
+        "onion",
+        "green chilli",
+        "oil"
+      ],
+      "steps": [
+        "Grind soaked urad dal into thick batter; add onion and chilli.",
+        "Deep fry small donuts in oil until golden.",
+        "Turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ap_ln_001",
+      "name": "Rice with Pappu",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "rice",
+        "toor dal",
+        "garlic",
+        "salt",
+        "master guntur powder"
+      ],
+      "steps": [
+        "Prepare or take Master Guntur Powder (ap_ms_001).",
+        "Pressure cook toor dal; mash and temper with garlic and 1 tsp Guntur powder.",
+        "Serve with hot rice and turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ap_ln_002",
+      "name": "Sambar with Rice",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "toor dal",
+        "carrot, french beans, green peas, and drumstick",
+        "tamarind",
+        "sambar powder"
+      ],
+      "steps": [
+        "Pressure cook dal; boil carrot, french beans, green peas, and drumstick with tamarind and sambar powder.",
+        "Mix together and serve with rice; turn off the flame."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ap_ln_003",
+      "name": "Pulusu",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "tamarind",
+        "onion",
+        "green chilli",
+        "salt"
+      ],
+      "steps": [
+        "Boil tamarind juice with onion, chilli, and salt until thick.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_ln_004",
+      "name": "Avakaya Annam",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "rice",
+        "avakaya pickle",
+        "oil"
+      ],
+      "steps": [
+        "Mix hot rice with avakaya pickle and oil.",
+        "Turn off the flame."
+      ],
+      "prepTime": 5
+    },
+    {
+      "id": "ap_ln_006",
+      "name": "Gongura Pappu",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "gongura leaves",
+        "toor dal",
+        "garlic",
+        "master guntur powder"
+      ],
+      "steps": [
+        "Prepare or take Master Guntur Powder (ap_ms_001).",
+        "Cook dal and gongura leaves; mash with garlic and 1 tsp Guntur powder.",
+        "Turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ap_ln_007",
+      "name": "Tomato Pappu",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "tomato",
+        "toor dal",
+        "garlic",
+        "salt"
+      ],
+      "steps": [
+        "Cook dal with tomatoes; mash and temper with garlic.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ap_ln_008",
+      "name": "Cabbage Fry",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "cabbage",
+        "turmeric",
+        "master guntur powder",
+        "oil"
+      ],
+      "steps": [
+        "Prepare or take Master Guntur Powder (ap_ms_001).",
+        "Sauté cabbage with turmeric and 1 tsp Guntur powder until dry.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_ln_009",
+      "name": "Beans Fry",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "french beans",
+        "coconut",
+        "oil"
+      ],
+      "steps": [
+        "Sauté chopped french beans with coconut in oil.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_ln_010",
+      "name": "Brinjal Curry",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "brinjal",
+        "onion",
+        "tomato",
+        "oil"
+      ],
+      "steps": [
+        "Sauté onion and tomato; add brinjal and cook until soft.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ap_ln_011",
+      "name": "Potato Fry",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "potato",
+        "turmeric",
+        "master guntur powder",
+        "oil"
+      ],
+      "steps": [
+        "Prepare or take Master Guntur Powder (ap_ms_001).",
+        "Sauté boiled potato cubes with turmeric and 1 tsp Guntur powder.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_ln_012",
+      "name": "Cucumber Pachadi",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "cucumber",
+        "curd",
+        "salt"
+      ],
+      "steps": [
+        "Mix chopped cucumber with curd and salt.",
+        "Turn off the flame."
+      ],
+      "prepTime": 10
+    },
+    {
+      "id": "ap_ln_013",
+      "name": "Beerakaya Curry",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "ridge gourd",
+        "green chilli",
+        "salt"
+      ],
+      "steps": [
+        "Cook ridge gourd with chilli and salt until tender.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ap_ln_014",
+      "name": "Ladys finger Fry",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "ladys finger",
+        "turmeric",
+        "master guntur powder",
+        "oil"
+      ],
+      "steps": [
+        "Prepare or take Master Guntur Powder (ap_ms_001).",
+        "Sauté ladys finger with turmeric and 1 tsp Guntur powder until crisp.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_ln_015",
+      "name": "Chikkudukaya Fry",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "broad beans",
+        "peanuts",
+        "oil"
+      ],
+      "steps": [
+        "Sauté boiled broad beans with crushed peanuts in oil.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ap_ln_016",
+      "name": "Egg Curry",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch",
+        "Dinner"
+      ],
+      "ingredients": [
+        "egg",
+        "onion",
+        "tomato",
+        "master guntur powder"
+      ],
+      "steps": [
+        "Prepare or take Master Guntur Powder (ap_ms_001).",
+        "Cook eggs in onion-tomato gravy with 1 tsp Guntur powder.",
+        "Turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ap_ln_017",
+      "name": "Chicken Curry",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "chicken",
+        "ginger-garlic paste",
+        "master guntur powder"
+      ],
+      "steps": [
+        "Prepare or take Master Guntur Powder (ap_ms_001).",
+        "Cook chicken with ginger-garlic and 2 tsp Guntur powder until tender.",
+        "Turn off the flame."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ap_ln_018",
+      "name": "Fish Pulusu",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "fish",
+        "tamarind",
+        "master guntur powder"
+      ],
+      "steps": [
+        "Prepare or take Master Guntur Powder (ap_ms_001).",
+        "Simmer fish in tamarind juice with 2 tsp Guntur powder.",
+        "Turn off the flame."
+      ],
+      "prepTime": 35
+    },
+    {
+      "id": "ap_ln_019",
+      "name": "Rasam",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "tomato",
+        "tamarind",
+        "pepper",
+        "cumin"
+      ],
+      "steps": [
+        "Boil tomato and tamarind with pepper and cumin.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_ln_020",
+      "name": "Vegetable Kurma",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "carrot, french beans, green peas, and drumstick",
+        "coconut",
+        "spices"
+      ],
+      "steps": [
+        "Cook carrot, french beans, green peas, and drumstick in coconut-spice gravy.",
+        "Turn off the flame."
+      ],
+      "prepTime": 35
+    },
+    {
+      "id": "ap_ln_021",
+      "name": "Pulihora",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Lunch"
+      ],
+      "ingredients": [
+        "rice",
+        "tamarind",
+        "peanuts",
+        "chana dal",
+        "mustard seeds",
+        "turmeric",
+        "dry red chilli",
+        "salt"
+      ],
+      "steps": [
+        "Cook rice until grains are separate and let it cool on a wide plate.",
+        "Boil thick tamarind juice with salt and turmeric until it reaches a thick paste consistency.",
+        "Heat oil and temper with peanuts, chana dal, mustard seeds, and dry red chillies.",
+        "Mix the tamarind paste and the tempering thoroughly into the cooled rice.",
+        "Turn off the flame."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ap_ln_022",
+      "name": "Vegetable Pulao",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "rice",
+        "carrot, french beans, green peas, and drumstick",
+        "mint",
+        "ginger-garlic paste",
+        "cinnamon",
+        "cloves",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Sauté cinnamon, cloves, and ginger-garlic paste in oil until aromatic.",
+        "Add mint leaves and chopped carrot, french beans, and green peas; sauté for 2 minutes.",
+        "Add washed rice, salt, and water in a 1:2 ratio.",
+        "Pressure cook for 2 whistles until rice is fluffy.",
+        "Turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ap_ln_023",
+      "name": "Poori & Aloo Masala",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Lunch"
+      ],
+      "ingredients": [
+        "wheat flour",
+        "potato",
+        "onion",
+        "green chilli",
+        "turmeric",
+        "mustard seeds",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Knead wheat flour with salt and water into a stiff dough; roll into small discs.",
+        "Boil and mash potatoes; sauté with onions, green chillies, and turmeric in oil.",
+        "Deep fry the poori discs in hot oil until they puff up.",
+        "Serve the puffed poories with the potato masala.",
+        "Turn off the flame."
+      ],
+      "prepTime": 35
+    },
+    {
+      "id": "ap_ln_024",
+      "name": "Ghee Rice",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "basmati rice",
+        "ghee",
+        "cashews",
+        "cinnamon",
+        "cloves",
+        "salt"
+      ],
+      "steps": [
+        "Heat ghee and fry cashews, cinnamon, and cloves until golden.",
+        "Add washed basmati rice and sauté for 1 minute to coat with ghee.",
+        "Add water and salt; cook until the rice is tender and separate.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ap_ln_025",
+      "name": "Tomato Rice",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Lunch"
+      ],
+      "ingredients": [
+        "rice",
+        "tomato",
+        "onion",
+        "ginger-garlic paste",
+        "turmeric",
+        "cinnamon",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Sauté onion and ginger-garlic paste in oil; add chopped tomatoes and turmeric.",
+        "Cook until tomatoes are mushy; add washed rice and salt.",
+        "Add water, cover, and pressure cook for 2 whistles.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ap_sn_001",
+      "name": "Punugulu",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Snacks"
+      ],
+      "ingredients": [
+        "idli batter",
+        "onion",
+        "green chilli",
+        "cumin seeds",
+        "oil"
+      ],
+      "steps": [
+        "Mix fermented idli batter with finely chopped onion, green chilli, and cumin seeds.",
+        "Heat oil in a deep pan.",
+        "Drop small spoonfuls of batter into the hot oil.",
+        "Fry until golden brown and crispy.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_sn_003",
+      "name": "Garelu (Vada)",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Breakfast",
+        "Snacks"
+      ],
+      "ingredients": [
+        "urad dal",
+        "green chilli",
+        "ginger",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Grind soaked urad dal into a smooth, thick batter using very little water.",
+        "Add chopped green chilli, ginger, and salt; beat until the batter is light.",
+        "Shape into small donuts and deep fry in hot oil until golden.",
+        "Turn off the flame."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ap_sn_004",
+      "name": "Pakodi",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Snacks"
+      ],
+      "ingredients": [
+        "gram flour",
+        "onion",
+        "green chilli",
+        "ginger",
+        "curry leaves",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Mix sliced onions, gram flour, green chilli, and curry leaves with salt.",
+        "Add minimal water to make a thick, chunky mixture.",
+        "Drop small clusters into hot oil and fry until dark golden and crisp.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_sn_005",
+      "name": "Mirchi Bajji",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Snacks"
+      ],
+      "ingredients": [
+        "long green chillies",
+        "besan",
+        "ajwain",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Slit green chillies and remove seeds; dip in a thick besan and ajwain batter.",
+        "Deep fry in hot oil until the coating is golden and crisp.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ap_sn_006",
+      "name": "Murukulu",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Snacks"
+      ],
+      "ingredients": [
+        "rice flour",
+        "urad dal flour",
+        "butter",
+        "sesame seeds",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Knead rice flour, urad dal flour, butter, and sesame seeds into a soft dough.",
+        "Press spirals into hot oil using a murukku maker.",
+        "Fry on medium flame until crisp; turn off the flame."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ap_sn_009",
+      "name": "Chekkalu",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Snacks"
+      ],
+      "ingredients": [
+        "rice flour",
+        "peanuts",
+        "sesame seeds",
+        "ginger-chilli paste",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Mix rice flour with soaked peanuts, sesame seeds, and ginger-chilli paste.",
+        "Flatten small balls of dough into thin discs.",
+        "Deep fry until golden and brittle; turn off the flame."
+      ],
+      "prepTime": 35
+    },
+    {
+      "id": "ap_sn_015",
+      "name": "Kaara Pori",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Snacks"
+      ],
+      "ingredients": [
+        "puffed rice",
+        "garlic",
+        "peanuts",
+        "turmeric",
+        "dry red chilli",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Fry crushed garlic, peanuts, and red chillies in oil.",
+        "Add turmeric and salt; turn off the flame.",
+        "Toss with puffed rice until evenly coated and crisp."
+      ],
+      "prepTime": 10
+    },
+    {
+      "id": "ap_dn_001",
+      "name": "Ragi Sankati",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Dinner"
+      ],
+      "ingredients": [
+        "ragi flour",
+        "rice",
+        "salt",
+        "water",
+        "ghee"
+      ],
+      "steps": [
+        "Cook rice with extra water until mushy.",
+        "Add ragi flour on top and let it steam without stirring for 5 minutes.",
+        "Mix vigorously until smooth; shape into balls using ghee.",
+        "Turn off the flame."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ap_dn_007",
+      "name": "Vegetable Curry",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Dinner"
+      ],
+      "ingredients": [
+        "carrot, french beans, green peas, and drumstick",
+        "onion",
+        "tomato",
+        "ginger-garlic paste",
+        "master guntur powder",
+        "salt"
+      ],
+      "steps": [
+        "Prepare or take Master Guntur Powder (ap_ms_001).",
+        "Sauté onion and ginger-garlic; add chopped tomatoes and 1 tsp Guntur powder.",
+        "Add carrot, french beans, green peas, and drumstick; cook until tender.",
+        "Turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ap_dn_016",
+      "name": "Egg Dosa",
+      "region": "Andhra Pradesh",
+      "category": [
+        "Dinner"
+      ],
+      "ingredients": [
+        "dosa batter",
+        "egg",
+        "onion",
+        "master guntur powder",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Prepare or take Master Guntur Powder (ap_ms_001).",
+        "Spread dosa batter; crack an egg on top and sprinkle onion and 1 tsp Guntur powder.",
+        "Cook until crisp and flip briefly; turn off the flame."
+      ],
+      "prepTime": 15
     }
-]
+  ]
+}

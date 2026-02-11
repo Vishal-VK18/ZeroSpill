@@ -1,2842 +1,1385 @@
 [
-    {
-        "id": "tn_bf_001",
-        "name": "Idli",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "idli rice",
-            "urad dal",
-            "fenugreek seeds",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Measure idli rice and urad dal",
-            "Wash idli rice three times in water",
-            "Wash urad dal three times in water",
-            "Soak idli rice in water for 6 hours",
-            "Soak urad dal and fenugreek seeds for 6 hours",
-            "Drain water from urad dal",
-            "Grind urad dal with little water into smooth paste",
-            "Drain water from rice",
-            "Grind rice into slightly coarse paste",
-            "Mix both pastes in a bowl",
-            "Add salt and mix using hand",
-            "Cover and ferment for 8 hours",
-            "Grease idli plates with oil",
-            "Pour batter into moulds",
-            "Heat water in steamer on high flame",
-            "Place plates inside",
-            "Steam for 10 minutes on medium flame",
-            "Turn off flame",
-            "Rest for 2 minutes",
-            "Remove idlis using spoon"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_bf_002",
-        "name": "Dosa",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "idli rice",
-            "urad dal",
-            "onion",
-            "green chilli",
-            "coriander",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Wash rice and dal separately",
-            "Soak both for 6 hours",
-            "Grind dal into smooth paste",
-            "Grind rice into coarse paste",
-            "Mix both with salt",
-            "Chop onion, chilli and coriander",
-            "Add vegetables to batter",
-            "Ferment for 8 hours",
-            "Heat dosa pan on medium flame",
-            "Pour one ladle batter",
-            "Spread in circular motion",
-            "Drizzle oil around edges",
-            "Cook until brown",
-            "Flip dosa",
-            "Cook 30 seconds",
-            "Remove from pan"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_003",
-        "name": "Pongal",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "raw rice",
-            "moong dal",
-            "carrot",
-            "beans",
-            "black pepper",
-            "cumin",
-            "ghee",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Wash rice and dal together",
-            "Wash carrot and beans",
-            "Chop carrot and beans",
-            "Heat ghee in pot on medium flame",
-            "Add cumin and pepper",
-            "Add vegetables",
-            "Add rice and dal",
-            "Add water and salt",
-            "Mix well",
-            "Cover with lid",
-            "Cook on low flame for 15 minutes",
-            "Open lid and mash lightly",
-            "Turn off flame",
-            "Rest for 2 minutes"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_bf_004",
-        "name": "Upma",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "rava",
-            "onion",
-            "carrot",
-            "beans",
-            "green chilli",
-            "mustard",
-            "oil",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Dry roast rava on low flame",
-            "Keep aside",
-            "Wash carrot and beans",
-            "Chop carrot, beans, onion and chilli",
-            "Heat oil in pan",
-            "Add mustard seeds",
-            "Add onion and chilli",
-            "Add vegetables",
-            "Add water and salt",
-            "Bring to boil",
-            "Add roasted rava slowly",
-            "Stir continuously",
-            "Cook on low flame for 5 minutes",
-            "Turn off flame",
-            "Rest for 2 minutes"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_005",
-        "name": "Rava Dosa",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "rava",
-            "rice flour",
-            "maida",
-            "onion",
-            "carrot",
-            "green chilli",
-            "coriander",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Wash carrot and coriander",
-            "Chop onion, carrot, chilli and coriander",
-            "Mix rava, rice flour and maida",
-            "Add chopped vegetables",
-            "Add salt",
-            "Add water to make thin batter",
-            "Heat pan on medium flame",
-            "Pour batter from edges",
-            "Drizzle oil",
-            "Cook until brown",
-            "Flip dosa",
-            "Cook 30 seconds",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_006",
-        "name": "Semiya Upma",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "vermicelli",
-            "onion",
-            "carrot",
-            "beans",
-            "mustard",
-            "oil",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Dry roast vermicelli",
-            "Wash carrot and beans",
-            "Chop carrot, beans and onion",
-            "Heat oil",
-            "Add mustard",
-            "Add onion",
-            "Add vegetables",
-            "Add water and salt",
-            "Add vermicelli",
-            "Cook on low flame",
-            "Turn off flame"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_007",
-        "name": "Paniyaram",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "dosa batter",
-            "onion",
-            "carrot",
-            "green chilli",
-            "oil",
-            "salt"
-        ],
-        "steps": [
-            "Wash carrot",
-            "Chop onion, carrot and chilli",
-            "Mix vegetables with batter and salt",
-            "Heat paniyaram pan",
-            "Add oil in each hole",
-            "Pour batter",
-            "Cook on medium flame",
-            "Flip",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_008",
-        "name": "Uttapam",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "dosa batter",
-            "onion",
-            "tomato",
-            "carrot",
-            "capsicum",
-            "oil",
-            "salt"
-        ],
-        "steps": [
-            "Wash all vegetables",
-            "Chop onion, tomato, carrot and capsicum",
-            "Heat pan",
-            "Pour thick batter",
-            "Add vegetables on top",
-            "Add salt",
-            "Drizzle oil",
-            "Cook on medium flame",
-            "Flip",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_009",
-        "name": "Idiyappam",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "rice flour",
-            "carrot",
-            "beans",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Wash carrot and beans",
-            "Chop carrot and beans finely",
-            "Boil water",
-            "Add salt to flour",
-            "Pour hot water",
-            "Mix into soft dough",
-            "Mix vegetables into dough",
-            "Fill idiyappam press",
-            "Press into plates",
-            "Steam for 10 minutes",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_010",
-        "name": "Poori",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "wheat flour",
-            "potato",
-            "onion",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Boil potato",
-            "Peel and mash potato",
-            "Chop onion",
-            "Mix flour, potato, onion and salt",
-            "Add water gradually",
-            "Knead into dough",
-            "Rest for 10 minutes",
-            "Roll small circles",
-            "Heat oil on high flame",
-            "Fry poori until puffed",
-            "Remove and drain"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_bf_011",
-        "name": "Masala Dosa",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "dosa batter",
-            "potato",
-            "onion",
-            "green chilli",
-            "mustard",
-            "oil",
-            "salt"
-        ],
-        "steps": [
-            "Boil potatoes",
-            "Peel and mash potatoes",
-            "Chop onion and chilli",
-            "Heat oil in pan",
-            "Add mustard",
-            "Add onion and chilli",
-            "Add mashed potatoes and salt",
-            "Spread masala on dosa",
-            "Fold dosa",
-            "Remove"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_bf_012",
-        "name": "Vadai",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "urad dal",
-            "onion",
-            "green chilli",
-            "coriander",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Soak dal for 4 hours",
-            "Drain water",
-            "Grind dal into thick paste",
-            "Chop onion, chilli and coriander",
-            "Mix vegetables with batter",
-            "Heat oil",
-            "Shape vadai",
-            "Fry on medium flame",
-            "Remove and drain"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_bf_013",
-        "name": "Aval Upma",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "poha",
-            "onion",
-            "carrot",
-            "green chilli",
-            "mustard",
-            "oil",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Wash poha",
-            "Wash and chop carrot",
-            "Chop onion and chilli",
-            "Heat oil",
-            "Add mustard",
-            "Add onion and chilli",
-            "Add carrot",
-            "Add poha and salt",
-            "Mix well",
-            "Cook 3 minutes"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_bf_014",
-        "name": "Ragi Dosa",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "ragi flour",
-            "onion",
-            "green chilli",
-            "coriander",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Chop onion, chilli and coriander",
-            "Mix ragi flour and salt",
-            "Add vegetables",
-            "Add water to make thin batter",
-            "Heat pan",
-            "Pour batter",
-            "Drizzle oil",
-            "Cook until brown",
-            "Flip",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_015",
-        "name": "Ragi Kali",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "ragi flour",
-            "onion",
-            "green chilli",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Chop onion and chilli",
-            "Boil water",
-            "Add salt",
-            "Add ragi flour slowly",
-            "Stir continuously",
-            "Add onion and chilli",
-            "Cook on low flame",
-            "Form into balls"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_016",
-        "name": "Vegetable Sandwich",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "bread",
-            "tomato",
-            "onion",
-            "cucumber",
-            "butter",
-            "salt"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop tomato, onion and cucumber",
-            "Apply butter on bread",
-            "Place vegetables",
-            "Add salt",
-            "Close sandwich",
-            "Toast lightly"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_bf_017",
-        "name": "Bread Omelette",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "bread",
-            "egg",
-            "onion",
-            "green chilli",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Chop onion and chilli",
-            "Break eggs in bowl",
-            "Add vegetables and salt",
-            "Beat mixture",
-            "Heat oil",
-            "Pour egg mixture",
-            "Place bread slices",
-            "Flip",
-            "Remove"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_bf_018",
-        "name": "Oats Upma",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "oats",
-            "onion",
-            "carrot",
-            "beans",
-            "mustard",
-            "oil",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Dry roast oats",
-            "Wash carrot and beans",
-            "Chop vegetables",
-            "Heat oil",
-            "Add mustard",
-            "Add onion",
-            "Add vegetables",
-            "Add water and salt",
-            "Add oats",
-            "Cook on low flame"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_019",
-        "name": "Kambu Dosa",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "bajra",
-            "rice",
-            "onion",
-            "green chilli",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Soak bajra and rice for 6 hours",
-            "Grind into batter",
-            "Chop onion and chilli",
-            "Add vegetables and salt",
-            "Ferment overnight",
-            "Heat pan",
-            "Pour batter",
-            "Cook dosa",
-            "Remove"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_bf_020",
-        "name": "Set Dosa",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "dosa batter",
-            "onion",
-            "green chilli",
-            "oil"
-        ],
-        "steps": [
-            "Chop onion and chilli",
-            "Mix with batter",
-            "Heat pan",
-            "Pour thick batter",
-            "Cover with lid",
-            "Cook on low flame",
-            "Remove"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_bf_021",
-        "name": "Poha",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "flattened rice",
-            "onion",
-            "carrot",
-            "green chilli",
-            "oil",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Wash poha",
-            "Wash and chop carrot",
-            "Chop onion and chilli",
-            "Heat oil",
-            "Add onion and chilli",
-            "Add carrot",
-            "Add poha and salt",
-            "Mix well",
-            "Cook 3 minutes"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_bf_022",
-        "name": "Corn Dosa",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "corn",
-            "dosa batter",
-            "onion",
-            "green chilli",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Boil corn",
-            "Grind corn coarsely",
-            "Chop onion and chilli",
-            "Mix corn with batter",
-            "Add salt",
-            "Heat pan",
-            "Pour batter",
-            "Cook dosa",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_023",
-        "name": "Sprouts Dosa",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "sprouts",
-            "rice",
-            "onion",
-            "green chilli",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Soak rice for 6 hours",
-            "Grind rice and sprouts",
-            "Chop onion and chilli",
-            "Add vegetables and salt",
-            "Ferment overnight",
-            "Heat pan",
-            "Pour batter",
-            "Cook dosa",
-            "Remove"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_bf_024",
-        "name": "Vegetable Paratha",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "wheat flour",
-            "carrot",
-            "beans",
-            "onion",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop carrot, beans and onion",
-            "Mix flour, vegetables and salt",
-            "Add water gradually",
-            "Knead into dough",
-            "Rest for 10 minutes",
-            "Roll paratha",
-            "Cook on pan",
-            "Apply oil",
-            "Remove"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_bf_025",
-        "name": "Aval Milk",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "poha",
-            "milk",
-            "banana",
-            "sugar"
-        ],
-        "steps": [
-            "Wash poha",
-            "Chop banana",
-            "Add milk to poha",
-            "Add banana and sugar",
-            "Mix well",
-            "Rest for 2 minutes"
-        ],
-        "prepTime": 5
-    },
-    {
-        "id": "tn_bf_026",
-        "name": "Sambar Idli",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "idli",
-            "toor dal",
-            "carrot",
-            "beans",
-            "onion",
-            "tomato",
-            "sambar powder",
-            "tamarind",
-            "salt",
-            "oil",
-            "mustard",
-            "water"
-        ],
-        "steps": [
-            "Wash toor dal",
-            "Pressure cook dal with water for 3 whistles",
-            "Wash carrot and beans",
-            "Chop carrot, beans, onion and tomato",
-            "Soak tamarind in water for 10 minutes",
-            "Extract tamarind juice",
-            "Heat oil in pan",
-            "Add mustard seeds",
-            "Add onion and sauté",
-            "Add tomato and cook",
-            "Add vegetables",
-            "Add tamarind water",
-            "Add sambar powder and salt",
-            "Boil for 10 minutes",
-            "Add cooked dal",
-            "Boil 5 minutes",
-            "Place idlis in bowl",
-            "Pour hot sambar over idlis",
-            "Rest for 2 minutes"
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "tn_bf_027",
-        "name": "Sambar Dosa",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "dosa",
-            "toor dal",
-            "pumpkin",
-            "onion",
-            "tomato",
-            "sambar powder",
-            "tamarind",
-            "salt",
-            "oil",
-            "mustard",
-            "water"
-        ],
-        "steps": [
-            "Wash toor dal",
-            "Pressure cook dal",
-            "Wash pumpkin",
-            "Chop pumpkin, onion and tomato",
-            "Soak tamarind",
-            "Extract juice",
-            "Heat oil",
-            "Add mustard",
-            "Add onion",
-            "Add tomato",
-            "Add pumpkin",
-            "Add tamarind water",
-            "Add sambar powder and salt",
-            "Boil until pumpkin soft",
-            "Add cooked dal",
-            "Boil 5 minutes",
-            "Serve dosa with hot sambar"
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "tn_bf_028",
-        "name": "Wheat Chapati",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "wheat flour",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Add wheat flour to bowl",
-            "Add salt",
-            "Add water slowly",
-            "Knead into soft dough",
-            "Rest for 15 minutes",
-            "Divide into balls",
-            "Roll into circles",
-            "Heat pan",
-            "Place chapati",
-            "Cook until bubbles form",
-            "Flip",
-            "Cook second side",
-            "Apply little oil",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_bf_029",
-        "name": "Wheat Vegetable Paratha",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "wheat flour",
-            "carrot",
-            "beans",
-            "onion",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Wash carrot and beans",
-            "Chop carrot, beans and onion",
-            "Add vegetables to wheat flour",
-            "Add salt",
-            "Add water gradually",
-            "Knead into dough",
-            "Rest for 10 minutes",
-            "Divide into balls",
-            "Roll into paratha",
-            "Heat pan",
-            "Cook one side",
-            "Flip",
-            "Apply oil",
-            "Cook second side",
-            "Remove"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_bf_030",
-        "name": "Wheat Dosa",
-        "region": "Tamil Nadu",
-        "category": "Breakfast",
-        "ingredients": [
-            "wheat flour",
-            "onion",
-            "green chilli",
-            "coriander",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Wash coriander",
-            "Chop onion, chilli and coriander",
-            "Add wheat flour to bowl",
-            "Add vegetables and salt",
-            "Add water to make thin batter",
-            "Heat pan on medium flame",
-            "Pour batter",
-            "Spread lightly",
-            "Drizzle oil",
-            "Cook until brown",
-            "Flip",
-            "Cook 30 seconds",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_001",
-        "name": "Sambar Sadham",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "rice",
-            "toor dal",
-            "onion",
-            "tomato",
-            "carrot",
-            "beans",
-            "sambar powder",
-            "tamarind",
-            "salt",
-            "oil",
-            "mustard",
-            "water"
-        ],
-        "steps": [
-            "Wash rice",
-            "Cook rice with water",
-            "Wash toor dal",
-            "Pressure cook dal",
-            "Wash vegetables",
-            "Chop onion, tomato, carrot and beans",
-            "Soak tamarind",
-            "Extract juice",
-            "Heat oil",
-            "Add mustard",
-            "Add onion and sauté",
-            "Add tomato",
-            "Add vegetables",
-            "Add tamarind water",
-            "Add sambar powder and salt",
-            "Boil until vegetables soft",
-            "Add cooked dal",
-            "Boil 5 minutes",
-            "Serve with rice"
-        ],
-        "prepTime": 30
-    },
-    {
-        "id": "tn_ln_002",
-        "name": "Rasam Sadham",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "rice",
-            "tomato",
-            "tamarind",
-            "rasam powder",
-            "garlic",
-            "coriander",
-            "salt",
-            "oil",
-            "mustard",
-            "water"
-        ],
-        "steps": [
-            "Wash rice",
-            "Cook rice",
-            "Chop tomato",
-            "Soak tamarind",
-            "Extract juice",
-            "Crush garlic",
-            "Heat oil",
-            "Add mustard",
-            "Add garlic",
-            "Add tomato",
-            "Add tamarind water",
-            "Add rasam powder and salt",
-            "Boil 5 minutes",
-            "Add coriander",
-            "Serve with rice"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_ln_003",
-        "name": "Curd Rice",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "rice",
-            "curd",
-            "carrot",
-            "green chilli",
-            "ginger",
-            "salt",
-            "oil",
-            "mustard"
-        ],
-        "steps": [
-            "Wash rice",
-            "Cook rice",
-            "Cool rice",
-            "Grate carrot",
-            "Chop chilli and ginger",
-            "Mix rice and curd",
-            "Add salt",
-            "Heat oil",
-            "Add mustard",
-            "Add chilli and ginger",
-            "Pour over rice",
-            "Mix well"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_004",
-        "name": "Lemon Rice",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "rice",
-            "lemon",
-            "peanuts",
-            "green chilli",
-            "turmeric",
-            "salt",
-            "oil",
-            "mustard"
-        ],
-        "steps": [
-            "Wash rice",
-            "Cook rice",
-            "Cool rice",
-            "Squeeze lemon juice",
-            "Chop chilli",
-            "Heat oil",
-            "Add mustard",
-            "Add peanuts",
-            "Add chilli and turmeric",
-            "Add rice",
-            "Add salt and lemon juice",
-            "Mix well"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_005",
-        "name": "Tomato Rice",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "rice",
-            "tomato",
-            "onion",
-            "ginger",
-            "garlic",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Wash rice",
-            "Chop tomato and onion",
-            "Crush ginger and garlic",
-            "Heat oil",
-            "Add onion",
-            "Add ginger garlic",
-            "Add tomato",
-            "Add rice",
-            "Add water and salt",
-            "Cook until rice soft"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_ln_006",
-        "name": "Vegetable Biryani",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "rice",
-            "carrot",
-            "beans",
-            "potato",
-            "onion",
-            "tomato",
-            "biryani masala",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Wash rice",
-            "Wash vegetables",
-            "Chop vegetables",
-            "Heat oil",
-            "Add onion",
-            "Add tomato",
-            "Add vegetables",
-            "Add biryani masala",
-            "Add rice",
-            "Add water and salt",
-            "Cook until done"
-        ],
-        "prepTime": 30
-    },
-    {
-        "id": "tn_ln_007",
-        "name": "Thayir Sadham",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "rice",
-            "curd",
-            "onion",
-            "green chilli",
-            "ginger",
-            "salt",
-            "oil",
-            "mustard"
-        ],
-        "steps": [
-            "Wash rice",
-            "Cook rice",
-            "Cool rice",
-            "Chop onion, chilli and ginger",
-            "Mix rice and curd",
-            "Add salt",
-            "Heat oil",
-            "Add mustard",
-            "Add vegetables",
-            "Pour over rice",
-            "Mix"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_008",
-        "name": "Kootu",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "moong dal",
-            "carrot",
-            "beans",
-            "pumpkin",
-            "coconut",
-            "cumin",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Wash dal",
-            "Cook dal",
-            "Wash vegetables",
-            "Chop vegetables",
-            "Cook vegetables with water",
-            "Grind coconut and cumin",
-            "Add paste to vegetables",
-            "Add dal and salt",
-            "Boil 5 minutes"
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "tn_ln_009",
-        "name": "Poriyal",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "cabbage",
-            "carrot",
-            "coconut",
-            "mustard",
-            "oil",
-            "salt"
-        ],
-        "steps": [
-            "Wash cabbage and carrot",
-            "Chop finely",
-            "Heat oil",
-            "Add mustard",
-            "Add vegetables",
-            "Add salt",
-            "Cook on low flame",
-            "Add grated coconut",
-            "Mix and turn off"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_010",
-        "name": "Keerai Masiyal",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "spinach",
-            "garlic",
-            "onion",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Wash spinach",
-            "Chop spinach",
-            "Boil spinach",
-            "Mash spinach",
-            "Chop onion and garlic",
-            "Heat oil",
-            "Add onion and garlic",
-            "Add spinach and salt",
-            "Boil 3 minutes"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_011",
-        "name": "Paruppu Sadham",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "rice",
-            "toor dal",
-            "ghee",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Wash rice",
-            "Cook rice",
-            "Wash dal",
-            "Cook dal",
-            "Mash dal",
-            "Mix rice and dal",
-            "Add salt and ghee",
-            "Mix well"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_012",
-        "name": "Tamarind Rice",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "rice",
-            "tamarind",
-            "peanuts",
-            "chilli",
-            "salt",
-            "oil",
-            "mustard"
-        ],
-        "steps": [
-            "Cook rice",
-            "Soak tamarind",
-            "Extract juice",
-            "Heat oil",
-            "Add mustard",
-            "Add peanuts and chilli",
-            "Add tamarind water",
-            "Add salt",
-            "Add rice",
-            "Mix well"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_ln_013",
-        "name": "Vegetable Kurma",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "carrot",
-            "beans",
-            "potato",
-            "onion",
-            "tomato",
-            "coconut",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop vegetables",
-            "Grind coconut",
-            "Heat oil",
-            "Add onion",
-            "Add tomato",
-            "Add vegetables",
-            "Add coconut paste",
-            "Add water and salt",
-            "Boil until thick"
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "tn_ln_014",
-        "name": "Egg Curry",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "egg",
-            "onion",
-            "tomato",
-            "chilli powder",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Boil eggs",
-            "Peel eggs",
-            "Chop onion and tomato",
-            "Heat oil",
-            "Add onion",
-            "Add tomato",
-            "Add chilli powder and salt",
-            "Add water",
-            "Add eggs",
-            "Boil 5 minutes"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_ln_015",
-        "name": "Vegetable Fried Rice",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "rice",
-            "carrot",
-            "beans",
-            "onion",
-            "soy sauce",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Cook rice",
-            "Cool rice",
-            "Chop vegetables",
-            "Heat oil",
-            "Add onion",
-            "Add vegetables",
-            "Add rice",
-            "Add soy sauce and salt",
-            "Stir fry 5 minutes"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_016",
-        "name": "Cabbage Kootu",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "cabbage",
-            "moong dal",
-            "coconut",
-            "cumin",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Wash cabbage",
-            "Chop cabbage",
-            "Wash dal",
-            "Cook dal",
-            "Cook cabbage",
-            "Grind coconut and cumin",
-            "Add paste",
-            "Add dal and salt",
-            "Boil 5 minutes"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_ln_017",
-        "name": "Beans Poriyal",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "beans",
-            "coconut",
-            "mustard",
-            "oil",
-            "salt"
-        ],
-        "steps": [
-            "Wash beans",
-            "Chop beans",
-            "Heat oil",
-            "Add mustard",
-            "Add beans",
-            "Add salt",
-            "Cook on low flame",
-            "Add coconut",
-            "Mix"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_018",
-        "name": "Vegetable Sambar",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "toor dal",
-            "carrot",
-            "beans",
-            "drumstick",
-            "onion",
-            "tomato",
-            "sambar powder",
-            "tamarind",
-            "salt",
-            "oil",
-            "mustard",
-            "water"
-        ],
-        "steps": [
-            "Wash dal",
-            "Cook dal",
-            "Wash vegetables",
-            "Chop vegetables",
-            "Soak tamarind",
-            "Extract juice",
-            "Heat oil",
-            "Add mustard",
-            "Add onion",
-            "Add tomato",
-            "Add vegetables",
-            "Add tamarind water",
-            "Add sambar powder and salt",
-            "Boil until soft",
-            "Add dal",
-            "Boil 5 minutes"
-        ],
-        "prepTime": 30
-    },
-    {
-        "id": "tn_ln_019",
-        "name": "Kara Kuzhambu",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "brinjal",
-            "onion",
-            "tomato",
-            "tamarind",
-            "chilli powder",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Wash brinjal",
-            "Chop brinjal",
-            "Soak tamarind",
-            "Extract juice",
-            "Heat oil",
-            "Add onion",
-            "Add tomato",
-            "Add brinjal",
-            "Add tamarind water",
-            "Add chilli powder and salt",
-            "Boil until thick"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_ln_020",
-        "name": "Moru Kuzhambu",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "curd",
-            "coconut",
-            "green chilli",
-            "ginger",
-            "mustard",
-            "oil",
-            "salt"
-        ],
-        "steps": [
-            "Grind coconut, chilli and ginger",
-            "Beat curd",
-            "Add coconut paste",
-            "Add salt",
-            "Heat oil",
-            "Add mustard",
-            "Pour into curry",
-            "Boil 3 minutes"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_021",
-        "name": "Vegetable Stew",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "carrot",
-            "beans",
-            "potato",
-            "onion",
-            "coconut milk",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop vegetables",
-            "Heat oil",
-            "Add onion",
-            "Add vegetables",
-            "Add coconut milk",
-            "Add salt",
-            "Boil until soft"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_ln_022",
-        "name": "Vegetable Korma",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "carrot",
-            "beans",
-            "potato",
-            "onion",
-            "tomato",
-            "coconut",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop vegetables",
-            "Grind coconut",
-            "Heat oil",
-            "Add onion",
-            "Add tomato",
-            "Add vegetables",
-            "Add coconut paste",
-            "Add salt",
-            "Boil until thick"
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "tn_ln_023",
-        "name": "Potato Fry",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "potato",
-            "chilli powder",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Wash potato",
-            "Chop potato",
-            "Heat oil",
-            "Add potato",
-            "Add chilli powder and salt",
-            "Fry until crispy"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_024",
-        "name": "Carrot Poriyal",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "carrot",
-            "coconut",
-            "mustard",
-            "oil",
-            "salt"
-        ],
-        "steps": [
-            "Wash carrot",
-            "Chop carrot",
-            "Heat oil",
-            "Add mustard",
-            "Add carrot",
-            "Add salt",
-            "Cook on low flame",
-            "Add coconut",
-            "Mix"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_ln_025",
-        "name": "Mixed Vegetable Curry",
-        "region": "Tamil Nadu",
-        "category": "Lunch",
-        "ingredients": [
-            "carrot",
-            "beans",
-            "potato",
-            "onion",
-            "tomato",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop vegetables",
-            "Heat oil",
-            "Add onion",
-            "Add tomato",
-            "Add vegetables",
-            "Add water and salt",
-            "Boil until soft"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_sn_001",
-        "name": "Sundal",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "white chana",
-            "mustard",
-            "green chilli",
-            "grated coconut",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Wash white chana",
-            "Soak chana in water overnight",
-            "Pressure cook chana with water and salt for 3 whistles",
-            "Drain excess water",
-            "Heat oil in pan",
-            "Add mustard seeds",
-            "Add chopped green chilli",
-            "Add cooked chana",
-            "Add grated coconut",
-            "Mix well",
-            "Turn off flame"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_sn_002",
-        "name": "Bajji",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "banana",
-            "onion",
-            "besan flour",
-            "chilli powder",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Slice banana and onion",
-            "Mix besan, chilli powder and salt",
-            "Add water to make thick batter",
-            "Heat oil on medium flame",
-            "Dip slices in batter",
-            "Drop into oil",
-            "Fry until golden",
-            "Remove and drain"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_sn_003",
-        "name": "Bonda",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "potato",
-            "onion",
-            "green chilli",
-            "besan flour",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Boil potato",
-            "Peel and mash potato",
-            "Chop onion and chilli",
-            "Mix vegetables with salt",
-            "Mix besan with water",
-            "Heat oil",
-            "Dip potato mixture in batter",
-            "Fry until golden",
-            "Remove"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_sn_004",
-        "name": "Murukku",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "rice flour",
-            "urad dal flour",
-            "cumin",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Mix flours, cumin and salt",
-            "Add water slowly",
-            "Make soft dough",
-            "Fill murukku press",
-            "Heat oil on medium flame",
-            "Press into oil",
-            "Fry until crisp",
-            "Remove and drain"
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "tn_sn_005",
-        "name": "Mixture",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "boondi",
-            "peanuts",
-            "cashew",
-            "curry leaves",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Heat oil",
-            "Fry peanuts",
-            "Fry cashew",
-            "Fry curry leaves",
-            "Mix with boondi",
-            "Add salt",
-            "Mix well"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_sn_006",
-        "name": "Masala Peanuts",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "peanuts",
-            "besan flour",
-            "chilli powder",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Wash peanuts",
-            "Mix besan, chilli powder and salt",
-            "Add peanuts and water",
-            "Coat well",
-            "Heat oil",
-            "Drop peanuts",
-            "Fry until crisp",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_sn_007",
-        "name": "Pakoda",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "onion",
-            "besan flour",
-            "chilli powder",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Slice onion",
-            "Mix with besan, chilli powder and salt",
-            "Add little water",
-            "Heat oil",
-            "Drop small portions",
-            "Fry until golden",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_sn_008",
-        "name": "Vadai",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "urad dal",
-            "onion",
-            "green chilli",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Soak urad dal for 4 hours",
-            "Grind into thick paste",
-            "Chop onion and chilli",
-            "Mix with batter and salt",
-            "Heat oil",
-            "Shape vadai",
-            "Fry until golden",
-            "Remove"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_sn_009",
-        "name": "Kuzhi Paniyaram",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "dosa batter",
-            "onion",
-            "green chilli",
-            "oil",
-            "salt"
-        ],
-        "steps": [
-            "Chop onion and chilli",
-            "Mix with batter and salt",
-            "Heat paniyaram pan",
-            "Add oil in each hole",
-            "Pour batter",
-            "Cook and flip",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_sn_010",
-        "name": "Sweet Appam",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "rice flour",
-            "jaggery",
-            "banana",
-            "cardamom",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Chop banana",
-            "Mix rice flour and jaggery",
-            "Add banana and cardamom",
-            "Add water to make batter",
-            "Heat oil",
-            "Pour batter",
-            "Fry until golden",
-            "Remove"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_sn_011",
-        "name": "Roasted Corn",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "corn",
-            "chilli powder",
-            "salt",
-            "lemon"
-        ],
-        "steps": [
-            "Boil corn",
-            "Roast corn on flame",
-            "Sprinkle chilli powder and salt",
-            "Squeeze lemon",
-            "Serve"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_sn_012",
-        "name": "Fruit Chaat",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "apple",
-            "banana",
-            "orange",
-            "salt",
-            "lemon"
-        ],
-        "steps": [
-            "Wash fruits",
-            "Chop fruits",
-            "Add salt",
-            "Add lemon juice",
-            "Mix well"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_sn_013",
-        "name": "Bread Toast",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "bread",
-            "butter"
-        ],
-        "steps": [
-            "Heat pan",
-            "Apply butter on bread",
-            "Toast bread",
-            "Remove"
-        ],
-        "prepTime": 5
-    },
-    {
-        "id": "tn_sn_014",
-        "name": "Sweet Corn",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "corn",
-            "butter",
-            "salt"
-        ],
-        "steps": [
-            "Boil corn",
-            "Add butter",
-            "Add salt",
-            "Mix and serve"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_sn_015",
-        "name": "Ragi Ladoo",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "ragi flour",
-            "jaggery",
-            "ghee"
-        ],
-        "steps": [
-            "Dry roast ragi flour",
-            "Melt jaggery",
-            "Mix flour and jaggery",
-            "Add ghee",
-            "Shape into balls"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_sn_016",
-        "name": "Peanut Chikki",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "peanuts",
-            "jaggery"
-        ],
-        "steps": [
-            "Roast peanuts",
-            "Remove skin",
-            "Melt jaggery",
-            "Add peanuts",
-            "Spread and cool",
-            "Cut pieces"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_sn_017",
-        "name": "Aval Mixture",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "poha",
-            "peanuts",
-            "curry leaves",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Heat oil",
-            "Fry peanuts",
-            "Fry curry leaves",
-            "Fry poha",
-            "Add salt",
-            "Mix well"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_sn_018",
-        "name": "Cheese Sandwich",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "bread",
-            "cheese",
-            "butter"
-        ],
-        "steps": [
-            "Apply butter on bread",
-            "Add cheese",
-            "Close sandwich",
-            "Toast",
-            "Remove"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_sn_019",
-        "name": "Vegetable Cutlet",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "potato",
-            "carrot",
-            "beans",
-            "bread crumbs",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Boil vegetables",
-            "Mash vegetables",
-            "Add salt",
-            "Shape cutlet",
-            "Coat with bread crumbs",
-            "Heat oil",
-            "Fry until golden",
-            "Remove"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_sn_020",
-        "name": "Popcorn",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "corn kernels",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Heat oil",
-            "Add corn kernels",
-            "Cover with lid",
-            "Shake pan",
-            "Wait until popping stops",
-            "Add salt"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_sn_021",
-        "name": "Samosa",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "potato",
-            "onion",
-            "green chilli",
-            "salt",
-            "samosa sheets",
-            "oil"
-        ],
-        "steps": [
-            "Boil potato",
-            "Mash potato",
-            "Chop onion and chilli",
-            "Mix filling",
-            "Fill samosa sheets",
-            "Heat oil",
-            "Fry until golden",
-            "Remove"
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "tn_sn_022",
-        "name": "Vegetable Puff",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "puff pastry",
-            "carrot",
-            "beans",
-            "onion",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Chop vegetables",
-            "Heat oil",
-            "Add vegetables and salt",
-            "Cook filling",
-            "Fill pastry",
-            "Bake until golden"
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "tn_sn_023",
-        "name": "Banana Chips",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "raw banana",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Peel banana",
-            "Slice thinly",
-            "Heat oil",
-            "Fry slices",
-            "Add salt",
-            "Remove"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_sn_024",
-        "name": "Jackfruit Chips",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "jackfruit",
-            "oil"
-        ],
-        "steps": [
-            "Remove jackfruit seeds",
-            "Slice jackfruit",
-            "Heat oil",
-            "Fry slices",
-            "Remove"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_sn_025",
-        "name": "Milkshake",
-        "region": "Tamil Nadu",
-        "category": "Snacks",
-        "ingredients": [
-            "milk",
-            "banana",
-            "sugar"
-        ],
-        "steps": [
-            "Chop banana",
-            "Add banana to blender",
-            "Add milk and sugar",
-            "Blend well",
-            "Serve"
-        ],
-        "prepTime": 5
-    },
-    {
-        "id": "tn_dn_001",
-        "name": "Chapati Kurma",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "wheat flour",
-            "carrot",
-            "beans",
-            "potato",
-            "onion",
-            "tomato",
-            "coconut",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop vegetables",
-            "Grind coconut into paste",
-            "Heat oil in pan",
-            "Add onion and sauté",
-            "Add tomato",
-            "Add vegetables",
-            "Add coconut paste",
-            "Add water and salt",
-            "Boil until vegetables soft",
-            "Mix wheat flour with water and salt",
-            "Knead into dough",
-            "Rest dough for 15 minutes",
-            "Roll chapati",
-            "Cook chapati on pan",
-            "Serve with kurma"
-        ],
-        "prepTime": 30
-    },
-    {
-        "id": "tn_dn_002",
-        "name": "Idiyappam Kurma",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "rice flour",
-            "carrot",
-            "beans",
-            "onion",
-            "tomato",
-            "coconut",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Boil water",
-            "Add salt to rice flour",
-            "Pour hot water and mix",
-            "Press idiyappam and steam",
-            "Wash vegetables",
-            "Chop vegetables",
-            "Grind coconut",
-            "Heat oil",
-            "Add onion",
-            "Add tomato",
-            "Add vegetables",
-            "Add coconut paste",
-            "Add water and salt",
-            "Boil and serve with idiyappam"
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "tn_dn_003",
-        "name": "Dosa Kurma",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "dosa batter",
-            "carrot",
-            "beans",
-            "potato",
-            "onion",
-            "coconut",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop vegetables",
-            "Grind coconut",
-            "Heat oil",
-            "Add onion",
-            "Add vegetables",
-            "Add coconut paste",
-            "Add water and salt",
-            "Boil until thick",
-            "Heat dosa pan",
-            "Pour batter",
-            "Cook dosa",
-            "Serve with kurma"
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "tn_dn_004",
-        "name": "Vegetable Omelette",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "egg",
-            "onion",
-            "tomato",
-            "green chilli",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Chop onion, tomato and chilli",
-            "Break eggs in bowl",
-            "Add vegetables and salt",
-            "Beat well",
-            "Heat oil in pan",
-            "Pour mixture",
-            "Cook on medium flame",
-            "Flip and cook",
-            "Remove"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_dn_005",
-        "name": "Curd Chapati",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "wheat flour",
-            "curd",
-            "onion",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Chop onion",
-            "Mix wheat flour, onion and salt",
-            "Add curd and water",
-            "Knead into dough",
-            "Rest for 10 minutes",
-            "Roll chapati",
-            "Cook on pan",
-            "Apply oil",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_dn_006",
-        "name": "Vegetable Uthappam",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "dosa batter",
-            "onion",
-            "tomato",
-            "carrot",
-            "capsicum",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop vegetables",
-            "Heat pan",
-            "Pour thick batter",
-            "Add vegetables",
-            "Add salt",
-            "Drizzle oil",
-            "Cook and flip",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_dn_007",
-        "name": "Tomato Chapati",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "wheat flour",
-            "tomato",
-            "onion",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Chop tomato and onion",
-            "Mix with wheat flour and salt",
-            "Add water",
-            "Knead dough",
-            "Rest for 10 minutes",
-            "Roll chapati",
-            "Cook on pan",
-            "Apply oil",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_dn_008",
-        "name": "Egg Dosa",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "dosa batter",
-            "egg",
-            "onion",
-            "green chilli",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Chop onion and chilli",
-            "Beat egg with salt",
-            "Heat dosa pan",
-            "Pour batter",
-            "Pour egg mixture on top",
-            "Spread vegetables",
-            "Drizzle oil",
-            "Cook and flip",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_dn_009",
-        "name": "Vegetable Fried Noodles",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "noodles",
-            "carrot",
-            "beans",
-            "onion",
-            "soy sauce",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Boil noodles",
-            "Drain water",
-            "Wash vegetables",
-            "Chop vegetables",
-            "Heat oil",
-            "Add onion",
-            "Add vegetables",
-            "Add noodles",
-            "Add soy sauce and salt",
-            "Stir fry"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_dn_010",
-        "name": "Vegetable Sandwich",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "bread",
-            "tomato",
-            "onion",
-            "cucumber",
-            "butter",
-            "salt"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop vegetables",
-            "Apply butter on bread",
-            "Add vegetables",
-            "Add salt",
-            "Close sandwich",
-            "Toast lightly"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_dn_011",
-        "name": "Kothu Parotta",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "parotta",
-            "egg",
-            "onion",
-            "tomato",
-            "green chilli",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Chop parotta",
-            "Chop onion, tomato and chilli",
-            "Heat oil",
-            "Add onion and chilli",
-            "Add tomato",
-            "Add egg and scramble",
-            "Add parotta pieces",
-            "Add salt",
-            "Mix and cook"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_dn_012",
-        "name": "Vegetable Soup",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "carrot",
-            "beans",
-            "onion",
-            "garlic",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop vegetables",
-            "Heat oil",
-            "Add garlic and onion",
-            "Add vegetables",
-            "Add water and salt",
-            "Boil until soft",
-            "Mash lightly",
-            "Serve"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_dn_013",
-        "name": "Egg Fried Rice",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "rice",
-            "egg",
-            "onion",
-            "carrot",
-            "soy sauce",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Cook rice and cool",
-            "Chop onion and carrot",
-            "Heat oil",
-            "Add onion and carrot",
-            "Add egg and scramble",
-            "Add rice",
-            "Add soy sauce and salt",
-            "Stir fry"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_dn_014",
-        "name": "Vegetable Pasta",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "pasta",
-            "carrot",
-            "beans",
-            "onion",
-            "tomato",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Boil pasta",
-            "Drain water",
-            "Wash vegetables",
-            "Chop vegetables",
-            "Heat oil",
-            "Add onion",
-            "Add tomato",
-            "Add vegetables",
-            "Add pasta and salt",
-            "Mix well"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_dn_015",
-        "name": "Ragi Chapati",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "ragi flour",
-            "onion",
-            "green chilli",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Chop onion and chilli",
-            "Mix ragi flour and salt",
-            "Add vegetables",
-            "Add water",
-            "Make soft dough",
-            "Roll chapati",
-            "Cook on pan",
-            "Apply oil",
-            "Remove"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_dn_016",
-        "name": "Vegetable Pulao",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "rice",
-            "carrot",
-            "beans",
-            "potato",
-            "onion",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Wash rice",
-            "Wash vegetables",
-            "Chop vegetables",
-            "Heat oil",
-            "Add onion",
-            "Add vegetables",
-            "Add rice",
-            "Add water and salt",
-            "Cook until rice soft"
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "tn_dn_017",
-        "name": "Tomato Soup",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "tomato",
-            "onion",
-            "garlic",
-            "salt",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "Wash tomatoes",
-            "Chop tomatoes",
-            "Chop onion and garlic",
-            "Heat oil",
-            "Add onion and garlic",
-            "Add tomatoes",
-            "Add water and salt",
-            "Boil and mash",
-            "Serve"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_dn_018",
-        "name": "Curd Rice with Vegetables",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "rice",
-            "curd",
-            "carrot",
-            "cucumber",
-            "salt",
-            "oil",
-            "mustard"
-        ],
-        "steps": [
-            "Cook rice",
-            "Cool rice",
-            "Grate carrot",
-            "Chop cucumber",
-            "Mix rice and curd",
-            "Add vegetables and salt",
-            "Heat oil",
-            "Add mustard",
-            "Pour on rice",
-            "Mix"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_dn_019",
-        "name": "Vegetable Khichdi",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "rice",
-            "moong dal",
-            "carrot",
-            "beans",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Wash rice and dal",
-            "Wash vegetables",
-            "Chop vegetables",
-            "Add everything to cooker",
-            "Add water and salt",
-            "Pressure cook 3 whistles",
-            "Mash lightly",
-            "Serve"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_dn_020",
-        "name": "Vegetable Stir Fry",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "carrot",
-            "beans",
-            "capsicum",
-            "onion",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Wash vegetables",
-            "Chop vegetables",
-            "Heat oil",
-            "Add onion",
-            "Add vegetables",
-            "Add salt",
-            "Stir fry until cooked"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_dn_021",
-        "name": "Paneer Bhurji",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "paneer",
-            "onion",
-            "tomato",
-            "green chilli",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Crumble paneer",
-            "Chop onion, tomato and chilli",
-            "Heat oil",
-            "Add onion and chilli",
-            "Add tomato",
-            "Add paneer and salt",
-            "Cook 5 minutes"
-        ],
-        "prepTime": 15
-    },
-    {
-        "id": "tn_dn_022",
-        "name": "Vegetable Maggi",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "maggi noodles",
-            "carrot",
-            "beans",
-            "onion",
-            "salt",
-            "water"
-        ],
-        "steps": [
-            "Boil water",
-            "Add noodles",
-            "Add chopped vegetables",
-            "Add tastemaker and salt",
-            "Cook until soft",
-            "Serve"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_dn_023",
-        "name": "Egg Curry Chapati",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "egg",
-            "onion",
-            "tomato",
-            "chilli powder",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Boil eggs",
-            "Peel eggs",
-            "Chop onion and tomato",
-            "Heat oil",
-            "Add onion",
-            "Add tomato",
-            "Add chilli powder and salt",
-            "Add water",
-            "Add eggs",
-            "Boil 5 minutes"
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "tn_dn_024",
-        "name": "Vegetable Omelette Sandwich",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "bread",
-            "egg",
-            "onion",
-            "tomato",
-            "salt",
-            "oil"
-        ],
-        "steps": [
-            "Chop onion and tomato",
-            "Beat egg with salt",
-            "Add vegetables",
-            "Heat oil",
-            "Pour mixture",
-            "Place bread slices",
-            "Flip and cook",
-            "Remove"
-        ],
-        "prepTime": 10
-    },
-    {
-        "id": "tn_dn_025",
-        "name": "Rava Upma",
-        "region": "Tamil Nadu",
-        "category": "Dinner",
-        "ingredients": [
-            "rava",
-            "onion",
-            "green chilli",
-            "mustard",
-            "salt",
-            "oil",
-            "water"
-        ],
-        "steps": [
-            "Dry roast rava",
-            "Chop onion and chilli",
-            "Heat oil",
-            "Add mustard",
-            "Add onion and chilli",
-            "Add water and salt",
-            "Add rava slowly",
-            "Stir and cook",
-            "Serve"
-        ],
-        "prepTime": 15
-    }
+  {
+    "name": "Idli",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["idli rice", "urad dal", "fenugreek", "salt"],
+    "steps": [
+      "Soak rice and dal separately for 6 hours.",
+      "Grind dal to fluffy paste and rice to coarse batter.",
+      "Mix with salt and ferment for 8-12 hours.",
+      "Steam in idli plates for 10 minutes."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_bf_002",
+    "name": "Dosa",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["idli rice", "urad dal", "gingelly oil", "salt"],
+    "steps": [
+      "Grind soaked rice and dal into a very smooth batter.",
+      "Ferment for 8 hours until slightly bubbly.",
+      "Spread thin on a hot tawa and drizzle oil.",
+      "Cook until crisp and golden brown."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_bf_003",
+    "name": "Ven Pongal",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["raw rice", "moong dal", "black pepper", "cumin", "ghee", "ginger"],
+    "steps": [
+      "Pressure cook rice and dal with 4 cups water per cup until mushy.",
+      "Temper ghee with pepper, cumin, ginger, and curry leaves.",
+      "Fold tempering and salt into the cooked rice-dal mix.",
+      "Serve hot with coconut chutney and sambar."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_bf_004",
+    "name": "Rava Upma",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["rava", "onion", "mustard seeds", "urad dal", "green chilli", "ginger"],
+    "steps": [
+      "Dry roast rava until aromatic; set aside.",
+      "Temper mustard, urad dal, ginger, and chillies in oil.",
+      "Add water (1:2.5 ratio) and salt; bring to boil.",
+      "Stir in rava slowly and cook until water is absorbed."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_bf_005",
+    "name": "Rava Dosa",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["rava", "rice flour", "black pepper", "cumin", "ginger", "curry leaves"],
+    "steps": [
+      "Mix flours with water to a very thin, watery consistency.",
+      "Add crushed pepper, cumin, ginger, and salt.",
+      "Pour batter from edges toward center on a hot tawa.",
+      "Drizzle oil and cook until lacey and crisp; do not flip."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_bf_006",
+    "name": "Semiya Upma",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["vermicelli", "onion", "mustard seeds", "urad dal", "curry leaves"],
+    "steps": [
+      "Roast vermicelli and set aside.",
+      "Temper mustard, urad dal, and chillies; sauté onions.",
+      "Add water (1:1.5 ratio), salt, and boil.",
+      "Add vermicelli and simmer until dry and fluffy."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_bf_007",
+    "name": "Kuzhi Paniyaram",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["idli batter", "onion", "mustard seeds", "chana dal", "curry leaves"],
+    "steps": [
+      "Temper mustard, chana dal, and onions; mix into idli batter.",
+      "Grease paniyaram pan and fill holes with batter.",
+      "Cook until edges crisp, then flip with a stick.",
+      "Remove once both sides are golden brown."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_bf_008",
+    "name": "Onion Uttapam",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["dosa batter", "onion", "green chilli", "coriander", "gingelly oil"],
+    "steps": [
+      "Pour a thick ladle of batter on a hot tawa.",
+      "Top generously with chopped onions, chillies, and coriander.",
+      "Drizzle oil around edges and press onions lightly.",
+      "Flip and cook until onions are caramelized."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_bf_009",
+    "name": "Idiyappam",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["rice flour", "hot water", "salt", "grated coconut"],
+    "steps": [
+      "Mix rice flour with boiling water and salt into a soft dough.",
+      "Press through an idiyappam mold onto steamer plates.",
+      "Sprinkle grated coconut on top.",
+      "Steam for 5-7 minutes and serve with coconut milk."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_bf_010",
+    "name": "Poori Kizhangu",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["wheat flour", "potato", "turmeric", "onion", "mustard seeds", "ginger"],
+    "steps": [
+      "Knead wheat flour into a stiff dough and deep fry rolled circles.",
+      "Mash boiled potatoes roughly.",
+      "Sauté onions, ginger, and turmeric; mix with potatoes and water.",
+      "Simmer until gravy thickens and serve with fried pooris."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_bf_011",
+    "name": "Masala Dosa",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["dosa batter", "potato", "onion", "turmeric", "mustard seeds"],
+    "steps": [
+      "Prepare a dry potato bhaji with onions and turmeric.",
+      "Spread dosa batter thinly; drizzle oil and cook until crisp.",
+      "Place potato masala in the center.",
+      "Fold the dosa over and serve with chutney."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_bf_012",
+    "name": "Medhu Vadai",
+    "region": "Tamil Nadu",
+    "category": ["Breakfast","Snacks"],
+    "ingredients": ["urad dal", "peppercorns", "ginger", "curry leaves", "oil"],
+    "steps": [
+      "Grind soaked dal with minimal water into a thick, fluffy batter.",
+      "Mix in salt, crushed pepper, ginger, and curry leaves.",
+      "Shape into donuts on a wet palm.",
+      "Deep fry until golden brown and crispy."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_bf_013",
+    "name": "Aval Upma",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["poha", "onion", "mustard seeds", "turmeric", "peanuts", "curry leaves"],
+    "steps": [
+      "Rinse poha and drain water; let it soften.",
+      "Temper mustard, peanuts, and curry leaves in oil.",
+      "Sauté onions and turmeric; add softened poha and salt.",
+      "Toss gently and finish with a squeeze of lemon."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_bf_014",
+    "name": "Ragi Dosa",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["ragi flour", "rice flour", "curd", "onion", "cumin seeds"],
+    "steps": [
+      "Whisk ragi, rice flour, and curd with water to a thin batter.",
+      "Add chopped onions, cumin, and salt.",
+      "Pour on a hot tawa and drizzle oil.",
+      "Cook both sides until the ragi darkens and crisps."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_bf_015",
+    "name": "Ragi Kali",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["ragi flour", "broken rice", "salt", "water"],
+    "steps": [
+      "Cook broken rice in excess water until very soft.",
+      "Mix ragi flour with water to a paste and add to the rice.",
+      "Stir vigorously without lumps until thick and cooked.",
+      "Shape into balls and serve with buttermilk or sambar."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_bf_016",
+    "name": "Adai",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["rice", "toor dal", "chana dal", "dry red chilli", "hing"],
+    "steps": [
+      "Soak rice and mixed dals for 4 hours; grind coarsely with chillies.",
+      "Add hing, salt, and chopped curry leaves to the thick batter.",
+      "Spread thick on a tawa; make a small hole in the center for oil.",
+      "Cook both sides until reddish-brown and crisp."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_bf_017",
+    "name": "Bread Omelette",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["bread", "egg", "onion", "green chilli", "pepper powder"],
+    "steps": [
+      "Whisk eggs with onions, chillies, salt, and pepper.",
+      "Pour onto a hot tawa; place bread slices on the wet egg.",
+      "Flip the whole omelette so bread toasts on the tawa.",
+      "Fold the egg edges over the bread and serve."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "tn_bf_018",
+    "name": "Oats Upma",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["rolled oats", "mustard seeds", "vegetables", "turmeric", "green chilli"],
+    "steps": [
+      "Lightly toast oats and set aside.",
+      "Temper mustard and chillies; sauté vegetables with turmeric.",
+      "Add water (1:1.5 ratio) and salt; bring to boil.",
+      "Add oats and cook for 3 minutes until soft but not mushy."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_bf_019",
+    "name": "Kambu Dosa",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["pearl millet", "idli rice", "urad dal", "salt"],
+    "steps": [
+      "Soak millet, rice, and dal; grind into a smooth batter.",
+      "Ferment overnight for 8-10 hours.",
+      "Spread thin on a tawa like a regular dosa.",
+      "Cook until golden; serve with spicy tomato chutney."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_bf_020",
+    "name": "Set Dosa",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["idli rice", "urad dal", "poha", "fenugreek", "oil"],
+    "steps": [
+      "Grind soaked rice, dal, and poha into a smooth, airy batter.",
+      "Ferment for 10 hours.",
+      "Pour small, thick pancakes; do not spread.",
+      "Cook covered with a lid until porous and spongy."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_bf_021",
+    "name": "Varagu Pongal",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["kodo millet", "moong dal", "pepper", "cumin", "ghee"],
+    "steps": [
+      "Pressure cook millet and dal together until soft.",
+      "Temper ghee with crushed pepper, cumin, and curry leaves.",
+      "Mix tempering and salt into the millet mixture.",
+      "Serve as a healthy alternative to rice pongal."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_bf_022",
+    "name": "Wheat Dosa (Godhumai)",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["wheat flour", "rice flour", "cumin", "onion", "green chilli"],
+    "steps": [
+      "Mix wheat and rice flour with water into a thin, lump-free batter.",
+      "Add chopped onions, chillies, cumin, and salt.",
+      "Pour on a medium-hot tawa and drizzle oil.",
+      "Cook both sides until brown (this is an instant dosa)."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "tn_bf_023",
+    "name": "Pesuaraittu (Sprouts) Dosa",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["green gram sprouts", "ginger", "green chilli", "cumin"],
+    "steps": [
+      "Grind sprouts with ginger, chilli, and cumin into a batter.",
+      "Add salt and a little rice flour for crispness if needed.",
+      "Spread thin on a tawa immediately (no fermentation).",
+      "Cook with oil until crisp; serve with ginger chutney."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_bf_024",
+    "name": "Appam",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["raw rice", "cooked rice", "coconut milk", "yeast/soda"],
+    "steps": [
+      "Grind soaked rice and cooked rice into a smooth batter.",
+      "Ferment overnight; add coconut milk and salt before cooking.",
+      "Pour in an appam pan, swirl to coat edges, and cover.",
+      "Remove once center is spongy and edges are lacey."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_bf_025",
+    "name": "Sambar Idli",
+    "region": "Tamil Nadu",
+    "category": "Breakfast",
+    "ingredients": ["mini idlis", "toor dal", "sambar powder", "ghee", "small onions"],
+    "steps": [
+      "Prepare a thin, spicy sambar with tamarind and dal.",
+      "Place 10-12 mini idlis in a deep bowl.",
+      "Pour hot sambar until idlis are fully submerged.",
+      "Top with a spoon of ghee and coriander; let soak for 2 mins."
+    ],
+    "prepTime": 25
+  },
+  {
+    "name": "Arachuvitta Sambar",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["toor dal", "mixed vegetables", "fresh coconut", "sambar spices", "tamarind"],
+    "steps": [
+      "Boil dal and vegetables separately until soft.",
+      "Roast and grind coconut with spices into a fresh paste.",
+      "Simmer tamarind water with salt and vegetables; stir in dal and paste.",
+      "Temper with mustard seeds and hing in gingelly oil."
+    ],
+    "prepTime": 40
+  },
+  {
+    "id": "tn_ln_002",
+    "name": "Pepper Rasam",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["tamarind", "black pepper", "cumin", "garlic", "curry leaves"],
+    "steps": [
+      "Coarsely crush pepper, cumin, and garlic.",
+      "Simmer tamarind water with tomato, salt, and crushed spices.",
+      "Turn off heat as soon as it froths; do not boil.",
+      "Temper with mustard seeds and curry leaves in ghee."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_ln_003",
+    "name": "Vatha Kuzhambu",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["sundakkai (turkey berry)", "shallots", "tamarind", "sambhar powder", "gingelly oil"],
+    "steps": [
+      "Fry dried berries (vathal) in thick gingelly oil and set aside.",
+      "Sauté shallots and garlic; add thick tamarind extract and spices.",
+      "Simmer until the gravy thickens and oil floats on top.",
+      "Mix in the fried berries and a tiny piece of jaggery."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_ln_004",
+    "name": "Carrot Beans Poriyal",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["carrot", "beans", "grated coconut", "mustard seeds", "urad dal"],
+    "steps": [
+      "Temper mustard seeds, urad dal, and green chillies.",
+      "Add finely chopped vegetables and salt; steam with minimal water.",
+      "Once water evaporates and veggies are tender, add grated coconut.",
+      "Toss and remove from heat immediately."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_ln_005",
+    "name": "Keerai Kootu",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["spinach", "moong dal", "coconut", "cumin", "turmeric"],
+    "steps": [
+      "Pressure cook moong dal with turmeric until mushy.",
+      "Add chopped spinach and salt; cook for 3 minutes.",
+      "Stir in a paste of coconut and cumin.",
+      "Temper with mustard and urad dal in coconut oil."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_ln_006",
+    "name": "Meen Kuzhambu",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["fish", "tamarind", "shallots", "garlic", "fenugreek seeds"],
+    "steps": [
+      "Sauté shallots and garlic in gingelly oil with fenugreek seeds.",
+      "Add tamarind juice, chilli powder, and coriander powder; boil well.",
+      "Gently slide in fish pieces and simmer for 7 minutes.",
+      "Rest for at least 1 hour to let the fish absorb the tang."
+    ],
+    "prepTime": 40
+  },
+  {
+    "id": "tn_ln_007",
+    "name": "Urulaikizhangu Varuval",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["potato", "sambar powder", "fennel seeds", "garlic", "oil"],
+    "steps": [
+      "Boil potatoes, peel, and cube them.",
+      "Heat oil, temper with fennel and crushed garlic.",
+      "Add potatoes, sambar powder, and salt.",
+      "Roast on low flame until the exterior is dark and crispy."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_ln_008",
+    "name": "Chicken Chettinad",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["chicken", "shallots", "kalpasi", "black pepper", "fennel seeds", "curry leaves"],
+    "steps": [
+      "Dry roast and grind pepper, fennel, and cinnamon spices.",
+      "Sauté shallots, ginger-garlic, and tomatoes in oil.",
+      "Add chicken and the ground masala; sauté until oil separates.",
+      "Finish with a heavy garnish of fresh curry leaves."
+    ],
+    "prepTime": 45
+  },
+  {
+    "id": "tn_ln_009",
+    "name": "Lemon Rice",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["cooked rice", "lemon juice", "turmeric", "peanuts", "mustard seeds"],
+    "steps": [
+      "Temper mustard, urad dal, peanuts, and dry chillies in oil.",
+      "Add turmeric and curry leaves; turn off the heat.",
+      "Add lemon juice and salt to the tempering.",
+      "Pour over cooled cooked rice and mix gently."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_ln_010",
+    "name": "Curd Rice (Thayir Sadam)",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["rice", "curd", "milk", "ginger", "green chilli", "mustard seeds"],
+    "steps": [
+      "Overcook rice until very soft and mash it while hot.",
+      "Mix with milk and curd once cooled to prevent souring.",
+      "Temper with mustard, ginger, green chillies, and curry leaves.",
+      "Garnish with pomegranate seeds or grated carrot."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_ln_011",
+    "name": "Mutton Chukka",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["mutton", "small onions", "black pepper", "fennel seeds", "curry leaves"],
+    "steps": [
+      "Pressure cook mutton with ginger-garlic paste until tender.",
+      "Sauté a large amount of shallots and curry leaves in oil.",
+      "Add cooked mutton and a lot of crushed black pepper.",
+      "Fry on high heat until the meat is dry and coated in spices."
+    ],
+    "prepTime": 50
+  },
+  {
+    "id": "tn_ln_012",
+    "name": "Cabbage Kootu",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["cabbage", "chana dal", "coconut", "cumin", "turmeric"],
+    "steps": [
+      "Boil chana dal and chopped cabbage with turmeric until soft.",
+      "Add coconut-cumin paste and salt; simmer for 5 minutes.",
+      "Temper with mustard seeds and urad dal.",
+      "Serve as a side dish for Sambar or Rasam."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_ln_013",
+    "name": "Vazhakkai Podimas",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["raw banana", "mustard seeds", "urad dal", "ginger", "coconut"],
+    "steps": [
+      "Boil raw banana with skin, then peel and grate it.",
+      "Temper mustard, urad dal, green chillies, and ginger.",
+      "Sauté the grated banana with salt and turmeric.",
+      "Garnish with grated coconut and curry leaves."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_ln_014",
+    "name": "Tomato Thokku",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["tomato", "chilli powder", "mustard seeds", "hing", "gingelly oil"],
+    "steps": [
+      "Finely chop or puree tomatoes.",
+      "Heat oil; temper mustard seeds and hing.",
+      "Cook tomatoes with salt and chilli powder on low heat.",
+      "Simmer until the water evaporates and oil leaves the sides."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_ln_015",
+    "name": "Paruppu Urundai Kuzhambu",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["toor dal", "chana dal", "tamarind", "shallots", "fennel seeds"],
+    "steps": [
+      "Grind soaked dals with chillies; steam into small dumplings.",
+      "Prepare a thin tamarind-based spicy gravy (Puli Kuzhambu).",
+      "Gently add the steamed dumplings into the boiling gravy.",
+      "Simmer until the dumplings absorb the juice and float."
+    ],
+    "prepTime": 50
+  },
+  {
+    "id": "tn_ln_016",
+    "name": "Egg Thokku",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["boiled eggs", "onion", "tomato", "fennel powder", "ginger-garlic paste"],
+    "steps": [
+      "Sauté onions and ginger-garlic paste until brown.",
+      "Add tomatoes, fennel powder, and salt; cook until mushy.",
+      "Slit boiled eggs and add to the masala.",
+      "Roast for 5 minutes until the eggs are well coated."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_ln_017",
+    "name": "Kovakkai Fry",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["ivy gourd", "sambar powder", "turmeric", "mustard seeds"],
+    "steps": [
+      "Thinly slice ivy gourd into rounds.",
+      "Temper mustard seeds; add gourd, turmeric, and salt.",
+      "Stir in sambar powder and roast on low flame.",
+      "Cook until the gourd is shrunk and slightly charred/crispy."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_ln_018",
+    "name": "Bisi Bele Bath (TN Style)",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["rice", "toor dal", "vegetables", "sambar onions", "ghee", "special masala"],
+    "steps": [
+      "Pressure cook rice, dal, and vegetables together with turmeric.",
+      "Add tamarind extract and the ground spice masala.",
+      "Simmer until the consistency is gooey and well-blended.",
+      "Temper with plenty of ghee, cashews, and mustard seeds."
+    ],
+    "prepTime": 40
+  },
+  {
+    "id": "tn_ln_019",
+    "name": "Puliyodarai (Tamarind Rice)",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["rice", "tamarind", "peanuts", "chana dal", "fenugreek powder"],
+    "steps": [
+      "Cook rice grains and spread to cool; mix with gingelly oil.",
+      "Cook tamarind pulp with spices until it becomes a thick paste (Pulikachal).",
+      "Temper mustard, chana dal, peanuts, and dry chillies.",
+      "Mix the paste and tempering into the cooled rice."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "tn_ln_020",
+    "name": "Thuvayal (Thengai)",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["coconut", "urad dal", "dry red chilli", "tamarind", "ginger"],
+    "steps": [
+      "Roast urad dal and red chillies until golden brown.",
+      "Grind with coconut, tamarind, ginger, and salt.",
+      "Add very little water to keep the texture thick and coarse.",
+      "Serve as a side for rice and pepper rasam."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "tn_ln_021",
+    "name": "Kathirikai Gotsu",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["brinjal", "onion", "tomato", "tamarind", "moong dal"],
+    "steps": [
+      "Mash boiled brinjal and a small amount of moong dal.",
+      "Sauté onions and tomatoes; add tamarind water and salt.",
+      "Mix in the mashed brinjal and simmer for 10 minutes.",
+      "Serve as an accompaniment for Pongal or Rice."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_ln_022",
+    "name": "Mor Kuzhambu",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["sour curd", "coconut", "green chilli", "ginger", "turmeric"],
+    "steps": [
+      "Grind coconut, ginger, and chillies into a smooth paste.",
+      "Whisk curd with the paste, salt, and turmeric.",
+      "Heat gently on low flame; remove before it boils (to prevent curdling).",
+      "Temper with mustard seeds and fenugreek."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_ln_023",
+    "name": "Soya Chunks Varuval",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["soya chunks", "shallots", "fennel powder", "garlic", "curry leaves"],
+    "steps": [
+      "Boil soya chunks, squeeze out water, and set aside.",
+      "Sauté shallots, garlic, and curry leaves.",
+      "Add soya, fennel powder, and chilli powder.",
+      "Roast on medium flame until the spices coat the chunks."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_ln_024",
+    "name": "Beetroot Oru-pattu",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["beetroot", "moong dal", "coconut", "cumin", "mustard seeds"],
+    "steps": [
+      "Cook grated beetroot and moong dal together until soft.",
+      "Add a coarse grind of coconut and cumin.",
+      "Stir for 2 minutes and temper with mustard seeds.",
+      "Serve as a healthy, sweet-savory side dish."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_ln_025",
+    "name": "Pudalangai (Snake Gourd) Kootu",
+    "region": "Tamil Nadu",
+    "category": "Lunch",
+    "ingredients": ["snake gourd", "chana dal", "coconut", "green chilli", "mustard"],
+    "steps": [
+      "Pressure cook sliced gourd and chana dal with turmeric.",
+      "Add coconut and chilli paste with salt.",
+      "Simmer for 5 minutes until flavors blend.",
+      "Temper with mustard and urad dal in coconut oil."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_sn_002",
+    "name": "Masala Vadai",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["chana dal", "shallots", "fennel seeds", "dry red chilli", "curry leaves"],
+    "steps": [
+      "Coarsely grind soaked chana dal with red chillies and fennel.",
+      "Mix in chopped shallots, salt, and curry leaves.",
+      "Flatten small portions into discs.",
+      "Deep fry on medium flame until dark golden and crunchy."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_sn_003",
+    "name": "Kai Murukku",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["rice flour", "urad dal flour", "butter", "cumin", "asafoetida"],
+    "steps": [
+      "Mix flours, butter, cumin, and hing into a stiff dough.",
+      "Hand-twist the dough into concentric circles (spirals).",
+      "Deep fry until the oil bubbles subside.",
+      "Drain and store once cooled for a signature crunch."
+    ],
+    "prepTime": 45
+  },
+  {
+    "id": "tn_sn_004",
+    "name": "Ribbon Pakoda",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["rice flour", "besan", "chilli powder", "butter", "asafoetida"],
+    "steps": [
+      "Combine flours, butter, salt, and chilli powder.",
+      "Use the flat-slit disc in a murukku press.",
+      "Press directly into hot oil in a circular motion.",
+      "Fry until crisp and break into strips."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_sn_005",
+    "name": "Sundal (Chickpea)",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["chickpeas", "mustard seeds", "grated coconut", "green chilli", "curry leaves"],
+    "steps": [
+      "Pressure cook soaked chickpeas until tender.",
+      "Temper mustard, chillies, and curry leaves in oil.",
+      "Toss the chickpeas with salt and the tempering.",
+      "Finish with a generous amount of fresh grated coconut."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_sn_006",
+    "name": "Bajji (Onion/Potato)",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["besan", "rice flour", "ajwain", "chilli powder", "vegetable slices"],
+    "steps": [
+      "Make a thick batter of flours, spices, and a pinch of soda.",
+      "Dip thin slices of onion or potato into the batter.",
+      "Deep fry until the coating puffs up and turns golden.",
+      "Serve hot with coconut chutney."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_sn_007",
+    "name": "Keerai Vadai",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["urad dal", "amaranth/spinach", "green chilli", "onion"],
+    "steps": [
+      "Grind urad dal to a thick paste as for Medhu Vadai.",
+      "Mix in finely chopped spinach, onions, and chillies.",
+      "Shape into discs and deep fry.",
+      "The spinach adds a unique earthy flavor and extra crunch."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_sn_008",
+    "name": "Vazhakkai Bajji",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["raw banana", "besan", "rice flour", "hing", "chilli powder"],
+    "steps": [
+      "Peel and slice raw banana into long, thin strips.",
+      "Dip in spiced gram flour batter.",
+      "Deep fry until crisp.",
+      "This is a staple 'tea-shop' snack in Tamil Nadu."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_sn_009",
+    "name": "Thattai",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["rice flour", "fried gram", "soaked chana dal", "chilli powder", "curry leaves"],
+    "steps": [
+      "Mix rice flour with ground fried gram and soaked chana dal.",
+      "Add spices and curry leaves; form a stiff dough.",
+      "Flatten into thin, small discs on a greased plastic sheet.",
+      "Deep fry on low heat until golden and very brittle."
+    ],
+    "prepTime": 40
+  },
+  {
+    "id": "tn_sn_010",
+    "name": "Kara Boondi",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["besan", "rice flour", "peanuts", "curry leaves", "garlic"],
+    "steps": [
+      "Make a smooth batter and pour through a perforated ladle into oil.",
+      "Fry the tiny balls until crisp; drain.",
+      "Mix with fried peanuts, curry leaves, and crushed fried garlic.",
+      "Toss with salt and chilli powder while warm."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_sn_011",
+    "name": "Sweet Paniyaram",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["idli batter", "jaggery", "cardamom", "coconut bits", "ghee"],
+    "steps": [
+      "Mix idli batter with melted jaggery and cardamom powder.",
+      "Add small fried coconut bits for texture.",
+      "Pour into a paniyaram pan greased with ghee.",
+      "Cook until the exterior is dark brown and the center is soft."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_sn_012",
+    "name": "Mysore Pak (Soft)",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["besan", "ghee", "sugar", "water"],
+    "steps": [
+      "Sieve besan and mix with a little ghee to avoid lumps.",
+      "Boil sugar to a single-string consistency.",
+      "Add besan and keep stirring while pouring hot ghee continuously.",
+      "Once it becomes a smooth, non-sticky mass, set in a tray."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_sn_013",
+    "name": "Omapodi",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["besan", "rice flour", "ajwain (omam)", "butter"],
+    "steps": [
+      "Soak ajwain in water, grind, and filter the water.",
+      "Knead flours with ajwain water and butter.",
+      "Press through the finest hole disc of a murukku maker into oil.",
+      "Fry for just a minute until the color is pale yellow."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_sn_014",
+    "name": "Pori Urundai",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["puffed rice", "jaggery", "dry ginger powder", "cardamom"],
+    "steps": [
+      "Prepare a thick jaggery syrup (hard ball consistency).",
+      "Add ginger powder and cardamom.",
+      "Quickly pour syrup over puffed rice and mix.",
+      "Grease palms and roll into tight balls before it cools."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_sn_015",
+    "name": "Aval Mixture",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["thick poha", "peanuts", "cashews", "curry leaves", "turmeric"],
+    "steps": [
+      "Deep fry thick poha in small batches until it puffs.",
+      "Fry peanuts, cashews, and curry leaves separately.",
+      "Toss everything together with salt, chilli powder, and turmeric.",
+      "This is a light, crunchy tea-time favorite."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_sn_016",
+    "name": "Boli (Sweet)",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["maida", "chana dal", "jaggery", "cardamom", "turmeric"],
+    "steps": [
+      "Make a soft, oily dough with maida and turmeric.",
+      "Stuff with a sweet paste of boiled chana dal and jaggery (Puran).",
+      "Roll into thin discs and cook on a tawa with ghee.",
+      "Serve warm."
+    ],
+    "prepTime": 40
+  },
+  {
+    "id": "tn_sn_017",
+    "name": "Kallu Urundai",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["fried gram flour", "sugar", "ghee", "cardamom"],
+    "steps": [
+      "Powder sugar and fried gram (pottukadalai) separately.",
+      "Mix the powders with cardamom.",
+      "Pour hot, melted ghee over the mix until it can be bound.",
+      "Shape into round balls that melt in the mouth."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_sn_018",
+    "name": "Rava Laddu",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["rava", "sugar", "ghee", "cashews", "raisins"],
+    "steps": [
+      "Roast rava in ghee until aromatic and grind to a fine powder.",
+      "Mix with powdered sugar and ghee-fried nuts.",
+      "Add warm ghee gradually and roll into balls.",
+      "Use a little milk for binding if you plan to consume it fast."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_sn_019",
+    "name": "Sukhiyan",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["green gram", "jaggery", "coconut", "maida batter"],
+    "steps": [
+      "Boil green gram and mix with jaggery and coconut bits.",
+      "Shape into small balls.",
+      "Dip the balls into a thin maida-turmeric batter.",
+      "Deep fry until the outer layer is crisp."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_sn_020",
+    "name": "Adhirasam",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["raw rice", "jaggery", "cardamom", "oil"],
+    "steps": [
+      "Soak rice, dry slightly, and grind into a moist flour.",
+      "Make a specific 'soft-string' jaggery syrup.",
+      "Mix flour into syrup and rest the dough for 2-3 days.",
+      "Pat into discs and deep fry on low heat."
+    ],
+    "prepTime": 60
+  },
+  {
+    "id": "tn_sn_021",
+    "name": "Seeval",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["besan", "rice flour", "garlic", "red chilli powder"],
+    "steps": [
+      "Mix flours with a paste of garlic and chillies.",
+      "Use the 'ribbon' disc in the press.",
+      "Fry until the garlic aroma is strong and the seeval is crisp.",
+      "Commonly found in the Tirunelveli region."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_sn_022",
+    "name": "Paal Bun",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["maida", "curd", "sugar syrup", "soda"],
+    "steps": [
+      "Knead maida with curd and a pinch of soda into a soft dough.",
+      "Ferment for 2 hours.",
+      "Deep fry small lemon-sized balls of dough.",
+      "Immediately drop into warm sugar syrup for 5 minutes."
+    ],
+    "prepTime": 130
+  },
+  {
+    "id": "tn_sn_023",
+    "name": "Thenkuzhal",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["rice flour", "urad dal flour", "cumin", "butter"],
+    "steps": [
+      "Use a 4:1 ratio of rice to urad dal flour.",
+      "Knead with butter, cumin, and salt.",
+      "Press through the 3-hole disc into hot oil.",
+      "Fry until it turns creamy white and stops bubbling."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_sn_024",
+    "name": "Masala Peanuts",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["raw peanuts", "besan", "rice flour", "ginger-garlic paste"],
+    "steps": [
+      "Coat peanuts with flours, spices, and ginger-garlic paste.",
+      "Sprinkle very little water to make the coating stick.",
+      "Deep fry until the peanuts are crunchy and the shell is hard.",
+      "Toss with extra curry leaves."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_sn_025",
+    "name": "Wheat Halwa (Tirunelveli Style)",
+    "region": "Tamil Nadu",
+    "category": "Snacks",
+    "ingredients": ["whole wheat", "sugar", "ghee", "cashews"],
+    "steps": [
+      "Soak wheat, grind, and extract 'milk'.",
+      "Ferment the milk overnight, then discard the top water.",
+      "Cook the thick milk with sugar and plenty of ghee.",
+      "Stir for hours until it becomes a translucent, jelly-like mass."
+    ],
+    "prepTime": 180
+  },
+  {
+    "name": "Malabar Parotta (TN Style)",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["maida", "oil", "salt", "sugar", "water"],
+    "steps": [
+      "Knead a soft, stretchy dough and rest for 2 hours with oil.",
+      "Roll thin, pleat like a fan, and coil into a spiral.",
+      "Flatten and toast on a tawa with oil until golden layers appear.",
+      "Crush the parotta with both hands while hot to separate layers."
+    ],
+    "prepTime": 150
+  },
+  {
+    "id": "tn_dn_002",
+    "name": "Vegetable Salna",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["mixed vegetables", "coconut", "fennel seeds", "poppy seeds", "kalpasi"],
+    "steps": [
+      "Grind coconut, poppy seeds, and fennel into a very smooth paste.",
+      "Sauté onions, tomatoes, and kalpasi (stone flower) for aroma.",
+      "Add vegetables and ground paste; simmer until a thin, oily gravy forms.",
+      "Serve as the essential pairing for Parotta."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "tn_dn_003",
+    "name": "Kothu Parotta",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["parotta", "egg", "onion", "salna", "green chilli"],
+    "steps": [
+      "Shred cooked parottas into small bits.",
+      "Sauté onions and chillies; scramble eggs into the mix.",
+      "Add the shredded parotta and a generous amount of Salna.",
+      "Beat vigorously with a heavy spatula on a hot tawa until blended."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_dn_004",
+    "name": "Idiyappam & Coconut Milk",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["rice flour", "hot water", "coconut milk", "cardamom", "jaggery"],
+    "steps": [
+      "Press rice flour dough through a mold and steam for 5 minutes.",
+      "Extract thick milk from fresh grated coconut.",
+      "Sweeten the milk with jaggery and flavor with cardamom.",
+      "Serve idiyappam submerged in the sweet coconut milk."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_dn_005",
+    "name": "Egg Veechu Dosa",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["maida/dosa batter", "egg", "pepper", "oil"],
+    "steps": [
+      "Stretch dough/batter very thin over a large square tawa.",
+      "Crack an egg in the center and spread it to the edges.",
+      "Fold the four sides inward to create a square envelope.",
+      "Flip and cook until the egg inside is set and the outside is crisp."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_dn_006",
+    "name": "Puttu (Rice)",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["rice flour", "grated coconut", "salt", "water"],
+    "steps": [
+      "Moisten rice flour with salt water until it reaches a crumbly texture.",
+      "Layer flour and coconut in a puttu steamer (cylindrical).",
+      "Steam for 8-10 minutes until a distinct aroma arises.",
+      "Serve with Kadala (Chickpea) curry or banana and sugar."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_dn_007",
+    "name": "Tomato Sevai",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["rice vermicelli", "tomato", "mustard seeds", "turmeric", "onion"],
+    "steps": [
+      "Prepare or steam rice sevai and keep it fluffy.",
+      "Sauté onions and tomatoes with turmeric until mushy.",
+      "Toss the sevai gently into the tomato base.",
+      "Garnish with coriander and serve hot."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_dn_008",
+    "name": "Arisi Upma",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["raw rice", "toor dal", "pepper", "cumin", "coconut oil"],
+    "steps": [
+      "Coarsely grind rice and dal (like rava/grits).",
+      "Temper mustard, red chillies, and curry leaves in coconut oil.",
+      "Add water (1:2 ratio) and bring to a boil; stir in the rice grits.",
+      "Pressure cook for 2 whistles until fluffy."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_dn_009",
+    "name": "Vegetable Kurma",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["mixed vegetables", "cashews", "coconut", "fennel", "cinnamon"],
+    "steps": [
+      "Grind coconut, cashews, and fennel into a rich paste.",
+      "Sauté whole spices and vegetables in a pressure cooker.",
+      "Add the paste and water; cook for 1 whistle.",
+      "Perfect side for Chapatis or Idiyappam."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_dn_010",
+    "name": "Godhumai (Wheat) Rava Upma",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["samba wheat rava", "onion", "ginger", "green chilli", "ghee"],
+    "steps": [
+      "Temper mustard and dals; sauté onions and ginger.",
+      "Add 2.5 cups of water for 1 cup of wheat rava and salt.",
+      "Add rava to boiling water and pressure cook for 2 whistles.",
+      "Serve with coconut chutney; a healthy diabetic-friendly dinner."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_dn_011",
+    "name": "Podi Dosa",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["dosa batter", "idli podi", "gingelly oil/ghee"],
+    "steps": [
+      "Spread dosa batter thinly on a hot tawa.",
+      "Sprinkle a generous amount of spicy idli podi over the top.",
+      "Drizzle gingelly oil and cook until the podi crisps up.",
+      "Fold and serve without flipping."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "tn_dn_012",
+    "name": "Muttai (Egg) Ceylon Parotta",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["maida dough", "egg", "minced chicken/mutton", "fennel"],
+    "steps": [
+      "Roll parotta dough into a very thin square.",
+      "Spread a mixture of beaten egg and cooked minced meat in the center.",
+      "Fold into a square and shallow fry on a tawa with oil.",
+      "Slice into rectangles and serve with salna."
+    ],
+    "prepTime": 40
+  },
+  {
+    "id": "tn_dn_013",
+    "name": "Appam & Stew",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["appam batter", "vegetables", "coconut milk", "ginger", "peppercorns"],
+    "steps": [
+      "Make thin-edged, spongy-centered appams in a curved pan.",
+      "Simmer vegetables in thin coconut milk with ginger and pepper.",
+      "Add thick coconut milk at the end and turn off heat.",
+      "Do not boil after adding thick milk to prevent curdling."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_dn_014",
+    "name": "Madurai Kari Dosai",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["dosa batter", "mutton chukka", "egg", "fennel"],
+    "steps": [
+      "Spread a thick dosa; pour a beaten egg over it.",
+      "Top with a layer of spicy minced mutton (chukka).",
+      "Drizzle oil, flip carefully, and cook until the meat layer is seared.",
+      "A famous Madurai street food specialty."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_dn_015",
+    "name": "Milagu Jeera Kanji",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["broken rice", "moong dal", "garlic", "pepper", "cumin"],
+    "steps": [
+      "Pressure cook rice and dal with garlic until very mushy (porridge).",
+      "Crush pepper and cumin coarsely and add to the kanji.",
+      "Stir in salt and a little coconut milk if desired.",
+      "Light dinner, perfect for rainy days or recovery."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_dn_016",
+    "name": "Keema (Minced Meat) Dosa",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["dosa batter", "minced mutton/chicken", "onion", "garam masala"],
+    "steps": [
+      "Sauté minced meat with onions and spices until dry.",
+      "Spread dosa batter; place the keema in the center.",
+      "Fold the dosa and press lightly to set.",
+      "Serve with a spicy gravy."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_dn_017",
+    "name": "Varagu (Millet) Arisi Sambar Sadam",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["millet", "toor dal", "vegetables", "sambar powder", "ghee"],
+    "steps": [
+      "Cook millet and dal together until soft.",
+      "Add tamarind water, vegetables, and sambar powder.",
+      "Simmer until it reaches a mashy consistency.",
+      "Finish with a tempering of mustard and ghee-fried cashews."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "tn_dn_018",
+    "name": "Chapatis & Paneer Kurma",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["wheat flour", "paneer", "coconut", "green chilli", "poppy seeds"],
+    "steps": [
+      "Knead soft chapatis and puff them on a direct flame or tawa.",
+      "Make a white kurma base using coconut, chillies, and poppy seeds.",
+      "Add paneer cubes and simmer for 5 minutes.",
+      "A popular modern Tamil household dinner."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "tn_dn_019",
+    "name": "Ragi Semiya (Sweet/Salt)",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["ragi vermicelli", "coconut", "sugar/onion", "mustard"],
+    "steps": [
+      "Rinse ragi semiya for 2 minutes, drain, and steam for 5 minutes.",
+      "For sweet: Toss with grated coconut, sugar, and cardamom.",
+      "For salt: Temper with mustard, chillies, and onions.",
+      "A very light and nutritious dinner option."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_dn_020",
+    "name": "Eerul Pookkal (Onion Flower) Dosa",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["dosa batter", "shallots", "green chilli", "curry leaves"],
+    "steps": [
+      "Finely chop a large amount of shallots (small onions).",
+      "Sauté them slightly and mix into the dosa batter.",
+      "Make thick, soft dosas (Uttapam style).",
+      "Serve with spicy garlic chutney."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "tn_dn_021",
+    "name": "Kal Dosa & Vadacurry",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["dosa batter", "chana dal", "onion", "fennel", "cinnamon"],
+    "steps": [
+      "Make 'Kal Dosa' (slightly thick, soft dosas).",
+      "Prepare Vadacurry by crumbling fried lentil fritters into a spicy gravy.",
+      "The gravy should be thick and flavorful with fennel and cloves.",
+      "A classic Chennai-style dinner pairing."
+    ],
+    "prepTime": 45
+  },
+  {
+    "id": "tn_dn_022",
+    "name": "Masala Macaroni (TN Style)",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["macaroni", "onion", "tomato", "ginger-garlic", "fennel powder"],
+    "steps": [
+      "Boil macaroni in salt water and drain.",
+      "Sauté onions, ginger-garlic, and tomatoes with TN spices.",
+      "Add fennel powder and chilli powder for a local twist.",
+      "Toss macaroni in the masala and finish with coriander."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "tn_dn_023",
+    "name": "Thinai (Foxtail Millet) Pongal",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["foxtail millet", "moong dal", "pepper", "cumin", "ginger"],
+    "steps": [
+      "Pressure cook millet and dal (1:4 water ratio) until very soft.",
+      "Temper ghee with crushed pepper, cumin, ginger, and curry leaves.",
+      "Fold the tempering into the pongal.",
+      "Lighter on the stomach than rice pongal for dinner."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_dn_024",
+    "name": "Pichu Poota Chicken (Shredded) Dosa",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["dosa batter", "shredded cooked chicken", "black pepper", "onion"],
+    "steps": [
+      "Sauté shredded chicken with lots of black pepper and onions.",
+      "Spread dosa batter; layer the pepper chicken on top.",
+      "Press down and cook with oil until crisp.",
+      "Serve with a simple chicken gravy (Saaru)."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "tn_dn_025",
+    "name": "Bread Upma",
+    "region": "Tamil Nadu",
+    "category": "Dinner",
+    "ingredients": ["bread slices", "onion", "tomato", "chilli powder", "mustard"],
+    "steps": [
+      "Toast bread slices and cut into small cubes.",
+      "Temper mustard and urad dal; sauté onions and tomatoes with spices.",
+      "Add a splash of water to make the masala slightly damp.",
+      "Toss the bread cubes until coated and serve immediately."
+    ],
+    "prepTime": 15
+  }
 ]

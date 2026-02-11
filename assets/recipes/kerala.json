@@ -1,61 +1,2274 @@
 [
-    {
-        "id": "ke_bf_001",
-        "name": "Appam",
-        "region": "Kerala",
-        "category": "Breakfast",
-        "ingredients": [
-            "Raw Rice",
-            "Boiled Rice",
-            "Coconut",
-            "Yeast",
-            "Sugar",
-            "Salt"
-        ],
-        "steps": [
-            "Soak raw rice and boiled rice together for 4 hours.",
-            "Grind with grated coconut to smooth batter.",
-            "Add yeast dissolved in warm water.",
-            "Add a pinch of sugar and salt.",
-            "Ferment batter for 8 hours.",
-            "Heat appam pan until hot.",
-            "Pour a ladle of batter.",
-            "Swirl the pan to spread batter on sides.",
-            "Cover and cook on medium heat.",
-            "Cook until edges turn crisp and center is soft.",
-            "Remove and serve hot with stew."
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "ke_lun_001",
-        "name": "Sambar",
-        "region": "Kerala",
-        "category": "Lunch",
-        "ingredients": [
-            "Toor Dal",
-            "Drumstick",
-            "Tomato",
-            "Onion",
-            "Tamarind",
-            "Sambar Powder",
-            "Mustard Seeds",
-            "Curry Leaves"
-        ],
-        "steps": [
-            "Pressure cook toor dal until soft.",
-            "Extract tamarind juice.",
-            "Boil vegetables in tamarind water.",
-            "Add sambar powder, turmeric, salt.",
-            "Cook until vegetables are tender.",
-            "Add mashed dal to the boiling mixture.",
-            "Simmer for 10 minutes.",
-            "Heat coconut oil in a small pan.",
-            "Add mustard seeds, let splutter.",
-            "Add curry leaves and dry red chillies.",
-            "Pour tempering over sambar.",
-            "Serve hot with rice."
-        ],
-        "prepTime": 40
-    }
+  {
+    "id": "ke_bf_001",
+    "name": "Idiyappam",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice flour",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Boil water",
+      "Add salt to boiling water",
+      "Add rice flour gradually",
+      "Mix using spoon",
+      "Rest dough for 5 minutes",
+      "Fill dough into idiyappam press",
+      "Press dough onto idli plates",
+      "Steam for 10 minutes",
+      "Remove and serve"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_bf_002",
+    "name": "Appam",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice",
+      "coconut",
+      "yeast",
+      "sugar",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash rice three times",
+      "Soak rice for 4 hours",
+      "Grind rice with coconut and water",
+      "Add yeast, sugar and salt",
+      "Mix batter well",
+      "Ferment for 8 hours",
+      "Heat appam pan on medium flame",
+      "Pour batter and swirl pan",
+      "Cover and cook for 2 minutes",
+      "Remove appam"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_bf_003",
+    "name": "Puttu",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice flour",
+      "coconut",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Add salt to rice flour",
+      "Sprinkle water and mix to crumb texture",
+      "Grate coconut",
+      "Layer flour and coconut in puttu maker",
+      "Heat water in cooker",
+      "Place puttu maker",
+      "Steam for 8 minutes",
+      "Remove puttu"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_bf_004",
+    "name": "Idli",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "idli rice",
+      "urad dal",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash rice and dal",
+      "Soak rice and dal for 6 hours",
+      "Grind dal into smooth paste",
+      "Grind rice into coarse paste",
+      "Mix batters and add salt",
+      "Ferment for 8 hours",
+      "Pour batter into moulds",
+      "Steam for 10 minutes",
+      "Remove idlis"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_bf_005",
+    "name": "Dosa",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "dosa batter",
+      "oil"
+    ],
+    "steps": [
+      "Heat dosa pan on medium flame",
+      "Pour batter and spread thin",
+      "Drizzle oil",
+      "Cook until crisp",
+      "Flip and cook briefly",
+      "Remove dosa"
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "ke_bf_006",
+    "name": "Kallappam",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice",
+      "coconut",
+      "yeast",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and soak rice",
+      "Grind rice with coconut",
+      "Add yeast and salt",
+      "Ferment batter for 6 hours",
+      "Heat pan on low flame",
+      "Pour thick batter",
+      "Cover and cook",
+      "Remove kallappam"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_bf_007",
+    "name": "Aval Nanachathu",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "poha",
+      "coconut",
+      "sugar",
+      "banana"
+    ],
+    "steps": [
+      "Wash poha and drain water",
+      "Add grated coconut",
+      "Add sugar",
+      "Chop banana",
+      "Mix all ingredients",
+      "Serve immediately"
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "ke_bf_008",
+    "name": "Upma",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rava",
+      "onion",
+      "green chilli",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Dry roast rava on low flame",
+      "Chop onion and green chilli",
+      "Heat oil on medium flame",
+      "Add onion and chilli",
+      "Add water and salt",
+      "Bring water to boil",
+      "Add rava slowly",
+      "Stir continuously",
+      "Cook for 5 minutes"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_bf_009",
+    "name": "Pathiri",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice flour",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Boil water",
+      "Add salt",
+      "Add rice flour gradually",
+      "Mix to soft dough",
+      "Divide dough into balls",
+      "Roll into thin discs",
+      "Cook on pan both sides",
+      "Remove pathiri"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_bf_010",
+    "name": "Ottada",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice flour",
+      "coconut",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Mix rice flour and salt",
+      "Add water to make batter",
+      "Add grated coconut",
+      "Heat pan on low flame",
+      "Pour batter and spread",
+      "Cook both sides",
+      "Remove ottada"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_bf_011",
+    "name": "Vellayappam",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice",
+      "coconut",
+      "yeast",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Soak rice for 4 hours",
+      "Grind rice with coconut",
+      "Add yeast and salt",
+      "Ferment for 8 hours",
+      "Heat appam pan",
+      "Pour batter and swirl",
+      "Cook covered",
+      "Remove vellayappam"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_bf_012",
+    "name": "Rava Dosa",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rava",
+      "rice flour",
+      "onion",
+      "salt",
+      "water",
+      "oil"
+    ],
+    "steps": [
+      "Mix rava, rice flour and salt",
+      "Add water to thin batter",
+      "Chop onion and add",
+      "Heat pan on medium flame",
+      "Pour batter",
+      "Drizzle oil",
+      "Cook until crisp"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_bf_013",
+    "name": "Poori",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "wheat flour",
+      "salt",
+      "water",
+      "oil"
+    ],
+    "steps": [
+      "Mix flour and salt",
+      "Add water and knead dough",
+      "Rest dough for 10 minutes",
+      "Roll into circles",
+      "Heat oil on high flame",
+      "Fry until puffed",
+      "Remove poori"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_bf_014",
+    "name": "Chakka Puttu",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice flour",
+      "jackfruit",
+      "coconut",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Mash jackfruit pulp",
+      "Mix rice flour and salt",
+      "Add water and jackfruit",
+      "Layer with coconut in puttu maker",
+      "Steam for 10 minutes",
+      "Remove chakka puttu"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_bf_015",
+    "name": "Kappa Puzhukku",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "tapioca",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Peel and wash tapioca",
+      "Cut into pieces",
+      "Boil with water and salt",
+      "Cook until soft",
+      "Drain water",
+      "Mash lightly",
+      "Serve"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_bf_016",
+    "name": "Idiyappam Upma",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "idiyappam",
+      "onion",
+      "green chilli",
+      "oil",
+      "salt"
+    ],
+    "steps": [
+      "Prepare idiyappam",
+      "Chop onion and green chilli",
+      "Heat oil on medium flame",
+      "Add onion and chilli",
+      "Add idiyappam and salt",
+      "Mix gently",
+      "Cook for 3 minutes"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_bf_017",
+    "name": "Semiya Upma",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "vermicelli",
+      "onion",
+      "green chilli",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Dry roast vermicelli",
+      "Chop onion and chilli",
+      "Heat oil",
+      "Add onion and chilli",
+      "Add water and salt",
+      "Bring to boil",
+      "Add vermicelli",
+      "Cook until soft"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_bf_018",
+    "name": "Uppumavu",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rava",
+      "coconut",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Dry roast rava",
+      "Boil water with salt",
+      "Add rava slowly",
+      "Stir continuously",
+      "Add grated coconut",
+      "Cook until thick",
+      "Turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_bf_019",
+    "name": "Pazhampori",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "banana",
+      "maida",
+      "salt",
+      "water",
+      "oil"
+    ],
+    "steps": [
+      "Peel and slice banana",
+      "Mix maida and salt",
+      "Add water to batter",
+      "Heat oil",
+      "Dip banana in batter",
+      "Fry until golden",
+      "Remove"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_bf_020",
+    "name": "Unniyappam",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice flour",
+      "banana",
+      "jaggery",
+      "coconut pieces",
+      "oil"
+    ],
+    "steps": [
+      "Mash banana",
+      "Melt jaggery",
+      "Mix rice flour, banana and jaggery",
+      "Add coconut pieces",
+      "Heat oil in pan",
+      "Pour batter into moulds",
+      "Fry until cooked",
+      "Remove"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_bf_021",
+    "name": "Bread Toast",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "bread",
+      "butter"
+    ],
+    "steps": [
+      "Heat pan on medium flame",
+      "Apply butter on bread",
+      "Toast both sides",
+      "Remove and serve"
+    ],
+    "prepTime": 5
+  },
+  {
+    "id": "ke_bf_022",
+    "name": "Egg Dosa",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "dosa batter",
+      "egg",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Heat dosa pan",
+      "Pour dosa batter",
+      "Break egg on dosa",
+      "Spread egg evenly",
+      "Add salt",
+      "Drizzle oil",
+      "Cook until crisp",
+      "Remove"
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "ke_bf_023",
+    "name": "Vegetable Dosa",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "dosa batter",
+      "vegetables",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Chop vegetables finely",
+      "Mix vegetables and salt into batter",
+      "Heat pan on medium flame",
+      "Pour batter and spread",
+      "Drizzle oil",
+      "Cook until crisp",
+      "Remove"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_bf_024",
+    "name": "Sweet Puttu",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice flour",
+      "jaggery",
+      "coconut",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Mix rice flour and salt",
+      "Sprinkle water to crumb texture",
+      "Layer flour, jaggery and coconut",
+      "Steam for 8 minutes",
+      "Remove sweet puttu"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_bf_025",
+    "name": "Banana and Milk",
+    "region": "Kerala",
+    "category": "Breakfast",
+    "ingredients": [
+      "banana",
+      "milk"
+    ],
+    "steps": [
+      "Peel banana",
+      "Slice banana",
+      "Pour milk into glass",
+      "Add banana slices",
+      "Serve"
+    ],
+    "prepTime": 5
+  },
+  {
+    "id": "ke_ln_001",
+    "name": "Kerala Sadhya Rice",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "rice",
+      "water"
+    ],
+    "steps": [
+      "Measure rice",
+      "Wash rice three times",
+      "Add rice and water to cooker",
+      "Close lid",
+      "Cook for 3 whistles",
+      "Turn off flame",
+      "Rest for 5 minutes",
+      "Fluff rice"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_ln_002",
+    "name": "Sambar",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "toor dal",
+      "carrot",
+      "drumstick",
+      "pumpkin",
+      "tamarind",
+      "sambar powder",
+      "salt",
+      "oil",
+      "mustard",
+      "water"
+    ],
+    "steps": [
+      "Wash toor dal",
+      "Pressure cook dal with water",
+      "Wash and chop vegetables",
+      "Soak tamarind in water",
+      "Extract tamarind juice",
+      "Cook vegetables in tamarind water",
+      "Add sambar powder and salt",
+      "Add cooked dal",
+      "Boil for 5 minutes",
+      "Heat oil and add mustard seeds",
+      "Pour tempering",
+      "Turn off flame"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_ln_003",
+    "name": "Avial",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "mixed vegetables",
+      "coconut",
+      "green chilli",
+      "cumin",
+      "curd",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and cut vegetables lengthwise",
+      "Cook vegetables with water and salt",
+      "Grind coconut, chilli and cumin",
+      "Add ground paste to vegetables",
+      "Cook for 3 minutes",
+      "Add curd",
+      "Mix gently",
+      "Turn off flame"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_ln_004",
+    "name": "Thoran",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "cabbage",
+      "coconut",
+      "green chilli",
+      "salt",
+      "oil",
+      "mustard"
+    ],
+    "steps": [
+      "Wash and finely chop cabbage",
+      "Grind coconut and chilli coarsely",
+      "Heat oil on medium flame",
+      "Add mustard seeds",
+      "Add cabbage and salt",
+      "Cook until soft",
+      "Add coconut mixture",
+      "Mix well",
+      "Turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_ln_005",
+    "name": "Olan",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "ash gourd",
+      "red cowpeas",
+      "coconut milk",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and chop ash gourd",
+      "Soak and cook cowpeas",
+      "Cook ash gourd with water and salt",
+      "Add cooked cowpeas",
+      "Add coconut milk",
+      "Boil gently for 3 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_ln_006",
+    "name": "Kalan",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "yam",
+      "raw banana",
+      "curd",
+      "pepper",
+      "cumin",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and chop vegetables",
+      "Cook vegetables with water and salt",
+      "Grind pepper and cumin",
+      "Add ground spices",
+      "Add curd",
+      "Cook until thick",
+      "Turn off flame"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_ln_007",
+    "name": "Erissery",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "pumpkin",
+      "cowpeas",
+      "coconut",
+      "cumin",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and chop pumpkin",
+      "Cook pumpkin and cowpeas with water and salt",
+      "Grind coconut and cumin",
+      "Add paste to curry",
+      "Boil for 5 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_ln_008",
+    "name": "Pulissery",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "curd",
+      "cucumber",
+      "coconut",
+      "green chilli",
+      "cumin",
+      "salt"
+    ],
+    "steps": [
+      "Wash and chop cucumber",
+      "Cook cucumber with water and salt",
+      "Grind coconut, chilli and cumin",
+      "Add paste to curry",
+      "Add curd",
+      "Mix gently",
+      "Turn off flame"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_ln_009",
+    "name": "Rasam",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "tomato",
+      "tamarind",
+      "rasam powder",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and chop tomato",
+      "Soak tamarind and extract juice",
+      "Add tomato, tamarind water and salt",
+      "Boil on medium flame",
+      "Add rasam powder",
+      "Boil for 5 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_ln_010",
+    "name": "Moru Curry",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "curd",
+      "coconut",
+      "green chilli",
+      "cumin",
+      "salt"
+    ],
+    "steps": [
+      "Beat curd smoothly",
+      "Grind coconut, chilli and cumin",
+      "Add paste to curd",
+      "Add salt",
+      "Heat gently on low flame",
+      "Turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_ln_011",
+    "name": "Parippu Curry",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "moong dal",
+      "coconut",
+      "green chilli",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash moong dal",
+      "Cook dal with water and salt",
+      "Grind coconut and chilli",
+      "Add paste to dal",
+      "Boil for 5 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_ln_012",
+    "name": "Kerala Red Rice",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "red rice",
+      "water"
+    ],
+    "steps": [
+      "Wash red rice three times",
+      "Soak rice for 30 minutes",
+      "Add rice and water to cooker",
+      "Cook for 4 whistles",
+      "Turn off flame",
+      "Rest for 10 minutes"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_ln_013",
+    "name": "Cabbage Thoran",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "cabbage",
+      "coconut",
+      "green chilli",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and chop cabbage finely",
+      "Grind coconut and chilli",
+      "Heat oil",
+      "Add cabbage and salt",
+      "Cook until soft",
+      "Add coconut mix",
+      "Mix and turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_ln_014",
+    "name": "Beans Thoran",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "beans",
+      "coconut",
+      "green chilli",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and chop beans",
+      "Grind coconut and chilli",
+      "Heat oil",
+      "Add beans and salt",
+      "Cook until soft",
+      "Add coconut mixture",
+      "Mix and turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_ln_015",
+    "name": "Pumpkin Thoran",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "pumpkin",
+      "coconut",
+      "green chilli",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and chop pumpkin",
+      "Grind coconut and chilli",
+      "Heat oil",
+      "Add pumpkin and salt",
+      "Cook until soft",
+      "Add coconut mixture",
+      "Mix and turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_ln_016",
+    "name": "Vendakka Mezhukkupuratti",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "okra",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash okra and dry completely",
+      "Chop okra",
+      "Heat oil on medium flame",
+      "Add okra and salt",
+      "Stir fry until crisp",
+      "Turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_ln_017",
+    "name": "Kootu Curry",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "yam",
+      "raw banana",
+      "cowpeas",
+      "coconut",
+      "pepper",
+      "salt"
+    ],
+    "steps": [
+      "Wash and chop vegetables",
+      "Cook vegetables and cowpeas with salt",
+      "Grind coconut and pepper",
+      "Add paste to vegetables",
+      "Cook until dry",
+      "Turn off flame"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_ln_018",
+    "name": "Chakkakuru Curry",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "jackfruit seeds",
+      "coconut",
+      "cumin",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and boil jackfruit seeds",
+      "Peel seed skin",
+      "Grind coconut and cumin",
+      "Add paste to seeds",
+      "Add salt and water",
+      "Boil for 5 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_ln_019",
+    "name": "Manga Curry",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "raw mango",
+      "coconut",
+      "green chilli",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and chop mango",
+      "Cook mango with water and salt",
+      "Grind coconut and chilli",
+      "Add paste to curry",
+      "Boil for 5 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_ln_020",
+    "name": "Pachadi",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "pineapple",
+      "curd",
+      "coconut",
+      "green chilli",
+      "salt"
+    ],
+    "steps": [
+      "Wash and chop pineapple",
+      "Cook pineapple with water and salt",
+      "Grind coconut and chilli",
+      "Add paste to pineapple",
+      "Add curd",
+      "Mix gently",
+      "Turn off flame"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_ln_021",
+    "name": "Rice and Sambar",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "rice",
+      "sambar"
+    ],
+    "steps": [
+      "Cook rice",
+      "Prepare sambar",
+      "Serve sambar over rice"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_ln_022",
+    "name": "Curd Rice",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "rice",
+      "curd",
+      "salt"
+    ],
+    "steps": [
+      "Cook rice and cool",
+      "Mash rice lightly",
+      "Add curd and salt",
+      "Mix well",
+      "Serve"
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "ke_ln_023",
+    "name": "Kappa Meen Curry",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "tapioca",
+      "fish curry",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Peel and chop tapioca",
+      "Boil tapioca with salt",
+      "Cook until soft",
+      "Drain water",
+      "Serve with fish curry"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_ln_024",
+    "name": "Vegetable Stew",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "mixed vegetables",
+      "coconut milk",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and chop vegetables",
+      "Cook vegetables with water and salt",
+      "Add coconut milk",
+      "Boil for 5 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_ln_025",
+    "name": "Rice and Moru Curry",
+    "region": "Kerala",
+    "category": "Lunch",
+    "ingredients": [
+      "rice",
+      "moru curry"
+    ],
+    "steps": [
+      "Cook rice",
+      "Prepare moru curry",
+      "Serve together"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_sn_001",
+    "name": "Pazhampori",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "nendran banana",
+      "maida",
+      "salt",
+      "water",
+      "oil"
+    ],
+    "steps": [
+      "Peel nendran banana",
+      "Slice banana lengthwise",
+      "Add maida and salt to bowl",
+      "Add water and mix to smooth batter",
+      "Heat oil on medium flame",
+      "Dip banana slices in batter",
+      "Fry until golden",
+      "Remove and drain oil"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_sn_002",
+    "name": "Unniyappam",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "rice flour",
+      "ripe banana",
+      "jaggery",
+      "coconut pieces",
+      "cardamom",
+      "oil"
+    ],
+    "steps": [
+      "Mash ripe banana",
+      "Melt jaggery with little water",
+      "Strain jaggery syrup",
+      "Add rice flour to bowl",
+      "Add banana and jaggery syrup",
+      "Add coconut pieces and cardamom",
+      "Mix to thick batter",
+      "Heat oil on medium flame",
+      "Pour batter into moulds",
+      "Fry until cooked",
+      "Remove and drain oil"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_sn_003",
+    "name": "Sukhiyan",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "green gram",
+      "jaggery",
+      "grated coconut",
+      "maida",
+      "salt",
+      "water",
+      "oil"
+    ],
+    "steps": [
+      "Wash and cook green gram",
+      "Mash cooked gram",
+      "Add jaggery and coconut",
+      "Cook filling until thick",
+      "Cool filling",
+      "Shape filling into balls",
+      "Mix maida, salt and water",
+      "Dip balls in batter",
+      "Heat oil",
+      "Fry until golden",
+      "Remove and drain"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_sn_004",
+    "name": "Uzhunnu Vada",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "urad dal",
+      "onion",
+      "green chilli",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash urad dal three times",
+      "Soak dal for 4 hours",
+      "Drain water completely",
+      "Grind dal into thick batter",
+      "Chop onion and green chilli",
+      "Add vegetables and salt",
+      "Heat oil on medium flame",
+      "Shape batter into vada",
+      "Fry until golden",
+      "Remove and drain"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_sn_005",
+    "name": "Achappam",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "rice flour",
+      "coconut milk",
+      "sugar",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Mix rice flour, sugar and salt",
+      "Add coconut milk to make batter",
+      "Heat oil on medium flame",
+      "Heat achappam mould in oil",
+      "Dip mould in batter",
+      "Dip mould back in oil",
+      "Shake gently to release",
+      "Fry until crisp",
+      "Remove and cool"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_sn_006",
+    "name": "Kuzhalappam",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "rice flour",
+      "coconut",
+      "cumin",
+      "salt",
+      "water",
+      "oil"
+    ],
+    "steps": [
+      "Grind coconut and cumin",
+      "Mix rice flour and salt",
+      "Add coconut paste",
+      "Add water and knead dough",
+      "Shape dough into tubes",
+      "Heat oil on medium flame",
+      "Fry until crisp",
+      "Remove and cool"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_sn_007",
+    "name": "Sharkara Varatti",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "yam",
+      "jaggery",
+      "dry ginger powder",
+      "chilli powder",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and peel yam",
+      "Cut yam into cubes",
+      "Cook yam with water and salt",
+      "Drain water completely",
+      "Heat oil on medium flame",
+      "Fry yam pieces until crisp",
+      "Melt jaggery in pan",
+      "Add spices",
+      "Add fried yam",
+      "Mix well",
+      "Turn off flame"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_sn_008",
+    "name": "Avalose Unda",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "roasted rice flour",
+      "jaggery",
+      "coconut",
+      "cumin"
+    ],
+    "steps": [
+      "Powder jaggery",
+      "Grind coconut and cumin",
+      "Mix rice flour and jaggery",
+      "Add coconut mixture",
+      "Mix well",
+      "Shape into balls"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_sn_009",
+    "name": "Banana Chips",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "raw nendran banana",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and peel banana",
+      "Slice banana thinly",
+      "Heat oil on medium flame",
+      "Add banana slices",
+      "Fry until crisp",
+      "Add salt",
+      "Remove and drain"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_sn_010",
+    "name": "Vettu Cake",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "maida",
+      "sugar",
+      "egg",
+      "cardamom",
+      "oil"
+    ],
+    "steps": [
+      "Mix maida and sugar",
+      "Add egg and cardamom",
+      "Knead into soft dough",
+      "Rest dough for 10 minutes",
+      "Shape dough pieces",
+      "Make cut on top",
+      "Heat oil",
+      "Fry until golden",
+      "Remove and drain"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_sn_011",
+    "name": "Kerala Mixture",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "sev",
+      "peanuts",
+      "curry leaves",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Heat oil on medium flame",
+      "Fry peanuts until crisp",
+      "Fry curry leaves",
+      "Add sev",
+      "Add salt",
+      "Mix well",
+      "Cool and store"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_sn_012",
+    "name": "Samosa",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "maida",
+      "potato",
+      "onion",
+      "green chilli",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Boil potatoes",
+      "Peel and mash potatoes",
+      "Chop onion and chilli",
+      "Mix filling with salt",
+      "Make dough with maida",
+      "Roll and shape samosa",
+      "Fill stuffing",
+      "Seal edges",
+      "Heat oil",
+      "Fry until golden",
+      "Remove"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_sn_013",
+    "name": "Egg Puffs",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "puff pastry",
+      "egg",
+      "onion",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Boil eggs",
+      "Peel and slice eggs",
+      "Chop onion",
+      "Saute onion with salt",
+      "Place egg on pastry",
+      "Add onion mixture",
+      "Seal pastry",
+      "Bake until golden",
+      "Remove"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_sn_014",
+    "name": "Uppilitta Manga",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "raw mango",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash raw mango",
+      "Cut mango into pieces",
+      "Add salt and water",
+      "Mix well",
+      "Serve"
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "ke_sn_015",
+    "name": "Kappa Chips",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "tapioca",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Peel tapioca",
+      "Slice thin",
+      "Wash slices",
+      "Dry slices",
+      "Heat oil",
+      "Fry slices until crisp",
+      "Add salt",
+      "Remove"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_sn_016",
+    "name": "Sweet Corn Fry",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "corn",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Boil corn",
+      "Drain water",
+      "Heat oil on pan",
+      "Add corn",
+      "Add salt",
+      "Saute until light brown",
+      "Turn off flame"
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "ke_sn_017",
+    "name": "Kumbilappam",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "rice flour",
+      "jaggery",
+      "banana",
+      "coconut",
+      "salt"
+    ],
+    "steps": [
+      "Mash banana",
+      "Melt jaggery",
+      "Mix rice flour, banana and jaggery",
+      "Add coconut pieces",
+      "Add salt",
+      "Wrap batter in jackfruit leaves",
+      "Steam for 15 minutes",
+      "Remove and serve"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_sn_018",
+    "name": "Kozhukatta",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "rice flour",
+      "jaggery",
+      "coconut",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Melt jaggery",
+      "Add grated coconut",
+      "Prepare rice flour dough",
+      "Stuff filling inside dough",
+      "Shape kozhukatta",
+      "Steam for 10 minutes",
+      "Remove"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_sn_019",
+    "name": "Churuttu",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "maida",
+      "coconut",
+      "sugar",
+      "cardamom",
+      "oil"
+    ],
+    "steps": [
+      "Grind coconut and sugar",
+      "Prepare thin maida crepes",
+      "Spread filling",
+      "Roll tightly",
+      "Heat oil",
+      "Fry until crisp",
+      "Remove"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_sn_020",
+    "name": "Parippu Vada",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "chana dal",
+      "onion",
+      "green chilli",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and soak chana dal for 2 hours",
+      "Drain water",
+      "Grind dal coarsely",
+      "Add onion, chilli and salt",
+      "Shape vada",
+      "Heat oil",
+      "Fry until crisp",
+      "Remove"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_sn_021",
+    "name": "Pori Vilayichathu",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "puffed rice",
+      "jaggery",
+      "peanuts"
+    ],
+    "steps": [
+      "Dry roast peanuts",
+      "Melt jaggery",
+      "Add peanuts and puffed rice",
+      "Mix well",
+      "Turn off flame"
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "ke_sn_022",
+    "name": "Bread Bajji",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "bread",
+      "besan",
+      "salt",
+      "water",
+      "oil"
+    ],
+    "steps": [
+      "Cut bread into pieces",
+      "Mix besan, salt and water",
+      "Dip bread in batter",
+      "Heat oil",
+      "Fry until golden",
+      "Remove"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_sn_023",
+    "name": "Chakka Varatti",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "jackfruit",
+      "jaggery",
+      "coconut oil"
+    ],
+    "steps": [
+      "Remove jackfruit seeds",
+      "Chop jackfruit",
+      "Cook jackfruit until soft",
+      "Add jaggery",
+      "Cook until thick",
+      "Add coconut oil",
+      "Turn off flame"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_sn_024",
+    "name": "Kara Kuzhalappam",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "rice flour",
+      "coconut",
+      "garlic",
+      "salt",
+      "water",
+      "oil"
+    ],
+    "steps": [
+      "Grind coconut and garlic",
+      "Mix rice flour and salt",
+      "Add coconut mixture",
+      "Add water and knead dough",
+      "Shape into tubes",
+      "Heat oil",
+      "Fry until crisp",
+      "Remove"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_sn_025",
+    "name": "Black Tea and Biscuit",
+    "region": "Kerala",
+    "category": "Snacks",
+    "ingredients": [
+      "tea powder",
+      "water",
+      "sugar",
+      "milk",
+      "biscuit"
+    ],
+    "steps": [
+      "Boil water",
+      "Add tea powder",
+      "Boil for 2 minutes",
+      "Add sugar and milk",
+      "Strain tea",
+      "Serve with biscuit"
+    ],
+    "prepTime": 5
+  },
+  {
+    "id": "ke_dn_001",
+    "name": "Kerala Red Rice",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "red rice",
+      "water"
+    ],
+    "steps": [
+      "Measure red rice",
+      "Wash rice three times",
+      "Soak rice for 30 minutes",
+      "Add rice and water to cooker",
+      "Close lid",
+      "Cook for 4 whistles",
+      "Turn off flame",
+      "Rest for 10 minutes",
+      "Fluff rice"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_dn_002",
+    "name": "Sambar",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "toor dal",
+      "drumstick",
+      "pumpkin",
+      "carrot",
+      "tamarind",
+      "sambar powder",
+      "salt",
+      "oil",
+      "mustard",
+      "water"
+    ],
+    "steps": [
+      "Wash toor dal three times",
+      "Pressure cook dal with water",
+      "Wash and chop vegetables",
+      "Soak tamarind in water",
+      "Extract tamarind juice",
+      "Cook vegetables in tamarind water",
+      "Add salt and sambar powder",
+      "Add cooked dal",
+      "Boil for 5 minutes",
+      "Heat oil and add mustard seeds",
+      "Pour tempering",
+      "Turn off flame"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_dn_003",
+    "name": "Rasam",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "tomato",
+      "tamarind",
+      "rasam powder",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and chop tomato",
+      "Soak tamarind and extract juice",
+      "Add tomato, tamarind water and salt to pot",
+      "Boil on medium flame",
+      "Add rasam powder",
+      "Boil for 5 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_dn_004",
+    "name": "Moru Curry",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "curd",
+      "coconut",
+      "green chilli",
+      "cumin",
+      "salt"
+    ],
+    "steps": [
+      "Beat curd smoothly",
+      "Grind coconut, chilli and cumin",
+      "Add paste to curd",
+      "Add salt",
+      "Heat gently on low flame",
+      "Do not boil",
+      "Turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_dn_005",
+    "name": "Thoran",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "beans",
+      "coconut",
+      "green chilli",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and chop beans finely",
+      "Grind coconut and green chilli",
+      "Heat oil on medium flame",
+      "Add beans and salt",
+      "Cook until soft",
+      "Add coconut mixture",
+      "Mix and turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_dn_006",
+    "name": "Mezhukkupuratti",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "okra",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash okra and dry completely",
+      "Chop okra into pieces",
+      "Heat oil on medium flame",
+      "Add okra and salt",
+      "Stir fry until crisp",
+      "Turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_dn_007",
+    "name": "Avial",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "mixed vegetables",
+      "coconut",
+      "green chilli",
+      "cumin",
+      "curd",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and cut vegetables lengthwise",
+      "Cook vegetables with water and salt",
+      "Grind coconut, chilli and cumin",
+      "Add paste to vegetables",
+      "Cook for 3 minutes",
+      "Add curd",
+      "Mix gently",
+      "Turn off flame"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_dn_008",
+    "name": "Olan",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "ash gourd",
+      "cowpeas",
+      "coconut milk",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and chop ash gourd",
+      "Soak and cook cowpeas",
+      "Cook ash gourd with water and salt",
+      "Add cooked cowpeas",
+      "Add coconut milk",
+      "Heat gently for 3 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_dn_009",
+    "name": "Kalan",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "yam",
+      "raw banana",
+      "curd",
+      "pepper",
+      "cumin",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and chop vegetables",
+      "Cook vegetables with water and salt",
+      "Grind pepper and cumin",
+      "Add spice paste",
+      "Add curd",
+      "Cook until thick",
+      "Turn off flame"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_dn_010",
+    "name": "Erissery",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "pumpkin",
+      "cowpeas",
+      "coconut",
+      "cumin",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and chop pumpkin",
+      "Cook pumpkin and cowpeas with salt",
+      "Grind coconut and cumin",
+      "Add paste to curry",
+      "Boil for 5 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_dn_011",
+    "name": "Kootu Curry",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "yam",
+      "raw banana",
+      "cowpeas",
+      "coconut",
+      "pepper",
+      "salt"
+    ],
+    "steps": [
+      "Wash and chop vegetables",
+      "Cook vegetables and cowpeas with salt",
+      "Grind coconut and pepper",
+      "Add paste",
+      "Cook until dry",
+      "Turn off flame"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_dn_012",
+    "name": "Pulissery",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "curd",
+      "cucumber",
+      "coconut",
+      "green chilli",
+      "cumin",
+      "salt"
+    ],
+    "steps": [
+      "Wash and chop cucumber",
+      "Cook cucumber with water and salt",
+      "Grind coconut, chilli and cumin",
+      "Add paste",
+      "Add curd",
+      "Mix gently",
+      "Turn off flame"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_dn_013",
+    "name": "Parippu Curry",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "moong dal",
+      "coconut",
+      "green chilli",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash moong dal",
+      "Cook dal with water and salt",
+      "Grind coconut and chilli",
+      "Add paste",
+      "Boil for 5 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_dn_014",
+    "name": "Choru and Thoran",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "rice",
+      "vegetable thoran"
+    ],
+    "steps": [
+      "Cook rice",
+      "Prepare vegetable thoran",
+      "Serve together"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_dn_015",
+    "name": "Idiyappam",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "rice flour",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Boil water with salt",
+      "Add rice flour",
+      "Mix to soft dough",
+      "Fill press",
+      "Press onto plates",
+      "Steam for 10 minutes",
+      "Remove idiyappam"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_dn_016",
+    "name": "Appam",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "rice",
+      "coconut",
+      "yeast",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Soak rice for 4 hours",
+      "Grind rice with coconut",
+      "Add yeast and salt",
+      "Ferment batter for 8 hours",
+      "Heat appam pan",
+      "Pour batter and swirl",
+      "Cover and cook",
+      "Remove appam"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_dn_017",
+    "name": "Vegetable Stew",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "mixed vegetables",
+      "coconut milk",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and chop vegetables",
+      "Cook vegetables with water and salt",
+      "Add coconut milk",
+      "Boil gently for 5 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_dn_018",
+    "name": "Pathiri",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "rice flour",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Boil water with salt",
+      "Add rice flour",
+      "Mix to soft dough",
+      "Divide into balls",
+      "Roll thin",
+      "Cook on pan both sides",
+      "Remove pathiri"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "ke_dn_019",
+    "name": "Kappa Puzhukku",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "tapioca",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Peel and wash tapioca",
+      "Cut into pieces",
+      "Boil with salt and water",
+      "Cook until soft",
+      "Drain water",
+      "Mash lightly"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "ke_dn_020",
+    "name": "Chakka Puzhukku",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "raw jackfruit",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Clean and chop jackfruit",
+      "Wash pieces",
+      "Boil with salt and water",
+      "Cook until soft",
+      "Drain water",
+      "Serve"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "ke_dn_021",
+    "name": "Ottada",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "rice flour",
+      "coconut",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Mix rice flour and salt",
+      "Add water to make batter",
+      "Add grated coconut",
+      "Heat pan on low flame",
+      "Pour batter",
+      "Cook both sides",
+      "Remove ottada"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_dn_022",
+    "name": "Semiya Upma",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "vermicelli",
+      "onion",
+      "green chilli",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Dry roast vermicelli",
+      "Chop onion and chilli",
+      "Heat oil",
+      "Add onion and chilli",
+      "Add water and salt",
+      "Bring to boil",
+      "Add vermicelli",
+      "Cook until soft"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_dn_023",
+    "name": "Uppumavu",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "rava",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Boil water with salt",
+      "Add rava slowly",
+      "Stir continuously",
+      "Cook until thick",
+      "Turn off flame"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "ke_dn_024",
+    "name": "Dosa",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "dosa batter",
+      "oil"
+    ],
+    "steps": [
+      "Heat dosa pan on medium flame",
+      "Pour batter and spread",
+      "Drizzle oil",
+      "Cook until crisp",
+      "Remove dosa"
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "ke_dn_025",
+    "name": "Idli",
+    "region": "Kerala",
+    "category": "Dinner",
+    "ingredients": [
+      "idli rice",
+      "urad dal",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash and soak rice and dal",
+      "Grind into batter",
+      "Add salt and ferment",
+      "Pour batter into moulds",
+      "Steam for 10 minutes",
+      "Remove idlis"
+    ],
+    "prepTime": 20
+  }
 ]

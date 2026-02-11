@@ -1,63 +1,2293 @@
-[
+{
+  "recipes": [
     {
-        "id": "ka_bf_001",
-        "name": "Bisi Bele Bath",
-        "region": "Karnataka",
-        "category": "Breakfast",
-        "ingredients": [
-            "Rice",
-            "Toor Dal",
-            "Mixed Vegetables",
-            "Tamarind",
-            "Bisi Bele Bath Powder",
-            "Ghee",
-            "Cashews",
-            "Curry Leaves"
-        ],
-        "steps": [
-            "Wash rice and toor dal together.",
-            "Pressure cook with 5 cups water for 4 whistles.",
-            "Extract tamarind juice and set aside.",
-            "Chop vegetables into small pieces.",
-            "Boil vegetables in tamarind water with turmeric.",
-            "Mash the cooked rice-dal mixture.",
-            "Add mashed mixture to boiling vegetables.",
-            "Add bisi bele bath powder and salt.",
-            "Simmer for 10 minutes until thick.",
-            "Heat ghee, fry cashews and curry leaves.",
-            "Pour tempering over the bisi bele bath.",
-            "Serve hot with boondi or papad."
-        ],
-        "prepTime": 45
+      "id": "ka_bf_001",
+      "name": "Idli",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "idli rice",
+        "urad dal",
+        "fenugreek seeds",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Measure idli rice and urad dal",
+        "Wash idli rice three times in water",
+        "Wash urad dal three times in water",
+        "Soak idli rice in water for 6 hours",
+        "Soak urad dal and fenugreek seeds for 6 hours",
+        "Drain water from urad dal",
+        "Grind urad dal with little water into smooth paste",
+        "Drain water from rice",
+        "Grind rice into slightly coarse paste",
+        "Mix both pastes in a bowl",
+        "Add salt and mix well",
+        "Cover and ferment for 8 hours",
+        "Grease idli plates with oil",
+        "Pour batter into moulds",
+        "Heat water in steamer on high flame",
+        "Place plates inside",
+        "Steam for 10 minutes on medium flame",
+        "Turn off the flame",
+        "Rest for 2 minutes",
+        "Extract idlis using a spoon"
+      ],
+      "prepTime": 20
     },
     {
-        "id": "ka_bf_002",
-        "name": "Akki Roti",
-        "region": "Karnataka",
-        "category": "Breakfast",
-        "ingredients": [
-            "Rice Flour",
-            "Onion",
-            "Green Chillies",
-            "Coriander Leaves",
-            "Cumin Seeds",
-            "Grated Carrot",
-            "Coconut"
-        ],
-        "steps": [
-            "Take rice flour in a bowl.",
-            "Add finely chopped onions, green chillies, coriander.",
-            "Add grated carrot, grated coconut, cumin seeds.",
-            "Add salt and mix dry ingredients.",
-            "Add water little by little to make soft dough.",
-            "Take a portion, flatten on greased banana leaf or plastic.",
-            "Pat into thin circle using wet fingers.",
-            "Make a small hole in center.",
-            "Transfer onto hot griddle.",
-            "Drizzle oil around edges.",
-            "Cook on medium heat until golden on both sides.",
-            "Serve hot with coconut chutney."
-        ],
-        "prepTime": 25
+      "id": "ka_bf_002",
+      "name": "Masala Dosa",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "dosa batter",
+        "potato",
+        "onion",
+        "green chilli",
+        "mustard",
+        "turmeric",
+        "oil",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Boil potatoes in water until tender",
+        "Peel and mash potatoes",
+        "Wash and chop onion and green chilli",
+        "Heat pan on medium flame and add oil",
+        "Add mustard seeds and let splutter",
+        "Add onion and green chilli; sauté until translucent",
+        "Add turmeric and salt",
+        "Add mashed potato and mix well",
+        "Cook filling for 3 minutes then turn off the flame",
+        "Heat dosa pan on medium flame",
+        "Pour dosa batter and spread into a thin disc",
+        "Drizzle oil around edges",
+        "Cook until the base is crisp and golden",
+        "Place potato filling in center",
+        "Fold the dosa and transfer to a plate"
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_bf_003",
+      "name": "Plain Dosa",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "dosa batter",
+        "oil"
+      ],
+      "steps": [
+        "Heat dosa pan on medium flame",
+        "Pour dosa batter in center",
+        "Spread batter in a circular motion",
+        "Drizzle oil around edges",
+        "Cook until bottom turns golden brown",
+        "Flip dosa gently",
+        "Cook for 30 seconds",
+        "Transfer to a serving plate"
+      ],
+      "prepTime": 10
+    },
+    {
+      "id": "ka_bf_004",
+      "name": "Set Dosa",
+      "region": "Karnataka",
+      "category": "(Breakfast/Dinner)",
+      "ingredients": [
+        "set dosa batter",
+        "oil"
+      ],
+      "steps": [
+        "Pour thick, small dosas and cook one side covered to make them spongy.",
+        "Grind coconut, fennel seeds, and green chillies into a smooth paste.",
+        "Boil mixed vegetables; add the coconut-fennel paste and salt; simmer.",
+        "Add a squeeze of fresh lemon juice for tanginess.",
+        "Turn off the flame and serve the spongy dosas with kurma."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_bf_005",
+      "name": "Rava Idli",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "rava",
+        "curd",
+        "carrot",
+        "green chilli",
+        "mustard",
+        "oil",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Dry roast rava on low flame until aromatic",
+        "Allow rava to cool completely",
+        "Wash and grate carrot",
+        "Chop green chilli finely",
+        "Heat pan on medium flame with oil and mustard seeds",
+        "Add carrot and chilli; sauté briefly",
+        "Add roasted rava and salt",
+        "Mix in curd and water to form a thick batter",
+        "Rest batter for 10 minutes",
+        "Grease idli plates",
+        "Pour batter into moulds",
+        "Steam for 10 minutes",
+        "Turn off the flame and rest before serving"
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_bf_006",
+      "name": "Khara Bath",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "rava",
+        "onion",
+        "carrot",
+        "beans",
+        "green chilli",
+        "mustard",
+        "oil",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Dry roast rava on low flame",
+        "Wash and chop vegetables into small cubes",
+        "Heat pan on medium flame with oil and mustard seeds",
+        "Add onion and green chilli; sauté until soft",
+        "Add vegetables and sauté for 2 minutes",
+        "Add water and salt",
+        "Bring water to a rolling boil",
+        "Add rava slowly while stirring to avoid lumps",
+        "Cook on low flame for 5 minutes",
+        "Turn off the flame",
+        "Rest for 2 minutes before serving"
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_bf_007",
+      "name": "Kesari Bath",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "rava",
+        "sugar",
+        "ghee",
+        "cardamom",
+        "water"
+      ],
+      "steps": [
+        "Heat ghee in pan on medium flame",
+        "Add rava and roast lightly until golden",
+        "Add boiling water and stir",
+        "Cook until rava absorbs water and becomes soft",
+        "Add sugar and cardamom powder",
+        "Mix continuously to dissolve sugar",
+        "Cook until the mixture thickens and leaves sides",
+        "Turn off the flame"
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_bf_008",
+      "name": "Poori",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "wheat flour",
+        "salt",
+        "water",
+        "oil"
+      ],
+      "steps": [
+        "Add wheat flour and salt to a mixing bowl",
+        "Add water gradually and knead into a stiff dough",
+        "Rest dough for 10 minutes",
+        "Divide dough into small lemon-sized balls",
+        "Roll balls into flat circles",
+        "Heat oil on high flame for deep frying",
+        "Fry poori until it puffs up and turns golden",
+        "Drain excess oil and serve hot"
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_bf_009",
+      "name": "Upma",
+      "region": "Karnataka",
+      "category": "(Breakfast/Dinner)",
+      "ingredients": [
+        "rava",
+        "onion",
+        "green chilli",
+        "mustard",
+        "oil",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Dry roast rava on low flame",
+        "Chop onion and green chilli",
+        "Heat pan on medium flame with oil and mustard seeds",
+        "Add onion and chilli; sauté well",
+        "Add water and salt; bring to a boil",
+        "Add rava slowly while stirring",
+        "Cook for 5 minutes on low heat",
+        "Turn off the flame"
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_bf_010",
+      "name": "Avalakki Uppittu",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "poha",
+        "onion",
+        "green chilli",
+        "peanuts",
+        "oil",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Wash poha and drain water immediately",
+        "Chop onion and green chilli",
+        "Heat pan on medium flame; add oil and peanuts",
+        "Sauté onion and chilli until soft",
+        "Add poha and salt",
+        "Mix gently to avoid mashing",
+        "Cook for 3 minutes",
+        "Turn off the flame"
+      ],
+      "prepTime": 10
+    },
+    {
+      "id": "ka_bf_011",
+      "name": "Neer Dosa",
+      "region": "Karnataka",
+      "category": "(Breakfast/Dinner)",
+      "ingredients": [
+        "rice",
+        "salt",
+        "water",
+        "oil"
+      ],
+      "steps": [
+        "Wash rice three times",
+        "Soak rice for 4 hours",
+        "Drain water completely",
+        "Grind rice with water into a very thin, watery batter",
+        "Add salt and mix",
+        "Heat pan on medium flame",
+        "Pour batter quickly without spreading",
+        "Cover and cook for 1 minute",
+        "Transfer dosa to a plate carefully"
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_bf_012",
+      "name": "Akki Rotti",
+      "region": "Karnataka",
+      "category": "(Breakfast/Dinner)",
+      "ingredients": [
+        "rice flour",
+        "onion",
+        "carrot",
+        "green chilli",
+        "salt",
+        "water",
+        "oil"
+      ],
+      "steps": [
+        "Wash and chop vegetables finely",
+        "Add rice flour, vegetables, and salt to a bowl",
+        "Add water and mix to a soft dough",
+        "Heat pan on medium flame",
+        "Spread dough thinly onto the pan by hand",
+        "Drizzle oil around edges",
+        "Cook both sides until crisp",
+        "Transfer to a plate"
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_bf_013",
+      "name": "Ragi Rotti",
+      "region": "Karnataka",
+      "category": "(Breakfast/Dinner)",
+      "ingredients": [
+        "ragi flour",
+        "onion",
+        "green chilli",
+        "salt",
+        "water",
+        "oil"
+      ],
+      "steps": [
+        "Chop onion and green chilli finely",
+        "Add ragi flour, vegetables, and salt to a bowl",
+        "Add water and mix to a pliable dough",
+        "Heat pan on medium flame",
+        "Spread dough thinly onto the pan",
+        "Drizzle oil and cook both sides",
+        "Transfer to a plate when cooked through"
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_ln_001",
+      "name": "Bisi Bele Bath",
+      "region": "Karnataka",
+      "category": "(Breakfast/Lunch/Dinner)",
+      "ingredients": [
+        "rice",
+        "toor dal",
+        "carrot",
+        "french beans",
+        "green peas",
+        "tamarind",
+        "ghee",
+        "cashews",
+        "dry coconut",
+        "byadagi chilli",
+        "marathi moggu",
+        "cinnamon"
+      ],
+      "steps": [
+        "Fresh Powder: Dry roast chana dal, urad dal, coriander seeds, cumin, cloves, cinnamon, marathi moggu, and byadagi chillies; grind with dry coconut into a fine powder.",
+        "Pressure cook rice and toor dal with turmeric until very soft.",
+        "Cook chopped carrot, french beans, and green peas in water until tender.",
+        "Extract thick tamarind juice and add the prepared fresh spice powder and salt.",
+        "Boil the tamarind mixture until the raw aroma disappears.",
+        "Mix the cooked rice-dal mash and vegetables into the liquid base.",
+        "Simmer for 5 minutes, adding ghee-fried cashews and mustard seeds.",
+        "Turn off the flame and serve hot with boondi."
+      ],
+      "prepTime": 50
+    },
+    {
+      "id": "ka_ln_002",
+      "name": "Vangi Bath",
+      "region": "Karnataka",
+      "category": "(Breakfast/Lunch/Dinner)",
+      "ingredients": [
+        "rice",
+        "green brinjal",
+        "oil",
+        "peanuts",
+        "coriander seeds",
+        "chana dal",
+        "cinnamon",
+        "cloves",
+        "dry red chilli"
+      ],
+      "steps": [
+        "Fresh Powder: Dry roast chana dal, coriander seeds, 2 cloves, a small cinnamon stick, and 4 red chillies; grind into a coarse powder.",
+        "Cook rice grains so they are separate and spread to cool.",
+        "Sauté peanuts, mustard seeds, and sliced green brinjal in oil.",
+        "Add the prepared spice powder, salt, and a dash of tamarind juice.",
+        "Cook until brinjal is soft and the oil separates from the masala.",
+        "Gently fold the cooled rice into the brinjal masala.",
+        "Turn off the flame and rest for 2 minutes before serving."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ka_bf_016",
+      "name": "Tomato Bath",
+      "region": "Karnataka",
+      "category": "(Breakfast/Dinner)",
+      "ingredients": [
+        "rice",
+        "tomato",
+        "onion",
+        "spice powder",
+        "salt",
+        "oil",
+        "water"
+      ],
+      "steps": [
+        "Wash rice and cook",
+        "Wash and chop tomato and onion",
+        "Heat pan on medium flame; sauté onion until brown",
+        "Add tomato and cook until mushy",
+        "Add spice powder and salt",
+        "Add cooked rice and mix well",
+        "Turn off the flame"
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_bf_017",
+      "name": "Chow Chow Bath",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "rava",
+        "sugar",
+        "ghee",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Prepare savory Khara Bath in one pan",
+        "Prepare sweet Kesari Bath in another pan",
+        "Serve equal portions side by side on a plate"
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_bf_018",
+      "name": "Holige",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "maida",
+        "chana dal",
+        "jaggery",
+        "ghee",
+        "water"
+      ],
+      "steps": [
+        "Soak chana dal for 2 hours",
+        "Cook dal until soft and drain",
+        "Mash dal and mix with jaggery to make filling",
+        "Make a soft dough with maida",
+        "Stuff dal filling into dough balls",
+        "Roll gently into thin discs",
+        "Cook on pan with ghee until golden",
+        "Transfer to a plate"
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_bf_019",
+      "name": "Kharabath",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "rava",
+        "vegetables",
+        "spices",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Dry roast rava on low heat",
+        "Cook chopped vegetables until tender",
+        "Add water, spices, and salt; bring to a boil",
+        "Add roasted rava slowly while stirring",
+        "Cook until thick and fluffy",
+        "Turn off the flame"
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_bf_020",
+      "name": "Uddina Vada",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "urad dal",
+        "onion",
+        "green chilli",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Wash and soak urad dal for 4 hours",
+        "Drain water completely",
+        "Grind dal into a thick, fluffy batter",
+        "Add onion, chilli, and salt; mix well",
+        "Heat oil for deep frying",
+        "Shape batter into donuts and fry until golden",
+        "Drain oil and serve"
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_bf_021",
+      "name": "Maddur Vada",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "rice flour",
+        "onion",
+        "green chilli",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Chop onion and green chilli finely",
+        "Mix rice flour, vegetables, and salt in a bowl",
+        "Add a little water and mix into a stiff dough",
+        "Heat oil on medium flame",
+        "Flatten small portions of dough and deep fry",
+        "Fry until crisp and golden brown",
+        "Drain excess oil"
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_bf_022",
+      "name": "Buns",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "maida",
+        "banana",
+        "sugar",
+        "curd",
+        "oil"
+      ],
+      "steps": [
+        "Mash overripe banana in a bowl",
+        "Add sugar and curd; whisk well",
+        "Add maida and knead into a dough",
+        "Rest dough for 6 hours",
+        "Heat oil for deep frying",
+        "Roll dough and fry until puffed and golden",
+        "Drain excess oil"
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_bf_023",
+      "name": "Kotte Kadubu",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "rice flour",
+        "coconut",
+        "jaggery",
+        "salt",
+        "water"
+      ],
+      "steps": [
+        "Grind fresh coconut and jaggery into a paste",
+        "Add salt and mix",
+        "Prepare a pliable rice flour dough",
+        "Fill coconut mixture inside jackfruit leaf cones",
+        "Steam for 15 minutes",
+        "Turn off the flame and serve"
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_bf_024",
+      "name": "Pathrode",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "colocasia leaves",
+        "rice",
+        "coconut",
+        "spices",
+        "oil"
+      ],
+      "steps": [
+        "Wash colocasia leaves and pat dry",
+        "Soak rice for 4 hours and grind with coconut and spices",
+        "Apply spice paste on leaves and stack them",
+        "Roll leaves tightly and steam for 20 minutes",
+        "Slice the rolls and shallow fry until crisp",
+        "Turn off the flame and serve"
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_bf_025",
+      "name": "Goli Baje",
+      "region": "Karnataka",
+      "category": "Breakfast",
+      "ingredients": [
+        "maida",
+        "curd",
+        "green chilli",
+        "ginger",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Mix maida, curd, chopped chillies, and ginger in a bowl",
+        "Add salt and whisk to a thick, dropping consistency",
+        "Rest the batter for 2 hours",
+        "Heat oil for deep frying",
+        "Drop small balls of batter into hot oil",
+        "Fry until golden and fluffy",
+        "Drain excess oil and turn off the flame"
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_ln_001",
+      "name": "Bisi Bele Bath",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "rice",
+        "toor dal",
+        "carrot",
+        "french beans",
+        "green peas",
+        "tamarind",
+        "ghee",
+        "cashews",
+        "dry coconut",
+        "byadagi chilli",
+        "marathi moggu",
+        "cinnamon"
+      ],
+      "steps": [
+        "Fresh Powder: Dry roast chana dal, urad dal, coriander seeds, cumin, cloves, cinnamon, marathi moggu, and byadagi chillies; grind with dry coconut into a fine powder.",
+        "Pressure cook rice and toor dal with turmeric until very soft.",
+        "Cook chopped carrot, french beans, and green peas in water until tender.",
+        "Extract thick tamarind juice and add the prepared fresh spice powder and salt.",
+        "Boil the tamarind mixture until the raw aroma disappears.",
+        "Mix the cooked rice-dal mash and vegetables into the liquid base.",
+        "Simmer for 5 minutes, adding ghee-fried cashews and mustard seeds.",
+        "Turn off the flame and serve hot with boondi."
+      ],
+      "prepTime": 50
+    },
+    {
+      "id": "ka_ln_002",
+      "name": "Vangi Bath",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "rice",
+        "green brinjal",
+        "oil",
+        "peanuts",
+        "coriander seeds",
+        "chana dal",
+        "cinnamon",
+        "cloves",
+        "dry red chilli"
+      ],
+      "steps": [
+        "Fresh Powder: Dry roast chana dal, coriander seeds, 2 cloves, a small cinnamon stick, and 4 red chillies; grind into a coarse powder.",
+        "Cook rice grains so they are separate and spread to cool.",
+        "Sauté peanuts, mustard seeds, and sliced green brinjal in oil.",
+        "Add the prepared spice powder, salt, and a dash of tamarind juice.",
+        "Cook until brinjal is soft and the oil separates from the masala.",
+        "Gently fold the cooled rice into the brinjal masala.",
+        "Turn off the flame and rest for 2 minutes before serving."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ka_ln_003",
+      "name": "Sambar (Huli)",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "toor dal",
+        "drumstick",
+        "pumpkin",
+        "carrot",
+        "tamarind",
+        "fresh coconut",
+        "jaggery",
+        "coriander seeds",
+        "fenugreek seeds"
+      ],
+      "steps": [
+        "Fresh Paste: Roast coriander seeds, cumin, a few fenugreek seeds, and red chillies; grind with fresh coconut and water into a smooth paste.",
+        "Pressure cook dal until mushy; boil drumstick, pumpkin, and carrot until tender.",
+        "Mix tamarind juice, salt, jaggery, and the fresh ground paste in a pot.",
+        "Add cooked dal and vegetables; boil for 10 minutes until the flavors meld.",
+        "Temper with mustard seeds, curry leaves, and hing in ghee.",
+        "Turn off the flame and serve with hot rice."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ka_ln_004",
+      "name": "Saaru (Rasam)",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "tomato",
+        "tamarind",
+        "black pepper",
+        "cumin",
+        "ghee",
+        "garlic",
+        "coriander seeds"
+      ],
+      "steps": [
+        "Fresh Spice Mix: Coarsely crush black pepper, cumin, and coriander seeds with 3 cloves of garlic using a mortar and pestle.",
+        "Boil mashed tomatoes and tamarind water with turmeric and salt.",
+        "Stir in the fresh crushed spice mix and a small piece of jaggery.",
+        "Simmer until it froths up; do not allow it to reach a hard boil.",
+        "Temper with mustard seeds and curry leaves in ghee.",
+        "Turn off the flame immediately."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_ln_005",
+      "name": "Majjige Huli",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "curd",
+        "ash gourd",
+        "fresh coconut",
+        "green chilli",
+        "cumin",
+        "chana dal"
+      ],
+      "steps": [
+        "Boil ash gourd pieces in water with turmeric and salt until soft.",
+        "Fresh Paste: Grind coconut, green chilli, cumin, and soaked chana dal into a smooth, thick paste.",
+        "Whisk curd and mix with the ground paste.",
+        "Add this mixture to the cooked gourd and heat gently on low flame.",
+        "Turn off the flame before it reaches a boil to prevent curdling.",
+        "Temper with mustard seeds and curry leaves."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_ln_006",
+      "name": "Beans Palya",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "french beans",
+        "fresh coconut",
+        "mustard seeds",
+        "green chilli",
+        "urad dal"
+      ],
+      "steps": [
+        "Temper mustard seeds, urad dal, and green chillies in oil.",
+        "Add finely chopped french beans and salt with a splash of water.",
+        "Cover and steam-cook until the beans are tender.",
+        "Add fresh grated coconut and toss well.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_ln_007",
+      "name": "Ennegayi (Stuffed Brinjal)",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "small purple brinjals",
+        "peanuts",
+        "sesame seeds",
+        "niger seeds",
+        "onion",
+        "garlic",
+        "tamarind"
+      ],
+      "steps": [
+        "Fresh Masala: Dry roast peanuts, sesame, and niger seeds; grind with garlic, onions, and red chilli powder into a thick paste.",
+        "Stuff the slit small purple brinjals with this ground masala.",
+        "Heat oil in a pan and sauté onions until brown.",
+        "Place stuffed brinjals in the pan and slow-cook with a lid until tender.",
+        "Add remaining masala paste and tamarind water; simmer until oil floats on top.",
+        "Turn off the flame."
+      ],
+      "prepTime": 45
+    },
+    {
+      "id": "ka_ln_008",
+      "name": "Hesaru Bele Thove",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "moong dal",
+        "turmeric",
+        "ginger",
+        "green chilli",
+        "lemon juice"
+      ],
+      "steps": [
+        "Pressure cook moong dal with turmeric and grated ginger until very soft.",
+        "Mash the dal lightly; add salt and slit green chillies.",
+        "Temper with mustard seeds and curry leaves in ghee.",
+        "Add fresh lemon juice for a tangy finish.",
+        "Turn off the flame and serve with hot rice."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_ln_009",
+      "name": "Avarekalu Pulao",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "rice",
+        "hyacinth beans",
+        "mint",
+        "coriander",
+        "green chilli",
+        "coconut"
+      ],
+      "steps": [
+        "Grind mint, coriander, and green chillies with coconut into a green paste.",
+        "Sauté whole spices and hyacinth beans (avarekalu) in oil.",
+        "Add the green paste, soaked rice, and water.",
+        "Pressure cook for 2 whistles until fluffy.",
+        "Turn off the flame."
+      ],
+      "prepTime": 35
+    },
+    {
+      "id": "ka_ln_010",
+      "name": "Mente Pulao",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "rice",
+        "fenugreek leaves",
+        "onion",
+        "ginger-garlic paste",
+        "spices"
+      ],
+      "steps": [
+        "Sauté onions and ginger-garlic paste until brown.",
+        "Add fresh chopped methi (fenugreek) leaves and spices.",
+        "Stir in washed rice and double the amount of water.",
+        "Pressure cook for 2 whistles.",
+        "Turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_ln_011",
+      "name": "Gojju Avalakki",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "poha",
+        "tamarind",
+        "jaggery",
+        "rasam powder",
+        "peanuts"
+      ],
+      "steps": [
+        "Soak poha in a mixture of tamarind juice, jaggery, and rasam powder.",
+        "Prepare a tempering with mustard, peanuts, and curry leaves.",
+        "Mix the soaked poha into the tempering.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_ln_012",
+      "name": "Heerekayi Thogave",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "ridge gourd",
+        "toor dal",
+        "coconut",
+        "tamarind",
+        "mustard seeds"
+      ],
+      "steps": [
+        "Pressure cook ridge gourd and toor dal until soft.",
+        "Grind coconut and tamarind into a paste and add to the gourd mixture.",
+        "Simmer for 5 minutes and add a mustard tempering.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_ln_013",
+      "name": "Bendekayi Palya",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "ladys finger",
+        "salt",
+        "oil",
+        "mustard seeds",
+        "tamarind juice"
+      ],
+      "steps": [
+        "Wash ladys finger, dry completely with a cloth, and chop into rounds.",
+        "Heat oil, add mustard seeds, and fry ladys finger on medium heat.",
+        "Add a teaspoon of tamarind juice to remove the sliminess.",
+        "Sauté until crisp and add salt only at the very end.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_ln_014",
+      "name": "Gorikayi Palya",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "cluster beans",
+        "coconut",
+        "jaggery",
+        "mustard",
+        "red chilli"
+      ],
+      "steps": [
+        "Steam chopped cluster beans until tender.",
+        "Toss with grated coconut, a bit of jaggery, and salt.",
+        "Temper with mustard seeds and dry red chillies.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_ln_015",
+      "name": "Basale Soppu Gasi",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "malabar spinach",
+        "mangalore cucumber",
+        "fresh coconut",
+        "red chilli",
+        "tamarind"
+      ],
+      "steps": [
+        "Boil malabar spinach and mangalore cucumber pieces together until soft.",
+        "Fresh Paste: Grind fresh coconut with roasted red chillies and tamarind.",
+        "Mix the paste into the boiled vegetables and cooked toor dal.",
+        "Simmer for 10 minutes and temper with crushed garlic and mustard seeds.",
+        "Turn off the flame."
+      ],
+      "prepTime": 35
+    },
+    {
+      "id": "ka_ln_016",
+      "name": "Avarekalu Saaru",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "hyacinth beans",
+        "coconut",
+        "garlic",
+        "coriander",
+        "red chilli"
+      ],
+      "steps": [
+        "Pressure cook peeled hyacinth beans.",
+        "Grind coconut, garlic, and spices into a thick paste.",
+        "Boil the beans with the paste until thickened.",
+        "Turn off the flame."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ka_ln_017",
+      "name": "Mavinkayi Chitranna",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "rice",
+        "raw mango",
+        "peanuts",
+        "turmeric",
+        "green chilli"
+      ],
+      "steps": [
+        "Grate raw mango and sauté with peanuts, turmeric, and chillies.",
+        "Mix the cooked, cooled rice into the mango tempering.",
+        "Garnish with coriander and turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_ln_018",
+      "name": "Haagalakai Gojju",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "bitter gourd",
+        "tamarind",
+        "jaggery",
+        "rasam powder",
+        "sesame"
+      ],
+      "steps": [
+        "Sauté bitter gourd slices until brown.",
+        "Cook in tamarind juice and jaggery until the juice thickens.",
+        "Add rasam powder and sesame powder.",
+        "Turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_ln_019",
+      "name": "Alugadde Palya",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "potato",
+        "onion",
+        "turmeric",
+        "green chilli",
+        "lemon"
+      ],
+      "steps": [
+        "Boil, peel, and mash potatoes.",
+        "Sauté onions and chillies with turmeric; add potatoes.",
+        "Finish with lemon juice and coriander.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_ln_020",
+      "name": "Sorekayi Kootu",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "bottle gourd",
+        "toor dal",
+        "coconut",
+        "cumin",
+        "peanuts"
+      ],
+      "steps": [
+        "Cook bottle gourd and toor dal together.",
+        "Add a ground paste of coconut and cumin.",
+        "Garnish with roasted peanuts and mustard tempering.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_ln_021",
+      "name": "Chitranna (Lemon Rice)",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "rice",
+        "lemon",
+        "green chilli",
+        "peanuts",
+        "turmeric",
+        "mustard seeds"
+      ],
+      "steps": [
+        "Cook rice grains to be fluffy and let them cool completely.",
+        "Heat oil; sauté peanuts, mustard seeds, and urad dal until golden.",
+        "Add green chillies, curry leaves, and turmeric.",
+        "Turn off the flame and squeeze fresh lemon juice into the hot tempering.",
+        "Mix the tempering and salt into the cooled rice gently.",
+        "Garnish with fresh coriander and grated coconut."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_ln_022",
+      "name": "Puliyogare",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "rice",
+        "tamarind",
+        "peanuts",
+        "dry coconut",
+        "sesame seeds",
+        "coriander seeds",
+        "fenugreek"
+      ],
+      "steps": [
+        "Fresh Powder: Roast coriander seeds, fenugreek, sesame seeds, and 10 red chillies; grind into a fine powder.",
+        "Cook rice and spread on a wide plate to cool.",
+        "Boil tamarind juice with salt, jaggery, and the fresh prepared powder until it thickens into a paste (Gojju).",
+        "Sauté peanuts, dry coconut, and red chillies in oil.",
+        "Combine the Puliyogare Gojju and tempering with the rice.",
+        "Turn off the flame and let it sit for at least an hour for flavors to mature."
+      ],
+      "prepTime": 50
+    },
+    {
+      "id": "ka_ln_023",
+      "name": "Massoppu Saaru",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "mixed greens",
+        "toor dal",
+        "garlic",
+        "green chilli",
+        "cumin",
+        "peppercorns"
+      ],
+      "steps": [
+        "Pressure cook mixed greens (spinach, dill, amaranth) and toor dal with garlic and chillies.",
+        "Fresh Spice Mix: Coarsely crush pepper and cumin seeds.",
+        "Mash the cooked greens and dal thoroughly into a creamy mixture.",
+        "Boil the mash with the fresh spice mix and salt.",
+        "Temper with mustard seeds and lots of crushed garlic in oil.",
+        "Turn off the flame; usually served with Ragi Mudde."
+      ],
+      "prepTime": 35
+    },
+    {
+      "id": "ka_ln_024",
+      "name": "Heerekayi Thogave",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "ridge gourd",
+        "toor dal",
+        "fresh coconut",
+        "green chilli",
+        "tamarind",
+        "mustard seeds"
+      ],
+      "steps": [
+        "Pressure cook ridge gourd pieces and toor dal until soft.",
+        "Fresh Paste: Grind fresh coconut, green chillies, and a small piece of tamarind into a coarse paste.",
+        "Mash the gourd and dal slightly; add the fresh coconut paste and salt.",
+        "Simmer for 5 minutes until the consistency is thick.",
+        "Temper with mustard seeds and curry leaves.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_ln_025",
+      "name": "Badanekayi Gojju",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "brinjal",
+        "tamarind",
+        "jaggery",
+        "rasam powder",
+        "sesame seeds",
+        "peanuts",
+        "mustard seeds"
+      ],
+      "steps": [
+        "Fire-roast or oil-fry brinjal until mushy; peel and mash.",
+        "Fresh Spice Powder: Dry roast sesame seeds and peanuts; grind into a coarse powder.",
+        "Simmer tamarind juice with jaggery, rasam powder, and salt.",
+        "Add mashed brinjal and the fresh sesame-peanut powder.",
+        "Temper with mustard seeds and dry red chillies.",
+        "Turn off the flame once the gravy thickens."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_ln_026",
+      "name": "Curd Rice",
+      "region": "Karnataka",
+      "category": "Lunch",
+      "ingredients": [
+        "rice",
+        "curd",
+        "milk",
+        "ginger",
+        "green chilli",
+        "mustard seeds"
+      ],
+      "steps": [
+        "Overcook rice until very soft and mash it while hot.",
+        "Mix with milk and curd once cooled to prevent souring.",
+        "Temper with mustard, ginger, green chillies, and curry leaves.",
+        "Garnish with pomegranate seeds or grated carrot."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_sn_001",
+      "name": "Maddur Vada",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "rice flour",
+        "maida",
+        "rava",
+        "onion",
+        "green chilli",
+        "curry leaves",
+        "oil"
+      ],
+      "steps": [
+        "Mix rice flour, maida, and rava with chopped onions, chillies, and curry leaves.",
+        "Add hot oil and a little water to knead into a stiff dough.",
+        "Flatten small portions into discs on a greased sheet.",
+        "Deep fry on medium flame until dark golden brown and crispy.",
+        "Drain excess oil and turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_sn_002",
+      "name": "Mangalore Buns",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "maida",
+        "overripe banana",
+        "curd",
+        "sugar",
+        "cumin seeds",
+        "oil"
+      ],
+      "steps": [
+        "Mash bananas with sugar; mix with curd, salt, and cumin.",
+        "Add maida to form a soft dough and rest for 6 hours.",
+        "Roll into thick small circles.",
+        "Deep fry until they puff up like golden balloons.",
+        "Drain oil and turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_sn_003",
+      "name": "Kosambari",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "moong dal",
+        "cucumber",
+        "carrot",
+        "fresh coconut",
+        "lemon",
+        "mustard seeds"
+      ],
+      "steps": [
+        "Soak moong dal for 1 hour and drain completely.",
+        "Mix with finely chopped cucumber, grated carrot, and coconut.",
+        "Heat a little oil, splutter mustard seeds and hing; pour over the mix.",
+        "Add salt, lemon juice, and coriander; mix gently.",
+        "Serve fresh as a healthy snack."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_sn_004",
+      "name": "Obbattu (Holige)",
+      "region": "Karnataka",
+      "category": "Snacks/Sweets",
+      "ingredients": [
+        "chana dal",
+        "jaggery",
+        "maida",
+        "turmeric",
+        "ghee",
+        "cardamom"
+      ],
+      "steps": [
+        "Boil dal until soft; grind with jaggery and cardamom into a thick paste (Puran).",
+        "Knead a very soft, elastic dough with maida, turmeric, and plenty of oil.",
+        "Stuff a ball of dal paste into a small portion of dough.",
+        "Roll thin on a greased sheet and toast on a hot tawa with ghee.",
+        "Turn off the flame once golden spots appear."
+      ],
+      "prepTime": 45
+    },
+    {
+      "id": "ka_sn_005",
+      "name": "Kodubale",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "rice flour",
+        "roasted gram flour",
+        "dry coconut",
+        "chilli powder",
+        "oil"
+      ],
+      "steps": [
+        "Grind dry coconut and red chillies into a coarse powder.",
+        "Mix rice flour, roasted gram flour, and the coconut spice mix.",
+        "Add water to make a stiff dough and shape into small rings.",
+        "Deep fry on medium flame until the oil bubbles subside.",
+        "Drain and turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_sn_006",
+      "name": "Khara Sev",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "besan",
+        "rice flour",
+        "carom seeds",
+        "chilli powder",
+        "oil"
+      ],
+      "steps": [
+        "Mix besan, rice flour, and spices into a soft dough.",
+        "Press through a sev mould directly into hot oil.",
+        "Fry for a minute until crisp (do not brown too much).",
+        "Remove, drain, and turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_sn_007",
+      "name": "Avalakki Mixture",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "thick poha",
+        "peanuts",
+        "roasted gram",
+        "dry coconut",
+        "turmeric",
+        "oil"
+      ],
+      "steps": [
+        "Deep fry poha in small batches until it puffs up.",
+        "Fry peanuts, roasted gram, and coconut slices separately until golden.",
+        "Toss everything together with salt, sugar, and turmeric while warm.",
+        "Add tempering of mustard and curry leaves; turn off the flame."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_sn_008",
+      "name": "Banana Chips",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "raw nendran banana",
+        "turmeric",
+        "salt",
+        "coconut oil"
+      ],
+      "steps": [
+        "Peel bananas and slice very thin directly into a saltwater-turmeric solution.",
+        "Drain and pat dry completely.",
+        "Deep fry in hot coconut oil until crispy.",
+        "Remove, sprinkle extra salt if needed, and turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_sn_009",
+      "name": "Nippattu",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "rice flour",
+        "maida",
+        "peanuts",
+        "roasted gram",
+        "chilli powder",
+        "oil"
+      ],
+      "steps": [
+        "Coarsely crush peanuts and roasted gram.",
+        "Mix with flours, chilli powder, and hot oil; knead into a dough.",
+        "Flatten into thin discs and deep fry on low-medium flame.",
+        "Fry until they turn a deep golden color and become brittle.",
+        "Drain and turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_sn_010",
+      "name": "Vegetable Cutlet",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "potato",
+        "carrot",
+        "beans",
+        "bread crumbs",
+        "ginger-garlic paste",
+        "oil"
+      ],
+      "steps": [
+        "Boil and mash vegetables; mix with ginger-garlic paste and spices.",
+        "Shape into patties and dip in a thin flour slurry.",
+        "Coat with bread crumbs.",
+        "Shallow fry until both sides are dark golden brown.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_sn_011",
+      "name": "Mirchi Bajji",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "long green chillies",
+        "besan",
+        "ajwain",
+        "hing",
+        "oil"
+      ],
+      "steps": [
+        "Slit chillies and remove seeds (optional).",
+        "Make a thick batter of besan, ajwain, salt, and water.",
+        "Dip each chilli to coat completely.",
+        "Deep fry until the outer layer is crisp and golden.",
+        "Drain and turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_sn_012",
+      "name": "Paddu (Paniyaram)",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "dosa batter",
+        "onion",
+        "green chilli",
+        "ginger",
+        "oil"
+      ],
+      "steps": [
+        "Mix chopped onions, chillies, and ginger into the fermented batter.",
+        "Grease a paddu pan and pour batter into the holes.",
+        "Cook covered on medium flame; flip using a stick when the base is crisp.",
+        "Turn off the flame once both sides are golden brown."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_sn_013",
+      "name": "Sweet Appam",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "rice flour",
+        "banana",
+        "jaggery",
+        "cardamom",
+        "ghee/oil"
+      ],
+      "steps": [
+        "Mash bananas and mix with melted jaggery and rice flour.",
+        "Add cardamom powder to the thick batter.",
+        "Heat the paddu pan with ghee or oil.",
+        "Pour batter and fry until the exterior is dark brown and the center is soft.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_sn_014",
+      "name": "Masala Vada (Ambode)",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "chana dal",
+        "dil leaves",
+        "onion",
+        "green chilli",
+        "oil"
+      ],
+      "steps": [
+        "Coarsely grind soaked chana dal without adding water.",
+        "Mix in chopped onions, dil leaves (sabbasige), and chillies.",
+        "Shape into flat patties and deep fry.",
+        "Fry until crunchy and golden brown.",
+        "Drain excess oil and turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_sn_015",
+      "name": "Kaara Pori (Kaara Pori)",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "puffed rice",
+        "garlic",
+        "peanuts",
+        "dry coconut",
+        "turmeric",
+        "oil"
+      ],
+      "steps": [
+        "Heat oil and fry crushed garlic with skin until golden.",
+        "Add peanuts, dry coconut slices, and curry leaves; roast well.",
+        "Add turmeric, salt, and chilli powder; turn off the flame.",
+        "Immediately add puffed rice and toss vigorously until evenly coated and crisp.",
+        "Store in an airtight container."
+      ],
+      "prepTime": 10
+    },
+    {
+      "id": "ka_sn_016",
+      "name": "Butter Murukku",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "rice flour",
+        "roasted gram flour",
+        "butter",
+        "cumin seeds",
+        "oil"
+      ],
+      "steps": [
+        "Mix rice flour, gram flour, cumin, and soft butter.",
+        "Knead into a dough and press through a murukku maker.",
+        "Fry until the murukku turns creamy golden and stops bubbling.",
+        "Drain and turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_sn_017",
+      "name": "Khara Boondi",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "besan",
+        "rice flour",
+        "peanuts",
+        "curry leaves",
+        "oil"
+      ],
+      "steps": [
+        "Pour a thin batter through a perforated ladle into hot oil.",
+        "Fry the tiny drops until crisp; drain.",
+        "Mix with fried peanuts, curry leaves, and chilli powder.",
+        "Toss well and turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_sn_018",
+      "name": "Peanut Sundal",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "peanuts",
+        "mustard seeds",
+        "coconut",
+        "green chilli",
+        "oil"
+      ],
+      "steps": [
+        "Pressure cook soaked peanuts with salt.",
+        "Temper oil with mustard, chillies, and curry leaves.",
+        "Add peanuts and sauté for 2 minutes.",
+        "Garnish with fresh coconut and turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_sn_019",
+      "name": "Rava Ladoo",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "rava",
+        "sugar",
+        "ghee",
+        "cashews",
+        "cardamom"
+      ],
+      "steps": [
+        "Roast rava in ghee until aromatic; grind sugar finely.",
+        "Mix rava, sugar, and cardamom powder.",
+        "Add warm melted ghee and fried cashews.",
+        "Bind into round balls while the mixture is still warm.",
+        "Turn off the flame once roasting is done."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_sn_020",
+      "name": "Sweet Avalakki",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "poha",
+        "jaggery",
+        "fresh coconut",
+        "cardamom",
+        "ghee"
+      ],
+      "steps": [
+        "Rinse poha and drain water; let it soften for 5 minutes.",
+        "Mix with grated coconut, jaggery, and cardamom powder.",
+        "Add a drizzle of ghee and nuts if desired.",
+        "Serve as a quick tea-time snack."
+      ],
+      "prepTime": 10
+    },
+    {
+      "id": "ka_sn_021",
+      "name": "Sajjige (Halwa)",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "rava",
+        "sugar",
+        "ghee",
+        "cashews",
+        "water"
+      ],
+      "steps": [
+        "Roast rava in ghee until golden.",
+        "Add boiling water and cook until rava is soft.",
+        "Stir in sugar and cardamom; mix until it thickens and leaves the sides.",
+        "Garnish with fried nuts and turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_sn_022",
+      "name": "Vegetable Puff",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "puff pastry sheets",
+        "mixed vegetables",
+        "onion",
+        "spices",
+        "oil"
+      ],
+      "steps": [
+        "Sauté veggies with spices to make a dry stuffing.",
+        "Place stuffing inside pastry sheets and fold.",
+        "Bake in a preheated oven until golden and flaky.",
+        "Serve hot."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ka_sn_023",
+      "name": "Roasted Chana",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "dried chickpeas",
+        "salt",
+        "turmeric",
+        "oil"
+      ],
+      "steps": [
+        "Soak and boil chickpeas; pat them dry completely.",
+        "Toss with a little oil, salt, and turmeric.",
+        "Roast in a pan or oven until crunchy.",
+        "Turn off the flame and store."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_sn_024",
+      "name": "Coconut Barfi",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "fresh coconut",
+        "sugar",
+        "ghee",
+        "cardamom"
+      ],
+      "steps": [
+        "Cook coconut and sugar together in a pan.",
+        "Stir continuously until the mixture thickens and reaches a soft ball stage.",
+        "Add ghee and cardamom; pour into a greased tray.",
+        "Turn off the flame, cool slightly, and cut into diamonds."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_sn_025",
+      "name": "Banana Fritters (Podi)",
+      "region": "Karnataka",
+      "category": "Snacks",
+      "ingredients": [
+        "ripe banana",
+        "maida/rice flour",
+        "sugar",
+        "turmeric",
+        "oil"
+      ],
+      "steps": [
+        "Peel and slice bananas lengthwise.",
+        "Prepare a thick batter of flour, sugar, and a pinch of salt.",
+        "Dip slices in batter and deep fry on medium heat.",
+        "Fry until golden brown and drain oil.",
+        "Turn off the flame."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_dn_001",
+      "name": "Ragi Mudde (Millet Ball)",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "ragi flour",
+        "water",
+        "salt",
+        "ghee"
+      ],
+      "steps": [
+        "Bring 2 cups of water and salt to a rolling boil in a heavy pot.",
+        "Mix a little ragi flour with water to make a slurry and add to the pot.",
+        "Add the remaining ragi flour in the center; do not stir for 2 minutes.",
+        "Stir vigorously with a wooden stick (Mudde kolu) to remove lumps.",
+        "Steam on low heat for 5 minutes until the ragi flour is cooked.",
+        "Turn off the flame and roll into smooth balls with ghee-greased hands."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_dn_002",
+      "name": "Avarekalu Saaru",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "hyacinth beans",
+        "fresh coconut",
+        "garlic",
+        "coriander seeds",
+        "cinnamon",
+        "cloves",
+        "red chillies",
+        "mustard",
+        "curry leaves"
+      ],
+      "steps": [
+        "Roast coriander seeds, cinnamon, cloves, and red chillies; grind with coconut and garlic into a paste.",
+        "Pressure cook the hyacinth beans until tender.",
+        "Boil cooked beans with the ground masala paste and salt.",
+        "Simmer for 10 minutes until the raw smell of the masala disappears.",
+        "Temper with mustard seeds and curry leaves in oil.",
+        "Turn off the flame."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ka_dn_003",
+      "name": "Akki Rotti",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "rice flour",
+        "onion",
+        "carrot",
+        "dill leaves",
+        "green chilli",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Mix rice flour with finely chopped onion, grated carrot, dill leaves, green chillies, and salt.",
+        "Add warm water gradually to make a soft, pliable dough.",
+        "Pat a portion of dough thinly onto a cold, greased tawa by hand.",
+        "Cook on medium flame with oil until the edges turn golden and crisp.",
+        "Flip once to roast the other side for a minute; turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_dn_004",
+      "name": "Vegetable Saagu",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "mixed vegetables",
+        "coconut",
+        "poppy seeds",
+        "fried gram",
+        "cinnamon",
+        "cloves",
+        "green chilli",
+        "mustard",
+        "curry leaves"
+      ],
+      "steps": [
+        "Grind coconut, poppy seeds, fried gram, cloves, cinnamon, and green chillies into a smooth paste.",
+        "Boil mixed vegetables (carrot, beans, peas) with salt until tender.",
+        "Add the ground paste to the boiled vegetables and simmer for 5 minutes.",
+        "Heat oil and temper with mustard seeds and curry leaves.",
+        "Pour the tempering into the saagu and turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_dn_005",
+      "name": "Donne Biryani (Veg)",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "jeeraka samba rice",
+        "mint",
+        "coriander",
+        "ginger",
+        "garlic",
+        "green chilli",
+        "marathi moggu",
+        "mixed vegetables",
+        "oil"
+      ],
+      "steps": [
+        "Grind mint, coriander, ginger, garlic, and green chillies into a green paste.",
+        "Heat oil and sauté marathi moggu, cloves, and cardamom.",
+        "Add mixed vegetables, the green paste, and soaked jeeraka samba rice; sauté for 2 minutes.",
+        "Add water (1:2 rice-to-water ratio) and salt; pressure cook for 2 whistles.",
+        "Turn off the flame and fluff the rice gently once the pressure is released."
+      ],
+      "prepTime": 35
+    },
+    {
+      "id": "ka_dn_006",
+      "name": "Methi Pulao",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "rice",
+        "methi leaves",
+        "coconut",
+        "green chilli",
+        "cumin",
+        "cinnamon",
+        "cloves",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Grind coconut with green chillies and cumin seeds into a paste.",
+        "Heat oil and sauté cinnamon, cloves, and a large bunch of methi (fenugreek) leaves.",
+        "Add the ground coconut paste, soaked rice, and salt.",
+        "Pour in water (1:2 ratio) and pressure cook for 2 whistles.",
+        "Turn off the flame and let it rest before fluffing."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_dn_007",
+      "name": "Jolada Rotti",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "jowar flour",
+        "hot water",
+        "salt"
+      ],
+      "steps": [
+        "Mix jowar flour with boiling water and salt using a spoon.",
+        "Knead into a very soft, smooth dough while the mixture is still warm.",
+        "Dust a surface with flour and pat a ball of dough into a thin circle.",
+        "Roast on a hot tawa, dabbing water on the top surface with a cloth.",
+        "Flip and cook until both sides have brown spots; turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_dn_008",
+      "name": "Badanekayi Ennegayi",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "small brinjals",
+        "peanuts",
+        "sesame seeds",
+        "garlic",
+        "tamarind",
+        "onion",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Dry roast peanuts and sesame seeds; grind with garlic, tamarind, and salt into a thick paste.",
+        "Stuff slit small brinjals with this peanut-sesame masala paste.",
+        "Sauté onions in oil; place stuffed brinjals in the pan and cook covered on low flame.",
+        "Add any remaining paste and a little water; simmer until the oil separates.",
+        "Turn off the flame and serve with Jolada Rotti."
+      ],
+      "prepTime": 45
+    },
+    {
+      "id": "ka_dn_009",
+      "name": "Hesaru Bele Khichdi",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "rice",
+        "moong dal",
+        "black pepper",
+        "cumin",
+        "ginger",
+        "ghee",
+        "turmeric",
+        "salt"
+      ],
+      "steps": [
+        "Pressure cook rice and moong dal with turmeric and salt until very mushy.",
+        "Coarsely crush black pepper and cumin seeds.",
+        "Heat ghee and temper with crushed spices, ginger, and curry leaves.",
+        "Mix the tempering into the cooked rice-dal mash.",
+        "Turn off the flame and serve hot with coconut chutney."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_dn_010",
+      "name": "Paddu (Gundponglu)",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "dosa batter",
+        "onion",
+        "green chilli",
+        "ginger",
+        "coriander",
+        "oil"
+      ],
+      "steps": [
+        "Mix finely chopped onion, green chilli, ginger, and coriander into fermented dosa batter.",
+        "Heat a paddu pan and grease each cavity with oil.",
+        "Pour the batter into cavities and cook covered until the base is crisp.",
+        "Flip using a skewer and cook the other side until golden brown.",
+        "Turn off the flame and extract the paddus."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_dn_011",
+      "name": "Akki Thari Uppittu",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "rice rava",
+        "toor dal",
+        "mustard seeds",
+        "urad dal",
+        "peanuts",
+        "green chilli",
+        "coconut",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Heat oil and temper with mustard, urad dal, peanuts, and green chillies.",
+        "Add 2.5 cups of water and salt; bring to a rolling boil.",
+        "Add 1 cup rice rava and a little cooked toor dal slowly while stirring.",
+        "Cook covered on low flame until the water is absorbed and grains are fluffy.",
+        "Stir in fresh grated coconut and turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_dn_012",
+      "name": "Bassaru (Greens Broth)",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "dill leaves",
+        "toor dal",
+        "coconut",
+        "garlic",
+        "red chillies",
+        "mustard",
+        "curry leaves",
+        "salt"
+      ],
+      "steps": [
+        "Boil dill leaves and toor dal in excess water; strain and save the broth water.",
+        "Grind coconut, garlic, red chillies, and 2 tbsp of the cooked dal into a paste.",
+        "Mix the paste into the saved broth water with salt and boil for 5 minutes.",
+        "Temper with mustard seeds and curry leaves.",
+        "Turn off the flame and serve the liquid broth with Ragi Mudde."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ka_dn_013",
+      "name": "Massoppu Saaru",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "mixed greens",
+        "toor dal",
+        "garlic",
+        "green chilli",
+        "tamarind",
+        "mustard",
+        "salt"
+      ],
+      "steps": [
+        "Pressure cook mixed greens (spinach, amaranth) and dal with garlic and green chillies.",
+        "Strain the water and mash the greens-dal mixture into a smooth paste.",
+        "Combine the mash with strained water, salt, and tamarind; bring to a boil.",
+        "Temper with mustard seeds and lots of crushed garlic in oil.",
+        "Turn off the flame."
+      ],
+      "prepTime": 35
+    },
+    {
+      "id": "ka_dn_014",
+      "name": "Tomato Bath",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "rice",
+        "tomatoes",
+        "onion",
+        "cinnamon",
+        "ginger-garlic paste",
+        "turmeric",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Heat oil and sauté cinnamon, cloves, onions, and ginger-garlic paste.",
+        "Add chopped tomatoes and turmeric; cook until they become mushy.",
+        "Add washed rice and salt; sauté for a minute to coat the grains.",
+        "Add water (1:2 ratio) and pressure cook for 2 whistles.",
+        "Turn off the flame and fluff gently after the pressure is released."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_dn_015",
+      "name": "Sorekayi Kootu",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "bottle gourd",
+        "toor dal",
+        "coconut",
+        "cumin",
+        "green chilli",
+        "peanuts",
+        "mustard",
+        "salt"
+      ],
+      "steps": [
+        "Pressure cook diced bottle gourd and toor dal together until soft.",
+        "Grind coconut with cumin seeds and green chillies into a thick paste.",
+        "Mix the ground paste and salt into the gourd mixture and boil for 3 minutes.",
+        "Add roasted peanuts and temper with mustard seeds and curry leaves.",
+        "Turn off the flame."
+      ],
+      "prepTime": 25
+    },
+    {
+      "id": "ka_dn_016",
+      "name": "Wheat Rava Upma",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "samba wheat rava",
+        "carrot",
+        "french beans",
+        "ginger",
+        "mustard",
+        "urad dal",
+        "oil",
+        "salt"
+      ],
+      "steps": [
+        "Heat oil and temper mustard, urad dal, green chillies, and ginger.",
+        "Add chopped carrot and beans; sauté briefly, then add 2.5 cups water and salt.",
+        "Add wheat rava to the boiling water while stirring constantly.",
+        "Pressure cook for 2 whistles for a perfectly soft texture.",
+        "Turn off the flame and serve warm."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_dn_017",
+      "name": "Neer Dosa",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "rice",
+        "fresh coconut",
+        "salt",
+        "water",
+        "oil"
+      ],
+      "steps": [
+        "Soak rice for 4 hours; grind with fresh coconut into a very thin, watery batter.",
+        "Add salt and extra water to reach a milk-like consistency.",
+        "Splash a ladle of batter onto a very hot, greased tawa and cover immediately.",
+        "Steam-cook for 1 minute (do not flip the dosa).",
+        "Fold into triangles, transfer to a plate, and turn off the flame."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_dn_018",
+      "name": "Menthe Dosa (Fenugreek Dosa)",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "rice",
+        "methi seeds",
+        "poha",
+        "curd",
+        "salt"
+      ],
+      "steps": [
+        "Grind soaked rice, methi seeds, and poha; ferment the batter for 8 hours.",
+        "Add curd and salt to the batter just before cooking.",
+        "Pour a thick ladle of batter onto the pan; do not spread it thin.",
+        "Cover and cook without oil until the top is full of tiny pores.",
+        "Turn off the flame and serve with coconut chutney."
+      ],
+      "prepTime": 10
+    },
+    {
+      "id": "ka_dn_019",
+      "name": "Chapati & Paneer Saagu",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "wheat flour",
+        "paneer",
+        "coconut",
+        "poppy seeds",
+        "cashews",
+        "salt",
+        "coriander"
+      ],
+      "steps": [
+        "Knead wheat flour with water and salt into a dough; roll and roast chapatis.",
+        "Grind coconut, poppy seeds, and cashews into a rich white paste.",
+        "Sauté whole spices, add the white paste, water, and simmer with paneer cubes.",
+        "Garnish with fresh coriander and salt.",
+        "Turn off the flame."
+      ],
+      "prepTime": 30
+    },
+    {
+      "id": "ka_dn_021",
+      "name": "Shavige Bath",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "rice vermicelli",
+        "carrot",
+        "beans",
+        "peanuts",
+        "mustard",
+        "turmeric",
+        "lemon",
+        "salt"
+      ],
+      "steps": [
+        "Steam or boil rice vermicelli until soft, drain completely, and set aside.",
+        "Heat oil; temper mustard, peanuts, urad dal, carrot, and beans.",
+        "Add salt and turmeric; mix in the steamed vermicelli gently.",
+        "Add fresh coriander and lemon juice; toss well.",
+        "Turn off the flame."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_dn_022",
+      "name": "Balekayi Podi (Banana Fry)",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "raw banana",
+        "rice flour",
+        "chilli powder",
+        "asafoetida",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "Slice raw bananas into thin rounds and pat dry.",
+        "Coat the slices with a dry mixture of rice flour, chilli powder, salt, and hing.",
+        "Heat a tawa and shallow fry the slices with a little oil.",
+        "Cook until the exterior is crispy golden and the interior is soft.",
+        "Turn off the flame."
+      ],
+      "prepTime": 15
+    },
+    {
+      "id": "ka_dn_023",
+      "name": "Hesaru Bele Thove",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "moong dal",
+        "turmeric",
+        "ginger",
+        "green chilli",
+        "ghee",
+        "mustard",
+        "lemon",
+        "salt"
+      ],
+      "steps": [
+        "Cook moong dal with turmeric until it is very soft and creamy.",
+        "Heat ghee and temper with mustard seeds, grated ginger, and green chillies.",
+        "Stir the tempering and salt into the dal.",
+        "Add a squeeze of lemon juice and mix well.",
+        "Turn off the flame and serve with hot rice."
+      ],
+      "prepTime": 20
+    },
+    {
+      "id": "ka_dn_024",
+      "name": "Huruli Kattu (Horse Gram Saaru)",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "horse gram",
+        "black pepper",
+        "garlic",
+        "tamarind",
+        "mustard",
+        "curry leaves",
+        "salt"
+      ],
+      "steps": [
+        "Boil horse gram and strain the water into a separate pot to use as broth.",
+        "Grind 2 tbsp cooked gram with pepper and garlic into a paste.",
+        "Add the paste, tamarind juice, and salt to the strained broth; boil well.",
+        "Temper with mustard seeds and curry leaves in oil.",
+        "Turn off the flame."
+      ],
+      "prepTime": 40
+    },
+    {
+      "id": "ka_dn_025",
+      "name": "Mavinkayi Chitranna",
+      "region": "Karnataka",
+      "category": "Dinner",
+      "ingredients": [
+        "rice",
+        "raw mango",
+        "peanuts",
+        "turmeric",
+        "mustard",
+        "green chilli",
+        "curry leaves",
+        "salt"
+      ],
+      "steps": [
+        "Cook rice grains to be separate and fluff them to cool completely.",
+        "Grate raw mango; sauté in oil with peanuts, mustard, turmeric, and chillies.",
+        "Add curry leaves and sauté until the mango bits are soft.",
+        "Mix this mango tempering and salt into the cooled rice gently.",
+        "Turn off the flame and garnish with fresh coconut."
+      ],
+      "prepTime": 20
     }
-]
+  ]
+}

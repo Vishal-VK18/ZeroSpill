@@ -21,13 +21,19 @@ class RecipeModel {
 
   factory RecipeModel.fromJson(Map<String, dynamic> json) {
     return RecipeModel(
-      id: json['id'] as String,
-      name: json['name'] as String,
-      region: json['region'] as String,
-      category: json['category'] as String,
-      ingredients: List<String>.from(json['ingredients'] as List),
-      steps: List<String>.from(json['steps'] as List),
-      prepTime: json['prepTime'] as int,
+      id: json['id']?.toString() ?? '',
+      name: json['name']?.toString() ?? 'Unknown Recipe',
+      region: json['region']?.toString() ?? '',
+      category: json['category']?.toString() ?? '',
+      ingredients: json['ingredients'] != null 
+          ? List<String>.from((json['ingredients'] as List).map((e) => e?.toString() ?? ''))
+          : [],
+      steps: json['steps'] != null
+          ? List<String>.from((json['steps'] as List).map((e) => e?.toString() ?? ''))
+          : [],
+      prepTime: json['prepTime'] is int 
+          ? json['prepTime'] as int 
+          : int.tryParse(json['prepTime']?.toString() ?? '0') ?? 0,
     );
   }
 

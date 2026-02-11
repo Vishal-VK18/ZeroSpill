@@ -8,10 +8,12 @@ class AppSettingsService extends ChangeNotifier {
   bool _onboardingCompleted = false;
   String _selectedRegion = 'Tamil Nadu';
   int _expiryAlertDays = 7;
+  ThemeMode _themeMode = ThemeMode.system;
 
   bool get onboardingCompleted => _onboardingCompleted;
   String get selectedRegion => _selectedRegion;
   int get expiryAlertDays => _expiryAlertDays;
+  ThemeMode get themeMode => _themeMode;
 
   void completeOnboarding() {
     _onboardingCompleted = true;
@@ -28,6 +30,13 @@ class AppSettingsService extends ChangeNotifier {
   void setExpiryAlertDays(int days) {
     if (_expiryAlertDays != days) {
       _expiryAlertDays = days;
+      notifyListeners();
+    }
+  }
+
+  void setThemeMode(ThemeMode mode) {
+    if (_themeMode != mode) {
+      _themeMode = mode;
       notifyListeners();
     }
   }
