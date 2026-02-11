@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'core/navigation/main_navigation_screen.dart';
 import 'core/theme/app_colors.dart';
 import 'features/onboarding/onboarding_screen.dart';
+import 'features/auth/login_screen.dart';
 import 'shared/services/app_settings_service.dart';
+import 'shared/services/auth_service.dart';
 
 class ZerospillApp extends StatelessWidget {
   const ZerospillApp({super.key});
@@ -148,10 +151,46 @@ class ZerospillApp extends StatelessWidget {
             ),
             fontFamily: 'Roboto',
           ),
-          themeMode: settings.themeMode,
-          home: settings.onboardingCompleted ? const MainNavigationScreen() : const OnboardingScreen(),
-        );
-      },
+        ),
+        chipTheme: ChipThemeData(
+          backgroundColor: AppColors.surface,
+          selectedColor: AppColors.primary,
+          labelStyle: TextStyle(color: AppColors.textPrimary),
+          secondaryLabelStyle: const TextStyle(color: Colors.white),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        ),
+        bottomNavigationBarTheme: BottomNavigationBarThemeData(
+          backgroundColor: AppColors.surface,
+          selectedItemColor: AppColors.primary,
+          unselectedItemColor: AppColors.textTertiary,
+          elevation: 0,
+        ),
+        fontFamily: 'Roboto',
+      ),
+      home: StreamBuilder<User?>(
+        stream: AuthService().authStateChanges,
+        builder: (context, snapshot) {
+          // Loading state
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Scaffold(
+              body: Center(
+                child: CircularProgressIndicator(),
+              ),
+            );
+          }
+
+          // User is not authenticated
+          if (!snapshot.hasData || snapshot.data == null) {
+            return const LoginScreen();
+          }
+
+          // User is authenticated - check onboarding
+          return settings.onboardingCompleted 
+              ? const MainNavigationScreen() 
+              : const OnboardingScreen();
+        },
+      ),
     );
   }
 }
+

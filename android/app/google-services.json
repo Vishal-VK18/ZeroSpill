@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "97199943377",
+    "firebase_url": "https://zerospill-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "zerospill",
+    "storage_bucket": "zerospill.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97199943377:android:8c614829143ca90ce05ff0",
+        "android_client_info": {
+          "package_name": "com.zerospill.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUWmIS_Gz1udugGmJ8CsAHD8ybMbHu-qY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

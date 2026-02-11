@@ -1,15 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
 import 'package:camera/camera.dart';
+import 'dart:io';
+import 'dart:typed_data';
+import '../../ml/expiry_detector_service.dart';
+import '../../ml/expiry_region_cropper.dart';
+import '../../ml/expiry_text_parser.dart';
+import 'expiry_calculator.dart';
 
 class PackageScanScreen extends StatefulWidget {
   final String barcode;
   final String barcodeFormat;
+  final String? productName;
 
   const PackageScanScreen({
     super.key,
     required this.barcode,
     required this.barcodeFormat,
+    this.productName,
   });
 
   @override
@@ -18,14 +26,54 @@ class PackageScanScreen extends StatefulWidget {
 
 class _PackageScanScreenState extends State<PackageScanScreen> {
   CameraController? _cameraController;
-  final _textRecognizer = TextRecognizer();
+  final _detectorService = ExpiryDetectorService();
+  final _expiryCalculator = ExpiryCalculator();
+  
   bool _isProcessing = false;
   bool _cameraReady = false;
+  bool _modelReady = false;
+  
+  DateTime? _detectedExpiryDate;
+  String? _detectionMethod;
+  double _detectionConfidence = 0.0;
 
   @override
   void initState() {
     super.initState();
-    _initCamera();
+    _initServices();
+  }
+
+  Future<void> _initServices() async {
+    try {
+      // Initialize camera
+      await _initCamera();
+      
+      // Load ML model in background
+      _initMLModelInBackground();
+    } catch (e) {
+      if (mounted) {
+        _showError('Initialization error: ${e.toString()}');
+      }
+    }
+  }
+
+  Future<void> _initMLModelInBackground() async {
+    try {
+      if (!_detectorService.isInitialized) {
+        print('🔄 Loading ML model...');
+        await _detectorService.initialize();
+        print('✅ ML model ready');
+      }
+      
+      if (mounted) {
+        setState(() => _modelReady = true);
+      }
+    } catch (e) {
+      print('⚠️ ML model failed to load: $e');
+      if (mounted) {
+        setState(() => _modelReady = false);
+      }
+    }
   }
 
   Future<void> _initCamera() async {
@@ -42,6 +90,7 @@ class _PackageScanScreenState extends State<PackageScanScreen> {
         cameras.first,
         ResolutionPreset.high,
         enableAudio: false,
+        imageFormatGroup: ImageFormatGroup.jpeg,
       );
 
       await _cameraController!.initialize();
@@ -56,55 +105,232 @@ class _PackageScanScreenState extends State<PackageScanScreen> {
     }
   }
 
-  @override
-  void dispose() {
-    _cameraController?.dispose();
-    _textRecognizer.close();
-    super.dispose();
-  }
+  /// MANUAL CAPTURE - triggered by button press
+  Future<void> _captureAndDetect() async {
+    if (!_cameraReady || _cameraController == null) {
+      _showError('Camera not ready');
+      return;
+    }
 
-  Future<void> _captureAndProcess() async {
-    if (_isProcessing || _cameraController == null || !_cameraController!.value.isInitialized) {
+    if (!_modelReady) {
+      _showError('ML model not loaded yet. Please wait...');
       return;
     }
 
     setState(() => _isProcessing = true);
 
     try {
+      // 1. Take picture
       final image = await _cameraController!.takePicture();
-      final inputImage = InputImage.fromFilePath(image.path);
-      final recognizedText = await _textRecognizer.processImage(inputImage);
+      final imageBytes = await File(image.path).readAsBytes();
 
-      if (mounted) {
-        Navigator.pop(context, {
-          'barcode': widget.barcode,
-          'barcodeFormat': widget.barcodeFormat,
-          'ocrText': recognizedText.text,
-        });
+      print('📸 Image captured, running detection...');
+
+      // 2. Run YOLO detection ONCE
+      final detections = await _detectorService.detect(imageBytes);
+
+      print('🔍 Found ${detections.length} regions');
+
+      // 3. Process results
+      if (detections.isNotEmpty) {
+        await _processDetections(imageBytes, detections);
+      } else {
+        _showError('No expiry date detected. Try moving camera closer to the expiry label.');
       }
     } catch (e) {
+      print('❌ Detection error: $e');
+      _showError('Detection failed: ${e.toString()}');
+    } finally {
       if (mounted) {
         setState(() => _isProcessing = false);
-        _showError('Failed to capture: ${e.toString()}');
       }
     }
   }
 
-  void _skipPackageScan() {
+  Future<void> _processDetections(Uint8List imageBytes, List<Detection> detections) async {
+    try {
+      // Crop detected regions
+      final regions = detections
+          .map((d) => DetectionRegion(
+                boundingBox: d.boundingBox,
+                className: d.className,
+                confidence: d.confidence,
+              ))
+          .toList();
+
+      final croppedRegions = ExpiryRegionCropper.cropMultipleRegions(
+        imageBytes,
+        regions,
+        padding: 15,
+      );
+
+      // Run OCR on each cropped region
+      ExpiryData? bestResult;
+      double bestConfidence = 0.0;
+
+      for (final region in croppedRegions) {
+        final expiryData = await ExpiryTextParser.parseExpiryText(
+          region.imageBytes,
+          region.className,
+        );
+
+        if (expiryData.hasValidExpiry && expiryData.confidence > bestConfidence) {
+          bestResult = expiryData;
+          bestConfidence = expiryData.confidence;
+        }
+      }
+
+      if (bestResult != null && bestResult.hasValidExpiry) {
+        setState(() {
+          _detectedExpiryDate = bestResult!.expiryDate;
+          _detectionMethod = 'ML Detection';
+          _detectionConfidence = bestResult.confidence;
+        });
+        _showSuccessDialog(bestResult);
+      } else {
+        // Fallback: try vegetable expiry calculation
+        if (widget.productName != null) {
+          final calculatedExpiry = _expiryCalculator.calculateWithDetails(
+            widget.productName!,
+          );
+          if (calculatedExpiry.isCalculated) {
+            setState(() {
+              _detectedExpiryDate = calculatedExpiry.expiryDate;
+              _detectionMethod = 'Auto-calculated (${calculatedExpiry.shelfLifeDays} days)';
+              _detectionConfidence = 0.8;
+            });
+            _returnResult();
+            return;
+          }
+        }
+        
+        // No expiry found
+        _showError('No expiry date found in detected regions. Try again.');
+      }
+    } catch (e) {
+      print('Processing error: $e');
+      _showError('Failed to process expiry. Please try again.');
+    }
+  }
+
+  void _showSuccessDialog(ExpiryData expiryData) {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => AlertDialog(
+        title: Row(
+          children: [
+            Icon(Icons.check_circle, color: Colors.green[600], size: 28),
+            const SizedBox(width: 12),
+            const Text('Expiry Detected'),
+          ],
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              _formatDate(expiryData.expiryDate!),
+              style: const TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            const SizedBox(height: 8),
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+              decoration: BoxDecoration(
+                color: _getConfidenceColor(expiryData.confidence).withValues(alpha: 0.1),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Text(
+                'Confidence: ${(expiryData.confidence * 100).toStringAsFixed(0)}%',
+                style: TextStyle(
+                  color: _getConfidenceColor(expiryData.confidence),
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
+            if (expiryData.rawText.isNotEmpty) ...[
+              const SizedBox(height: 12),
+              Text(
+                'Detected: "${expiryData.rawText}"',
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey[600],
+                  fontStyle: FontStyle.italic,
+                ),
+              ),
+            ],
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () {
+              Navigator.pop(context);
+              // Allow another capture
+            },
+            child: const Text('Retry'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+              _returnResult();
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.green[600],
+            ),
+            child: const Text('Use This Date', style: TextStyle(color: Colors.white)),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _returnResult() {
     Navigator.pop(context, {
       'barcode': widget.barcode,
       'barcodeFormat': widget.barcodeFormat,
-      'ocrText': null,
+      'expiryDate': _detectedExpiryDate,
+      'detectionMethod': _detectionMethod,
+      'confidence': _detectionConfidence,
     });
   }
 
+  void _skipToManual() {
+    Navigator.pop(context, {
+      'barcode': widget.barcode,
+      'barcodeFormat': widget.barcodeFormat,
+      'expiryDate': null,
+      'skipToManual': true,
+    });
+  }
+
+  String _formatDate(DateTime date) {
+    return '${date.day.toString().padLeft(2, '0')}/${date.month.toString().padLeft(2, '0')}/${date.year}';
+  }
+
+  Color _getConfidenceColor(double confidence) {
+    if (confidence > 0.7) return Colors.green;
+    if (confidence > 0.5) return Colors.orange;
+    return Colors.red;
+  }
+
   void _showError(String message) {
+    if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(message),
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.red[700],
+        duration: const Duration(seconds: 3),
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    _cameraController?.dispose();
+    super.dispose();
   }
 
   @override
@@ -117,146 +343,157 @@ class _PackageScanScreenState extends State<PackageScanScreen> {
           icon: const Icon(Icons.arrow_back, color: Colors.white),
           onPressed: () => Navigator.pop(context),
         ),
-        title: const Text('Scan Package', style: TextStyle(color: Colors.white)),
+        title: const Text('Scan Expiry Date', style: TextStyle(color: Colors.white)),
         centerTitle: true,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.edit, color: Colors.white),
+            onPressed: _skipToManual,
+            tooltip: 'Enter manually',
+          ),
+        ],
       ),
       body: Stack(
         children: [
+          // Camera preview
           if (_cameraReady && _cameraController != null)
-            Center(
+            SizedBox.expand(
               child: CameraPreview(_cameraController!),
+            )
+          else
+            const Center(
+              child: CircularProgressIndicator(color: Colors.white),
             ),
-          if (!_cameraReady)
-            Container(
-              color: Colors.black,
-              child: const Center(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    CircularProgressIndicator(color: Color(0xFF00FF7F)),
-                    SizedBox(height: 16),
-                    Text(
-                      'Initializing camera...',
-                      style: TextStyle(color: Colors.white, fontSize: 16),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          Center(
+
+          // Instructions overlay
+          Positioned(
+            top: 20,
+            left: 20,
+            right: 20,
             child: Container(
-              width: 300,
-              height: 200,
+              padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                border: Border.all(
-                  color: _cameraReady ? const Color(0xFF00FF7F) : Colors.grey,
-                  width: 3,
-                ),
+                color: Colors.black.withValues(alpha: 0.7),
                 borderRadius: BorderRadius.circular(12),
+              ),
+              child: Column(
+                children: [
+                  Text(
+                    _modelReady 
+                        ? 'Point camera at expiry date and tap CAPTURE'
+                        : 'Loading ML model...',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.w500,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  if (!_modelReady)
+                    const SizedBox(height: 8),
+                  if (!_modelReady)
+                    const LinearProgressIndicator(
+                      color: Colors.white,
+                      backgroundColor: Colors.white24,
+                    ),
+                ],
               ),
             ),
           ),
-          if (_cameraReady && !_isProcessing)
-            Positioned(
-              top: 100,
-              left: 0,
-              right: 0,
-              child: Center(
-                child: Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-                  margin: const EdgeInsets.symmetric(horizontal: 20),
-                  decoration: BoxDecoration(
-                    color: Colors.black.withValues(alpha: 0.8),
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                  child: const Column(
-                    children: [
-                      Text(
-                        'Point camera at package text',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                        textAlign: TextAlign.center,
-                      ),
-                      SizedBox(height: 8),
-                      Text(
-                        'Focus on EXP/MFG date and product name',
-                        style: TextStyle(
-                          color: Colors.white70,
-                          fontSize: 13,
-                        ),
-                        textAlign: TextAlign.center,
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-          if (_isProcessing)
-            Container(
-              color: Colors.black.withValues(alpha: 0.7),
-              child: const Center(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    CircularProgressIndicator(color: Color(0xFF00FF7F)),
-                    SizedBox(height: 16),
-                    Text(
-                      'Processing text...',
-                      style: TextStyle(color: Colors.white, fontSize: 16),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          if (_cameraReady && !_isProcessing)
-            Positioned(
-              bottom: 40,
-              left: 0,
-              right: 0,
+
+          // CAPTURE BUTTON (centered at bottom)
+          Positioned(
+            bottom: 40,
+            left: 0,
+            right: 0,
+            child: Center(
               child: Column(
                 children: [
-                  ElevatedButton(
-                    onPressed: _captureAndProcess,
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color(0xFF00FF7F),
-                      padding: const EdgeInsets.symmetric(horizontal: 48, vertical: 16),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30),
+                  // Processing indicator
+                  if (_isProcessing)
+                    Container(
+                      margin: const EdgeInsets.only(bottom: 20),
+                      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                      decoration: BoxDecoration(
+                        color: Colors.black.withValues(alpha: 0.8),
+                        borderRadius: BorderRadius.circular(24),
+                      ),
+                      child: const Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          SizedBox(
+                            width: 20,
+                            height: 20,
+                            child: CircularProgressIndicator(
+                              strokeWidth: 2,
+                              color: Colors.white,
+                            ),
+                          ),
+                          SizedBox(width: 12),
+                          Text(
+                            'Processing...',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
-                    child: const Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Icon(Icons.camera, color: Colors.black, size: 24),
-                        SizedBox(width: 12),
-                        Text(
-                          'Capture Package',
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                          ),
+                  
+                  // Capture button
+                  GestureDetector(
+                    onTap: _isProcessing ? null : _captureAndDetect,
+                    child: Container(
+                      width: 80,
+                      height: 80,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: _isProcessing 
+                            ? Colors.grey[600] 
+                            : Colors.white,
+                        border: Border.all(
+                          color: Colors.white,
+                          width: 4,
                         ),
-                      ],
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: 0.3),
+                            blurRadius: 10,
+                            spreadRadius: 2,
+                          ),
+                        ],
+                      ),
+                      child: Icon(
+                        Icons.camera_alt,
+                        size: 40,
+                        color: _isProcessing ? Colors.white : Colors.black,
+                      ),
                     ),
                   ),
-                  const SizedBox(height: 16),
-                  TextButton(
-                    onPressed: _skipPackageScan,
-                    child: const Text(
-                      'Skip (Enter manually)',
-                      style: TextStyle(
-                        color: Colors.white70,
-                        fontSize: 14,
-                      ),
+                  
+                  const SizedBox(height: 12),
+                  
+                  Text(
+                    'CAPTURE',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 1.5,
+                      shadows: [
+                        Shadow(
+                          color: Colors.black.withValues(alpha: 0.5),
+                          blurRadius: 4,
+                        ),
+                      ],
                     ),
                   ),
                 ],
               ),
             ),
+          ),
         ],
       ),
     );

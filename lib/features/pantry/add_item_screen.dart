@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import '../../services/push_notification_service.dart';
+import '../../shared/services/app_settings_service.dart';
 import '../../shared/models/pantry_item.dart';
 import '../../shared/models/scanned_product.dart';
-import '../../shared/services/pantry_service.dart';
-import '../../shared/services/barcode_service.dart';
-import '../scanner/barcode_scanner_screen.dart';
+import '../scanner/expiry_capture_screen.dart';
 import '../scanner/bill_scanner_screen.dart';
-import '../scanner/package_scan_screen.dart';
 
 class AddItemScreen extends StatefulWidget {
   final PantryItem? editItem;
@@ -18,8 +20,6 @@ class AddItemScreen extends StatefulWidget {
 }
 
 class _AddItemScreenState extends State<AddItemScreen> {
-  final PantryService _pantryService = PantryService();
-  final BarcodeService _barcodeService = BarcodeService();
   final TextEditingController _nameController = TextEditingController();
   final FocusNode _nameFocusNode = FocusNode();
   String _selectedCategory = 'Select category';
@@ -78,85 +78,46 @@ class _AddItemScreenState extends State<AddItemScreen> {
     }
   }
 
-  Future<void> _scanBarcode() async {
-    final barcodeResult = await Navigator.push<Map<String, dynamic>>(
+  Future<void> _scanExpiry() async {
+    final expiryResult = await Navigator.push<Map<String, dynamic>>(
       context,
-      MaterialPageRoute(builder: (context) => const BarcodeScannerScreen()),
+      MaterialPageRoute(builder: (context) => const ExpiryCaptureScreen()),
     );
     
-    if (barcodeResult == null || !mounted) return;
+    if (expiryResult == null || !mounted) return;
 
-    final String? rawValue = barcodeResult['rawValue'] as String?;
-    final String? format = barcodeResult['format'] as String?;
+    final DateTime? expiryDate = expiryResult['expiryDate'] as DateTime?;
+    final double confidence = expiryResult['confidence'] as double? ?? 0.0;
     
-    if (rawValue == null) return;
-
-    if (mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Row(
-            children: [
-              Icon(Icons.check_circle, color: Colors.white, size: 20),
-              SizedBox(width: 12),
-              Text('Barcode captured! Scanning package...'),
-            ],
-          ),
-          duration: Duration(seconds: 2),
-          backgroundColor: Color(0xFF00FF7F),
-        ),
-      );
-    }
-
-    await Future.delayed(const Duration(milliseconds: 500));
-
-    if (!mounted) return;
-
-    final packageResult = await Navigator.push<Map<String, dynamic>>(
-      context,
-      MaterialPageRoute(
-        builder: (context) => PackageScanScreen(
-          barcode: rawValue,
-          barcodeFormat: format ?? 'UNKNOWN',
-        ),
-      ),
-    );
-
-    if (packageResult == null || !mounted) return;
-
-    final String? ocrText = packageResult['ocrText'] as String?;
-
-    if (mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Row(
-            children: [
-              SizedBox(
-                width: 16,
-                height: 16,
-                child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white),
-              ),
-              SizedBox(width: 12),
-              Text('Processing package data...'),
-            ],
-          ),
-          duration: Duration(seconds: 2),
-        ),
-      );
-    }
-
-    final product = await _barcodeService.parseBarcode(
-      rawValue,
-      format: format,
-      ocrText: ocrText,
-    );
-    
-    if (mounted) {
-      _autofillFromScan(product);
+    if (expiryDate != null) {
+      setState(() {
+        _selectedDate = expiryDate;
+      });
       
-      if (!product.hasExpiryDate) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Row(
+              children: [
+                const Icon(Icons.check_circle, color: Colors.white, size: 20),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Text(
+                    'Expiry detected: ${expiryDate.day}/${expiryDate.month}/${expiryDate.year} (${(confidence * 100).toStringAsFixed(0)}% confidence)',
+                  ),
+                ),
+              ],
+            ),
+            backgroundColor: Colors.green,
+            duration: const Duration(seconds: 3),
+          ),
+        );
+      }
+    } else {
+      if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            content: Text('Expiry date not detected. Please set manually.'),
+            content: Text('Expiry date not detected. Please enter manually.'),
             backgroundColor: Colors.orange,
           ),
         );
@@ -218,26 +179,53 @@ class _AddItemScreenState extends State<AddItemScreen> {
     );
   }
 
-  void _saveItem() {
+  Future<void> _saveItem() async {
     if (_nameController.text.isEmpty) { _showError('Please enter product name'); return; }
     if (_selectedCategory == 'Select category') { _showError('Please select a category'); return; }
     if (_selectedDate == null) { _showError('Please select expiry date'); return; }
 
-    final item = PantryItem(
-      id: _isEditing ? widget.editItem!.id : _pantryService.generateId(),
-      name: _nameController.text.trim(),
-      category: _selectedCategory,
-      expiryDate: _selectedDate!,
-      quantity: _quantity,
-      unit: _quantity == 1 ? 'Unit' : 'Units',
-    );
+    final user = FirebaseAuth.instance.currentUser;
+    if (user == null) { _showError('You must be logged in to save items'); return; }
 
-    if (_isEditing) {
-      _pantryService.updateItem(item);
-    } else {
-      _pantryService.addItem(item);
+    try {
+      final collection = FirebaseFirestore.instance 
+          .collection('users')
+          .doc(user.uid)
+          .collection('pantry');
+
+      final data = {
+        'name': _nameController.text.trim(),
+        'category': _selectedCategory,
+        'expiryDate': _selectedDate,
+        'quantity': _quantity,
+        'unit': _quantity == 1 ? 'Unit' : 'Units',
+        'createdAt': FieldValue.serverTimestamp(),
+      };
+
+      String itemId;
+      if (_isEditing) {
+        itemId = widget.editItem!.id;
+        await collection.doc(itemId).update(data);
+      } else {
+        final docRef = await collection.add(data);
+        itemId = docRef.id;
+      }
+
+      // Schedule Notification
+      final int notifyDays = AppSettingsService().expiryAlertDays;
+      if (_selectedDate != null) {
+        await PushNotificationService.scheduleExpiryNotification(
+          itemId: itemId,
+          itemName: _nameController.text.trim(),
+          expiryDate: _selectedDate!,
+          notifyBeforeDays: notifyDays,
+        );
+      }
+      
+      if (mounted) Navigator.pop(context);
+    } catch (e) {
+      _showError('Failed to save item: $e');
     }
-    Navigator.pop(context);
   }
 
   void _showError(String message) {
@@ -261,7 +249,7 @@ class _AddItemScreenState extends State<AddItemScreen> {
         padding: const EdgeInsets.all(16),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           if (!_isEditing) GestureDetector(
-            onTap: _scanBarcode,
+            onTap: _scanExpiry,
             child: Container(
               padding: const EdgeInsets.all(20), 
               decoration: BoxDecoration(gradient: LinearGradient(colors: [colorScheme.primary, colorScheme.secondary]), borderRadius: BorderRadius.circular(16)),
@@ -270,14 +258,14 @@ class _AddItemScreenState extends State<AddItemScreen> {
                   Container(
                     padding: const EdgeInsets.all(12), 
                     decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.2), borderRadius: BorderRadius.circular(12)), 
-                    child: const Icon(Icons.qr_code_scanner, color: Colors.white, size: 32)
+                    child: const Icon(Icons.camera_alt, color: Colors.white, size: 32)
                   ), 
                   const SizedBox(width: 16), 
                   const Column(
                     crossAxisAlignment: CrossAxisAlignment.start, 
                     children: [
-                      Text('Scan Barcode', style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)), 
-                      Text('Auto-fill product details', style: TextStyle(color: Colors.white70, fontSize: 13))
+                      Text('Scan Expiry Date', style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)), 
+                      Text('Detect from product packaging', style: TextStyle(color: Colors.white70, fontSize: 13))
                     ]
                   )
                 ]

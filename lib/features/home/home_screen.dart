@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import '../../shared/services/pantry_service.dart';
 import '../../shared/services/notification_service.dart';
 import '../../shared/services/recipe_service.dart';
@@ -6,6 +8,9 @@ import '../../shared/models/recipe.dart';
 import '../pantry/pantry_screen.dart';
 import '../pantry/add_item_screen.dart';
 import '../recipes/recipes_screen.dart';
+import '../notifications/notification_screen.dart';
+import '../../shared/models/pantry_item.dart';
+import '../../shared/services/app_settings_service.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -53,6 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        heroTag: 'home_add_item_fab',
         onPressed: () => _navigateToAddItem(),
         backgroundColor: colorScheme.primary,
         child: const Icon(Icons.add, color: Colors.black, size: 28),
@@ -90,52 +96,81 @@ class _HomeScreenState extends State<HomeScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text('WELCOME BACK', style: TextStyle(color: colorScheme.primary, fontSize: 11, fontWeight: FontWeight.w600, letterSpacing: 1.2)),
-              Text('Hello, User!', style: TextStyle(color: colorScheme.onSurface, fontSize: 22, fontWeight: FontWeight.bold)),
+              FutureBuilder<DocumentSnapshot>(
+                future: FirebaseFirestore.instance
+                    .collection('users')
+                    .doc(FirebaseAuth.instance.currentUser!.uid)
+                    .get(),
+                builder: (context, snapshot) {
+                  if (!snapshot.hasData) {
+                    return Text('Hello...', style: TextStyle(color: colorScheme.onSurface, fontSize: 22, fontWeight: FontWeight.bold));
+                  }
+
+                  final data = snapshot.data!.data() as Map<String, dynamic>? ?? {};
+                  final name = data['name'] ?? 'User';
+
+                  return Text('Hello, $name', style: TextStyle(color: colorScheme.onSurface, fontSize: 22, fontWeight: FontWeight.bold));
+                },
+              ),
             ],
           ),
         ),
         GestureDetector(
-          onTap: () => _showNotifications(colorScheme),
+          onTap: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context) => const NotificationScreen()));
+          },
           child: Container(
             width: 44, height: 44,
             decoration: BoxDecoration(color: colorScheme.surface, borderRadius: BorderRadius.circular(12)),
             child: Stack(
               children: [
                 Center(child: Icon(Icons.notifications_outlined, color: colorScheme.onSurface, size: 24)),
-                if (notificationCount > 0) Positioned(top: 10, right: 12, child: Container(width: 8, height: 8, decoration: BoxDecoration(color: colorScheme.primary, shape: BoxShape.circle))),
+                StreamBuilder<QuerySnapshot>(
+                  stream: FirebaseFirestore.instance
+                      .collection('users')
+                      .doc(FirebaseAuth.instance.currentUser!.uid)
+                      .collection('pantry')
+                      .snapshots(),
+                  builder: (context, snapshot) {
+                    int badgeCount = 0;
+                    if (snapshot.hasData) {
+                      final now = DateTime.now();
+                      final today = DateTime(now.year, now.month, now.day);
+                      final int notifyDays = AppSettingsService().expiryAlertDays;
+                      
+                      for (var doc in snapshot.data!.docs) {
+                        final item = PantryItem.fromMap(doc.data() as Map<String, dynamic>, doc.id);
+                        final expiry = DateTime(item.expiryDate.year, item.expiryDate.month, item.expiryDate.day);
+                        final difference = expiry.difference(today).inDays;
+                        
+                        if (expiry.isBefore(today) || expiry.isAtSameMomentAs(today) || difference <= notifyDays) {
+                          badgeCount++;
+                        }
+                      }
+                    }
+
+                    if (badgeCount == 0) return const SizedBox.shrink();
+
+                    return Positioned(
+                      top: 10,
+                      right: 12,
+                      child: Container(
+                        width: 10, // Slightly larger for visibility
+                        height: 10,
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          shape: BoxShape.circle,
+                          border: Border.all(color: colorScheme.surface, width: 1.5),
+                        ),
+                      ),
+                    );
+                  },
+                ),
               ],
             ),
           ),
         ),
       ],
-    );
-  }
-
-  void _showNotifications(ColorScheme colorScheme) {
-    final messages = _notificationService.generateNotificationMessages();
-    
-    showModalBottomSheet(
-      context: context,
-      backgroundColor: colorScheme.surface,
-      shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
-      builder: (context) => Padding(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text('Expiry Alerts', style: TextStyle(color: colorScheme.onSurface, fontSize: 18, fontWeight: FontWeight.bold)),
-            const SizedBox(height: 16),
-            if (messages.isEmpty)
-              Padding(padding: const EdgeInsets.all(20), child: Text('No items expiring soon!', style: TextStyle(color: colorScheme.onSurface.withValues(alpha: 0.6))))
-            else
-              ...messages.take(5).map((m) => Padding(
-                padding: const EdgeInsets.only(bottom: 12),
-                child: Text(m.message, style: TextStyle(color: colorScheme.onSurface, fontSize: 14)),
-              )),
-          ],
-        ),
-      ),
     );
   }
 
