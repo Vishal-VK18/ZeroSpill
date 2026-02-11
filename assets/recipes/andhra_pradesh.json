@@ -202,16 +202,20 @@
         "rice",
         "tamarind",
         "peanuts",
-        "chillies",
-        "turmeric",
-        "salt"
+        "dry coconut",
+        "sesame seeds",
+        "coriander seeds",
+        "fenugreek"
       ],
       "steps": [
-        "Cook rice and cool; boil tamarind juice with salt and turmeric until thick.",
-        "Temper peanuts and chillies in oil; mix rice with paste and tempering.",
-        "Turn off the flame."
+        "Fresh Powder: Roast coriander seeds, fenugreek, sesame seeds, and 10 red chillies; grind into a fine powder.",
+        "Cook rice and spread on a wide plate to cool.",
+        "Boil tamarind juice with salt, jaggery, and the fresh prepared powder until it thickens into a paste (Gojju).",
+        "Sauté peanuts, dry coconut, and red chillies in oil.",
+        "Combine the Puliyogare Gojju and tempering with the rice.",
+        "Turn off the flame and let it sit for at least an hour for flavors to mature."
       ],
-      "prepTime": 35
+      "prepTime": 50
     },
     {
       "id": "ap_bf_009",

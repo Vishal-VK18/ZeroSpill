@@ -1,6 +1,7 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/recipe.dart';
 import '../repositories/recipe_repository.dart';
-import '../../shared/services/pantry_service.dart';
 import '../../shared/services/app_settings_service.dart';
 
 class RecipeService {
@@ -8,7 +9,6 @@ class RecipeService {
   factory RecipeService() => _instance;
   RecipeService._internal();
 
-  final PantryService _pantryService = PantryService();
   final AppSettingsService _settings = AppSettingsService();
   final RecipeRepository _repository = RecipeRepository();
 
@@ -34,9 +34,28 @@ class RecipeService {
   }
 
   Future<List<Recipe>> _filterRecipes(bool sortByExpiry) async {
-    if (_pantryService.totalItems == 0) return [];
+    // Get current user
+    final user = FirebaseAuth.instance.currentUser;
+    if (user == null) return [];
+    
+    // Fetch pantry items from Firestore
+    final pantrySnapshot = await FirebaseFirestore.instance
+        .collection('users')
+        .doc(user.uid)
+        .collection('pantry')
+        .get();
+    
+    if (pantrySnapshot.docs.isEmpty) return [];
+    
+    // Extract item names
+    final pantryItemNames = pantrySnapshot.docs
+        .map((doc) {
+          final data = doc.data();
+          return (data['name'] as String?)?.toLowerCase() ?? '';
+        })
+        .where((name) => name.isNotEmpty)
+        .toSet();
 
-    final pantryItemNames = _pantryService.getItems().map((i) => i.name.toLowerCase()).toSet();
     final region = _settings.selectedRegion;
 
     // Load recipes for the current region
