@@ -5,6 +5,9 @@ import '../../services/push_notification_service.dart';
 import '../../shared/services/app_settings_service.dart';
 import '../../shared/services/user_profile_service.dart';
 import '../../ui/auth/login_screen.dart';
+import 'package:provider/provider.dart';
+import '../../core/theme/theme_provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -127,8 +130,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   icon: Icons.dark_mode_outlined,
                   title: 'Dark Mode',
                   trailing: Switch(
-                    value: _settings.themeMode == ThemeMode.dark,
-                    onChanged: (v) => _settings.setThemeMode(v ? ThemeMode.dark : ThemeMode.light),
+                    value: context.watch<ThemeProvider>().isDark,
+                    onChanged: (value) async {
+                      context.read<ThemeProvider>().toggleTheme();
+                      final prefs = await SharedPreferences.getInstance();
+                      await prefs.setBool('isDark', value);
+                    },
                     thumbColor: WidgetStateProperty.all(Colors.white),
                     trackColor: WidgetStateProperty.resolveWith((states) => states.contains(WidgetState.selected) ? colorScheme.primary : null),
                   ),
