@@ -1,0 +1,6 @@
+use_by
+best_before
+exp
+mfg
+pkd
+date_value

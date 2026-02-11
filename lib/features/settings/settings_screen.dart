@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import '../../services/push_notification_service.dart';
 import '../../shared/services/app_settings_service.dart';
+import '../../shared/services/user_profile_service.dart';
+import '../../ui/auth/login_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -11,6 +16,16 @@ class SettingsScreen extends StatefulWidget {
 class _SettingsScreenState extends State<SettingsScreen> {
   final AppSettingsService _settings = AppSettingsService();
   bool _pushNotifications = true;
+
+  Future<void> _handleLogout() async {
+    await FirebaseAuth.instance.signOut();
+    if (mounted) {
+      Navigator.of(context).pushAndRemoveUntil(
+        MaterialPageRoute(builder: (_) => const OnboardingLoginScreen()),
+        (route) => false,
+      );
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -43,9 +58,46 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     ]),
                   ),
                   const SizedBox(height: 16),
-                  Text('Alex Johnson', style: TextStyle(color: colorScheme.onSurface, fontSize: 22, fontWeight: FontWeight.bold)),
-                  const SizedBox(height: 4),
-                  Text('alex.j@pantrix.com', style: TextStyle(color: colorScheme.primary, fontSize: 14)),
+                  StreamBuilder<DocumentSnapshot>(
+                    stream: FirebaseFirestore.instance
+                        .collection('users')
+                        .doc(FirebaseAuth.instance.currentUser!.uid)
+                        .snapshots(),
+                    builder: (context, snapshot) {
+                      if (!snapshot.hasData) {
+                        return const SizedBox(
+                          height: 20,
+                          width: 20,
+                          child: CircularProgressIndicator(),
+                        );
+                      }
+                      
+                      final data = snapshot.data!.data() as Map<String, dynamic>? ?? {};
+                      final name = data['name'] ?? 'User';
+                      final email = data['email'] ?? FirebaseAuth.instance.currentUser?.email ?? '';
+                      
+                      return Column(
+                        children: [
+                          Text(
+                            name,
+                            style: TextStyle(
+                              color: Theme.of(context).colorScheme.onSurface,
+                              fontSize: 22,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          const SizedBox(height: 4),
+                          Text(
+                            email,
+                            style: TextStyle(
+                              color: Theme.of(context).colorScheme.primary,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ],
+                      );
+                    },
+                  ),
                 ]),
                 const SizedBox(height: 32),
                 _buildSectionHeader('APP PREFERENCES', colorScheme),
@@ -61,6 +113,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     trackColor: WidgetStateProperty.resolveWith((states) => states.contains(WidgetState.selected) ? colorScheme.primary.withValues(alpha: 0.3) : null),
                   ),
                 ),
+
                 _buildSettingsTile(
                   colorScheme: colorScheme,
                   icon: Icons.access_time,
@@ -98,7 +151,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 const SizedBox(height: 24),
                 GestureDetector(
-                  onTap: () {},
+                  onTap: _handleLogout,
                   child: Container(
                     width: double.infinity,
                     padding: const EdgeInsets.symmetric(vertical: 14),

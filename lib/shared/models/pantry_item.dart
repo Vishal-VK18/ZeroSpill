@@ -1,3 +1,5 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 class PantryItem {
   final String id;
   final String name;
@@ -16,6 +18,32 @@ class PantryItem {
     this.unit = 'Units',
     this.imageAsset,
   });
+
+  Map<String, dynamic> toMap() {
+    return {
+      'id': id,
+      'name': name,
+      'category': category,
+      'expiryDate': expiryDate.toIso8601String(),
+      'quantity': quantity,
+      'unit': unit,
+      'imageAsset': imageAsset,
+    };
+  }
+
+  factory PantryItem.fromMap(Map<String, dynamic> map, String documentId) {
+    return PantryItem(
+      id: documentId,
+      name: map['name'] ?? '',
+      category: map['category'] ?? 'Other',
+      expiryDate: map['expiryDate'] is Timestamp 
+          ? (map['expiryDate'] as Timestamp).toDate() 
+          : DateTime.tryParse(map['expiryDate'].toString()) ?? DateTime.now(),
+      quantity: map['quantity']?.toInt() ?? 1,
+      unit: map['unit'] ?? 'Units',
+      imageAsset: map['imageAsset'],
+    );
+  }
 
   int get daysUntilExpiry {
     final now = DateTime.now();

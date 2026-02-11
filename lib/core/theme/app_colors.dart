@@ -10,9 +10,9 @@ class AppColors {
   static const Color secondary = Color(0xFFE8D5A8);
   static const Color secondaryLight = Color(0xFFF5EDD4);
   
-  // Accent - Purple/Lavender (from reference)
-  static const Color accent = Color(0xFF9B7FC9);
-  static const Color accentLight = Color(0xFFBDA5DB);
+  // Accent - Use Primary variants instead of Purple
+  static const Color accent = Color(0xFF1B5F52);
+  static const Color accentLight = Color(0xFF2A7A6A);
   
   // Background - Warm Beige/Off-white (from reference)
   static const Color background = Color(0xFFFFF8EC);

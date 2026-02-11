@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import '../../features/home/home_screen.dart';
 import '../../features/pantry/pantry_screen.dart';
 import '../../features/recipes/recipes_screen.dart';
 import '../../features/settings/settings_screen.dart';
+import '../../features/settings/settings_screen.dart';
+import '../../shared/models/pantry_item.dart';
+import '../../shared/services/app_settings_service.dart';
 
 class MainNavigationScreen extends StatefulWidget {
   const MainNavigationScreen({super.key});
@@ -93,4 +98,5 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
       ),
     );
   }
+
 }
