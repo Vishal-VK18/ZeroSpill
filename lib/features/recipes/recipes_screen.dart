@@ -3,6 +3,7 @@ import '../../shared/services/recipe_service.dart';
 import '../../shared/services/app_settings_service.dart';
 import '../../shared/models/recipe.dart';
 import '../pantry/add_item_screen.dart';
+import '../../core/navigation/main_navigation_screen.dart';
 
 class RecipesScreen extends StatefulWidget {
   const RecipesScreen({super.key});
@@ -15,6 +16,15 @@ class _RecipesScreenState extends State<RecipesScreen> {
   final RecipeService _recipeService = RecipeService();
   final AppSettingsService _settings = AppSettingsService();
   String _selectedCategory = 'All';
+  String _searchQuery = '';
+  bool _isSearching = false;
+  final TextEditingController _searchController = TextEditingController();
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +39,20 @@ class _RecipesScreenState extends State<RecipesScreen> {
           appBar: AppBar(
             backgroundColor: colorScheme.surface,
             elevation: 0,
-            leading: Navigator.canPop(context) ? IconButton(icon: Icon(Icons.arrow_back, color: colorScheme.onSurface), onPressed: () => Navigator.pop(context)) : null,
+            leading: IconButton(
+              icon: Icon(Icons.arrow_back, color: colorScheme.onSurface),
+              onPressed: () {
+                if (Navigator.canPop(context)) {
+                  Navigator.pop(context);
+                } else {
+                  // If we are in the Recipes tab, go back to the Home tab
+                  final navState = context.findAncestorStateOfType<MainNavigationScreenState>();
+                  if (navState != null) {
+                    navState.setPage(0); // Switch to Home tab
+                  }
+                }
+              },
+            ),
             title: Column(
               children: [
                 Text('Cook with what you have', style: TextStyle(color: colorScheme.onSurface, fontSize: 16, fontWeight: FontWeight.w600)),
@@ -37,9 +60,59 @@ class _RecipesScreenState extends State<RecipesScreen> {
               ],
             ),
             centerTitle: true,
-            actions: [IconButton(icon: Icon(Icons.search, color: colorScheme.onSurface), onPressed: () {})],
+            actions: [
+              IconButton(
+                icon: Icon(_isSearching ? Icons.close : Icons.search, color: colorScheme.onSurface),
+                onPressed: () {
+                  setState(() {
+                    _isSearching = !_isSearching;
+                    if (!_isSearching) {
+                      _searchQuery = '';
+                      _searchController.clear();
+                    }
+                  });
+                },
+              ),
+            ],
           ),
-          body: FutureBuilder<List<Recipe>>(
+          body: Column(
+            children: [
+              if (_isSearching)
+                Container(
+                  padding: const EdgeInsets.all(16),
+                  color: colorScheme.surface,
+                  child: TextField(
+                    controller: _searchController,
+                    autofocus: true,
+                    style: TextStyle(color: colorScheme.onSurface),
+                    decoration: InputDecoration(
+                      hintText: 'Search recipes or ingredients...',
+                      hintStyle: TextStyle(color: colorScheme.onSurface.withValues(alpha: 0.5)),
+                      prefixIcon: Icon(Icons.search, color: colorScheme.primary),
+                      filled: true,
+                      fillColor: colorScheme.surface,
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12),
+                        borderSide: BorderSide(color: colorScheme.onSurface.withValues(alpha: 0.2)),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12),
+                        borderSide: BorderSide(color: colorScheme.onSurface.withValues(alpha: 0.2)),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12),
+                        borderSide: BorderSide(color: colorScheme.primary, width: 2),
+                      ),
+                    ),
+                    onChanged: (value) {
+                      setState(() {
+                        _searchQuery = value.toLowerCase();
+                      });
+                    },
+                  ),
+                ),
+              Expanded(
+                child: FutureBuilder<List<Recipe>>(
             // Rebuild when category or settings change
             key: ValueKey('${_selectedCategory}_${_settings.selectedRegion}'),
             future: _selectedCategory == 'All' 
@@ -81,6 +154,17 @@ class _RecipesScreenState extends State<RecipesScreen> {
 
               final recipes = snapshot.data ?? [];
               
+              // Filter recipes by search query
+              final filteredRecipes = _searchQuery.isEmpty
+                  ? recipes
+                  : recipes.where((recipe) {
+                      final nameMatch = recipe.name.toLowerCase().contains(_searchQuery);
+                      final ingredientMatch = recipe.ingredients.any(
+                        (ingredient) => ingredient.toLowerCase().contains(_searchQuery),
+                      );
+                      return nameMatch || ingredientMatch;
+                    }).toList();
+              
               return Column(
                 children: [
                   Padding(
@@ -97,36 +181,120 @@ class _RecipesScreenState extends State<RecipesScreen> {
                       }).toList()),
                     ),
                   ),
-                  if (recipes.isEmpty)
-                    Expanded(child: Center(child: Padding(
-                      padding: const EdgeInsets.all(32),
-                      child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                        Container(
-                          padding: const EdgeInsets.all(20),
-                          decoration: BoxDecoration(color: colorScheme.surface, shape: BoxShape.circle, boxShadow: [BoxShadow(color: colorScheme.primary.withValues(alpha: 0.1), blurRadius: 20, spreadRadius: 5)]),
-                          child: Icon(Icons.soup_kitchen, color: colorScheme.primary, size: 64)
-                        ),
-                        const SizedBox(height: 24),
-                        Text('No matching recipes yet', style: TextStyle(color: colorScheme.onSurface, fontSize: 20, fontWeight: FontWeight.bold)),
-                        const SizedBox(height: 12),
-                        Text('Add ingredients to your pantry to get smart recipe suggestions!', textAlign: TextAlign.center, style: TextStyle(color: colorScheme.onSurface.withValues(alpha: 0.6), fontSize: 15, height: 1.5)),
-                        const SizedBox(height: 32),
-                        ElevatedButton.icon(
-                          onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const AddItemScreen())).then((_) => setState(() {})),
-                          icon: const Icon(Icons.add, color: Colors.black),
-                          label: const Text('Add Ingredients', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w600)),
-                          style: ElevatedButton.styleFrom(backgroundColor: colorScheme.primary, padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30))),
-                        ),
-                      ]),
-                    )))
+                  if (filteredRecipes.isEmpty)
+                    Expanded(
+                      child: Center(
+                        child: _searchQuery.isEmpty
+                            ? _buildNoRecipesState(colorScheme)
+                            : _buildNoSearchResultsState(colorScheme),
+                      ),
+                    )
                   else
-                    Expanded(child: ListView.builder(padding: const EdgeInsets.all(16), itemCount: recipes.length, itemBuilder: (context, index) => _buildRecipeCard(recipes[index], colorScheme))),
+                    Expanded(child: ListView.builder(padding: const EdgeInsets.all(16), itemCount: filteredRecipes.length, itemBuilder: (context, index) => _buildRecipeCard(filteredRecipes[index], colorScheme))),
                 ],
               );
             },
+                ),
+              ),
+            ],
           ),
         );
       },
+    );
+  }
+
+  Widget _buildNoRecipesState(ColorScheme colorScheme) {
+    return Padding(
+      padding: const EdgeInsets.all(32),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              color: colorScheme.surface,
+              shape: BoxShape.circle,
+              boxShadow: [
+                BoxShadow(
+                  color: colorScheme.primary.withValues(alpha: 0.1),
+                  blurRadius: 20,
+                  spreadRadius: 5,
+                ),
+              ],
+            ),
+            child: Icon(Icons.soup_kitchen, color: colorScheme.primary, size: 64),
+          ),
+          const SizedBox(height: 24),
+          Text(
+            'No matching recipes yet',
+            style: TextStyle(
+              color: colorScheme.onSurface,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          const SizedBox(height: 12),
+          Text(
+            'Add ingredients to your pantry to get smart recipe suggestions!',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: colorScheme.onSurface.withValues(alpha: 0.6),
+              fontSize: 15,
+              height: 1.5,
+            ),
+          ),
+          const SizedBox(height: 32),
+          ElevatedButton.icon(
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const AddItemScreen()),
+            ).then((_) => setState(() {})),
+            icon: const Icon(Icons.add, color: Colors.black),
+            label: const Text(
+              'Add Ingredients',
+              style: TextStyle(color: Colors.black, fontWeight: FontWeight.w600),
+            ),
+            style: ElevatedButton.styleFrom(
+              backgroundColor: colorScheme.primary,
+              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildNoSearchResultsState(ColorScheme colorScheme) {
+    return Padding(
+      padding: const EdgeInsets.all(32),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(
+            Icons.search_off,
+            color: colorScheme.onSurface.withValues(alpha: 0.4),
+            size: 64,
+          ),
+          const SizedBox(height: 16),
+          Text(
+            'No recipes found',
+            style: TextStyle(
+              color: colorScheme.onSurface,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'Try searching for something else',
+            style: TextStyle(
+              color: colorScheme.onSurface.withValues(alpha: 0.6),
+              fontSize: 14,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
@@ -217,7 +385,26 @@ class _RecipesScreenState extends State<RecipesScreen> {
                     ),
                   ),
                 ),
-                Positioned(top: 10, child: Center(child: Container(width: 40, height: 4, decoration: BoxDecoration(color: Colors.black.withValues(alpha: 0.2), borderRadius: BorderRadius.circular(2))))), // Drag handle
+                Positioned(top: 10, left: 0, right: 0, child: Center(child: Container(width: 40, height: 4, decoration: BoxDecoration(color: Colors.black.withValues(alpha: 0.2), borderRadius: BorderRadius.circular(2))))), // Drag handle
+                Positioned(
+                  top: 10,
+                  right: 10,
+                  child: GestureDetector(
+                    onTap: () => Navigator.pop(context),
+                    child: Container(
+                      padding: const EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        color: Colors.black.withValues(alpha: 0.4),
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Icon(
+                        Icons.close,
+                        color: Colors.white,
+                        size: 20,
+                      ),
+                    ),
+                  ),
+                ),
               ],
             ),
             Padding(

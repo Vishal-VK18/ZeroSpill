@@ -10,9 +10,9 @@ class AppColors {
   static const Color primaryLight = Color(0xFF4ADE80);      // Lighter green for hover/active states
   static const Color primaryDark = Color(0xFF16A34A);       // Darker green for pressed states
   
-  // Accent - Use Primary variants instead of Purple
-  static const Color accent = Color(0xFF1B5F52);
-  static const Color accentLight = Color(0xFF2A7A6A);
+  // Secondary - Complementary neutral warm tone
+  static const Color secondary = Color(0xFFE8D5A8);         // Soft cream
+  static const Color secondaryLight = Color(0xFFF5EDD4);    // Light cream
   
   // Accent - Subtle tertiary accent
   static const Color accent = Color(0xFF9B7FC9);            // Purple accent

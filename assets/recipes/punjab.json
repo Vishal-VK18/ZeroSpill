@@ -1,912 +1,2108 @@
 [
-  {
-    "id": "pb_bf_001",
-    "name": "Aloo Paratha with Butter and Curd",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "potato", "green chilli", "salt", "butter", "curd", "water", "oil"],
-    "steps": ["Wash potatoes thoroughly", "Boil potatoes until soft", "Cool and peel potatoes", "Mash potatoes smoothly", "Chop green chilli finely", "Add chilli and salt to potato", "Mix stuffing well", "Add wheat flour and salt to bowl", "Add water gradually and knead soft dough", "Cover and rest dough for 10 minutes", "Divide dough into equal balls", "Stuff potato mixture inside dough", "Roll gently into round paratha", "Heat tawa on medium flame", "Place paratha on tawa", "Cook until bubbles appear", "Flip and apply oil", "Cook until brown spots appear", "Remove and apply butter", "Serve hot with curd"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_bf_002",
-    "name": "Gobi Paratha",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "cauliflower", "green chilli", "salt", "water", "oil"],
-    "steps": ["Wash cauliflower florets", "Grate cauliflower finely", "Squeeze excess water completely", "Chop green chilli", "Add salt and chilli to cauliflower", "Prepare wheat dough with water", "Rest dough for 10 minutes", "Stuff gobi mixture", "Roll gently", "Heat tawa on medium flame", "Cook paratha both sides with oil", "Remove and serve"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_bf_003",
-    "name": "Mooli Paratha",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "radish", "salt", "water", "oil"],
-    "steps": ["Wash radish", "Grate radish", "Squeeze water completely", "Add salt and mix", "Prepare wheat dough", "Rest dough for 10 minutes", "Stuff radish mixture", "Roll gently", "Cook paratha on medium flame with oil", "Remove and serve"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_bf_004",
-    "name": "Methi Paratha",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "fresh fenugreek leaves", "salt", "water", "oil"],
-    "steps": ["Wash methi leaves", "Chop methi finely", "Add methi and salt to flour", "Add water gradually", "Knead soft dough", "Rest dough for 10 minutes", "Roll paratha", "Cook both sides with oil", "Remove and serve"],
-    "prepTime": 25
-  },
-  {
-    "id": "pb_bf_005",
-    "name": "Paneer Paratha",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "paneer", "green chilli", "salt", "water", "oil"],
-    "steps": ["Grate paneer", 
-    "Chop green chilli", 
-    "Add salt and mix with paneer", 
-    "Prepare wheat dough",
-     "Rest dough for 10 minutes", 
-     "Stuff paneer mixture", 
-     "Roll gently", 
-     "Cook on tawa with oil", 
-     "Remove and serve"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_bf_006",
-    "name": "Plain Paratha with Butter and Pickle",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "salt", "water", "butter", "oil"],
-    "steps": ["Mix wheat flour and salt", "Add water and knead dough", "Rest dough for 10 minutes", "Roll paratha", "Cook on tawa with oil", "Apply butter", "Serve with pickle"],
-    "prepTime": 20
-  },
-  {
-    "id": "pb_bf_007",
-    "name": "Makki Roti with Sarson Saag",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["corn flour", "mustard greens", "spinach", "salt", "water", "oil"],
-    "steps": ["Wash mustard greens and spinach", "Chop greens", "Boil greens until soft", "Grind greens coarsely", "Heat pan on medium flame", "Add oil and greens", "Add salt and cook 15 minutes", "Mix corn flour with warm water", "Knead soft dough", "Shape roti with hands", "Cook roti on hot tawa", "Serve roti with saag"],
-    "prepTime": 45
-  },
-  {
-    "id": "pb_bf_008",
-    "name": "Chole Kulche",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["chickpeas", "onion", "tomato", "chole masala", "kulcha", "salt", "oil", "water"],
-    "steps": ["Soak chickpeas overnight", "Pressure cook chickpeas", "Chop onion and tomato", "Heat oil on medium flame", "Add onion and sauté", "Add tomato and salt", "Add chole masala", "Add cooked chickpeas", "Boil 10 minutes", "Heat kulcha", "Serve chole with kulcha"],
-    "prepTime": 45
-  },
-  {
+    {
+        "id": "pb_bf_001",
+        "name": "Aloo Paratha with Butter and Curd",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "potato",
+            "green chilli",
+            "salt",
+            "butter",
+            "curd",
+            "water",
+            "oil"
+        ],
+        "steps": [
+            "Wash potatoes thoroughly",
+            "Boil potatoes until soft",
+            "Cool and peel potatoes",
+            "Mash potatoes smoothly",
+            "Chop green chilli finely",
+            "Add chilli and salt to potato",
+            "Mix stuffing well",
+            "Add wheat flour and salt to bowl",
+            "Add water gradually and knead soft dough",
+            "Cover and rest dough for 10 minutes",
+            "Divide dough into equal balls",
+            "Stuff potato mixture inside dough",
+            "Roll gently into round paratha",
+            "Heat tawa on medium flame",
+            "Place paratha on tawa",
+            "Cook until bubbles appear",
+            "Flip and apply oil",
+            "Cook until brown spots appear",
+            "Remove and apply butter",
+            "Serve hot with curd"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_bf_002",
+        "name": "Gobi Paratha",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "cauliflower",
+            "green chilli",
+            "salt",
+            "water",
+            "oil"
+        ],
+        "steps": [
+            "Wash cauliflower florets",
+            "Grate cauliflower finely",
+            "Squeeze excess water completely",
+            "Chop green chilli",
+            "Add salt and chilli to cauliflower",
+            "Prepare wheat dough with water",
+            "Rest dough for 10 minutes",
+            "Stuff gobi mixture",
+            "Roll gently",
+            "Heat tawa on medium flame",
+            "Cook paratha both sides with oil",
+            "Remove and serve"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_bf_003",
+        "name": "Mooli Paratha",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "radish",
+            "salt",
+            "water",
+            "oil"
+        ],
+        "steps": [
+            "Wash radish",
+            "Grate radish",
+            "Squeeze water completely",
+            "Add salt and mix",
+            "Prepare wheat dough",
+            "Rest dough for 10 minutes",
+            "Stuff radish mixture",
+            "Roll gently",
+            "Cook paratha on medium flame with oil",
+            "Remove and serve"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_bf_004",
+        "name": "Methi Paratha",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "fresh fenugreek leaves",
+            "salt",
+            "water",
+            "oil"
+        ],
+        "steps": [
+            "Wash methi leaves",
+            "Chop methi finely",
+            "Add methi and salt to flour",
+            "Add water gradually",
+            "Knead soft dough",
+            "Rest dough for 10 minutes",
+            "Roll paratha",
+            "Cook both sides with oil",
+            "Remove and serve"
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "pb_bf_005",
+        "name": "Paneer Paratha",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "paneer",
+            "green chilli",
+            "salt",
+            "water",
+            "oil"
+        ],
+        "steps": [
+            "Grate paneer",
+            "Chop green chilli",
+            "Add salt and mix with paneer",
+            "Prepare wheat dough",
+            "Rest dough for 10 minutes",
+            "Stuff paneer mixture",
+            "Roll gently",
+            "Cook on tawa with oil",
+            "Remove and serve"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_bf_006",
+        "name": "Plain Paratha with Butter and Pickle",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "salt",
+            "water",
+            "butter",
+            "oil"
+        ],
+        "steps": [
+            "Mix wheat flour and salt",
+            "Add water and knead dough",
+            "Rest dough for 10 minutes",
+            "Roll paratha",
+            "Cook on tawa with oil",
+            "Apply butter",
+            "Serve with pickle"
+        ],
+        "prepTime": 20
+    },
+    {
+        "id": "pb_bf_007",
+        "name": "Makki Roti with Sarson Saag",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "corn flour",
+            "mustard greens",
+            "spinach",
+            "salt",
+            "water",
+            "oil"
+        ],
+        "steps": [
+            "Wash mustard greens and spinach",
+            "Chop greens",
+            "Boil greens until soft",
+            "Grind greens coarsely",
+            "Heat pan on medium flame",
+            "Add oil and greens",
+            "Add salt and cook 15 minutes",
+            "Mix corn flour with warm water",
+            "Knead soft dough",
+            "Shape roti with hands",
+            "Cook roti on hot tawa",
+            "Serve roti with saag"
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "pb_bf_008",
+        "name": "Chole Kulche",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "chickpeas",
+            "onion",
+            "tomato",
+            "chole masala",
+            "kulcha",
+            "salt",
+            "oil",
+            "water"
+        ],
+        "steps": [
+            "Soak chickpeas overnight",
+            "Pressure cook chickpeas",
+            "Chop onion and tomato",
+            "Heat oil on medium flame",
+            "Add onion and sauté",
+            "Add tomato and salt",
+            "Add chole masala",
+            "Add cooked chickpeas",
+            "Boil 10 minutes",
+            "Heat kulcha",
+            "Serve chole with kulcha"
+        ],
+        "prepTime": 45
+    },
+    {
     "id": "pb_bf_009",
     "name": "Chole Bhature",
     "region": "Punjab",
     "category": "Breakfast",
-    "ingredients": ["chickpeas", "maida", "curd", "salt", "oil", "water"],
-    "steps": ["Soak chickpeas overnight", "Pressure cook chickpeas", "Prepare chole masala", "Make dough using maida and curd", "Rest dough for 2 hours", "Roll bhature", "Deep fry until puffed", "Serve hot with chole"],
+    "ingredients": [
+        "chickpeas",
+        "maida",
+        "curd",
+        "salt",
+        "oil",
+        "water"
+    ],
+    "steps": [
+        "Soak chickpeas in water for at least 8 hours",
+        "Pressure cook chickpeas with salt until completely soft",
+        "Sauté onions, ginger, and garlic until golden brown",
+        "Add tomato puree and spices to create a thick gravy",
+        "Simmer cooked chickpeas in the gravy until flavors meld",
+        "Knead maida with curd and a little oil for the dough",
+        "Allow the dough to rest in a warm place for 2 hours",
+        "Roll out portions into smooth oval or round shapes",
+        "Deep fry in very hot oil until fully puffed and golden",
+        "Serve hot with spicy chole, onions, and pickles"
+    ],
     "prepTime": 50
-  },
-  {
-    "id": "pb_bf_010",
-    "name": "Poori with Aloo Sabzi",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "potato", "salt", "oil", "water"],
-    "steps": ["Boil potatoes", "Mash potatoes", "Add salt and water", "Boil sabzi", "Prepare poori dough", "Roll pooris", "Deep fry until puffed", "Serve with aloo sabzi"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_bf_011",
-    "name": "Poori with Chole",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "chickpeas", "salt", "oil", "water"],
-    "steps": ["Prepare chole", "Prepare poori dough", "Roll pooris", "Deep fry pooris", "Serve hot with chole"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_bf_012",
-    "name": "Besan Chilla",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["besan flour", "onion", "green chilli", "salt", "water", "oil"],
-    "steps": ["Chop onion and green chilli", "Mix besan, onion, chilli and salt", "Add water to make batter", "Heat pan", "Pour batter", "Cook both sides", "Remove and serve"],
-    "prepTime": 15
-  },
-  {
-    "id": "pb_bf_013",
-    "name": "Dal Paratha",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "cooked dal", "salt", "water", "oil"],
-    "steps": ["Mash cooked dal", "Add salt", "Prepare wheat dough", "Stuff dal mixture", "Roll paratha", "Cook on tawa with oil", "Remove and serve"],
-    "prepTime": 25
-  },
-  {
-    "id": "pb_bf_014",
-    "name": "Aloo Pyaz Bhujia with Paratha",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["potato", "onion", "wheat flour", "salt", "oil", "water"],
-    "steps": ["Wash and chop potato and onion", "Heat oil on medium flame", "Add potato and onion", "Add salt", "Cook until soft", "Prepare paratha", "Serve bhujia with paratha"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_bf_015",
-    "name": "Omelette with Buttered Toast",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["egg", "bread", "butter", "salt", "oil"],
-    "steps": ["Crack eggs into bowl", "Add salt and beat", "Heat pan with oil", "Pour egg mixture", "Cook omelette", "Toast bread with butter", "Serve together"],
-    "prepTime": 10
-  },
-  {
-    "id": "pb_bf_016",
-    "name": "Matar Paneer with Phulka",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["paneer", "green peas", "onion", "tomato", "wheat flour", "ginger-garlic paste", "salt", "oil", "water"],
-    "steps": ["Sauté onions and tomatoes until soft", "Blend into a smooth paste", "Add peas, salt, and water; cook until tender", "Add paneer cubes and simmer", "Prepare soft phulkas", "Serve hot"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_bf_017",
-    "name": "Curd with Paratha",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["curd", "wheat flour", "salt", "water", "oil"],
-    "steps": ["Prepare paratha", "Whisk curd", "Serve paratha with curd"],
-    "prepTime": 15
-  },
-  {
-    "id": "pb_bf_018",
-    "name": "Choora with Milk",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["flattened rice", "milk", "sugar"],
-    "steps": ["Wash flattened rice", "Drain water", "Add milk", "Add sugar", "Mix and serve"],
-    "prepTime": 5
-  },
-  {
-    "id": "pb_bf_019",
-    "name": "Missi Roti with Butter",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "besan flour", "salt", "water", "butter"],
-    "steps": ["Mix wheat flour and besan", "Add salt and water", "Knead dough", "Roll roti", "Cook on tawa", "Apply butter", "Serve"],
-    "prepTime": 20
-  },
-  {
-    "id": "pb_bf_020",
-    "name": "Ajwain Paratha",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "ajwain", "salt", "water", "oil"],
-    "steps": ["Mix flour, ajwain and salt", "Add water and knead dough", "Roll paratha", "Cook with oil", "Serve"],
-    "prepTime": 20
-  },
-  {
-    "id": "pb_bf_021",
-    "name": "Lachha Paratha with Curd",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["wheat flour", "salt", "water", "oil", "curd"],
-    "steps": ["Prepare wheat dough", "Roll thin layers", "Fold into lachha shape", "Cook on tawa with oil", "Serve with curd"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_bf_022",
-    "name": "Halwa with Poori",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["rava", "sugar", "wheat flour", "oil", "water"],
-    "steps": ["Roast rava in oil", "Add water and cook", "Add sugar and stir", "Prepare poori", "Serve halwa with poori"],
-    "prepTime": 25
-  },
-  {
-    "id": "pb_bf_023",
-    "name": "Sweet Lassi",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["curd", "sugar", "water"],
-    "steps": ["Add curd to bowl", "Add sugar and water", "Whisk until frothy", "Serve chilled"],
-    "prepTime": 5
-  },
-  {
-    "id": "pb_bf_024",
-    "name": "Salted Lassi",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["curd", "salt", "water"],
-    "steps": ["Add curd", "Add salt and water", "Whisk well", "Serve chilled"],
-    "prepTime": 5
-  },
-  {
-    "id": "pb_bf_025",
-    "name": "Stuffed Bread Pakora",
-    "region": "Punjab",
-    "category": "Breakfast",
-    "ingredients": ["bread slices", "besan flour", "boiled potato", "green chilli", "salt", "water", "oil"],
-    "steps": ["Mash boiled potatoes with salt and chilli", "Spread stuffing on bread", "Dip sandwich in besan batter", "Deep fry until golden", "Serve hot"],
-    "prepTime": 25
-  },
-  {
-    "id": "pb_ln_001",
-    "name": "Rajma Chawal",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["rajma", "rice", "onion", "tomato", "ginger-garlic paste", "salt", "oil", "water"],
-    "steps": ["Soak rajma overnight", "Pressure cook rajma", "Sauté onion and ginger-garlic paste", "Add tomatoes and salt", "Simmer cooked rajma in masala", "Serve with steamed basmati rice"],
-    "prepTime": 45
-  },
-  {
-    "id": "pb_ln_002",
-    "name": "Punjabi Kadhi Pakora with Rice",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["curd", "besan", "onion", "dry red chilli", "salt", "oil", "water"],
-    "steps": ["Make besan pakoras and deep fry", "Whisk curd and besan into a thin batter", "Boil batter with turmeric and salt", "Prepare a tadka of oil and red chillies", "Add pakoras to gravy", "Serve with steamed rice"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_ln_003",
-    "name": "Dal Tadka with Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["toor dal", "wheat flour", "garlic", "cumin seeds", "salt", "oil", "water"],
-    "steps": ["Pressure cook dal", "Heat oil and add cumin and garlic", "Pour tadka over cooked dal", "Prepare wheat rotis", "Serve together"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_ln_004",
-    "name": "Dal Makhani with Garlic Naan",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["black urad dal", "rajma", "butter", "cream", "garlic", "maida", "salt", "water"],
-    "steps": ["Soak dal and rajma overnight", "Cook on low flame until creamy", "Add butter and heavy cream", "Make garlic-topped naan in tawa", "Serve hot"],
-    "prepTime": 60
-  },
-  {
-    "id": "pb_ln_005",
-    "name": "Chana Masala with Bhatura",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["chickpeas", "amchur powder", "onion", "maida", "curd", "salt", "oil"],
-    "steps": ["Cook soaked chickpeas with spices", "Prepare a tangy onion-tomato gravy", "Make fermented dough with maida and curd", "Deep fry bhaturas", "Serve together"],
-    "prepTime": 50
-  },
-  {
-    "id": "pb_ln_006",
-    "name": "Sarson Saag with Makki Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["mustard greens", "spinach", "corn flour", "white butter", "salt", "water"],
-    "steps": ["Boil and mash greens", "Slow cook with corn flour", "Add white butter on top", "Make rotis using corn flour (makki)", "Serve hot"],
-    "prepTime": 50
-  },
-  {
-    "id": "pb_ln_007",
-    "name": "Aloo Gobi with Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["potato", "cauliflower", "turmeric", "salt", "oil", "wheat flour"],
-    "steps": ["Sauté potato and cauliflower with spices", "Cook until tender and slightly crisp", "Prepare fresh rotis", "Serve hot"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_ln_008",
-    "name": "Aloo Matar with Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["potato", "green peas", "tomato", "salt", "oil", "wheat flour"],
-    "steps": ["Cook potatoes and peas in a spiced tomato gravy", "Prepare wheat rotis", "Serve hot"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_ln_009",
-    "name": "Bhindi Masala with Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["okra", "onion", "dry mango powder", "salt", "oil"],
-    "steps": ["Sauté okra with onions", "Add dry spices for a tangy flavor", "Cook until crispy", "Serve with roti"],
-    "prepTime": 25
-  },
-  {
-    "id": "pb_ln_010",
-    "name": "Lauki Kofta Curry with Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["bottle gourd", "besan", "tomato gravy", "salt", "oil"],
-    "steps": ["Grate lauki and mix with besan to make balls", "Deep fry koftas", "Prepare a rich tomato-based gravy", "Add koftas and serve with roti"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_ln_011",
-    "name": "Amritsari Pindi Chole with Kulcha",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["kabuli chana", "tea bags", "pindi masala", "kulcha bread", "salt"],
-    "steps": ["Boil chickpeas with tea bags for dark color", "Sauté with pindi chole masala", "Heat kulcha with butter", "Serve together"],
-    "prepTime": 45
-  },
-  {
-    "id": "pb_ln_012",
-    "name": "Mix Veg Curry with Lachha Paratha",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["beans", "carrot", "peas", "paneer", "wheat flour", "salt", "oil"],
-    "steps": ["Sauté mixed veggies in a thick gravy", "Prepare layered wheat parathas", "Serve hot"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_ln_013",
-    "name": "Chana Dal with Lauki and Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["chana dal", "bottle gourd", "turmeric", "salt", "water"],
-    "steps": ["Pressure cook dal and lauki together", "Add a garlic and cumin tadka", "Serve with roti"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_ln_014",
-    "name": "Baingan Bharta with Missi Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["eggplant", "peas", "besan", "wheat flour", "onion", "salt"],
-    "steps": ["Roast eggplant and mash it", "Sauté with peas and onions", "Prepare dough with wheat and besan", "Cook missi roti and serve"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_ln_015",
-    "name": "Palak Paneer with Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["spinach", "paneer", "cream", "garlic", "salt", "oil"],
-    "steps": ["Blanch and puree spinach", "Sauté with garlic and cream", "Add paneer cubes", "Serve with fresh rotis"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_ln_016",
-    "name": "Paneer Bhurji with Tawa Paratha",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["crumbled paneer", "capsicum", "onion", "salt", "oil"],
-    "steps": ["Sauté onion and capsicum", "Add crumbled paneer and spices", "Prepare square tawa paratha", "Serve hot"],
-    "prepTime": 25
-  },
-  {
-    "id": "pb_ln_017",
-    "name": "Amritsari Paneer Kulcha",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["maida", "paneer", "green chilli", "butter", "salt"],
-    "steps": ["Prepare a leavened dough", "Stuff with spiced paneer", "Bake or cook on tawa", "Top with butter"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_ln_018",
-    "name": "Soya Chaap Masala with Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["soya chaap sticks", "curd", "tomato gravy", "salt", "oil"],
-    "steps": ["Fry soya chaap sticks", "Marinate in curd and spices", "Cook in a rich gravy", "Serve with roti"],
-    "prepTime": 45
-  },
-  {
-    "id": "pb_ln_019",
-    "name": "Methi Matar Malai with Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["fenugreek leaves", "green peas", "cream", "sugar", "salt"],
-    "steps": ["Sauté methi and peas", "Add a white gravy of cashews and cream", "Balance with a pinch of sugar", "Serve with roti"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_ln_020",
-    "name": "Shahi Paneer with Naan",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["paneer", "cashew paste", "tomato puree", "cream", "salt"],
-    "steps": ["Cook tomato puree with cashew paste", "Add cream and paneer cubes", "Serve with butter naan"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_ln_021",
-    "name": "Vegetable Pulao with Raita",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["basmati rice", "mixed vegetables", "curd", "cumin seeds", "salt"],
-    "steps": ["Cook rice with veggies and whole spices", "Whisk curd with roasted cumin for raita", "Serve together"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_ln_022",
-    "name": "Arbi Masala with Ajwain Paratha",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["taro root", "ajwain", "wheat flour", "turmeric", "oil"],
-    "steps": ["Boil and fry arbi with spices", "Add ajwain to dough for parathas", "Cook and serve together"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_ln_023",
-    "name": "Mushroom Do Pyaza with Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["mushrooms", "onions", "tomato", "ginger", "salt"],
-    "steps": ["Sauté mushrooms with large onion chunks", "Add spicy tomato base", "Serve with hot rotis"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_ln_024",
-    "name": "Malai Kofta with Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["potato", "paneer", "raisins", "cream", "tomato gravy"],
-    "steps": ["Make koftas with potato and paneer", "Stuff with raisins and fry", "Prepare a silky creamy gravy", "Add koftas before serving"],
-    "prepTime": 50
-  },
-  {
-    "id": "pb_ln_025",
-    "name": "Paneer Tikka Masala with Roti",
-    "region": "Punjab",
-    "category": "Lunch",
-    "ingredients": ["paneer", "capsicum", "curd", "tomato gravy", "salt"],
-    "steps": ["Grill marinated paneer and capsicum", "Simmer in a thick spicy gravy", "Serve with fresh rotis"],
-    "prepTime": 45
-  },
-  {
-    "id": "pb_sn_001",
-    "name": "Amritsari Samosa",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["maida", "potato", "green peas", "anardana powder", "salt", "oil", "water"],
-    "steps": ["Make a spiced potato and peas filling with anardana", "Prepare a firm maida dough with carom seeds", "Shape into cones and fill", "Deep fry on low heat until golden and flaky", "Serve with tamarind chutney"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_sn_002",
-    "name": "Aloo Pakora",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["potato", "besan flour", "ajwain", "salt", "oil", "water"],
-    "steps": ["Slice potatoes thinly", "Make a thick besan batter with ajwain and salt", "Dip slices in batter", "Deep fry until golden and crispy", "Serve hot with mint chutney"],
-    "prepTime": 25
-  },
-  {
-    "id": "pb_sn_003",
-    "name": "Paneer Bread Pakora",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["bread", "paneer", "besan flour", "green chutney", "salt", "oil"],
-    "steps": ["Sandwich a slice of paneer and chutney between bread", "Dip the sandwich in spiced besan batter", "Deep fry until golden brown", "Cut diagonally and serve hot"],
-    "prepTime": 25
-  },
-  {
-    "id": "pb_sn_004",
-    "name": "Gobi Pakora",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["cauliflower florets", "besan", "chaat masala", "salt", "oil"],
-    "steps": ["Blanch cauliflower florets briefly", "Coat in a spicy besan batter", "Deep fry until extra crunchy", "Sprinkle chaat masala before serving"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_sn_005",
-    "name": "Aloo Tikki Chaat",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["potato", "cornflour", "curd", "chutneys", "salt", "oil"],
-    "steps": ["Mash boiled potatoes with cornflour for crispiness", "Shallow fry into golden patties", "Top with whisked curd, sweet and spicy chutneys", "Garnish with sev and pomegranate"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_sn_006",
-    "name": "Paneer Tikka (Tawa Style)",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["paneer cubes", "curd", "kashmiri mirch", "capsicum", "oil"],
-    "steps": ["Marinate paneer and capsicum in spiced curd", "Thread on skewers or place directly on a hot tawa", "Grill until charred on edges", "Serve with lemon wedges"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_sn_007",
-    "name": "Ram Ladoo (Moong Dal Ram Ladoo)",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["moong dal", "chana dal", "radish", "green chutney", "oil"],
-    "steps": ["Grind soaked dals into a fluffy batter", "Deep fry small round dumplings", "Top with grated radish and spicy green chutney", "Serve warm"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_sn_008",
-    "name": "Dahi Bhalla",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["urad dal", "curd", "tamarind chutney", "roasted cumin", "oil"],
-    "steps": ["Fry urad dal dumplings and soak in water", "Squeeze and top with thick sweetened curd", "Add chutneys and roasted cumin powder", "Serve chilled"],
-    "prepTime": 45
-  },
-  {
-    "id": "pb_sn_009",
-    "name": "Papdi Chaat",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["papdi", "boiled potato", "curd", "chutneys", "sev"],
-    "steps": ["Arrange papdis on a plate", "Add chopped potatoes and chickpeas", "Drizzle curd and assorted chutneys", "Top with plenty of sev"],
-    "prepTime": 15
-  },
-  {
-    "id": "pb_sn_010",
-    "name": "Punjabi Mathri",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["maida", "suji", "peppercorns", "dried methi", "oil"],
-    "steps": ["Knead a very tight dough with suji and spices", "Prick small discs with a fork", "Deep fry on very low heat for 15-20 minutes", "Cool and serve with mango pickle"],
-    "prepTime": 50
-  },
-  {
-    "id": "pb_sn_011",
-    "name": "Namak Pare",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["maida", "ajwain", "salt", "ghee", "oil"],
-    "steps": ["Knead dough with ghee for khasta texture", "Roll and cut into diamond shapes", "Deep fry until light golden", "Store in airtight container"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_sn_012",
-    "name": "Shakarpara",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["maida", "sugar", "ghee", "water"],
-    "steps": ["Make a sugar syrup", "Knead maida with syrup and ghee", "Cut into cubes and deep fry", "Cool until they become crunchy"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_sn_013",
-    "name": "Nutri Kulcha (Snack Version)",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["soya chunks", "onion", "tomato", "mini kulcha", "butter"],
-    "steps": ["Sauté soya chunks in a spicy, dark gravy", "Toast mini kulchas with lots of butter", "Serve soya on top of kulcha with onions"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_sn_014",
-    "name": "Bhelpuri (Punjabi Style)",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["puffed rice", "peanuts", "onion", "green chilli", "lemon"],
-    "steps": ["Toss puffed rice with roasted peanuts", "Add finely chopped onions and chillies", "Drizzle lemon juice and mustard oil", "Mix and serve immediately"],
-    "prepTime": 10
-  },
-  {
-    "id": "pb_sn_015",
-    "name": "Palak Patta Chaat",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["spinach leaves", "besan", "curd", "chutneys", "oil"],
-    "steps": ["Dip whole spinach leaves in thin besan batter", "Deep fry until very crisp", "Top with curd and chutneys", "Serve as a crunchy chaat"],
-    "prepTime": 25
-  },
-  {
-    "id": "pb_sn_016",
-    "name": "Paneer Pakora",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["paneer", "besan", "chaat masala", "salt", "oil"],
-    "steps": ["Cut paneer into thick cubes", "Coat with spicy besan batter", "Deep fry until golden", "Sprinkle chaat masala"],
-    "prepTime": 20
-  },
-  {
-    "id": "pb_sn_017",
-    "name": "Masala Corn (Butta)",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["corn cob", "lemon", "black salt", "red chilli powder"],
-    "steps": ["Roast corn over an open flame", "Rub lemon dipped in salt and chilli", "Serve hot and charred"],
-    "prepTime": 10
-  },
-  {
-    "id": "pb_sn_018",
-    "name": "Gol Gappe (Pani Puri)",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["semolina puri", "spiced water", "boiled potato", "chickpeas"],
-    "steps": ["Fill crispy puris with potato and chickpeas", "Dip in chilled spicy mint water", "Serve immediately"],
-    "prepTime": 20
-  },
-  {
-    "id": "pb_sn_019",
-    "name": "Kachori with Aloo Sabzi",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["maida", "moong dal filling", "potato curry", "oil"],
-    "steps": ["Stuff dough with spiced dal mixture", "Deep fry slowly until flaky", "Serve with a thin, spicy aloo sabzi"],
-    "prepTime": 50
-  },
-  {
-    "id": "pb_sn_020",
-    "name": "Bun Samosa",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["bun", "samosa", "sweet chutney", "butter"],
-    "steps": ["Slice bun and apply butter", "Mash a hot samosa inside the bun", "Add sweet chutney and press", "Serve as a quick street snack"],
-    "prepTime": 5
-  },
-  {
-    "id": "pb_sn_021",
-    "name": "Veg Cutlet",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["mixed veggies", "bread crumbs", "potato", "salt", "oil"],
-    "steps": ["Mash boiled veggies and potatoes", "Shape into ovals and coat with crumbs", "Deep fry until dark brown", "Serve with ketchup"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_sn_022",
-    "name": "Mirchi Vada",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["large green chillies", "potato stuffing", "besan", "oil"],
-    "steps": ["Stuff large chillies with spicy mashed potato", "Dip in thick besan batter", "Deep fry until crispy", "Serve hot"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_sn_023",
-    "name": "Aloo Chaat (Market Style)",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["potato", "lemon", "green chilli", "chaat masala", "oil"],
-    "steps": ["Deep fry potato cubes until very crisp", "Toss with chopped chillies and lemon juice", "Add heavy dose of chaat masala", "Serve with toothpicks"],
-    "prepTime": 20
-  },
-  {
-    "id": "pb_sn_024",
-    "name": "Kulfi Falooda",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["milk kulfi", "falooda noodles", "rose syrup", "sabja seeds"],
-    "steps": ["Slice kulfi into a plate", "Top with falooda noodles and soaked seeds", "Drizzle rose syrup", "Serve as a sweet evening snack"],
-    "prepTime": 10
-  },
-  {
-    "id": "pb_sn_025",
-    "name": "Chana Zor Garam",
-    "region": "Punjab",
-    "category": "Snacks",
-    "ingredients": ["flattened chickpeas", "onion", "tomato", "lemon", "spices"],
-    "steps": ["Mix spicy flattened chickpeas with onions", "Add chopped tomatoes and lemon juice", "Toss with masala", "Serve in a paper cone"],
-    "prepTime": 10
-  },
-  {
-    "id": "pb_dn_001",
-    "name": "Dal Makhani with Butter Naan",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["black urad dal", "rajma", "butter", "cream", "maida", "salt", "oil"],
-    "steps": ["Soak dal and rajma overnight", "Pressure cook until soft", "Simmer on low heat with butter and cream", "Prepare leavened maida dough", "Cook naan on tawa and apply butter", "Serve hot"],
-    "prepTime": 60
-  },
-  {
-    "id": "pb_dn_002",
-    "name": "Paneer Butter Masala with Kulcha",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["paneer", "butter", "tomato puree", "cashew paste", "maida", "salt"],
-    "steps": ["Sauté tomato puree and cashew paste in butter", "Add spices and cream", "Simmer paneer cubes in the gravy", "Prepare and roast soft kulchas", "Serve together"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_dn_003",
-    "name": "Amritsari Dal with Lachha Paratha",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["chana dal", "urad dal dhuli", "wheat flour", "ghee", "ginger", "salt"],
-    "steps": ["Cook both dals until thick and creamy", "Add a heavy tadka of ghee, ginger, and cumin", "Make layered wheat parathas", "Serve with a dollop of butter"],
-    "prepTime": 45
-  },
-  {
-    "id": "pb_dn_004",
-    "name": "Aloo Wadiyan Curry with Rice",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["punjabi wadi", "potatoes", "onion-tomato masala", "basmati rice", "salt"],
-    "steps": ["Fry wadiyan until brown and crush them", "Cook with potato cubes in a thin spicy gravy", "Prepare steamed rice", "Serve together"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_dn_005",
-    "name": "Bhindi Do Pyaza with Phulka",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["okra", "large onion chunks", "amchur powder", "wheat flour", "salt"],
-    "steps": ["Sauté okra and onions separately", "Mix with spices and cook until tender", "Prepare soft phulkas", "Serve hot"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_dn_006",
-    "name": "Kofta Lauki with Missi Roti",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["bottle gourd", "besan", "wheat flour", "tomato gravy", "salt"],
-    "steps": ["Make spiced lauki dumplings and fry", "Simmer in a thick tomato-onion gravy", "Make rotis with wheat and besan flour", "Serve together"],
-    "prepTime": 45
-  },
-  {
-    "id": "pb_dn_007",
-    "name": "Tori Masala with Jeera Aloo and Roti",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["ridge gourd", "potatoes", "cumin", "wheat flour", "salt"],
-    "steps": ["Cook ridge gourd with minimal spices", "Make a side of dry cumin potatoes", "Serve with fresh rotis"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_dn_008",
-    "name": "Chana Dal Palak with Roti",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["chana dal", "spinach", "garlic", "wheat flour", "salt"],
-    "steps": ["Cook dal and chopped spinach together", "Add a strong garlic and red chilli tadka", "Serve with hot rotis"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_dn_009",
-    "name": "Palak Paneer with Garlic Roti",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["spinach", "paneer", "garlic", "wheat flour", "cream"],
-    "steps": ["Puree blanched spinach", "Cook with paneer cubes and garlic", "Make rotis topped with minced garlic", "Serve hot"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_dn_010",
-    "name": "Baingan Bharta with Tandoori Roti",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["large eggplant", "peas", "onion", "wheat flour", "ghee"],
-    "steps": ["Fire-roast eggplant and mash", "Sauté with onions, tomatoes, and peas", "Prepare thick rotis on tawa and char slightly", "Serve with ghee"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_dn_011",
-    "name": "Paneer Bhurji with Masala Paratha",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["crumbled paneer", "capsicum", "wheat flour", "ajwain", "salt"],
-    "steps": ["Sauté crumbled paneer with veggies", "Make parathas with ajwain and chilli powder layers", "Serve together"],
-    "prepTime": 25
-  },
-  {
-    "id": "pb_dn_012",
-    "name": "Punjabi Tari Wala Egg Curry with Rice",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["boiled eggs", "onion-tomato paste", "whole spices", "basmati rice", "salt"],
-    "steps": ["Fry boiled eggs", "Simmer in a thin, spicy onion-tomato gravy", "Serve with steamed rice"],
-    "prepTime": 35
-  },
-  {
-    "id": "pb_dn_013",
-    "name": "Egg Bhurji with Tawa Paratha",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["eggs", "onion", "green chilli", "wheat flour", "oil"],
-    "steps": ["Scramble eggs with onions and chillies", "Prepare square layered parathas", "Serve hot"],
-    "prepTime": 20
-  },
-  {
-    "id": "pb_dn_014",
-    "name": "Kadhi Pakora with Jeera Rice",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["curd", "besan", "cumin", "rice", "oil", "salt"],
-    "steps": ["Make pakoras and simmer in tangy curd gravy", "Sauté rice with cumin seeds", "Serve together"],
-    "prepTime": 40
-  },
-  {
-    "id": "pb_dn_015",
-    "name": "Moong Dal Khichdi with Dahi and Papad",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["rice", "yellow moong dal", "ghee", "curd", "papad"],
-    "steps": ["Cook rice and dal together until mushy", "Add a ghee and cumin tadka", "Serve with curd and roasted papad"],
-    "prepTime": 25
-  },
-  {
-    "id": "pb_dn_016",
-    "name": "Pindi Chole with Bhature",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["chickpeas", "pindi masala", "maida", "curd", "oil"],
-    "steps": ["Cook chickpeas with dry spices until dark", "Deep fry fermented maida bhaturas", "Serve with pickles"],
-    "prepTime": 50
-  },
-  {
-    "id": "pb_dn_017",
-    "name": "Kheer (Rice Pudding)",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["rice", "milk", "sugar", "cardamom", "nuts"],
-    "steps": ["Boil rice in milk on low flame until thick", "Add sugar and cardamom", "Garnish with nuts and serve warm or cold"],
-    "prepTime": 45
-  },
-  {
-    "id": "pb_dn_018",
-    "name": "Matar Paneer with Phulka",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["peas", "paneer", "tomato gravy", "wheat flour", "salt"],
-    "steps": ["Cook peas and paneer in a spiced gravy", "Prepare fresh phulkas", "Serve hot"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_dn_019",
-    "name": "Vegetable Biryani with Raita",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["basmati rice", "mixed veggies", "curd", "biryani masala", "salt"],
-    "steps": ["Layer partially cooked rice with spicy veggie mix", "Steam (Dum) for 15 minutes", "Serve with cucumber raita"],
-    "prepTime": 50
-  },
-  {
-    "id": "pb_dn_020",
-    "name": "Rajma Masala with Steamed Rice",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["rajma", "ginger-garlic paste", "tomato", "basmati rice", "salt"],
-    "steps": ["Cook soaked rajma in a thick ginger-tomato gravy", "Prepare fluffy steamed rice", "Serve together"],
-    "prepTime": 45
-  },
-  {
-    "id": "pb_dn_021",
-    "name": "Mushroom Matar with Roti",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["mushrooms", "green peas", "onion", "wheat flour", "salt"],
-    "steps": ["Sauté mushrooms and peas in a spicy base", "Prepare wheat rotis", "Serve hot"],
-    "prepTime": 30
-  },
-  {
-    "id": "pb_dn_022",
-    "name": "Sarson Saag with Makki Roti",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["mustard greens", "corn flour", "white butter", "salt"],
-    "steps": ["Slow cook mashed greens with corn flour", "Make corn flour rotis", "Serve with jaggery and white butter"],
-    "prepTime": 50
-  },
-  {
-    "id": "pb_dn_023",
-    "name": "Malai Kofta with Rumali Roti",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["paneer", "potato", "cream", "maida", "salt"],
-    "steps": ["Make soft paneer-potato balls", "Simmer in a creamy white gravy", "Serve with thin rumali roti"],
-    "prepTime": 50
-  },
-  {
-    "id": "pb_dn_024",
-    "name": "Soya Chaap Masala with Roti",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["soya chaap", "curd marination", "onion-tomato gravy", "wheat flour"],
-    "steps": ["Marinate and fry soya chaap sticks", "Cook in a rich, spicy gravy", "Serve with roti"],
-    "prepTime": 45
-  },
-  {
-    "id": "pb_dn_025",
-    "name": "Gajar Halwa (Seasonal Dessert)",
-    "region": "Punjab",
-    "category": "Dinner",
-    "ingredients": ["carrots", "milk", "khoya", "sugar", "ghee"],
-    "steps": ["Grate carrots and cook with milk", "Add sugar, ghee, and khoya", "Stir until dark red and serve warm"],
-    "prepTime": 50
-  }
+    },
+    {
+        "id": "pb_bf_010",
+        "name": "Poori with Aloo Sabzi",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "potato",
+            "salt",
+            "oil",
+            "water"
+        ],
+        "steps": [
+            "Boil potatoes",
+            "Mash potatoes",
+            "Add salt and water",
+            "Boil sabzi",
+            "Prepare poori dough",
+            "Roll pooris",
+            "Deep fry until puffed",
+            "Serve with aloo sabzi"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_bf_011",
+        "name": "Poori with Chole",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "chickpeas",
+            "salt",
+            "oil",
+            "water"
+        ],
+        "steps": [
+            "Prepare chole",
+            "Prepare poori dough",
+            "Roll pooris",
+            "Deep fry pooris",
+            "Serve hot with chole"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_bf_012",
+        "name": "Besan Chilla",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "besan flour",
+            "onion",
+            "green chilli",
+            "salt",
+            "water",
+            "oil"
+        ],
+        "steps": [
+            "Chop onion and green chilli",
+            "Mix besan, onion, chilli and salt",
+            "Add water to make batter",
+            "Heat pan",
+            "Pour batter",
+            "Cook both sides",
+            "Remove and serve"
+        ],
+        "prepTime": 15
+    },
+    {
+        "id": "pb_bf_013",
+        "name": "Dal Paratha",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "cooked dal",
+            "salt",
+            "water",
+            "oil"
+        ],
+        "steps": [
+            "Mash cooked dal",
+            "Add salt",
+            "Prepare wheat dough",
+            "Stuff dal mixture",
+            "Roll paratha",
+            "Cook on tawa with oil",
+            "Remove and serve"
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "pb_bf_014",
+        "name": "Aloo Pyaz Bhujia with Paratha",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "potato",
+            "onion",
+            "wheat flour",
+            "salt",
+            "oil",
+            "water"
+        ],
+        "steps": [
+            "Wash and chop potato and onion",
+            "Heat oil on medium flame",
+            "Add potato and onion",
+            "Add salt",
+            "Cook until soft",
+            "Prepare paratha",
+            "Serve bhujia with paratha"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_bf_015",
+        "name": "Omelette with Buttered Toast",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "egg",
+            "bread",
+            "butter",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Crack eggs into bowl",
+            "Add salt and beat",
+            "Heat pan with oil",
+            "Pour egg mixture",
+            "Cook omelette",
+            "Toast bread with butter",
+            "Serve together"
+        ],
+        "prepTime": 10
+    },
+    {
+        "id": "pb_bf_016",
+        "name": "Matar Paneer with Phulka",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "paneer",
+            "green peas",
+            "onion",
+            "tomato",
+            "wheat flour",
+            "ginger-garlic paste",
+            "salt",
+            "oil",
+            "water"
+        ],
+        "steps": [
+            "Sauté onions and tomatoes until soft",
+            "Blend into a smooth paste",
+            "Add peas, salt, and water; cook until tender",
+            "Add paneer cubes and simmer",
+            "Prepare soft phulkas",
+            "Serve hot"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_bf_017",
+        "name": "Curd with Paratha",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "curd",
+            "wheat flour",
+            "salt",
+            "water",
+            "oil"
+        ],
+        "steps": [
+            "Prepare paratha",
+            "Whisk curd",
+            "Serve paratha with curd"
+        ],
+        "prepTime": 15
+    },
+    {
+        "id": "pb_bf_018",
+        "name": "Choora with Milk",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "flattened rice",
+            "milk",
+            "sugar"
+        ],
+        "steps": [
+            "Wash flattened rice",
+            "Drain water",
+            "Add milk",
+            "Add sugar",
+            "Mix and serve"
+        ],
+        "prepTime": 5
+    },
+    {
+        "id": "pb_bf_019",
+        "name": "Missi Roti with Butter",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "besan flour",
+            "salt",
+            "water",
+            "butter"
+        ],
+        "steps": [
+            "Mix wheat flour and besan",
+            "Add salt and water",
+            "Knead dough",
+            "Roll roti",
+            "Cook on tawa",
+            "Apply butter",
+            "Serve"
+        ],
+        "prepTime": 20
+    },
+    {
+        "id": "pb_bf_020",
+        "name": "Ajwain Paratha",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "ajwain",
+            "salt",
+            "water",
+            "oil"
+        ],
+        "steps": [
+            "Mix flour, ajwain and salt",
+            "Add water and knead dough",
+            "Roll paratha",
+            "Cook with oil",
+            "Serve"
+        ],
+        "prepTime": 20
+    },
+    {
+        "id": "pb_bf_021",
+        "name": "Lachha Paratha with Curd",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "wheat flour",
+            "salt",
+            "water",
+            "oil",
+            "curd"
+        ],
+        "steps": [
+            "Prepare wheat dough",
+            "Roll thin layers",
+            "Fold into lachha shape",
+            "Cook on tawa with oil",
+            "Serve with curd"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_bf_022",
+        "name": "Halwa with Poori",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "rava",
+            "sugar",
+            "wheat flour",
+            "oil",
+            "water"
+        ],
+        "steps": [
+            "Roast rava in oil",
+            "Add water and cook",
+            "Add sugar and stir",
+            "Prepare poori",
+            "Serve halwa with poori"
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "pb_bf_023",
+        "name": "Sweet Lassi",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "curd",
+            "sugar",
+            "water"
+        ],
+        "steps": [
+            "Add curd to bowl",
+            "Add sugar and water",
+            "Whisk until frothy",
+            "Serve chilled"
+        ],
+        "prepTime": 5
+    },
+    {
+        "id": "pb_bf_024",
+        "name": "Salted Lassi",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "curd",
+            "salt",
+            "water"
+        ],
+        "steps": [
+            "Add curd",
+            "Add salt and water",
+            "Whisk well",
+            "Serve chilled"
+        ],
+        "prepTime": 5
+    },
+    {
+        "id": "pb_bf_025",
+        "name": "Stuffed Bread Pakora",
+        "region": "Punjab",
+        "category": "Breakfast",
+        "ingredients": [
+            "bread slices",
+            "besan flour",
+            "boiled potato",
+            "green chilli",
+            "salt",
+            "water",
+            "oil"
+        ],
+        "steps": [
+            "Mash boiled potatoes with salt and chilli",
+            "Spread stuffing on bread",
+            "Dip sandwich in besan batter",
+            "Deep fry until golden",
+            "Serve hot"
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "pb_ln_001",
+        "name": "Rajma Chawal",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "rajma",
+            "rice",
+            "onion",
+            "tomato",
+            "ginger-garlic paste",
+            "salt",
+            "oil",
+            "water"
+        ],
+        "steps": [
+            "Soak rajma overnight",
+            "Pressure cook rajma",
+            "Sauté onion and ginger-garlic paste",
+            "Add tomatoes and salt",
+            "Simmer cooked rajma in masala",
+            "Serve with steamed basmati rice"
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "pb_ln_002",
+        "name": "Punjabi Kadhi Pakora with Rice",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "curd",
+            "besan",
+            "onion",
+            "dry red chilli",
+            "salt",
+            "oil",
+            "water"
+        ],
+        "steps": [
+            "Make besan pakoras and deep fry",
+            "Whisk curd and besan into a thin batter",
+            "Boil batter with turmeric and salt",
+            "Prepare a tadka of oil and red chillies",
+            "Add pakoras to gravy",
+            "Serve with steamed rice"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_ln_003",
+        "name": "Dal Tadka with Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "toor dal",
+            "wheat flour",
+            "garlic",
+            "cumin seeds",
+            "salt",
+            "oil",
+            "water"
+        ],
+        "steps": [
+            "Pressure cook dal",
+            "Heat oil and add cumin and garlic",
+            "Pour tadka over cooked dal",
+            "Prepare wheat rotis",
+            "Serve together"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_ln_004",
+        "name": "Dal Makhani with Garlic Naan",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "black urad dal",
+            "rajma",
+            "butter",
+            "cream",
+            "garlic",
+            "maida",
+            "salt",
+            "water"
+        ],
+        "steps": [
+            "Soak dal and rajma overnight",
+            "Cook on low flame until creamy",
+            "Add butter and heavy cream",
+            "Make garlic-topped naan in tawa",
+            "Serve hot"
+        ],
+        "prepTime": 60
+    },
+    {
+        "id": "pb_ln_005",
+        "name": "Chana Masala with Bhatura",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "chickpeas",
+            "amchur powder",
+            "onion",
+            "maida",
+            "curd",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Cook soaked chickpeas with spices",
+            "Prepare a tangy onion-tomato gravy",
+            "Make fermented dough with maida and curd",
+            "Deep fry bhaturas",
+            "Serve together"
+        ],
+        "prepTime": 50
+    },
+    {
+        "id": "pb_ln_006",
+        "name": "Sarson Saag with Makki Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "mustard greens",
+            "spinach",
+            "corn flour",
+            "white butter",
+            "salt",
+            "water"
+        ],
+        "steps": [
+            "Boil and mash greens",
+            "Slow cook with corn flour",
+            "Add white butter on top",
+            "Make rotis using corn flour (makki)",
+            "Serve hot"
+        ],
+        "prepTime": 50
+    },
+    {
+        "id": "pb_ln_007",
+        "name": "Aloo Gobi with Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "potato",
+            "cauliflower",
+            "turmeric",
+            "salt",
+            "oil",
+            "wheat flour"
+        ],
+        "steps": [
+            "Sauté potato and cauliflower with spices",
+            "Cook until tender and slightly crisp",
+            "Prepare fresh rotis",
+            "Serve hot"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_ln_008",
+        "name": "Aloo Matar with Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "potato",
+            "green peas",
+            "tomato",
+            "salt",
+            "oil",
+            "wheat flour"
+        ],
+        "steps": [
+            "Cook potatoes and peas in a spiced tomato gravy",
+            "Prepare wheat rotis",
+            "Serve hot"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_ln_009",
+        "name": "Bhindi Masala with Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "okra",
+            "onion",
+            "dry mango powder",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Sauté okra with onions",
+            "Add dry spices for a tangy flavor",
+            "Cook until crispy",
+            "Serve with roti"
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "pb_ln_010",
+        "name": "Lauki Kofta Curry with Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "bottle gourd",
+            "besan",
+            "tomato gravy",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Grate lauki and mix with besan to make balls",
+            "Deep fry koftas",
+            "Prepare a rich tomato-based gravy",
+            "Add koftas and serve with roti"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_ln_011",
+        "name": "Amritsari Pindi Chole with Kulcha",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "kabuli chana",
+            "tea bags",
+            "pindi masala",
+            "kulcha bread",
+            "salt"
+        ],
+        "steps": [
+            "Boil chickpeas with tea bags for dark color",
+            "Sauté with pindi chole masala",
+            "Heat kulcha with butter",
+            "Serve together"
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "pb_ln_012",
+        "name": "Mix Veg Curry with Lachha Paratha",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "beans",
+            "carrot",
+            "peas",
+            "paneer",
+            "wheat flour",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Sauté mixed veggies in a thick gravy",
+            "Prepare layered wheat parathas",
+            "Serve hot"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_ln_013",
+        "name": "Chana Dal with Lauki and Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "chana dal",
+            "bottle gourd",
+            "turmeric",
+            "salt",
+            "water"
+        ],
+        "steps": [
+            "Pressure cook dal and lauki together",
+            "Add a garlic and cumin tadka",
+            "Serve with roti"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_ln_014",
+        "name": "Baingan Bharta with Missi Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "eggplant",
+            "peas",
+            "besan",
+            "wheat flour",
+            "onion",
+            "salt"
+        ],
+        "steps": [
+            "Roast eggplant and mash it",
+            "Sauté with peas and onions",
+            "Prepare dough with wheat and besan",
+            "Cook missi roti and serve"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_ln_015",
+        "name": "Palak Paneer with Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "spinach",
+            "paneer",
+            "cream",
+            "garlic",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Blanch and puree spinach",
+            "Sauté with garlic and cream",
+            "Add paneer cubes",
+            "Serve with fresh rotis"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_ln_016",
+        "name": "Paneer Bhurji with Tawa Paratha",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "crumbled paneer",
+            "capsicum",
+            "onion",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Sauté onion and capsicum",
+            "Add crumbled paneer and spices",
+            "Prepare square tawa paratha",
+            "Serve hot"
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "pb_ln_017",
+        "name": "Amritsari Paneer Kulcha",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "maida",
+            "paneer",
+            "green chilli",
+            "butter",
+            "salt"
+        ],
+        "steps": [
+            "Prepare a leavened dough",
+            "Stuff with spiced paneer",
+            "Bake or cook on tawa",
+            "Top with butter"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_ln_018",
+        "name": "Soya Chaap Masala with Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "soya chaap sticks",
+            "curd",
+            "tomato gravy",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Fry soya chaap sticks",
+            "Marinate in curd and spices",
+            "Cook in a rich gravy",
+            "Serve with roti"
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "pb_ln_019",
+        "name": "Methi Matar Malai with Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "fenugreek leaves",
+            "green peas",
+            "cream",
+            "sugar",
+            "salt"
+        ],
+        "steps": [
+            "Sauté methi and peas",
+            "Add a white gravy of cashews and cream",
+            "Balance with a pinch of sugar",
+            "Serve with roti"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_ln_020",
+        "name": "Shahi Paneer with Naan",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "paneer",
+            "cashew paste",
+            "tomato puree",
+            "cream",
+            "salt"
+        ],
+        "steps": [
+            "Cook tomato puree with cashew paste",
+            "Add cream and paneer cubes",
+            "Serve with butter naan"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_ln_021",
+        "name": "Vegetable Pulao with Raita",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "basmati rice",
+            "mixed vegetables",
+            "curd",
+            "cumin seeds",
+            "salt"
+        ],
+        "steps": [
+            "Cook rice with veggies and whole spices",
+            "Whisk curd with roasted cumin for raita",
+            "Serve together"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_ln_022",
+        "name": "Arbi Masala with Ajwain Paratha",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "taro root",
+            "ajwain",
+            "wheat flour",
+            "turmeric",
+            "oil"
+        ],
+        "steps": [
+            "Boil and fry arbi with spices",
+            "Add ajwain to dough for parathas",
+            "Cook and serve together"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_ln_023",
+        "name": "Mushroom Do Pyaza with Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "mushrooms",
+            "onions",
+            "tomato",
+            "ginger",
+            "salt"
+        ],
+        "steps": [
+            "Sauté mushrooms with large onion chunks",
+            "Add spicy tomato base",
+            "Serve with hot rotis"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_ln_024",
+        "name": "Malai Kofta with Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "potato",
+            "paneer",
+            "raisins",
+            "cream",
+            "tomato gravy"
+        ],
+        "steps": [
+            "Make koftas with potato and paneer",
+            "Stuff with raisins and fry",
+            "Prepare a silky creamy gravy",
+            "Add koftas before serving"
+        ],
+        "prepTime": 50
+    },
+    {
+        "id": "pb_ln_025",
+        "name": "Paneer Tikka Masala with Roti",
+        "region": "Punjab",
+        "category": "Lunch",
+        "ingredients": [
+            "paneer",
+            "capsicum",
+            "curd",
+            "tomato gravy",
+            "salt"
+        ],
+        "steps": [
+            "Grill marinated paneer and capsicum",
+            "Simmer in a thick spicy gravy",
+            "Serve with fresh rotis"
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "pb_sn_001",
+        "name": "Amritsari Samosa",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "maida",
+            "potato",
+            "green peas",
+            "anardana powder",
+            "salt",
+            "oil",
+            "water"
+        ],
+        "steps": [
+            "Make a spiced potato and peas filling with anardana",
+            "Prepare a firm maida dough with carom seeds",
+            "Shape into cones and fill",
+            "Deep fry on low heat until golden and flaky",
+            "Serve with tamarind chutney"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_sn_002",
+        "name": "Aloo Pakora",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "potato",
+            "besan flour",
+            "ajwain",
+            "salt",
+            "oil",
+            "water"
+        ],
+        "steps": [
+            "Slice potatoes thinly",
+            "Make a thick besan batter with ajwain and salt",
+            "Dip slices in batter",
+            "Deep fry until golden and crispy",
+            "Serve hot with mint chutney"
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "pb_sn_003",
+        "name": "Paneer Bread Pakora",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "bread",
+            "paneer",
+            "besan flour",
+            "green chutney",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Sandwich a slice of paneer and chutney between bread",
+            "Dip the sandwich in spiced besan batter",
+            "Deep fry until golden brown",
+            "Cut diagonally and serve hot"
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "pb_sn_004",
+        "name": "Gobi Pakora",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "cauliflower florets",
+            "besan",
+            "chaat masala",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Blanch cauliflower florets briefly",
+            "Coat in a spicy besan batter",
+            "Deep fry until extra crunchy",
+            "Sprinkle chaat masala before serving"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_sn_005",
+        "name": "Aloo Tikki Chaat",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "potato",
+            "cornflour",
+            "curd",
+            "chutneys",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Mash boiled potatoes with cornflour for crispiness",
+            "Shallow fry into golden patties",
+            "Top with whisked curd, sweet and spicy chutneys",
+            "Garnish with sev and pomegranate"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_sn_006",
+        "name": "Paneer Tikka (Tawa Style)",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "paneer cubes",
+            "curd",
+            "kashmiri mirch",
+            "capsicum",
+            "oil"
+        ],
+        "steps": [
+            "Marinate paneer and capsicum in spiced curd",
+            "Thread on skewers or place directly on a hot tawa",
+            "Grill until charred on edges",
+            "Serve with lemon wedges"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_sn_007",
+        "name": "Ram Ladoo (Moong Dal Ram Ladoo)",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "moong dal",
+            "chana dal",
+            "radish",
+            "green chutney",
+            "oil"
+        ],
+        "steps": [
+            "Grind soaked dals into a fluffy batter",
+            "Deep fry small round dumplings",
+            "Top with grated radish and spicy green chutney",
+            "Serve warm"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_sn_008",
+        "name": "Dahi Bhalla",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "urad dal",
+            "curd",
+            "tamarind chutney",
+            "roasted cumin",
+            "oil"
+        ],
+        "steps": [
+            "Fry urad dal dumplings and soak in water",
+            "Squeeze and top with thick sweetened curd",
+            "Add chutneys and roasted cumin powder",
+            "Serve chilled"
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "pb_sn_009",
+        "name": "Papdi Chaat",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "papdi",
+            "boiled potato",
+            "curd",
+            "chutneys",
+            "sev"
+        ],
+        "steps": [
+            "Arrange papdis on a plate",
+            "Add chopped potatoes and chickpeas",
+            "Drizzle curd and assorted chutneys",
+            "Top with plenty of sev"
+        ],
+        "prepTime": 15
+    },
+    {
+        "id": "pb_sn_010",
+        "name": "Punjabi Mathri",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "maida",
+            "suji",
+            "peppercorns",
+            "dried methi",
+            "oil"
+        ],
+        "steps": [
+            "Knead a very tight dough with suji and spices",
+            "Prick small discs with a fork",
+            "Deep fry on very low heat for 15-20 minutes",
+            "Cool and serve with mango pickle"
+        ],
+        "prepTime": 50
+    },
+    {
+        "id": "pb_sn_011",
+        "name": "Namak Pare",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "maida",
+            "ajwain",
+            "salt",
+            "ghee",
+            "oil"
+        ],
+        "steps": [
+            "Knead dough with ghee for khasta texture",
+            "Roll and cut into diamond shapes",
+            "Deep fry until light golden",
+            "Store in airtight container"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_sn_012",
+        "name": "Shakarpara",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "maida",
+            "sugar",
+            "ghee",
+            "water"
+        ],
+        "steps": [
+            "Make a sugar syrup",
+            "Knead maida with syrup and ghee",
+            "Cut into cubes and deep fry",
+            "Cool until they become crunchy"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_sn_013",
+        "name": "Nutri Kulcha (Snack Version)",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "soya chunks",
+            "onion",
+            "tomato",
+            "mini kulcha",
+            "butter"
+        ],
+        "steps": [
+            "Sauté soya chunks in a spicy, dark gravy",
+            "Toast mini kulchas with lots of butter",
+            "Serve soya on top of kulcha with onions"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_sn_014",
+        "name": "Bhelpuri (Punjabi Style)",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "puffed rice",
+            "peanuts",
+            "onion",
+            "green chilli",
+            "lemon"
+        ],
+        "steps": [
+            "Toss puffed rice with roasted peanuts",
+            "Add finely chopped onions and chillies",
+            "Drizzle lemon juice and mustard oil",
+            "Mix and serve immediately"
+        ],
+        "prepTime": 10
+    },
+    {
+        "id": "pb_sn_015",
+        "name": "Palak Patta Chaat",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "spinach leaves",
+            "besan",
+            "curd",
+            "chutneys",
+            "oil"
+        ],
+        "steps": [
+            "Dip whole spinach leaves in thin besan batter",
+            "Deep fry until very crisp",
+            "Top with curd and chutneys",
+            "Serve as a crunchy chaat"
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "pb_sn_016",
+        "name": "Paneer Pakora",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "paneer",
+            "besan",
+            "chaat masala",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Cut paneer into thick cubes",
+            "Coat with spicy besan batter",
+            "Deep fry until golden",
+            "Sprinkle chaat masala"
+        ],
+        "prepTime": 20
+    },
+    {
+        "id": "pb_sn_017",
+        "name": "Masala Corn (Butta)",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "corn cob",
+            "lemon",
+            "black salt",
+            "red chilli powder"
+        ],
+        "steps": [
+            "Roast corn over an open flame",
+            "Rub lemon dipped in salt and chilli",
+            "Serve hot and charred"
+        ],
+        "prepTime": 10
+    },
+    {
+        "id": "pb_sn_018",
+        "name": "Gol Gappe (Pani Puri)",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "semolina puri",
+            "spiced water",
+            "boiled potato",
+            "chickpeas"
+        ],
+        "steps": [
+            "Fill crispy puris with potato and chickpeas",
+            "Dip in chilled spicy mint water",
+            "Serve immediately"
+        ],
+        "prepTime": 20
+    },
+    {
+        "id": "pb_sn_019",
+        "name": "Kachori with Aloo Sabzi",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "maida",
+            "moong dal filling",
+            "potato curry",
+            "oil"
+        ],
+        "steps": [
+            "Stuff dough with spiced dal mixture",
+            "Deep fry slowly until flaky",
+            "Serve with a thin, spicy aloo sabzi"
+        ],
+        "prepTime": 50
+    },
+    {
+        "id": "pb_sn_020",
+        "name": "Bun Samosa",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "bun",
+            "samosa",
+            "sweet chutney",
+            "butter"
+        ],
+        "steps": [
+            "Slice bun and apply butter",
+            "Mash a hot samosa inside the bun",
+            "Add sweet chutney and press",
+            "Serve as a quick street snack"
+        ],
+        "prepTime": 5
+    },
+    {
+        "id": "pb_sn_021",
+        "name": "Veg Cutlet",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "mixed veggies",
+            "bread crumbs",
+            "potato",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Mash boiled veggies and potatoes",
+            "Shape into ovals and coat with crumbs",
+            "Deep fry until dark brown",
+            "Serve with ketchup"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_sn_022",
+        "name": "Mirchi Vada",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "large green chillies",
+            "potato stuffing",
+            "besan",
+            "oil"
+        ],
+        "steps": [
+            "Stuff large chillies with spicy mashed potato",
+            "Dip in thick besan batter",
+            "Deep fry until crispy",
+            "Serve hot"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_sn_023",
+        "name": "Aloo Chaat (Market Style)",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "potato",
+            "lemon",
+            "green chilli",
+            "chaat masala",
+            "oil"
+        ],
+        "steps": [
+            "Deep fry potato cubes until very crisp",
+            "Toss with chopped chillies and lemon juice",
+            "Add heavy dose of chaat masala",
+            "Serve with toothpicks"
+        ],
+        "prepTime": 20
+    },
+    {
+        "id": "pb_sn_024",
+        "name": "Kulfi Falooda",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "milk kulfi",
+            "falooda noodles",
+            "rose syrup",
+            "sabja seeds"
+        ],
+        "steps": [
+            "Slice kulfi into a plate",
+            "Top with falooda noodles and soaked seeds",
+            "Drizzle rose syrup",
+            "Serve as a sweet evening snack"
+        ],
+        "prepTime": 10
+    },
+    {
+        "id": "pb_sn_025",
+        "name": "Chana Zor Garam",
+        "region": "Punjab",
+        "category": "Snacks",
+        "ingredients": [
+            "flattened chickpeas",
+            "onion",
+            "tomato",
+            "lemon",
+            "spices"
+        ],
+        "steps": [
+            "Mix spicy flattened chickpeas with onions",
+            "Add chopped tomatoes and lemon juice",
+            "Toss with masala",
+            "Serve in a paper cone"
+        ],
+        "prepTime": 10
+    },
+    {
+        "id": "pb_dn_001",
+        "name": "Dal Makhani with Butter Naan",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "black urad dal",
+            "rajma",
+            "butter",
+            "cream",
+            "maida",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Soak dal and rajma overnight",
+            "Pressure cook until soft",
+            "Simmer on low heat with butter and cream",
+            "Prepare leavened maida dough",
+            "Cook naan on tawa and apply butter",
+            "Serve hot"
+        ],
+        "prepTime": 60
+    },
+    {
+        "id": "pb_dn_002",
+        "name": "Paneer Butter Masala with Kulcha",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "paneer",
+            "butter",
+            "tomato puree",
+            "cashew paste",
+            "maida",
+            "salt"
+        ],
+        "steps": [
+            "Sauté tomato puree and cashew paste in butter",
+            "Add spices and cream",
+            "Simmer paneer cubes in the gravy",
+            "Prepare and roast soft kulchas",
+            "Serve together"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_dn_003",
+        "name": "Amritsari Dal with Lachha Paratha",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "chana dal",
+            "urad dal dhuli",
+            "wheat flour",
+            "ghee",
+            "ginger",
+            "salt"
+        ],
+        "steps": [
+            "Cook both dals until thick and creamy",
+            "Add a heavy tadka of ghee, ginger, and cumin",
+            "Make layered wheat parathas",
+            "Serve with a dollop of butter"
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "pb_dn_004",
+        "name": "Aloo Wadiyan Curry with Rice",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "punjabi wadi",
+            "potatoes",
+            "onion-tomato masala",
+            "basmati rice",
+            "salt"
+        ],
+        "steps": [
+            "Fry wadiyan until brown and crush them",
+            "Cook with potato cubes in a thin spicy gravy",
+            "Prepare steamed rice",
+            "Serve together"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_dn_005",
+        "name": "Bhindi Do Pyaza with Phulka",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "okra",
+            "large onion chunks",
+            "amchur powder",
+            "wheat flour",
+            "salt"
+        ],
+        "steps": [
+            "Sauté okra and onions separately",
+            "Mix with spices and cook until tender",
+            "Prepare soft phulkas",
+            "Serve hot"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_dn_006",
+        "name": "Kofta Lauki with Missi Roti",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "bottle gourd",
+            "besan",
+            "wheat flour",
+            "tomato gravy",
+            "salt"
+        ],
+        "steps": [
+            "Make spiced lauki dumplings and fry",
+            "Simmer in a thick tomato-onion gravy",
+            "Make rotis with wheat and besan flour",
+            "Serve together"
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "pb_dn_007",
+        "name": "Tori Masala with Jeera Aloo and Roti",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "ridge gourd",
+            "potatoes",
+            "cumin",
+            "wheat flour",
+            "salt"
+        ],
+        "steps": [
+            "Cook ridge gourd with minimal spices",
+            "Make a side of dry cumin potatoes",
+            "Serve with fresh rotis"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_dn_008",
+        "name": "Chana Dal Palak with Roti",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "chana dal",
+            "spinach",
+            "garlic",
+            "wheat flour",
+            "salt"
+        ],
+        "steps": [
+            "Cook dal and chopped spinach together",
+            "Add a strong garlic and red chilli tadka",
+            "Serve with hot rotis"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_dn_009",
+        "name": "Palak Paneer with Garlic Roti",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "spinach",
+            "paneer",
+            "garlic",
+            "wheat flour",
+            "cream"
+        ],
+        "steps": [
+            "Puree blanched spinach",
+            "Cook with paneer cubes and garlic",
+            "Make rotis topped with minced garlic",
+            "Serve hot"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_dn_010",
+        "name": "Baingan Bharta with Tandoori Roti",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "large eggplant",
+            "peas",
+            "onion",
+            "wheat flour",
+            "ghee"
+        ],
+        "steps": [
+            "Fire-roast eggplant and mash",
+            "Sauté with onions, tomatoes, and peas",
+            "Prepare thick rotis on tawa and char slightly",
+            "Serve with ghee"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_dn_011",
+        "name": "Paneer Bhurji with Masala Paratha",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "crumbled paneer",
+            "capsicum",
+            "wheat flour",
+            "ajwain",
+            "salt"
+        ],
+        "steps": [
+            "Sauté crumbled paneer with veggies",
+            "Make parathas with ajwain and chilli powder layers",
+            "Serve together"
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "pb_dn_012",
+        "name": "Punjabi Tari Wala Egg Curry with Rice",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "boiled eggs",
+            "onion-tomato paste",
+            "whole spices",
+            "basmati rice",
+            "salt"
+        ],
+        "steps": [
+            "Fry boiled eggs",
+            "Simmer in a thin, spicy onion-tomato gravy",
+            "Serve with steamed rice"
+        ],
+        "prepTime": 35
+    },
+    {
+        "id": "pb_dn_013",
+        "name": "Egg Bhurji with Tawa Paratha",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "eggs",
+            "onion",
+            "green chilli",
+            "wheat flour",
+            "oil"
+        ],
+        "steps": [
+            "Scramble eggs with onions and chillies",
+            "Prepare square layered parathas",
+            "Serve hot"
+        ],
+        "prepTime": 20
+    },
+    {
+        "id": "pb_dn_014",
+        "name": "Kadhi Pakora with Jeera Rice",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "curd",
+            "besan",
+            "cumin",
+            "rice",
+            "oil",
+            "salt"
+        ],
+        "steps": [
+            "Make pakoras and simmer in tangy curd gravy",
+            "Sauté rice with cumin seeds",
+            "Serve together"
+        ],
+        "prepTime": 40
+    },
+    {
+        "id": "pb_dn_015",
+        "name": "Moong Dal Khichdi with Dahi and Papad",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "rice",
+            "yellow moong dal",
+            "ghee",
+            "curd",
+            "papad"
+        ],
+        "steps": [
+            "Cook rice and dal together until mushy",
+            "Add a ghee and cumin tadka",
+            "Serve with curd and roasted papad"
+        ],
+        "prepTime": 25
+    },
+    {
+        "id": "pb_dn_016",
+        "name": "Pindi Chole with Bhature",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "chickpeas",
+            "pindi masala",
+            "maida",
+            "curd",
+            "oil"
+        ],
+        "steps": [
+            "Cook chickpeas with dry spices until dark",
+            "Deep fry fermented maida bhaturas",
+            "Serve with pickles"
+        ],
+        "prepTime": 50
+    },
+    {
+        "id": "pb_dn_017",
+        "name": "Kheer (Rice Pudding)",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "rice",
+            "milk",
+            "sugar",
+            "cardamom",
+            "nuts"
+        ],
+        "steps": [
+            "Boil rice in milk on low flame until thick",
+            "Add sugar and cardamom",
+            "Garnish with nuts and serve warm or cold"
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "pb_dn_018",
+        "name": "Matar Paneer with Phulka",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "peas",
+            "paneer",
+            "tomato gravy",
+            "wheat flour",
+            "salt"
+        ],
+        "steps": [
+            "Cook peas and paneer in a spiced gravy",
+            "Prepare fresh phulkas",
+            "Serve hot"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_dn_019",
+        "name": "Vegetable Biryani with Raita",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "basmati rice",
+            "mixed veggies",
+            "curd",
+            "biryani masala",
+            "salt"
+        ],
+        "steps": [
+            "Layer partially cooked rice with spicy veggie mix",
+            "Steam (Dum) for 15 minutes",
+            "Serve with cucumber raita"
+        ],
+        "prepTime": 50
+    },
+    {
+        "id": "pb_dn_020",
+        "name": "Rajma Masala with Steamed Rice",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "rajma",
+            "ginger-garlic paste",
+            "tomato",
+            "basmati rice",
+            "salt"
+        ],
+        "steps": [
+            "Cook soaked rajma in a thick ginger-tomato gravy",
+            "Prepare fluffy steamed rice",
+            "Serve together"
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "pb_dn_021",
+        "name": "Mushroom Matar with Roti",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "mushrooms",
+            "green peas",
+            "onion",
+            "wheat flour",
+            "salt"
+        ],
+        "steps": [
+            "Sauté mushrooms and peas in a spicy base",
+            "Prepare wheat rotis",
+            "Serve hot"
+        ],
+        "prepTime": 30
+    },
+    {
+        "id": "pb_dn_022",
+        "name": "Sarson Saag with Makki Roti",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "mustard greens",
+            "corn flour",
+            "white butter",
+            "salt"
+        ],
+        "steps": [
+            "Slow cook mashed greens with corn flour",
+            "Make corn flour rotis",
+            "Serve with jaggery and white butter"
+        ],
+        "prepTime": 50
+    },
+    {
+        "id": "pb_dn_023",
+        "name": "Malai Kofta with Rumali Roti",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "paneer",
+            "potato",
+            "cream",
+            "maida",
+            "salt"
+        ],
+        "steps": [
+            "Make soft paneer-potato balls",
+            "Simmer in a creamy white gravy",
+            "Serve with thin rumali roti"
+        ],
+        "prepTime": 50
+    },
+    {
+        "id": "pb_dn_024",
+        "name": "Soya Chaap Masala with Roti",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "soya chaap",
+            "curd marination",
+            "onion-tomato gravy",
+            "wheat flour"
+        ],
+        "steps": [
+            "Marinate and fry soya chaap sticks",
+            "Cook in a rich, spicy gravy",
+            "Serve with roti"
+        ],
+        "prepTime": 45
+    },
+    {
+        "id": "pb_dn_025",
+        "name": "Gajar Halwa (Seasonal Dessert)",
+        "region": "Punjab",
+        "category": "Dinner",
+        "ingredients": [
+            "carrots",
+            "milk",
+            "khoya",
+            "sugar",
+            "ghee"
+        ],
+        "steps": [
+            "Grate carrots and cook with milk",
+            "Add sugar, ghee, and khoya",
+            "Stir until dark red and serve warm"
+        ],
+        "prepTime": 50
+    }
 ]
-
-

@@ -5,7 +5,6 @@ import '../../features/home/home_screen.dart';
 import '../../features/pantry/pantry_screen.dart';
 import '../../features/recipes/recipes_screen.dart';
 import '../../features/settings/settings_screen.dart';
-import '../../features/settings/settings_screen.dart';
 import '../../shared/models/pantry_item.dart';
 import '../../shared/services/app_settings_service.dart';
 
@@ -13,11 +12,17 @@ class MainNavigationScreen extends StatefulWidget {
   const MainNavigationScreen({super.key});
 
   @override
-  State<MainNavigationScreen> createState() => _MainNavigationScreenState();
+  State<MainNavigationScreen> createState() => MainNavigationScreenState();
 }
 
-class _MainNavigationScreenState extends State<MainNavigationScreen> {
+class MainNavigationScreenState extends State<MainNavigationScreen> {
   int _currentIndex = 0;
+
+  void setPage(int index) {
+    setState(() {
+      _currentIndex = index;
+    });
+  }
 
   final List<Widget> _screens = [
     const HomeScreen(),
