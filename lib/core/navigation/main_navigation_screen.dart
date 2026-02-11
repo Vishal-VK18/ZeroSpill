@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import '../../features/home/home_screen.dart';
 import '../../features/pantry/pantry_screen.dart';
 import '../../features/recipes/recipes_screen.dart';
@@ -28,80 +26,69 @@ class MainNavigationScreenState extends State<MainNavigationScreen> {
     const HomeScreen(),
     const PantryScreen(),
     const RecipesScreen(),
+    const AiMainScreen(), 
     const SettingsScreen(),
   ];
 
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    
     return Scaffold(
       body: IndexedStack(
-        index: _currentIndex,
+        index: _selectedIndex,
         children: _screens,
       ),
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
-          color: const Color(0xFF1A1A1A),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withValues(alpha: 0.3),
+              color: Colors.black.withOpacity(0.05),
               blurRadius: 10,
-              offset: const Offset(0, -2),
+              offset: const Offset(0, -5),
             ),
           ],
         ),
-        child: SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                _buildNavItem(Icons.home_outlined, Icons.home, 'Home', 0),
-                _buildNavItem(Icons.inventory_2_outlined, Icons.inventory_2, 'Pantry', 1),
-                _buildNavItem(Icons.restaurant_menu_outlined, Icons.restaurant_menu, 'Recipes', 2),
-                _buildNavItem(Icons.person_outline, Icons.person, 'Profile', 3),
-              ],
+        child: NavigationBar(
+          selectedIndex: _selectedIndex,
+          onDestinationSelected: _onItemTapped,
+          backgroundColor: colorScheme.surface,
+          indicatorColor: colorScheme.primary.withOpacity(0.2),
+          destinations: const [
+            NavigationDestination(
+              icon: Icon(Icons.home_outlined), 
+              selectedIcon: Icon(Icons.home),
+              label: 'Home',
             ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildNavItem(IconData outlinedIcon, IconData filledIcon, String label, int index) {
-    final isSelected = _currentIndex == index;
-    return GestureDetector(
-      onTap: () {
-        setState(() {
-          _currentIndex = index;
-        });
-      },
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        decoration: BoxDecoration(
-          color: isSelected ? const Color(0xFF00FF7F).withValues(alpha: 0.1) : Colors.transparent,
-          borderRadius: BorderRadius.circular(12),
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(
-              isSelected ? filledIcon : outlinedIcon,
-              color: isSelected ? const Color(0xFF00FF7F) : Colors.grey,
-              size: 24,
+            NavigationDestination(
+              icon: Icon(Icons.inventory_2_outlined), 
+              selectedIcon: Icon(Icons.inventory_2),
+              label: 'Pantry',
             ),
-            const SizedBox(height: 4),
-            Text(
-              label,
-              style: TextStyle(
-                color: isSelected ? const Color(0xFF00FF7F) : Colors.grey,
-                fontSize: 12,
-                fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
-              ),
+            NavigationDestination(
+              icon: Icon(Icons.restaurant_menu_outlined), 
+              selectedIcon: Icon(Icons.restaurant_menu),
+              label: 'Recipes',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.smart_toy_outlined), 
+              selectedIcon: Icon(Icons.smart_toy),
+              label: 'AI',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.person_outline), 
+              selectedIcon: Icon(Icons.person),
+              label: 'Profile',
             ),
           ],
         ),
       ),
     );
   }
-
 }
