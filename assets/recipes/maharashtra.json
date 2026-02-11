@@ -1,62 +1,2174 @@
 [
-    {
-        "id": "mh_bf_001",
-        "name": "Poha",
-        "region": "Maharashtra",
-        "category": "Breakfast",
-        "ingredients": [
-            "Beaten Rice",
-            "Onion",
-            "Potato",
-            "Green Chillies",
-            "Peanuts",
-            "Mustard Seeds",
-            "Curry Leaves",
-            "Turmeric",
-            "Lemon"
-        ],
-        "steps": [
-            "Wash poha gently and drain immediately.",
-            "Let it sit for 5 minutes to soften.",
-            "Heat oil in a pan.",
-            "Add mustard seeds, let them splutter.",
-            "Add curry leaves and green chillies.",
-            "Add peanuts and fry until golden.",
-            "Add chopped onions, sauté until soft.",
-            "Add diced potatoes and cook covered.",
-            "Add turmeric powder and salt.",
-            "Add the softened poha and mix gently.",
-            "Cook on low heat for 2-3 minutes.",
-            "Squeeze lemon juice before serving.",
-            "Garnish with coriander and serve hot."
-        ],
-        "prepTime": 20
-    },
-    {
-        "id": "mh_lun_001",
-        "name": "Varan Bhaat",
-        "region": "Maharashtra",
-        "category": "Lunch",
-        "ingredients": [
-            "Toor Dal",
-            "Rice",
-            "Turmeric",
-            "Ghee",
-            "Cumin Seeds",
-            "Asafoetida",
-            "Jaggery"
-        ],
-        "steps": [
-            "Pressure cook toor dal with turmeric until very soft.",
-            "Mash the dal well.",
-            "Add jaggery and mix.",
-            "Heat ghee in a small pan.",
-            "Add cumin seeds and asafoetida.",
-            "Pour tempering over dal.",
-            "Cook rice separately.",
-            "Mix dal with hot rice.",
-            "Serve with ghee on top."
-        ],
-        "prepTime": 30
-    }
+  {
+    "id": "mh_bf_001",
+    "name": "Kanda Poha",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "poha",
+      "onion",
+      "peanuts",
+      "mustard",
+      "turmeric",
+      "green chilli",
+      "lemon",
+      "coriander"
+    ],
+    "steps": [
+      "Wash the flattened rice (poha) gently and drain completely. Let it rest.",
+      "Heat oil in a pan, add mustard seeds, peanuts, and sauté until the peanuts are crunchy.",
+      "Add chopped onions and green chillies; sauté until the onions are translucent.",
+      "Stir in turmeric and salt, then add the soaked poha and mix well.",
+      "Cover and steam for 2-3 minutes on low heat.",
+      "Finish with a squeeze of lemon juice and garnish with fresh coriander."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_bf_002",
+    "name": "Kanda Batata Poha",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "poha",
+      "onion",
+      "potato",
+      "peanuts",
+      "turmeric",
+      "mustard",
+      "green chilli"
+    ],
+    "steps": [
+      "Prepare poha by washing and draining.",
+      "Dice potatoes into small cubes and fry them in oil until golden and soft.",
+      "In the same pan, add mustard, onions, and green chillies; sauté well.",
+      "Add the fried potatoes, turmeric, and salt.",
+      "Toss in the poha, mix gently, and steam for 2 minutes.",
+      "Serve hot with a garnish of grated coconut."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_bf_003",
+    "name": "Upma (Rava)",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "semolina",
+      "onion",
+      "green chilli",
+      "mustard",
+      "urad dal",
+      "ginger",
+      "curry leaves"
+    ],
+    "steps": [
+      "Dry roast semolina (rava) until it becomes aromatic and slightly golden.",
+      "Heat oil, add mustard seeds, urad dal, and curry leaves.",
+      "Add chopped onions, green chillies, and grated ginger; sauté until soft.",
+      "Pour in 3 cups of water for every 1 cup of rava and add salt.",
+      "Once the water boils, add the roasted rava slowly while stirring to prevent lumps.",
+      "Cover and cook on low flame for 5 minutes until fluffy."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_004",
+    "name": "Sabudana Khichdi",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "sabudana",
+      "roasted peanut powder",
+      "potato",
+      "green chilli",
+      "cumin",
+      "sugar",
+      "ghee"
+    ],
+    "steps": [
+      "Wash sabudana and soak it with just enough water to cover it for 5-6 hours.",
+      "Mix roasted and coarsely ground peanut powder, salt, and a pinch of sugar into the soaked sabudana.",
+      "Heat ghee in a pan, add cumin seeds and diced potatoes; cook until the potatoes are tender.",
+      "Add chopped green chillies and the sabudana mixture.",
+      "Sauté on medium-high heat until the pearls become translucent.",
+      "Garnish with lemon juice and serve immediately."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_005",
+    "name": "Thalipeeth",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "bhajani flour",
+      "onion",
+      "coriander",
+      "green chilli",
+      "cumin",
+      "oil"
+    ],
+    "steps": [
+      "Prepare a dough by mixing bhajani (multigrain) flour with finely chopped onions, coriander, and chillies.",
+      "Add cumin seeds and salt; knead into a soft dough using warm water.",
+      "Grease a damp cloth or a plastic sheet and pat a ball of dough into a thin circle.",
+      "Transfer to a hot griddle (tawa) and make a hole in the center.",
+      "Drizzle oil in the center and around the edges; cook until golden brown on both sides.",
+      "Serve with homemade white butter (loni)."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_006",
+    "name": "Misal Pav",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "sprouted moth beans",
+      "onion",
+      "coconut",
+      "ginger-garlic paste",
+      "misal masala",
+      "farsan",
+      "pav"
+    ],
+    "steps": [
+      "Boil sprouted moth beans (matki) with turmeric and salt.",
+      "Prepare a 'vatan' (paste) by roasting onions and dry coconut until dark brown and grinding them.",
+      "Heat oil, sauté ginger-garlic paste and the vatan until the oil separates.",
+      "Add misal masala and the boiled sprouts with their water.",
+      "Simmer until a thick layer of 'kat' (oil) forms on top.",
+      "Serve the spicy curry (usal) topped with farsan, onions, and lemon with pav."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_007",
+    "name": "Batata Bhaji",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "boiled potatoes",
+      "mustard",
+      "cumin",
+      "turmeric",
+      "green chilli",
+      "curry leaves"
+    ],
+    "steps": [
+      "Dice boiled and peeled potatoes into cubes.",
+      "Heat oil, add mustard seeds, cumin, and curry leaves.",
+      "Add slit green chillies and turmeric.",
+      "Add the potato cubes and salt; toss well to coat.",
+      "Cook covered for 3 minutes to allow the flavors to meld.",
+      "Garnish with fresh coriander and serve with hot puris."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_bf_008",
+    "name": "Dapanyache Pohe",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "poha",
+      "fresh coconut",
+      "green chilli",
+      "mustard seeds",
+      "sugar",
+      "lemon"
+    ],
+    "steps": [
+      "Wash the poha and drain water; mix with salt, sugar, and plenty of fresh grated coconut.",
+      "Let the mixture sit for 10 minutes to absorb the coconut moisture.",
+      "Heat oil and prepare a tempering of mustard seeds, hing, and green chillies.",
+      "Pour the hot tempering over the poha mixture and toss gently.",
+      "Cover and let the flavors meld for 5 minutes without further cooking.",
+      "Serve with a final squeeze of lemon juice."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "mh_bf_009",
+    "name": "Sanja",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "rava",
+      "onion",
+      "green chilli",
+      "mustard seeds",
+      "turmeric",
+      "red chilli powder"
+    ],
+    "steps": [
+      "Dry roast rava on low flame until it turns aromatic.",
+      "Heat oil and temper with mustard seeds, cumin, and curry leaves.",
+      "Sauté chopped onions and green chillies until soft.",
+      "Add turmeric and a little red chilli powder for a spicy kick.",
+      "Add boiling water and salt, then stir in the roasted rava.",
+      "Cook covered on low flame until the water is fully absorbed and the sanja is fluffy."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_bf_010",
+    "name": "Ghavan",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice flour",
+      "water",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Mix rice flour and salt with enough water to make a very thin, watery batter.",
+      "Heat a non-stick or cast iron tawa and grease it lightly.",
+      "Pour a ladleful of batter quickly from the edges toward the center.",
+      "Cover with a lid and cook for 1 minute until it becomes spongy.",
+      "Fold and remove without flipping.",
+      "Serve warm with coconut chutney or jaggery mixed with coconut milk."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_011",
+    "name": "Amboli",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice",
+      "urad dal",
+      "fenugreek seeds",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Soak rice and urad dal with fenugreek seeds for 6 hours.",
+      "Grind into a smooth batter and ferment overnight.",
+      "The batter should be thick yet pourable.",
+      "Pour a ladleful on a hot tawa and spread slightly thicker than a regular dosa.",
+      "Cover and cook until the base is golden and the top is porous.",
+      "Serve with spicy chutney or usal."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_012",
+    "name": "Jwariche Dhirde",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "jowar flour",
+      "onion",
+      "green chilli",
+      "cumin",
+      "ajwain",
+      "salt"
+    ],
+    "steps": [
+      "Mix jowar (sorghum) flour with chopped onions, green chillies, and spices.",
+      "Add water to create a batter of pouring consistency.",
+      "Heat a pan and drizzle oil.",
+      "Pour the batter and spread in a thin circle.",
+      "Cook on medium flame until crisp and golden brown on both sides.",
+      "Serve hot with curd or pickle."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_013",
+    "name": "Zunka",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "besan",
+      "onion",
+      "garlic",
+      "green chilli",
+      "mustard",
+      "coriander"
+    ],
+    "steps": [
+      "Heat oil and add mustard seeds, lots of crushed garlic, and green chillies.",
+      "Add chopped onions and sauté until brown.",
+      "Sprinkle besan (gram flour) over the onions while stirring continuously.",
+      "Add salt, turmeric, and a little water to moisten the flour.",
+      "Cover and steam for 5 minutes until the besan is cooked and dry.",
+      "Garnish with coriander and serve with Jowar Bhakri."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_014",
+    "name": "Pithla",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "besan",
+      "water",
+      "garlic",
+      "green chilli",
+      "mustard",
+      "turmeric"
+    ],
+    "steps": [
+      "Whisk besan with water to form a smooth, lump-free slurry.",
+      "Heat oil, add mustard seeds, and sauté crushed garlic and chillies.",
+      "Add turmeric and pour the besan slurry into the pan.",
+      "Cook while stirring constantly until the mixture thickens to a custard-like consistency.",
+      "Simmer for 3 minutes on low heat.",
+      "Serve hot as a comforting gravy with Bhakri or Rice."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_015",
+    "name": "Modak (Steamed)",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice flour",
+      "fresh coconut",
+      "jaggery",
+      "cardamom",
+      "ghee"
+    ],
+    "steps": [
+      "Prepare the filling by cooking grated coconut and jaggery together until thickened.",
+      "Add cardamom powder and let the filling cool.",
+      "Boil water with a pinch of salt and ghee; add rice flour and mix quickly to form a dough.",
+      "Knead the warm dough until smooth.",
+      "Shape small portions into bowls, stuff with filling, and pleat the edges to form a cone.",
+      "Steam for 10 minutes and serve with a dollop of ghee."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_016",
+    "name": "Kurdai",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "wheat starch",
+      "water",
+      "salt"
+    ],
+    "steps": [
+      "Soak wheat for 3 days, extracting the milk-like starch daily.",
+      "Boil water with salt and add the starch, stirring vigorously to form a thick, glossy paste.",
+      "While hot, press the paste through a sev-maker to form thin rings.",
+      "Sun-dry the rings completely for 2-3 days until they become brittle.",
+      "Store in an airtight container.",
+      "Deep fry when needed; they will puff up into white, crispy nests."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_017",
+    "name": "Alu Vadi",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "colocasia leaves",
+      "besan",
+      "tamarind paste",
+      "jaggery",
+      "spices"
+    ],
+    "steps": [
+      "Prepare a thick paste of besan, tamarind, jaggery, and spices.",
+      "Wash colocasia leaves and remove the thick veins.",
+      "Apply the paste on the back of one leaf, place another on top, and repeat.",
+      "Roll the leaves tightly and steam for 20 minutes.",
+      "Slice the rolls into wheels once cooled.",
+      "Shallow fry or deep fry until crispy and serve as a snack."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_018",
+    "name": "Rava Sheera",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "semolina",
+      "sugar",
+      "ghee",
+      "milk",
+      "cardamom",
+      "nuts"
+    ],
+    "steps": [
+      "Heat ghee in a pan and roast semolina (rava) until golden and fragrant.",
+      "In another pot, boil milk and water together.",
+      "Slowly pour the hot liquid into the rava while stirring continuously.",
+      "Add sugar and cardamom powder once the liquid is absorbed.",
+      "Cover and cook for 2 minutes; garnish with fried cashews and raisins.",
+      "Serve warm as a sweet breakfast or dessert."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_019",
+    "name": "Bread Upma",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "bread",
+      "onion",
+      "tomato",
+      "green chilli",
+      "mustard",
+      "turmeric"
+    ],
+    "steps": [
+      "Cut bread slices into small cubes.",
+      "Heat oil, add mustard seeds, onions, and chillies; sauté until soft.",
+      "Add chopped tomatoes and cook until mushy.",
+      "Stir in turmeric and salt, then add the bread cubes.",
+      "Toss well until the bread is coated and slightly toasted.",
+      "Garnish with coriander and serve hot."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_020",
+    "name": "Rava Idli",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "rava",
+      "curd",
+      "carrot",
+      "mustard",
+      "ginger",
+      "eno"
+    ],
+    "steps": [
+      "Roast rava slightly and let it cool.",
+      "Mix with curd, grated carrots, ginger, and salt to form a thick batter.",
+      "Let the batter rest for 15 minutes.",
+      "Just before steaming, add a pinch of eno (fruit salt) and mix gently.",
+      "Pour into greased idli moulds.",
+      "Steam for 10-12 minutes until soft and fluffy."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_021",
+    "name": "Sabudana Vada",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "sabudana",
+      "potato",
+      "peanut powder",
+      "green chilli",
+      "cumin",
+      "oil"
+    ],
+    "steps": [
+      "Soak sabudana for 5-6 hours until soft.",
+      "Mix with boiled and mashed potatoes, crushed peanuts, and chillies.",
+      "Add cumin seeds and salt; knead into a cohesive mixture.",
+      "Shape into small flat patties.",
+      "Deep fry in hot oil on medium-low flame until golden brown and crispy.",
+      "Serve with sweetened curd or peanut chutney."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_022",
+    "name": "Puran Poli",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "chana dal",
+      "jaggery",
+      "wheat flour",
+      "ghee",
+      "cardamom"
+    ],
+    "steps": [
+      "Boil chana dal until soft, then grind with jaggery and cardamom to make the sweet stuffing (puran).",
+      "Prepare a soft, elastic dough using wheat flour, oil, and water.",
+      "Stuff a ball of puran into the dough and seal tightly.",
+      "Roll it out into a thin circle using rice flour for dusting.",
+      "Cook on a hot griddle with plenty of ghee until golden spots appear.",
+      "Serve hot with a side of milk or katachi amti."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_023",
+    "name": "Matki Usal",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "sprouted moth beans",
+      "onion",
+      "godamasala",
+      "ginger-garlic",
+      "mustard"
+    ],
+    "steps": [
+      "Heat oil, add mustard seeds, and sauté onions until golden.",
+      "Add ginger-garlic paste and godamasala.",
+      "Toss in the sprouted moth beans and sauté for 2 minutes.",
+      "Add a little water and salt; cover and cook until the beans are tender.",
+      "Garnish with grated coconut and coriander.",
+      "Serve as a healthy breakfast or lunch side."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_024",
+    "name": "Bhakri",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "jowar flour",
+      "hot water",
+      "salt"
+    ],
+    "steps": [
+      "Mix jowar (sorghum) flour with salt and enough boiling water to form a soft dough.",
+      "Knead the dough well while it is still warm until smooth.",
+      "Pat a portion into a flat circle using your hands on a floured surface.",
+      "Transfer to a hot tawa; apply water on the top surface with a cloth.",
+      "Flip and cook the other side until it puffs up over direct flame.",
+      "Serve with Pithla or a spicy chutney."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_bf_025",
+    "name": "Gharge",
+    "region": "Maharashtra",
+    "category": "Breakfast",
+    "ingredients": [
+      "pumpkin",
+      "jaggery",
+      "wheat flour",
+      "oil"
+    ],
+    "steps": [
+      "Steam or boil yellow pumpkin and mash it smoothly.",
+      "Mix the mash with melted jaggery and wheat flour to form a stiff dough.",
+      "Add a pinch of salt to enhance the flavor.",
+      "Roll out small discs like pooris.",
+      "Deep fry in hot oil until they puff up and turn dark golden brown.",
+      "Enjoy these sweet and savory fritters as a travel snack or breakfast."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_ln_001",
+    "name": "Varan Bhaat",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "toor dal",
+      "rice",
+      "ghee",
+      "turmeric",
+      "salt"
+    ],
+    "steps": [
+      "Pressure cook toor dal with turmeric and a drop of oil until mushy.",
+      "Wash and cook rice until grains are separate and fluffy.",
+      "Whisk the cooked dal thoroughly with a hand blender or whisk.",
+      "Add salt and water to adjust the dal to a pourable consistency.",
+      "Serve the plain dal over hot rice and top with a generous dollop of ghee."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_ln_002",
+    "name": "Amti",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "toor dal",
+      "kokum",
+      "jaggery",
+      "godamasala",
+      "mustard",
+      "curry leaves"
+    ],
+    "steps": [
+      "Whisk cooked and mashed toor dal until smooth.",
+      "Add kokum for tanginess, jaggery for sweetness, and godamasala.",
+      "Heat oil and prepare a tempering with mustard seeds, curry leaves, and hing.",
+      "Pour the tempering into the dal and bring to a rolling boil.",
+      "Simmer for 10 minutes to let the flavors balance and garnish with coriander."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_ln_003",
+    "name": "Zunka Bhakri",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "besan",
+      "onion",
+      "garlic",
+      "bhakri",
+      "thecha"
+    ],
+    "steps": [
+      "Prepare dry Zunka by sautéing chopped onions, garlic, and green chillies in oil.",
+      "Slowly stir in besan and cook until it absorbs the oil and turns aromatic.",
+      "Serve the hot Zunka with freshly made Jowar or Bajra Bhakri.",
+      "Accompany with spicy green chilli Thecha and raw onion slices."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_ln_004",
+    "name": "Pithla Bhakri",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "besan",
+      "bhakri",
+      "garlic",
+      "green chilli",
+      "mustard"
+    ],
+    "steps": [
+      "Prepare a semi-liquid gram flour gravy (Pithla) with plenty of garlic and green chillies.",
+      "Serve as a comforting, thick gravy alongside warm Bhakri.",
+      "Drizzle a teaspoon of raw oil over the Pithla for extra flavor.",
+      "Pairs traditionally with a side of fresh koshimbir or spicy pickle."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_ln_005",
+    "name": "Bharli Vangi",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "small brinjals",
+      "peanut powder",
+      "coconut",
+      "godamasala",
+      "jaggery"
+    ],
+    "steps": [
+      "Slit small purple brinjals into four segments without removing the stem.",
+      "Mix roasted peanut powder, coconut, godamasala, and salt to create the stuffing.",
+      "Stuff the masala tightly into each brinjal and sauté in oil until charred.",
+      "Add a little water and cook covered on low flame until the brinjals are tender."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "mh_ln_006",
+    "name": "Walachi Usal",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "sprouted field beans",
+      "coconut",
+      "malvani masala",
+      "mustard",
+      "tamarind"
+    ],
+    "steps": [
+      "Peel the bitter skins off sprouted field beans (dalimbi).",
+      "Sauté onions with Malvani or Godamasala in hot oil.",
+      "Add the peeled beans, tamarind paste, and a bit of jaggery.",
+      "Cook until the beans are soft and garnish with grated coconut and coriander."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_ln_007",
+    "name": "Kobichi Bhaji",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "cabbage",
+      "chana dal",
+      "mustard",
+      "green chilli",
+      "turmeric"
+    ],
+    "steps": [
+      "Soak chana dal for 30 minutes before starting.",
+      "Heat oil and temper with mustard seeds and slit green chillies.",
+      "Add shredded cabbage, soaked dal, turmeric, and salt.",
+      "Steam-cook without adding water to maintain a slight crunch in the cabbage."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_ln_008",
+    "name": "Koshimbir",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "cucumber",
+      "peanut powder",
+      "curd",
+      "green chilli",
+      "sugar"
+    ],
+    "steps": [
+      "Finely chop cucumber and mix with crushed, roasted peanut powder.",
+      "Add curd or lemon juice, sugar, and salt to taste.",
+      "Prepare a tempering of mustard seeds and green chillies.",
+      "Pour the tempering over the cucumber and serve chilled."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "mh_ln_009",
+    "name": "Bharli Tondli",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "ivy gourd",
+      "peanut powder",
+      "mustard",
+      "godamasala",
+      "tamarind"
+    ],
+    "steps": [
+      "Slit ivy gourds (tondli) lengthwise into four segments.",
+      "Stuff with a spicy mix of peanut powder, turmeric, and godamasala.",
+      "Sauté in oil on low flame and add a dash of water.",
+      "Cook covered until the gourds shrivel and become soft and caramelized."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_ln_010",
+    "name": "Chapati (Poli)",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "wheat flour",
+      "oil",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Knead wheat flour with oil and salt into a soft, smooth dough.",
+      "Rest the dough for 15 minutes, then divide into small balls.",
+      "Roll into thin circles and roast on a hot tawa with oil or ghee.",
+      "Stack the soft, puffed chapatis in a container to keep them warm."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_ln_011",
+    "name": "Rice",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "rice",
+      "water",
+      "salt"
+    ],
+    "steps": [
+      "Wash rice until the water runs clear and use a 1:2 ratio of rice to water.",
+      "Cook in a pressure cooker for 3 whistles or in a pot until fluffy.",
+      "Rest the rice for 5 minutes before fluffing with a fork.",
+      "Serve hot as the primary grain for lunch meals."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_ln_012",
+    "name": "Shev Bhaji",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "sev",
+      "onion",
+      "dry coconut",
+      "ginger-garlic",
+      "spices"
+    ],
+    "steps": [
+      "Grind roasted onions and dry coconut into a smooth, spicy paste.",
+      "Sauté the paste until the oil separates and turns into a fiery red gravy.",
+      "Add water and simmer to create a thin rassa.",
+      "Add thick, spicy sev just before serving to avoid sogginess."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "mh_ln_013",
+    "name": "Aluchi Bhaji",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "colocasia leaves",
+      "peanuts",
+      "chana dal",
+      "tamarind",
+      "jaggery",
+      "coconut"
+    ],
+    "steps": [
+      "Pressure cook chopped colocasia leaves with peanuts and chana dal.",
+      "Mash the mixture and add tamarind juice, jaggery, and godamasala.",
+      "Add a tempering of mustard, cumin, and plenty of crushed garlic.",
+      "Simmer until the dish reaches a sweet, sour, and spicy balance."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "mh_ln_014",
+    "name": "Vangyache Bharit",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "large brinjal",
+      "onion",
+      "green chilli",
+      "coriander",
+      "mustard"
+    ],
+    "steps": [
+      "Roast a large brinjal over an open flame until charred and soft.",
+      "Peel and mash the pulp, then sauté with onions, ginger, and chillies.",
+      "Cook for 2 minutes to let the smoky flavor infuse.",
+      "Garnish with plenty of fresh coriander before serving."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_ln_015",
+    "name": "Kadhi",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "curd",
+      "besan",
+      "ginger-garlic paste",
+      "green chilli",
+      "curry leaves",
+      "mustard"
+    ],
+    "steps": [
+      "Whisk curd with besan and water until smooth.",
+      "Prepare a tempering with ghee, mustard seeds, and curry leaves.",
+      "Add ginger-garlic paste and pour in the curd mixture while stirring.",
+      "Simmer on low heat until it just begins to boil."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "mh_ln_016",
+    "name": "Solkadhi",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "kokum",
+      "coconut milk",
+      "garlic",
+      "green chilli",
+      "salt"
+    ],
+    "steps": [
+      "Extract deep pink juice from soaked kokum petals.",
+      "Mix the kokum extract with fresh coconut milk.",
+      "Add a crushed paste of garlic and green chillies.",
+      "Serve chilled as a digestive drink or with rice."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "mh_ln_017",
+    "name": "Tambda Rassa",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "spices",
+      "onion",
+      "coconut",
+      "garlic",
+      "ginger"
+    ],
+    "steps": [
+      "Grind roasted spices, onions, and coconut into a fine paste.",
+      "Sauté the paste until the oil turns bright red and separates.",
+      "Add water and simmer into a thin, spicy broth.",
+      "Serve as a fiery red accompaniment to lunch thalis."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_ln_018",
+    "name": "Pandhra Rassa",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "coconut milk",
+      "poppy seeds",
+      "cashews",
+      "whole spices"
+    ],
+    "steps": [
+      "Grind cashews and poppy seeds into a rich white paste.",
+      "Infuse broth with whole spices like cinnamon and cardamom.",
+      "Stir in the paste and fresh coconut milk; simmer gently.",
+      "Season with salt to create a creamy, white, mildly spiced gravy."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_ln_019",
+    "name": "Hirvya Vatanyachi Usal",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "green peas",
+      "onion",
+      "ginger-garlic",
+      "coconut",
+      "mustard"
+    ],
+    "steps": [
+      "Sauté onions until translucent and add ginger-garlic paste and peas.",
+      "Stir in turmeric, chilli powder, salt, and a little water.",
+      "Cover and cook until the peas are tender.",
+      "Garnish with grated coconut and fresh coriander."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_ln_020",
+    "name": "Thecha",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "green chillies",
+      "garlic",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Dry roast green chillies and garlic on a tawa until charred.",
+      "Add a little oil and sauté briefly, then crush coarsely in a mortar.",
+      "Add salt and a dash of lemon juice.",
+      "Enjoy as a spicy condiment with hot Bhakri."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "mh_ln_021",
+    "name": "Bajra Bhakri",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "bajra flour",
+      "hot water",
+      "salt"
+    ],
+    "steps": [
+      "Knead bajra flour with hot water until smooth and pliable.",
+      "Pat the dough into a thin circle on a floured surface.",
+      "Roast on a tawa, dabbing the top with water until it puffs.",
+      "Traditionally eaten with Pithla or Thecha during winter."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_ln_022",
+    "name": "Chavali Usal",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "black-eyed peas",
+      "onion",
+      "tomato",
+      "godamasala",
+      "ginger-garlic"
+    ],
+    "steps": [
+      "Pressure cook soaked black-eyed peas until tender.",
+      "Sauté onions and tomatoes with ginger-garlic paste and godamasala.",
+      "Add the cooked beans and simmer until the gravy thickens.",
+      "Garnish with coriander and serve with Poli or Rice."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_ln_023",
+    "name": "Gola Bhaat",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "rice",
+      "besan",
+      "onion",
+      "ginger-garlic",
+      "godamasala"
+    ],
+    "steps": [
+      "Prepare and steam small gole (balls) made of spiced besan.",
+      "Sauté rice with onions, godamasala, and vegetables.",
+      "Add the steamed gole to the rice and cook together.",
+      "Serve hot with a side of curd or pickle."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_ln_024",
+    "name": "Methi Chi Bhaji",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "fenugreek leaves",
+      "garlic",
+      "green chilli",
+      "moong dal"
+    ],
+    "steps": [
+      "Clean and chop fenugreek leaves and soak moong dal briefly.",
+      "Sauté plenty of garlic and green chillies in oil.",
+      "Add the methi and dal; cook without covering to keep it green.",
+      "Serve as a healthy lunch side with Chapati."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_ln_025",
+    "name": "Dalimbi Usal",
+    "region": "Maharashtra",
+    "category": "Lunch",
+    "ingredients": [
+      "sprouted field beans",
+      "coconut",
+      "jaggery",
+      "tamarind",
+      "godamasala"
+    ],
+    "steps": [
+      "Sauté onions and spices, then add peeled dalimbi beans.",
+      "Add tamarind paste and jaggery; simmer until the beans are tender.",
+      "Finish with a layer of grated coconut.",
+      "Often served at festive occasions and weddings."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_sn_001",
+    "name": "Kanda Bhaji",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "onion",
+      "besan",
+      "green chilli",
+      "ajwain",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Slice onions thinly and mix with salt; let them rest for 10 minutes to release water.",
+      "Add chopped green chillies, coriander, and ajwain seeds.",
+      "Slowly mix in besan (gram flour) without adding extra water, until the onions are coated.",
+      "Heat oil for deep frying.",
+      "Drop small, irregular portions of the mixture into hot oil.",
+      "Fry until golden brown and extra crispy; serve with green chutney."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_sn_002",
+    "name": "Batata Vada",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "potato",
+      "besan",
+      "garlic",
+      "mustard",
+      "turmeric",
+      "green chilli"
+    ],
+    "steps": [
+      "Mash boiled potatoes and temper with mustard, garlic, and curry leaves.",
+      "Roll the mixture into balls.",
+      "Dip in a turmeric-tinted besan batter.",
+      "Deep fry until golden.",
+      "Serve hot as a standalone snack or inside a pav.",
+      "The ultimate Mumbai street food."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "mh_sn_003",
+    "name": "Suralichi Vadi",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "besan",
+      "buttermilk",
+      "mustard",
+      "ginger-garlic",
+      "coconut"
+    ],
+    "steps": [
+      "Whisk besan and buttermilk with turmeric and salt into a smooth batter.",
+      "Cook the mixture on low flame, stirring constantly until it becomes thick and glossy.",
+      "Quickly spread the hot paste thinly over the back of greased plates.",
+      "Once cooled, cut into strips and roll them tightly into small cylinders.",
+      "Temper with mustard seeds and green chillies.",
+      "Garnish with fresh coconut and coriander."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_sn_004",
+    "name": "Bhel Puri",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "puffed rice",
+      "sev",
+      "onion",
+      "potato",
+      "tamarind chutney",
+      "green chutney"
+    ],
+    "steps": [
+      "Mix puffed rice (kurmura) with chopped onions, boiled potatoes, and tomatoes.",
+      "Add tangy tamarind chutney and spicy green chutney.",
+      "Toss well with a pinch of chaat masala and salt.",
+      "Top with a generous amount of sev and pomegranate arils.",
+      "Garnish with coriander and serve immediately before it gets soggy.",
+      "A quintessential beach snack from Mumbai."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_sn_005",
+    "name": "Shev Chivda",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "sev",
+      "peanuts",
+      "roasted gram",
+      "curry leaves",
+      "turmeric"
+    ],
+    "steps": [
+      "Deep fry peanuts, roasted gram, and thin slices of dry coconut until golden.",
+      "Fry curry leaves until crispy.",
+      "Mix the fried ingredients with thick or thin sev.",
+      "Add salt, turmeric, and a pinch of sugar for a sweet-savory balance.",
+      "Toss well while the ingredients are still slightly warm.",
+      "Store in an airtight container for a crunchy tea-time snack."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "mh_sn_006",
+    "name": "Poha Chivda",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "thin poha",
+      "peanuts",
+      "roasted gram",
+      "green chilli",
+      "turmeric"
+    ],
+    "steps": [
+      "Dry roast thin flattened rice (poha) on low flame until it becomes crisp.",
+      "Heat oil and fry peanuts, roasted gram, and green chillies.",
+      "Add turmeric and salt to the oil, then pour it over the roasted poha.",
+      "Mix gently to avoid breaking the poha flakes.",
+      "Add powdered sugar for a hint of sweetness.",
+      "A healthy, roasted snack common during Diwali."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_sn_007",
+    "name": "Kothimbir Vadi",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "coriander",
+      "besan",
+      "peanuts",
+      "green chilli",
+      "sesame seeds"
+    ],
+    "steps": [
+      "Mix a large amount of finely chopped coriander with besan, crushed peanuts, and spices.",
+      "Add a little water to form a thick, steamable batter.",
+      "Steam the mixture in a tray for 15-20 minutes.",
+      "Once cooled, cut into squares or diamond shapes.",
+      "Shallow fry or deep fry until the edges are crispy and golden.",
+      "Serve with tomato ketchup or green chutney."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_sn_008",
+    "name": "Thalipeeth Ladoo",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "thalipeeth flour",
+      "jaggery",
+      "ghee",
+      "cardamom",
+      "nuts"
+    ],
+    "steps": [
+      "Dry roast thalipeeth bhajani flour until it turns aromatic and golden brown.",
+      "Melt jaggery with a little ghee and water to make a syrup.",
+      "Mix the roasted flour and cardamom powder into the warm syrup.",
+      "Add chopped nuts and mix well.",
+      "While the mixture is still warm, shape it into round balls (ladoos).",
+      "A nutritious, energy-boosting snack for kids."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_sn_009",
+    "name": "Shakarpara",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "maida",
+      "sugar",
+      "ghee",
+      "milk",
+      "salt"
+    ],
+    "steps": [
+      "Melt sugar in warm milk and add ghee.",
+      "Knead with maida (all-purpose flour) and a pinch of salt to form a stiff dough.",
+      "Roll the dough into a thick sheet.",
+      "Cut into small diamond or square shapes.",
+      "Deep fry on low heat until they turn a light golden color and become crisp.",
+      "Store as a crunchy sweet snack."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_sn_010",
+    "name": "Bhadang",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "puffed rice",
+      "peanuts",
+      "garlic",
+      "red chilli powder",
+      "turmeric"
+    ],
+    "steps": [
+      "Heat a large quantity of oil and sauté crushed garlic cloves with their skin until dark brown.",
+      "Fry peanuts and curry leaves until crunchy.",
+      "Add turmeric, salt, and lots of red chilli powder.",
+      "Immediately add puffed rice and toss vigorously until every grain is coated.",
+      "The heat from the oil will make the puffed rice extra crunchy.",
+      "A spicy specialty from Kolhapur."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "mh_sn_011",
+    "name": "Khamang Kakdi",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "cucumber",
+      "peanuts",
+      "lemon",
+      "green chilli",
+      "sugar"
+    ],
+    "steps": [
+      "Finely chop cucumbers and squeeze out any excess water.",
+      "Mix with roasted and coarsely crushed peanut powder.",
+      "Add chopped green chillies, coriander, and a pinch of sugar.",
+      "Squeeze fresh lemon juice and add salt just before serving.",
+      "Temper with mustard seeds and cumin if desired.",
+      "A healthy, cooling salad-snack."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "mh_sn_012",
+    "name": "Patal Pohe Chivda",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "thin poha",
+      "peanuts",
+      "dried coconut",
+      "mustard",
+      "spices"
+    ],
+    "steps": [
+      "Dry roast thin poha (patal pohe) until very crisp.",
+      "Prepare a tempering with mustard seeds, peanuts, and coconut slices.",
+      "Add turmeric and salt to the tempering.",
+      "Toss the poha into the pan and mix gently.",
+      "Finish with a dusting of powdered sugar and salt.",
+      "A light and popular tea-time accompaniment."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "mh_sn_013",
+    "name": "Shev Puri",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "flat puris",
+      "sev",
+      "potato",
+      "onion",
+      "chutneys"
+    ],
+    "steps": [
+      "Arrange flat puris on a plate.",
+      "Top each with mashed potatoes, chopped onions, and tomatoes.",
+      "Drizzle green chilli chutney, tamarind chutney, and garlic chutney.",
+      "Cover each puri with a mountain of fine sev.",
+      "Garnish with coriander and a squeeze of lemon.",
+      "Serve immediately to enjoy the crunch."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "mh_sn_014",
+    "name": "Dahi Puri",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "hollow puris",
+      "curd",
+      "sev",
+      "potato",
+      "chutneys"
+    ],
+    "steps": [
+      "Gently break the top of hollow puris (pani puris).",
+      "Stuff with mashed potatoes and boiled moong or chickpeas.",
+      "Drizzle sweet and spicy chutneys inside.",
+      "Fill each puri with chilled, sweetened whisked curd.",
+      "Garnish with sev, pomegranate, and coriander.",
+      "A sweet and tangy street food delight."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "mh_sn_015",
+    "name": "Karanji",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "maida",
+      "dry coconut",
+      "jaggery",
+      "cardamom",
+      "poppy seeds"
+    ],
+    "steps": [
+      "Prepare a stuffing of grated dry coconut, roasted poppy seeds, jaggery, and cardamom.",
+      "Make a dough with maida, ghee, and milk.",
+      "Roll out small discs, place a spoonful of stuffing, and fold into a semi-circle.",
+      "Seal the edges using a fork or a cutter.",
+      "Deep fry until golden and crispy.",
+      "A traditional sweet made during Diwali and Holi."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_sn_016",
+    "name": "Chakli",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "bhajani flour",
+      "butter",
+      "cumin",
+      "sesame seeds",
+      "chilli powder"
+    ],
+    "steps": [
+      "Knead bhajani flour (roasted multigrain flour) with butter, sesame seeds, and spices using hot water.",
+      "The dough should be firm yet soft enough to pass through a press.",
+      "Use a chakli press to form spiral shapes on a sheet.",
+      "Deep fry on medium flame until they stop bubbling and turn dark golden.",
+      "Drain and cool; they become very crunchy once cold.",
+      "Store in an airtight container for weeks."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "mh_sn_017",
+    "name": "Shankarpali (Savory)",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "maida",
+      "ghee",
+      "cumin",
+      "ajwain",
+      "salt"
+    ],
+    "steps": [
+      "Knead maida with ghee, cumin seeds, ajwain, and salt using water.",
+      "Roll into a thick circle.",
+      "Cut into small squares or diamonds.",
+      "Deep fry on low to medium flame until they puff slightly and become golden.",
+      "A popular savory counterpart to the sweet shakarpara.",
+      "Perfect for snacking with tea."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_sn_018",
+    "name": "Anarse",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "rice",
+      "jaggery",
+      "poppy seeds",
+      "ghee"
+    ],
+    "steps": [
+      "Soak rice for 3 days, changing water daily. Dry and grind into a fine powder.",
+      "Mix the rice flour with equal parts jaggery and rest for 2 days.",
+      "Shape small balls and press them onto a bed of poppy seeds (khaskhas).",
+      "Shallow fry in ghee on one side only while splashing hot ghee on top.",
+      "The side with poppy seeds should be on top.",
+      "Drain the mesh-like sweet and let the oil drip before storing."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_sn_019",
+    "name": "Bakarwadi",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "maida",
+      "besan",
+      "poppy seeds",
+      "sesame",
+      "tamarind",
+      "spices"
+    ],
+    "steps": [
+      "Prepare a spicy, sweet, and tangy stuffing with poppy seeds, coconut, and tamarind.",
+      "Make a dough using maida and besan.",
+      "Roll the dough thin, spread the stuffing, and roll it up tightly like a log.",
+      "Slice into small bite-sized rounds.",
+      "Deep fry on low heat until very crispy.",
+      "A famous specialty from Pune known for its complex flavor profile."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "mh_sn_020",
+    "name": "Tilgul",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "sesame seeds",
+      "jaggery",
+      "peanuts",
+      "dry coconut"
+    ],
+    "steps": [
+      "Dry roast sesame seeds (til) and crushed peanuts.",
+      "Melt jaggery until it reaches a soft-ball consistency.",
+      "Quickly mix in the sesame seeds, peanuts, and coconut.",
+      "While the mixture is still hot, grease your palms and roll into small round balls.",
+      "Exchange these balls during Makar Sankranti as a sign of goodwill.",
+      "A healthy winter snack high in calcium and energy."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "mh_sn_021",
+    "name": "Vada Pav",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "potato",
+      "besan",
+      "garlic",
+      "green chilli",
+      "mustard",
+      "turmeric",
+      "pav",
+      "dry garlic chutney"
+    ],
+    "steps": [
+      "Mash boiled potatoes with a tempering of mustard, garlic-chilli paste, and turmeric.",
+      "Shape the mixture into medium-sized balls.",
+      "Dip each ball into a thick batter made of besan (gram flour), salt, and turmeric.",
+      "Deep fry until the outer layer is crispy and golden.",
+      "Slice a pav, apply dry garlic chutney inside, and place the vada.",
+      "Serve hot with a fried green chilli."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_sn_022",
+    "name": "Pav Bhaji",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "potatoes",
+      "peas",
+      "cauliflower",
+      "tomato",
+      "onion",
+      "butter",
+      "pav bhaji masala"
+    ],
+    "steps": [
+      "Boil and mash potatoes, peas, and cauliflower until smooth.",
+      "Heat butter in a large pan; sauté chopped onions until translucent.",
+      "Add ginger-garlic paste and chopped tomatoes; cook until mushy.",
+      "Mix in pav bhaji masala, red chilli powder, and salt.",
+      "Add the mashed vegetables and a splash of water; mash further while cooking.",
+      "Finish with a large dollop of butter and serve with buttered pav."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_sn_023",
+    "name": "Sabudana Vada",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "sabudana",
+      "potato",
+      "peanut powder",
+      "green chilli",
+      "cumin",
+      "oil"
+    ],
+    "steps": [
+      "Soak sabudana for 5-6 hours until soft.",
+      "Mix with boiled and mashed potatoes, crushed peanuts, and chillies.",
+      "Add cumin seeds and salt; knead into a cohesive mixture.",
+      "Shape into small flat patties.",
+      "Deep fry in hot oil on medium-low flame until golden brown and crispy.",
+      "Serve with sweetened curd or peanut chutney."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_sn_024",
+    "name": "Pohe Ladoo",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "poha",
+      "jaggery",
+      "ghee",
+      "cardamom",
+      "nuts"
+    ],
+    "steps": [
+      "Dry roast poha until it becomes very crisp, then grind it into a coarse powder.",
+      "Mix with grated jaggery and cardamom powder.",
+      "Add warm melted ghee until the mixture can be shaped.",
+      "Toss in some fried cashews and raisins.",
+      "Roll into round balls.",
+      "A quick and healthy sweet snack made with minimal ingredients."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_sn_025",
+    "name": "Upwas Thalipeeth",
+    "region": "Maharashtra",
+    "category": "Snacks",
+    "ingredients": [
+      "sabudana",
+      "rajgira flour",
+      "potato",
+      "peanuts",
+      "green chilli"
+    ],
+    "steps": [
+      "Soak sabudana and mix with rajgira (amaranth) flour.",
+      "Add boiled mashed potatoes, crushed peanuts, and chillies.",
+      "Knead into a dough and pat onto a greased sheet into circles.",
+      "Cook on a tawa with ghee until both sides are golden and crispy.",
+      "Serve with peanut chutney or sweetened curd during fasting days.",
+      "A wholesome and filling upwas snack."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "mh_dn_001",
+    "name": "Moong Dal Khichdi",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "rice",
+      "moong dal",
+      "ghee",
+      "cumin",
+      "peppercorns",
+      "ginger"
+    ],
+    "steps": [
+      "Wash rice and moong dal together; soak for 20 minutes.",
+      "Heat ghee in a pressure cooker and add cumin, peppercorns, and grated ginger.",
+      "Add the soaked rice and dal with double the amount of water and salt.",
+      "Pressure cook for 3-4 whistles until very soft and mushy.",
+      "Drizzle extra ghee on top before serving.",
+      "A light and nutritious dinner perfect for easy digestion."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_002",
+    "name": "Kala Vatana Amti",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "black peas",
+      "malvani masala",
+      "dry coconut",
+      "onion",
+      "garlic"
+    ],
+    "steps": [
+      "Soak black peas (kala vatana) overnight and pressure cook until soft.",
+      "Prepare a dark brown masala (vatan) by roasting onions and dry coconut.",
+      "Heat oil and sauté the masala until it releases oil.",
+      "Add Malvani or Godamasala and the cooked black peas.",
+      "Simmer for 15 minutes to let the gravy thicken and darken.",
+      "Serve with Amboli or Bhakri."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_003",
+    "name": "Dudhi Chi Bhaji",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "bottle gourd",
+      "chana dal",
+      "mustard",
+      "green chilli",
+      "coconut"
+    ],
+    "steps": [
+      "Peel and dice bottle gourd (dudhi) into small cubes.",
+      "Heat oil, add mustard seeds and sauté chopped green chillies.",
+      "Add the bottle gourd and a handful of soaked chana dal.",
+      "Season with salt and a pinch of sugar; steam-cook until tender.",
+      "Garnish with fresh grated coconut.",
+      "A simple and healthy everyday vegetable dish."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_004",
+    "name": "Shevga Chi Bhaji",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "drumsticks",
+      "peanut powder",
+      "onion",
+      "godamasala",
+      "tamarind"
+    ],
+    "steps": [
+      "Cut drumsticks into 2-inch pieces and boil them slightly.",
+      "Sauté onions and spices in oil.",
+      "Add the drumsticks and roasted peanut powder.",
+      "Stir in a little tamarind juice for tanginess.",
+      "Cook until the drumsticks are tender and the gravy is flavorful.",
+      "Serve with hot Chapatis."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_005",
+    "name": "Multigrain Bhakri",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "jowar",
+      "bajra",
+      "nachni flour",
+      "hot water"
+    ],
+    "steps": [
+      "Mix jowar, bajra, and nachni (ragi) flours in equal proportions.",
+      "Knead with hot water to form a soft, smooth dough.",
+      "Pat into a thin circle using your palms.",
+      "Cook on a hot tawa with a splash of water on top.",
+      "Roast on both sides until it puffs up.",
+      "A highly nutritious, gluten-free dinner bread."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_006",
+    "name": "Batata Rassa",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "potato",
+      "onion",
+      "ginger-garlic",
+      "godamasala",
+      "coriander"
+    ],
+    "steps": [
+      "Cut potatoes into large chunks.",
+      "Heat oil and sauté onions until brown.",
+      "Add ginger-garlic paste, godamasala, and red chilli powder.",
+      "Add the potato chunks and enough water to create a thin gravy (rassa).",
+      "Pressure cook for 2 whistles until the potatoes are soft.",
+      "Garnish with coriander and serve with Rice or Chapati."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_007",
+    "name": "Boondi Raita",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "curd",
+      "boondi",
+      "cumin powder",
+      "black salt",
+      "coriander"
+    ],
+    "steps": [
+      "Whisk chilled curd until smooth.",
+      "Add roasted cumin powder, black salt, and a pinch of sugar.",
+      "Stir in crispy boondi (fried gram flour drops).",
+      "Let the boondi soak for 5 minutes to become soft.",
+      "Garnish with fresh coriander.",
+      "A cooling accompaniment to spicy Maharashtrian dinners."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_008",
+    "name": "Roasted Brinjal Bharta",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "large brinjal",
+      "onion",
+      "garlic",
+      "green chilli",
+      "oil"
+    ],
+    "steps": [
+      "Roast a large brinjal on direct flame until smoky and tender.",
+      "Peel the charred skin and mash the pulp.",
+      "In a pan, sauté lots of garlic, green chillies, and onions.",
+      "Stir in the mashed brinjal and cook for 5 minutes.",
+      "Add salt and a squeeze of lemon.",
+      "Serve hot with Bhakri."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_009",
+    "name": "Shev Bhaji Rassa",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "thick sev",
+      "onion-coconut paste",
+      "spices",
+      "oil"
+    ],
+    "steps": [
+      "Prepare a thin, spicy red gravy using roasted onion and coconut paste.",
+      "Simmer the gravy with godamasala and red chilli powder.",
+      "Add a handful of thick, spicy gathiya or sev just before eating.",
+      "The sev adds texture and absorbs the spicy flavors of the rassa.",
+      "Best enjoyed with soft white bread (pav).",
+      "A spicy and satisfying dinner option."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_010",
+    "name": "Patal Bhaji",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "spinach",
+      "chana dal",
+      "peanuts",
+      "tamarind",
+      "jaggery"
+    ],
+    "steps": [
+      "Pressure cook chopped spinach with soaked chana dal and peanuts.",
+      "Mash the mixture into a creamy consistency.",
+      "Add tamarind, jaggery, and godamasala for a balanced flavor.",
+      "Temper with lots of crushed garlic and mustard seeds in oil.",
+      "The gravy should be smooth and thick.",
+      "Serve hot with Rice."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_011",
+    "name": "Phodnicha Bhaat",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "leftover rice",
+      "mustard",
+      "onion",
+      "green chilli",
+      "peanuts"
+    ],
+    "steps": [
+      "Crumble leftover rice to separate the grains.",
+      "Heat oil, add mustard seeds, peanuts, and curry leaves.",
+      "Sauté chopped onions and green chillies until golden.",
+      "Add turmeric and salt, then toss in the rice.",
+      "Mix well and steam for 3 minutes on low heat.",
+      "Garnish with coriander and serve as a quick dinner."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_012",
+    "name": "Dashmi",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "wheat flour",
+      "jaggery",
+      "milk",
+      "cardamom",
+      "ghee"
+    ],
+    "steps": [
+      "Dissolve jaggery in warm milk.",
+      "Knead wheat flour with the jaggery-milk mixture and a little ghee.",
+      "Roll into thick circles like parathas.",
+      "Roast on a tawa with ghee until golden brown spots appear.",
+      "The result is a soft, sweet, and aromatic flatbread.",
+      "Often served with spicy pickle or plain curd."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_013",
+    "name": "Vatana Usal",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "dried green peas",
+      "onion",
+      "tomato",
+      "godamasala",
+      "mustard"
+    ],
+    "steps": [
+      "Soak dried green peas overnight and pressure cook until tender.",
+      "Sauté onions and tomatoes in oil until mushy.",
+      "Add godamasala and the cooked peas.",
+      "Simmer until the flavors meld and the gravy is thick.",
+      "Finish with fresh coconut and coriander.",
+      "A classic Maharashtrian legume curry."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_014",
+    "name": "Kadhi Maharashtrian",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "curd",
+      "besan",
+      "ginger-garlic",
+      "mustard",
+      "cumin"
+    ],
+    "steps": [
+      "Mix sour curd with besan and water; whisk until lump-free.",
+      "Prepare a tempering with ghee, mustard, cumin, and curry leaves.",
+      "Add crushed ginger and chillies.",
+      "Pour the curd mixture into the tempering and simmer gently.",
+      "Do not let it boil vigorously to avoid curdling.",
+      "Serve as a light gravy with Khichdi or Rice."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_015",
+    "name": "Shrikhand",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "hung curd",
+      "sugar",
+      "saffron",
+      "cardamom",
+      "nuts"
+    ],
+    "steps": [
+      "Tie thick curd in a muslin cloth and hang it for 6 hours to drain all whey (chakka).",
+      "Whisk the thick chakka with powdered sugar until smooth and creamy.",
+      "Infuse with saffron strands dissolved in warm milk.",
+      "Add cardamom powder and chopped nuts.",
+      "Chill in the refrigerator before serving.",
+      "A royal dessert often served with hot puris in a dinner meal."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_016",
+    "name": "Lasun Chatni",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "garlic",
+      "dry coconut",
+      "red chilli powder",
+      "salt"
+    ],
+    "steps": [
+      "Dry roast garlic cloves and dry coconut pieces until golden.",
+      "Add red chilli powder and salt.",
+      "Grind the mixture into a coarse powder.",
+      "This dry chutney has a long shelf life.",
+      "It adds a punch of garlic flavor to any meal.",
+      "Commonly paired with Vada Pav or Bhakri."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_017",
+    "name": "Veg Kolhapuri",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "mixed vegetables",
+      "dry coconut",
+      "sesame",
+      "poppy seeds",
+      "spices"
+    ],
+    "steps": [
+      "Roast dry coconut, sesame seeds, and poppy seeds; grind into a paste.",
+      "Sauté mixed vegetables (carrot, beans, peas, cauliflower) until tender.",
+      "Cook the coconut paste in oil with a fiery Kolhapuri masala.",
+      "Stir in the vegetables and simmer with a little water.",
+      "The dish should be bright red and very spicy.",
+      "Garnish with coriander and serve with Paratha."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_018",
+    "name": "Chavali Chi Amti",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "black-eyed peas",
+      "coconut",
+      "tamarind",
+      "jaggery",
+      "godamasala"
+    ],
+    "steps": [
+      "Cook black-eyed peas until soft but whole.",
+      "Prepare a thin gravy using tamarind, jaggery, and godamasala.",
+      "Add a paste of fresh coconut and cumin.",
+      "Simmer for 10 minutes to allow the peas to absorb the spicy-tangy liquid.",
+      "Temper with mustard seeds and hing.",
+      "A delicious and light legume curry for dinner."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_019",
+    "name": "Mugachi Gathi",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "sprouted moong dal",
+      "coconut",
+      "ginger-garlic",
+      "mustard",
+      "hing"
+    ],
+    "steps": [
+      "Sauté sprouted moong in oil with mustard seeds and hing.",
+      "Add a paste of fresh coconut, ginger, and green chillies.",
+      "Simmer with a little water until the moong is tender.",
+      "Do not overcook; the sprouts should be soft but distinct.",
+      "A nutritious Konkani dish served as a side.",
+      "Best paired with Rice or Bhakri."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_020",
+    "name": "Gulachi Poli",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "jaggery",
+      "wheat flour",
+      "sesame seeds",
+      "gram flour",
+      "ghee"
+    ],
+    "steps": [
+      "Prepare a stuffing with roasted sesame seeds, jaggery, and roasted gram flour.",
+      "Enclose the stuffing in a soft wheat flour dough ball.",
+      "Roll into a thin circle using plenty of flour to prevent sticking.",
+      "Roast on a hot tawa with ghee until it puffs up and turns golden.",
+      "The jaggery melts inside to form a delicious sweet layer.",
+      "A healthy and energy-dense dinner sweet."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_021",
+    "name": "Vangi Bhaat",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "rice",
+      "green brinjal",
+      "oil",
+      "peanuts",
+      "coriander seeds",
+      "chana dal",
+      "cinnamon",
+      "cloves",
+      "dry red chilli"
+    ],
+    "steps": [
+      "Fresh Powder: Dry roast chana dal, coriander seeds, 2 cloves, a small cinnamon stick, and 4 red chillies; grind into a coarse powder.",
+      "Cook rice grains so they are separate and spread to cool.",
+      "Sauté peanuts, mustard seeds, and sliced green brinjal in oil.",
+      "Add the prepared spice powder, salt, and a dash of tamarind juice.",
+      "Cook until brinjal is soft and the oil separates from the masala.",
+      "Gently fold the cooled rice into the brinjal masala.",
+      "Turn off the flame and rest for 2 minutes before serving."
+    ],
+    "prepTime": 40
+  },
+  {
+    "id": "mh_dn_022",
+    "name": "Metkut Bhaat",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "rice",
+      "metkut powder",
+      "ghee",
+      "salt"
+    ],
+    "steps": [
+      "Cook rice until soft and fluffy.",
+      "Metkut is a special powder made by roasting and grinding various pulses and grains.",
+      "Mix 1-2 spoons of metkut powder into hot rice.",
+      "Add a generous amount of warm ghee and a pinch of salt.",
+      "Mix thoroughly until the rice is coated and turns light yellow.",
+      "A simple, aromatic, and easy-to-digest traditional Maharashtrian dinner."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_023",
+    "name": "Mirchi Bhaji",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "long green chillies",
+      "besan",
+      "ajwain",
+      "turmeric",
+      "oil"
+    ],
+    "steps": [
+      "Slit long green chillies and remove seeds if too spicy.",
+      "Prepare a thick batter of besan, ajwain, turmeric, and salt.",
+      "Dip each chilli to coat it completely.",
+      "Deep fry in hot oil until the coating is golden and crisp.",
+      "Serve as a crunchy side dish for dinner.",
+      "Adds a spicy kick to a plain dal-rice meal."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_024",
+    "name": "Amrakhand",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "hung curd",
+      "mango pulp",
+      "sugar",
+      "cardamom"
+    ],
+    "steps": [
+      "Start with thick hung curd (chakka).",
+      "Mix with fresh mango pulp and powdered sugar.",
+      "Whisk until creamy and smooth.",
+      "Add cardamom powder for aroma.",
+      "Chill thoroughly before serving.",
+      "A delicious variation of shrikhand that celebrates the mango season."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "mh_dn_025",
+    "name": "Saoji Veg Curry",
+    "region": "Maharashtra",
+    "category": "Dinner",
+    "ingredients": [
+      "mixed vegetables",
+      "saoji masala",
+      "onion",
+      "garlic",
+      "oil"
+    ],
+    "steps": [
+      "Prepare a potent Saoji masala using roasted whole spices and dry coconut.",
+      "Sauté onions and lots of garlic until dark brown.",
+      "Add the masala and cook with plenty of oil until it separates.",
+      "Add boiled vegetables and simmer for 15 minutes.",
+      "This Vidarbha specialty is famous for its extreme spice and depth of flavor.",
+      "Serve with Bhakri or Rice to balance the heat."
+    ],
+    "prepTime": 30
+  }
 ]

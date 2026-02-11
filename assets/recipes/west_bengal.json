@@ -1,56 +1,1966 @@
 [
-    {
-        "id": "wb_bf_001",
-        "name": "Luchi",
-        "region": "West Bengal",
-        "category": "Breakfast",
-        "ingredients": [
-            "Maida",
-            "Ghee",
-            "Sugar",
-            "Salt",
-            "Oil"
-        ],
-        "steps": [
-            "Mix maida with a pinch of sugar and salt.",
-            "Add ghee and rub into the flour.",
-            "Add water to make soft, smooth dough.",
-            "Cover and rest for 30 minutes.",
-            "Divide into small balls.",
-            "Roll each ball into thin circles.",
-            "Heat oil in a deep pan.",
-            "Gently slide luchi into hot oil.",
-            "Press gently with ladle to puff up.",
-            "Fry until light golden.",
-            "Drain on paper.",
-            "Serve hot with aloo dum or cholar dal."
-        ],
-        "prepTime": 25
-    },
-    {
-        "id": "wb_lun_001",
-        "name": "Bhapa Ilish",
-        "region": "West Bengal",
-        "category": "Lunch",
-        "ingredients": [
-            "Hilsa Fish",
-            "Mustard Paste",
-            "Green Chillies",
-            "Turmeric",
-            "Mustard Oil",
-            "Coconut"
-        ],
-        "steps": [
-            "Marinate fish pieces with turmeric and salt.",
-            "Grind mustard seeds with green chillies to paste.",
-            "Mix mustard paste with mustard oil.",
-            "Add grated coconut to the mixture.",
-            "Coat fish pieces with this mixture.",
-            "Place in a steamer bowl.",
-            "Steam for 15-20 minutes.",
-            "Check if fish is cooked through.",
-            "Serve hot with steamed rice."
-        ],
-        "prepTime": 35
-    }
+  {
+    "id": "wb_bf_001",
+    "name": "Luchi",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "maida",
+      "salt",
+      "water",
+      "oil"
+    ],
+    "steps": [
+      "Take maida in a wide bowl",
+      "Add salt and mix evenly",
+      "Add water gradually and knead into stiff dough",
+      "Cover and rest dough for 15 minutes",
+      "Divide dough into small balls",
+      "Roll each ball into small thick discs",
+      "Heat oil in a deep pan on medium flame",
+      "Slide discs into hot oil",
+      "Press gently to puff",
+      "Fry until lightly golden",
+      "Remove and drain excess oil"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_bf_002",
+    "name": "Aloor Dom",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "potato",
+      "tomato",
+      "ginger",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Boil potatoes until soft",
+      "Peel and lightly break potatoes",
+      "Heat oil in pan",
+      "Add grated ginger and sauté",
+      "Add chopped tomato and salt",
+      "Cook until oil separates",
+      "Add potatoes and water",
+      "Simmer for 8–10 minutes",
+      "Turn off flame"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_bf_003",
+    "name": "Kochuri",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "maida",
+      "urad dal",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Soak urad dal for 4 hours",
+      "Grind into smooth paste",
+      "Add salt and mix",
+      "Prepare stiff dough using maida",
+      "Rest dough for 15 minutes",
+      "Stuff dal paste into dough",
+      "Roll gently into discs",
+      "Heat oil on medium flame",
+      "Fry until puffed and golden",
+      "Drain oil and serve"
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_bf_004",
+    "name": "Radhaballabhi",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "maida",
+      "urad dal",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Soak urad dal for 4 hours",
+      "Grind into smooth paste",
+      "Add salt",
+      "Prepare stiff maida dough",
+      "Stuff dal mixture",
+      "Roll gently",
+      "Heat oil",
+      "Fry until golden and puffed",
+      "Drain excess oil"
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_bf_005",
+    "name": "Chirer Pulao",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "flattened rice",
+      "potato",
+      "peanuts",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash flattened rice and drain",
+      "Cut potatoes into cubes",
+      "Heat oil",
+      "Fry peanuts and remove",
+      "Fry potatoes until golden",
+      "Add flattened rice and salt",
+      "Mix gently",
+      "Cover and cook on low flame",
+      "Add peanuts and mix",
+      "Turn off flame"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_bf_006",
+    "name": "Doodh Chire",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "flattened rice",
+      "milk",
+      "sugar"
+    ],
+    "steps": [
+      "Wash flattened rice",
+      "Drain water completely",
+      "Add milk",
+      "Add sugar",
+      "Mix gently",
+      "Rest for 5 minutes",
+      "Serve fresh"
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "wb_bf_007",
+    "name": "Dim Bhaja",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "egg",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Boil eggs for 10 minutes",
+      "Cool and peel eggs",
+      "Heat oil in pan",
+      "Add eggs",
+      "Sprinkle salt",
+      "Fry until lightly golden",
+      "Serve hot"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_bf_008",
+    "name": "Dim Bhurji",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "egg",
+      "onion",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Beat eggs lightly",
+      "Chop onions finely",
+      "Heat oil",
+      "Sauté onions until soft",
+      "Add eggs and salt",
+      "Stir continuously",
+      "Cook until done",
+      "Serve hot"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_bf_009",
+    "name": "Panta Bhat",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "cooked rice",
+      "water",
+      "salt"
+    ],
+    "steps": [
+      "Place cooked rice in bowl",
+      "Add enough water to cover",
+      "Cover and keep overnight",
+      "Add salt next morning",
+      "Serve"
+    ],
+    "prepTime": 5
+  },
+  {
+    "id": "wb_bf_010",
+    "name": "Muri Bhaja",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "puffed rice",
+      "salt",
+      "mustard oil"
+    ],
+    "steps": [
+      "Heat pan on low flame",
+      "Add mustard oil",
+      "Add puffed rice",
+      "Sprinkle salt",
+      "Mix gently",
+      "Serve immediately"
+    ],
+    "prepTime": 5
+  },
+  {
+    "id": "wb_bf_011",
+    "name": "Alur Chop",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "potato",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Boil and mash potatoes",
+      "Add salt and mix",
+      "Prepare thick besan batter",
+      "Shape potato mixture into chops",
+      "Heat oil",
+      "Dip chops in batter",
+      "Fry until golden",
+      "Drain excess oil"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_bf_012",
+    "name": "Moong Dal Chilla",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "moong dal",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Soak moong dal for 4 hours",
+      "Grind into smooth batter",
+      "Add salt",
+      "Heat tawa",
+      "Pour batter and spread",
+      "Cook both sides",
+      "Serve hot"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_bf_013",
+    "name": "Peyaji",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "onion",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Slice onions thinly",
+      "Mix besan and salt",
+      "Add onions and water",
+      "Heat oil",
+      "Drop batter in oil",
+      "Fry until crisp",
+      "Drain oil"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_bf_014",
+    "name": "Beguni",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "brinjal",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Slice brinjal thinly",
+      "Prepare besan batter",
+      "Heat oil",
+      "Dip slices in batter",
+      "Fry until golden",
+      "Drain oil"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_bf_015",
+    "name": "Ruti",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "wheat flour",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Knead wheat flour with salt and water",
+      "Rest dough for 10 minutes",
+      "Divide into balls",
+      "Roll into thin discs",
+      "Cook on hot tawa",
+      "Flip and cook",
+      "Serve warm"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_bf_016",
+    "name": "Mishti Doi",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "milk",
+      "curd",
+      "jaggery"
+    ],
+    "steps": [
+      "Boil milk",
+      "Cool to lukewarm",
+      "Add jaggery and mix",
+      "Add curd",
+      "Cover and ferment",
+      "Chill and serve"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_bf_017",
+    "name": "Naru",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "coconut",
+      "jaggery"
+    ],
+    "steps": [
+      "Grate coconut",
+      "Melt jaggery",
+      "Mix coconut and jaggery",
+      "Shape into balls",
+      "Cool and serve"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_bf_018",
+    "name": "Cholar Dal",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "chana dal",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Soak chana dal",
+      "Pressure cook dal",
+      "Heat oil",
+      "Add dal and salt",
+      "Simmer briefly",
+      "Serve"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_bf_019",
+    "name": "Payesh",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "rice",
+      "milk",
+      "sugar"
+    ],
+    "steps": [
+      "Boil milk",
+      "Add rice",
+      "Cook on low flame",
+      "Add sugar",
+      "Cook until thick",
+      "Serve"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_bf_020",
+    "name": "Pauruti Toast",
+    "region": "West Bengal",
+    "category": "Breakfast",
+    "ingredients": [
+      "bread",
+      "butter"
+    ],
+    "steps": [
+      "Butter bread slices",
+      "Toast on pan",
+      "Flip and toast",
+      "Serve hot"
+    ],
+    "prepTime": 5
+  },
+  {
+    "id": "wb_ln_001",
+    "name": "Bhat",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "rice",
+      "water"
+    ],
+    "steps": [
+      "Measure rice and wash thoroughly",
+      "Add rice and water to a pot",
+      "Cook on high flame until rice is soft",
+      "Drain excess water",
+      "Rest rice for 2 minutes",
+      "Serve hot"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_ln_002",
+    "name": "Dal",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "toor dal",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash dal thoroughly",
+      "Add dal and water to pressure cooker",
+      "Cook for 3 whistles",
+      "Allow pressure to release",
+      "Mash dal lightly",
+      "Add salt and mix",
+      "Serve hot"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_ln_003",
+    "name": "Shukto",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "bitter gourd",
+      "potato",
+      "raw banana",
+      "milk",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Wash, peel and cut all vegetables",
+      "Heat oil in a pan",
+      "Add vegetables and sauté lightly",
+      "Add water and salt",
+      "Cover and cook until vegetables soften",
+      "Add milk and mix gently",
+      "Simmer for 2 minutes",
+      "Turn off flame and serve"
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_ln_004",
+    "name": "Aloo Posto",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "potato",
+      "poppy seeds",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Soak poppy seeds for 30 minutes",
+      "Grind soaked seeds into smooth paste",
+      "Wash and cut potatoes",
+      "Heat oil in a pan",
+      "Add potatoes and sauté lightly",
+      "Add poppy seed paste and salt",
+      "Add water and mix gently",
+      "Cover and cook until potatoes soften",
+      "Turn off flame and serve"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_ln_005",
+    "name": "Begun Bhaja",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "brinjal",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and slice brinjal",
+      "Sprinkle salt lightly",
+      "Heat oil in a pan",
+      "Fry slices until golden",
+      "Flip and fry evenly",
+      "Remove and serve hot"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_ln_006",
+    "name": "Kumro Bhaja",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "pumpkin",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and slice pumpkin",
+      "Sprinkle salt",
+      "Heat oil in a pan",
+      "Fry slices until soft and golden",
+      "Flip and cook evenly",
+      "Serve hot"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_ln_007",
+    "name": "Cholar Dal",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "chana dal",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Wash and soak chana dal for 1 hour",
+      "Pressure cook dal until soft",
+      "Heat oil in a pan",
+      "Add cooked dal and salt",
+      "Simmer for 5 minutes",
+      "Serve hot"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_ln_008",
+    "name": "Lau Ghonto",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "bottle gourd",
+      "potato",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Wash and peel vegetables",
+      "Cut into medium pieces",
+      "Heat oil in a pan",
+      "Add vegetables and sauté lightly",
+      "Add salt and water",
+      "Cover and cook until soft",
+      "Serve hot"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_ln_009",
+    "name": "Macher Jhol",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "fish",
+      "potato",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Wash fish and sprinkle salt",
+      "Heat oil and lightly fry fish",
+      "Remove fish and keep aside",
+      "Add potatoes to same oil",
+      "Add water and salt",
+      "Boil until potatoes soften",
+      "Add fish and simmer for 5 minutes",
+      "Serve hot"
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_ln_010",
+    "name": "Dim Curry",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "egg",
+      "potato",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Boil and peel eggs",
+      "Wash and cut potatoes",
+      "Heat oil and fry potatoes lightly",
+      "Add water and salt",
+      "Cook until potatoes soften",
+      "Add eggs and simmer",
+      "Serve hot"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_ln_011",
+    "name": "Posto Bora",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "poppy seeds",
+      "green chilli",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Soak poppy seeds for 30 minutes",
+      "Grind with green chilli into paste",
+      "Add salt and mix",
+      "Heat oil",
+      "Drop spoonfuls of batter",
+      "Fry until golden",
+      "Drain and serve"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_ln_012",
+    "name": "Moong Dal",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "moong dal",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Wash moong dal",
+      "Pressure cook with water",
+      "Mash lightly",
+      "Add salt and mix",
+      "Serve hot"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_ln_013",
+    "name": "Alur Dom",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "potato",
+      "tomato",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Boil and peel potatoes",
+      "Heat oil and add tomatoes",
+      "Cook tomatoes until soft",
+      "Add potatoes and salt",
+      "Add water and simmer",
+      "Serve hot"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_ln_014",
+    "name": "Bandhakopi Torkari",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "cabbage",
+      "potato",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and chop cabbage",
+      "Slice potatoes thinly",
+      "Heat oil in pan",
+      "Add vegetables and salt",
+      "Cook until soft",
+      "Serve hot"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_ln_015",
+    "name": "Chingri Malai Curry",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "prawns",
+      "coconut milk",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Clean and wash prawns",
+      "Heat oil and sauté prawns lightly",
+      "Add coconut milk and salt",
+      "Add little water if needed",
+      "Simmer for 5 minutes",
+      "Serve hot"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_ln_016",
+    "name": "Dhokar Dalna",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "chana dal",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Soak chana dal for 4 hours",
+      "Grind into thick paste",
+      "Add salt and mix",
+      "Steam until firm",
+      "Cut into pieces",
+      "Fry lightly in oil",
+      "Serve hot"
+    ],
+    "prepTime": 40
+  },
+  {
+    "id": "wb_ln_017",
+    "name": "Kakrol Bhaja",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "spiny gourd",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and slice kakrol",
+      "Sprinkle salt",
+      "Heat oil",
+      "Fry until crisp",
+      "Serve hot"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_ln_018",
+    "name": "Potol Bhaja",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "pointed gourd",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and slice potol",
+      "Sprinkle salt",
+      "Heat oil",
+      "Fry until lightly crisp",
+      "Serve hot"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_ln_019",
+    "name": "Kosha Mangsho",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "mutton",
+      "onion",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Wash mutton pieces",
+      "Slice onions finely",
+      "Heat oil and sauté onions until golden",
+      "Add mutton and salt",
+      "Cook on low flame",
+      "Add water and cover",
+      "Cook until tender",
+      "Serve hot"
+    ],
+    "prepTime": 60
+  },
+  {
+    "id": "wb_ln_020",
+    "name": "Basanti Pulao",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "rice",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Wash and soak rice",
+      "Heat oil in pan",
+      "Add rice and water",
+      "Add salt",
+      "Cook until fluffy",
+      "Rest and serve"
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_ln_021",
+    "name": "Labra",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "mixed vegetables",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Wash and cut vegetables",
+      "Heat oil in pan",
+      "Add vegetables and salt",
+      "Add water",
+      "Cook until soft",
+      "Serve hot"
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_ln_022",
+    "name": "Bhindi Bhaja",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "okra",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Wash and dry okra completely",
+      "Slice okra",
+      "Heat oil",
+      "Fry until crisp",
+      "Serve hot"
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_ln_023",
+    "name": "Payesh",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "rice",
+      "milk",
+      "sugar"
+    ],
+    "steps": [
+      "Wash rice",
+      "Boil milk",
+      "Add rice",
+      "Cook on low flame",
+      "Add sugar",
+      "Cook until thick",
+      "Serve"
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_ln_024",
+    "name": "Tok Dal",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "lentils",
+      "tamarind",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Cook lentils until soft",
+      "Add tamarind pulp and salt",
+      "Boil for 5 minutes",
+      "Serve hot"
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_ln_025",
+    "name": "Aam Dal",
+    "region": "West Bengal",
+    "category": "Lunch",
+    "ingredients": [
+      "lentils",
+      "raw mango",
+      "salt",
+      "water"
+    ],
+    "steps": [
+      "Cook lentils until soft",
+      "Add raw mango pieces and salt",
+      "Boil for 5 minutes",
+      "Serve hot"
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_sn_001",
+    "name": "Jhal Muri",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "puffed rice",
+      "onion",
+      "tomato",
+      "green chilli",
+      "mustard oil",
+      "salt"
+    ],
+    "steps": [
+      "Wash, peel, and finely chop the onion, tomato, and green chillies.",
+      "Place the puffed rice in a large mixing bowl.",
+      "Add the chopped vegetables and salt to the bowl.",
+      "Drizzle mustard oil over the mixture.",
+      "Toss everything vigorously by hand to mix well and serve immediately."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "wb_sn_002",
+    "name": "Tele Bhaja",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "onion",
+      "brinjal",
+      "potato",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Wash and slice the onion, brinjal, and potato into thin pieces.",
+      "Whisk besan flour, salt, and water in a bowl to make a smooth batter.",
+      "Heat oil in a deep pan on medium flame.",
+      "Dip the vegetable slices into the batter to coat them evenly.",
+      "Fry the coated slices in hot oil until golden brown and drain excess oil."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_sn_003",
+    "name": "Beguni",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "brinjal",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Wash and slice the brinjal lengthwise into thin strips.",
+      "Prepare a thick batter by mixing besan flour, salt, and water.",
+      "Heat oil in a frying pan on medium heat.",
+      "Dip each brinjal slice into the batter ensuring full coverage.",
+      "Deep fry until the crust is crisp and golden, then drain."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_sn_004",
+    "name": "Peyaji",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "onion",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Peel and thinly slice the onions.",
+      "Mix the onions with besan flour and salt in a bowl.",
+      "Add a splash of water to bind the mixture lightly.",
+      "Drop small spoonfuls of the onion mixture into hot oil.",
+      "Fry until the fritters are golden and crispy."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_sn_005",
+    "name": "Muri Bhaja",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "puffed rice",
+      "mustard oil",
+      "salt"
+    ],
+    "steps": [
+      "Heat a pan on low flame and add a little mustard oil.",
+      "Add the puffed rice and sprinkle with salt.",
+      "Stir continuously for 2 minutes until the rice is crisp.",
+      "Remove from heat, let cool slightly, and serve."
+    ],
+    "prepTime": 5
+  },
+  {
+    "id": "wb_sn_006",
+    "name": "Alur Chop",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "potato",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Boil, peel, and mash the potatoes smoothly with salt.",
+      "Prepare a thick batter using besan flour and water.",
+      "Shape the seasoned mashed potato into small balls.",
+      "Dip the balls into the batter and deep fry in hot oil until golden."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_sn_007",
+    "name": "Posto Bora",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "poppy seeds",
+      "green chilli",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Soak poppy seeds for 30 minutes, then grind to a thick paste with chillies.",
+      "Mix salt into the paste.",
+      "Heat oil in a pan on medium flame.",
+      "Drop spoonfuls of the paste into the oil and shallow fry until crisp on both sides."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_sn_008",
+    "name": "Mochar Chop",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "banana flower",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Clean, boil, and finely chop the banana flower.",
+      "Mix the chopped flower with salt and form into shapes.",
+      "Dip the shapes into a prepared besan batter.",
+      "Deep fry in hot oil until golden brown."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_sn_009",
+    "name": "Dimer Chop",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "egg",
+      "potato",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Boil, peel, and chop the eggs.",
+      "Encapsulate the chopped egg in seasoned mashed potato.",
+      "Dip the potato-egg balls into besan batter.",
+      "Fry in hot oil until the coating is crisp and golden."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_sn_010",
+    "name": "Chirer Bhaja",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "flattened rice",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Heat oil in a pan on medium flame.",
+      "Add flattened rice and salt to the pan.",
+      "Roast the rice until it puffs up and becomes crisp.",
+      "Remove from heat immediately to prevent burning."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "wb_sn_011",
+    "name": "Ghugni",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "yellow peas",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Soak yellow peas overnight and pressure cook until soft.",
+      "Heat oil in a pan and add the cooked peas with salt.",
+      "Simmer for 10 minutes to thicken the gravy and serve hot."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_sn_012",
+    "name": "Koraishutir Kochuri",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "maida",
+      "green peas",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Prepare a filling by mashing boiled green peas with salt.",
+      "Make a dough with maida and stuff it with the pea mixture.",
+      "Roll the stuffed dough into small discs.",
+      "Deep fry in hot oil until the kochuris puff up."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_sn_013",
+    "name": "Radhaballabhi",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "maida",
+      "urad dal",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Soak and grind urad dal into a seasoned paste.",
+      "Stuff the dal paste into portions of maida dough.",
+      "Gently roll the dough into discs.",
+      "Fry in hot oil until golden and puffy."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_sn_014",
+    "name": "Fish Fry",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "fish fillet",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Clean the fish fillets and season them with salt.",
+      "Heat oil in a frying pan on medium flame.",
+      "Fry the fillets on both sides until cooked through and crisp."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_sn_015",
+    "name": "Mughlai Paratha",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "wheat flour",
+      "egg",
+      "onion",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Roll wheat dough into a large thin disc.",
+      "Pour a mixture of beaten egg, onion, and salt into the center.",
+      "Fold the edges to seal the egg inside.",
+      "Pan fry with oil until the paratha is cooked and golden."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_sn_016",
+    "name": "Bread Chop",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "bread",
+      "potato",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "flatten moist bread slices and fill with seasoned mashed potato.",
+      "Seal the bread to enclose the filling.",
+      "Dip into besan batter and deep fry until golden."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_sn_017",
+    "name": "Kochuri",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "maida",
+      "urad dal",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Make a paste from soaked urad dal and salt.",
+      "Encapsulate the paste within maida dough balls.",
+      "Roll out into discs and deep fry until puffed."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_sn_018",
+    "name": "Vegetable Cutlet",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "potato",
+      "mixed vegetables",
+      "bread crumbs",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Mash boiled vegetables with salt and shape into patties.",
+      "Coat the patties thoroughly with bread crumbs.",
+      "Shallow fry in hot oil until the crust is golden brown."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_sn_019",
+    "name": "Chanachur",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "chanachur",
+      "onion",
+      "green chilli",
+      "salt"
+    ],
+    "steps": [
+      "Finely chop the onion and green chilli.",
+      "Mix the chanachur, chopped vegetables, and salt in a bowl.",
+      "Toss well and serve immediately."
+    ],
+    "prepTime": 5
+  },
+  {
+    "id": "wb_sn_020",
+    "name": "Dim Toast",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "egg",
+      "bread",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Beat the egg with salt in a bowl.",
+      "Dip bread slices into the egg mixture.",
+      "Toast the bread in an oiled pan until both sides are cooked."
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "wb_sn_021",
+    "name": "Chingri Bora",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "prawns",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Finely chop cleaned prawns and mix with besan and salt.",
+      "Heat oil in a pan.",
+      "Drop spoonfuls of the batter into the oil and fry until golden."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_sn_022",
+    "name": "Potato Chips",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "potato",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Peel and slice potatoes very thinly.",
+      "Deep fry the slices in hot oil until crisp.",
+      "Drain oil and sprinkle with salt before serving."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_sn_023",
+    "name": "Koraishutir Bora",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "green peas",
+      "besan flour",
+      "salt",
+      "oil",
+      "water"
+    ],
+    "steps": [
+      "Mash boiled green peas and mix with besan and salt.",
+      "Heat oil in a frying pan.",
+      "Drop small spoonfuls of the mixture into the oil and fry until golden."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_sn_024",
+    "name": "Fish Chop",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "fish",
+      "potato",
+      "bread crumbs",
+      "salt",
+      "oil"
+    ],
+    "steps": [
+      "Mix flaked boiled fish with mashed potato and salt.",
+      "Shape into logs and coat with bread crumbs.",
+      "Deep fry in oil until the exterior is golden brown."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_sn_025",
+    "name": "Cha",
+    "region": "West Bengal",
+    "category": "Snacks",
+    "ingredients": [
+      "tea powder",
+      "milk",
+      "water",
+      "sugar"
+    ],
+    "steps": [
+      "Boil water with tea powder for 2 minutes.",
+      "Add milk and sugar and bring to a boil again.",
+      "Strain the tea into cups and serve hot."
+    ],
+    "prepTime": 5
+  },
+  {
+    "id": "wb_dn_001",
+    "name": "Bhat",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "rice",
+      "water"
+    ],
+    "steps": [
+      "Wash rice 3 times until water is clear.",
+      "Boil in excess water until grains are tender.",
+      "Drain the starch water (fan) completely.",
+      "Rest covered for 2 minutes and serve hot."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_dn_002",
+    "name": "Moong Dal",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "moong dal",
+      "turmeric",
+      "ghee",
+      "ginger",
+      "salt"
+    ],
+    "steps": [
+      "Dry roast dal until aromatic, then wash.",
+      "Pressure cook with water and turmeric until soft.",
+      "Temper with ghee, cumin seeds, and grated ginger.",
+      "Add salt and simmer for 2 minutes."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_dn_003",
+    "name": "Aloo Posto",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "potato",
+      "poppy seeds",
+      "green chilli",
+      "mustard oil",
+      "nigella seeds",
+      "salt"
+    ],
+    "steps": [
+      "Grind poppy seeds and chillies into a thick paste.",
+      "Temper mustard oil with nigella seeds and fry cubed potatoes.",
+      "Add salt, poppy paste, and a splash of water.",
+      "Cook covered on low heat until potatoes are tender."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_dn_004",
+    "name": "Shukto",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "bitter gourd",
+      "potato",
+      "raw banana",
+      "milk",
+      "mustard oil",
+      "panch phoron",
+      "ginger paste"
+    ],
+    "steps": [
+      "Fry bitter gourd slices separately and set aside.",
+      "Sauté other veggies; temper with panch phoron and ginger paste.",
+      "Add water and salt; cook until veggies are tender.",
+      "Add fried bitter gourd and milk; simmer for 2 minutes."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_dn_005",
+    "name": "Lau Ghonto",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "bottle gourd",
+      "bori",
+      "turmeric",
+      "cumin seeds",
+      "mustard oil",
+      "salt"
+    ],
+    "steps": [
+      "Fry bori (lentil dumplings) and set aside.",
+      "Sauté finely chopped bottle gourd with cumin seeds and turmeric.",
+      "Cook in its own juices until soft and dry.",
+      "Crush bori on top and mix before serving."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_dn_006",
+    "name": "Begun Bhaja",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "brinjal",
+      "turmeric",
+      "mustard oil",
+      "salt",
+      "sugar"
+    ],
+    "steps": [
+      "Rub brinjal rounds with salt, turmeric, and a pinch of sugar.",
+      "Heat mustard oil in a flat pan.",
+      "Fry slices on medium heat until golden brown and soft.",
+      "Drain on paper and serve hot."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_dn_007",
+    "name": "Kumro Bhaja",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "pumpkin",
+      "turmeric",
+      "mustard oil",
+      "salt"
+    ],
+    "steps": [
+      "Slice pumpkin with skin; rub with salt and turmeric.",
+      "Heat mustard oil and place slices in a single layer.",
+      "Fry until both sides are tender and caramelized.",
+      "Remove once the edges are slightly crisp."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_dn_008",
+    "name": "Cholar Dal",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "chana dal",
+      "coconut",
+      "ginger paste",
+      "turmeric",
+      "whole garam masala",
+      "sugar"
+    ],
+    "steps": [
+      "Boil soaked dal with turmeric until soft but whole.",
+      "Fry small coconut bits in ghee and set aside.",
+      "Temper ghee with whole spices and ginger paste.",
+      "Add dal, coconut, salt, and sugar; simmer until thick."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_dn_009",
+    "name": "Posto Bora",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "poppy seeds",
+      "onion",
+      "green chilli",
+      "mustard oil",
+      "salt"
+    ],
+    "steps": [
+      "Grind poppy seeds into a very thick, dry paste.",
+      "Mix with chopped onions, chillies, and salt.",
+      "Shape into small flat patties.",
+      "Shallow fry in mustard oil until crisp and brown."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_dn_010",
+    "name": "Bandhakopi Torkari",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "cabbage",
+      "potato",
+      "peas",
+      "turmeric",
+      "cumin powder",
+      "mustard oil"
+    ],
+    "steps": [
+      "Sauté potatoes and chopped cabbage in mustard oil.",
+      "Add turmeric, cumin powder, ginger paste, and peas.",
+      "Cook covered (kosha) on low heat without adding water.",
+      "Finish with a little ghee and garam masala."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_dn_011",
+    "name": "Potol Bhaja",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "pointed gourd",
+      "turmeric",
+      "mustard oil",
+      "salt"
+    ],
+    "steps": [
+      "Scrape and slit pointed gourds; rub with salt and turmeric.",
+      "Heat mustard oil in a pan.",
+      "Fry gourds until golden brown and tender throughout.",
+      "Drain and serve with bhat and dal."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_dn_012",
+    "name": "Kakrol Bhaja",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "spiny gourd",
+      "turmeric",
+      "mustard oil",
+      "salt"
+    ],
+    "steps": [
+      "Thinly slice kakrol and marinate with salt and turmeric.",
+      "Heat mustard oil until smoking.",
+      "Fry slices on medium heat until they become crisp.",
+      "Remove and serve as a crunchy side dish."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_dn_013",
+    "name": "Dim Curry",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "egg",
+      "potato",
+      "onion",
+      "ginger-garlic paste",
+      "turmeric",
+      "mustard oil"
+    ],
+    "steps": [
+      "Fry boiled eggs and potatoes with turmeric until golden.",
+      "Sauté onions and ginger-garlic paste until brown.",
+      "Add turmeric, cumin powder, and salt; sauté until oil releases.",
+      "Add water, return eggs/potatoes, and simmer for 5 minutes."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_dn_014",
+    "name": "Macher Jhol",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "fish",
+      "potato",
+      "turmeric",
+      "cumin powder",
+      "mustard oil",
+      "nigella seeds"
+    ],
+    "steps": [
+      "Marinate fish with salt/turmeric and fry in mustard oil.",
+      "Temper oil with nigella seeds and sauté potato wedges.",
+      "Add cumin powder, turmeric, and water to make a thin gravy.",
+      "Add fish and simmer until potatoes are soft."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_dn_015",
+    "name": "Bhindi Bhaja",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "okra",
+      "turmeric",
+      "nigella seeds",
+      "mustard oil",
+      "salt"
+    ],
+    "steps": [
+      "Slice okra; heat mustard oil and temper with nigella seeds.",
+      "Add okra, salt, and turmeric.",
+      "Fry on medium heat without a lid until crisp.",
+      "Ensure they don't stick or become slimy."
+    ],
+    "prepTime": 15
+  },
+  {
+    "id": "wb_dn_016",
+    "name": "Labra",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "mixed vegetables",
+      "panch phoron",
+      "ginger paste",
+      "mustard oil",
+      "turmeric"
+    ],
+    "steps": [
+      "Chop veggies like pumpkin, radish, and potato into chunks.",
+      "Temper oil with panch phoron and ginger paste.",
+      "Add veggies, salt, and turmeric; sauté well.",
+      "Cook covered until veggies are soft and mushy."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_dn_017",
+    "name": "Tok Dal",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "lentils",
+      "tamarind pulp",
+      "mustard seeds",
+      "dry chilli",
+      "salt"
+    ],
+    "steps": [
+      "Boil masoor dal with turmeric and salt until soft.",
+      "Stir in tamarind pulp for a tangy flavor.",
+      "Temper mustard oil with mustard seeds and dry red chilli.",
+      "Pour tempering over dal and simmer for 2 minutes."
+    ],
+    "prepTime": 20
+  },
+  {
+    "id": "wb_dn_018",
+    "name": "Aam Dal",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "lentils",
+      "raw mango",
+      "mustard seeds",
+      "mustard oil",
+      "salt"
+    ],
+    "steps": [
+      "Boil lentils until 80% cooked.",
+      "Add raw mango slices and cook until they are soft.",
+      "Temper with mustard seeds and dry chilli in mustard oil.",
+      "Balance with salt and a tiny bit of sugar."
+    ],
+    "prepTime": 25
+  },
+  {
+    "id": "wb_dn_019",
+    "name": "Dhokar Dalna",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "chana dal",
+      "potato",
+      "ginger paste",
+      "cumin powder",
+      "mustard oil",
+      "salt"
+    ],
+    "steps": [
+      "Steam spiced dal paste, cut into diamonds, and fry.",
+      "Make a gravy with ginger paste, cumin powder, and tomatoes.",
+      "Add potato cubes and fried dal cakes (dhoka).",
+      "Simmer for 5 minutes and finish with ghee."
+    ],
+    "prepTime": 40
+  },
+  {
+    "id": "wb_dn_020",
+    "name": "Basanti Pulao",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "gobindobhog rice",
+      "turmeric",
+      "ghee",
+      "whole spices",
+      "cashews",
+      "raisins"
+    ],
+    "steps": [
+      "Marinate washed rice with ghee, turmeric, and ginger paste.",
+      "Temper ghee with whole spices, cashews, and raisins.",
+      "Add rice and sauté; pour in exactly double the water volume.",
+      "Cook covered until water is absorbed and rice is sweet/fluffy."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_dn_021",
+    "name": "Kosha Mangsho",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "mutton",
+      "onion",
+      "ginger-garlic paste",
+      "yogurt",
+      "mustard oil",
+      "turmeric"
+    ],
+    "steps": [
+      "Marinate mutton in yogurt and spices for 2 hours.",
+      "Sauté onions until brown; add mutton and ginger-garlic paste.",
+      "Slow cook (kosha) for 40 mins until oil separates and color darkens.",
+      "Add minimal water and cook until meat is tender."
+    ],
+    "prepTime": 90
+  },
+  {
+    "id": "wb_dn_022",
+    "name": "Chingri Malai Curry",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "prawns",
+      "coconut milk",
+      "whole spices",
+      "ginger paste",
+      "mustard oil",
+      "ghee"
+    ],
+    "steps": [
+      "Lightly fry prawns and set aside.",
+      "Temper oil with whole spices and ginger paste.",
+      "Add thick coconut milk, salt, and a pinch of sugar.",
+      "Simmer prawns in the gravy for 5 minutes; finish with ghee."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_dn_023",
+    "name": "Ghugni",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "yellow peas",
+      "potato",
+      "onion",
+      "bhaja moshla",
+      "mustard oil"
+    ],
+    "steps": [
+      "Pressure cook soaked peas until soft.",
+      "Sauté onion, ginger, and diced potatoes; add peas.",
+      "Cook with turmeric and salt until gravy thickens.",
+      "Garnish with bhaja moshla (roasted spice powder) and onions."
+    ],
+    "prepTime": 30
+  },
+  {
+    "id": "wb_dn_024",
+    "name": "Payesh",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "aromatic rice",
+      "milk",
+      "sugar",
+      "cardamom",
+      "cashews"
+    ],
+    "steps": [
+      "Boil milk until it reduces slightly.",
+      "Add washed gobindobhog rice and simmer on low heat.",
+      "Stir constantly until rice is fully cooked.",
+      "Add sugar and cardamom; cook until creamy and thick."
+    ],
+    "prepTime": 35
+  },
+  {
+    "id": "wb_dn_025",
+    "name": "Ruti",
+    "region": "West Bengal",
+    "category": "Dinner",
+    "ingredients": [
+      "wheat flour",
+      "water",
+      "salt"
+    ],
+    "steps": [
+      "Knead flour and water into a soft, smooth dough.",
+      "Roll into thin, even circles.",
+      "Cook on a hot tawa until bubbles appear.",
+      "Puff on an open flame and serve immediately."
+    ],
+    "prepTime": 15
+  }
 ]
