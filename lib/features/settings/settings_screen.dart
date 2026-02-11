@@ -57,8 +57,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   trailing: Switch(
                     value: _pushNotifications,
                     onChanged: (v) => setState(() => _pushNotifications = v),
-                    thumbColor: WidgetStateProperty.resolveWith((states) => states.contains(WidgetState.selected) ? colorScheme.primary : null),
-                    trackColor: WidgetStateProperty.resolveWith((states) => states.contains(WidgetState.selected) ? colorScheme.primary.withValues(alpha: 0.3) : null),
+                    thumbColor: WidgetStateProperty.all(Colors.white),
+                    trackColor: WidgetStateProperty.resolveWith((states) => states.contains(WidgetState.selected) ? colorScheme.primary : null),
                   ),
                 ),
                 _buildSettingsTile(
@@ -68,6 +68,17 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   subtitle: '${_settings.expiryAlertDays} days before',
                   trailing: Icon(Icons.chevron_right, color: colorScheme.onSurface.withValues(alpha: 0.5)),
                   onTap: () => _showExpiryTimingPicker(colorScheme),
+                ),
+                _buildSettingsTile(
+                  colorScheme: colorScheme,
+                  icon: Icons.dark_mode_outlined,
+                  title: 'Dark Mode',
+                  trailing: Switch(
+                    value: _settings.themeMode == ThemeMode.dark,
+                    onChanged: (v) => _settings.setThemeMode(v ? ThemeMode.dark : ThemeMode.light),
+                    thumbColor: WidgetStateProperty.all(Colors.white),
+                    trackColor: WidgetStateProperty.resolveWith((states) => states.contains(WidgetState.selected) ? colorScheme.primary : null),
+                  ),
                 ),
                 const SizedBox(height: 24),
                 _buildSectionHeader('REGION', colorScheme),
@@ -153,6 +164,43 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ],
         ),
       ),
+    );
+  }
+
+  void _showThemePicker(ColorScheme colorScheme) {
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: colorScheme.surface,
+      shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
+      builder: (context) => Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Select Theme', style: TextStyle(color: colorScheme.onSurface, fontSize: 18, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 8),
+            Text('Choose your preferred theme mode', style: TextStyle(color: colorScheme.onSurface.withValues(alpha: 0.6), fontSize: 13)),
+            const SizedBox(height: 16),
+            _buildThemeOption(ThemeMode.light, 'Light', Icons.light_mode, colorScheme),
+            _buildThemeOption(ThemeMode.dark, 'Dark', Icons.dark_mode, colorScheme),
+            _buildThemeOption(ThemeMode.system, 'System', Icons.brightness_auto, colorScheme),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildThemeOption(ThemeMode mode, String label, IconData icon, ColorScheme colorScheme) {
+    final isSelected = _settings.themeMode == mode;
+    return ListTile(
+      leading: Icon(icon, color: isSelected ? colorScheme.primary : colorScheme.onSurface.withValues(alpha: 0.6)),
+      title: Text(label, style: TextStyle(color: isSelected ? colorScheme.primary : colorScheme.onSurface)),
+      trailing: isSelected ? Icon(Icons.check, color: colorScheme.primary) : null,
+      onTap: () {
+        _settings.setThemeMode(mode);
+        Navigator.pop(context);
+      },
     );
   }
 
